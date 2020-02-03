@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Willie Rush"
-  avatar           : "bio-willie.jpg"
+  avatar           : "bio-willie.png"
   bio              : "Struggling Donut Analyst"
   location         : "Long Island, NY"
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           :
+  googlescholar    :
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : ""
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          :
   vine             :
   xing             :
   youtube          :
