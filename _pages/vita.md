@@ -23,12 +23,12 @@ Awards
 
 Talks
 ======
-  * Brushing the Hairs of Transcendental Entire Functions, Graduate Student Seminar, Stony Brook University, Oct 2019, [slides](/files/brushing-the-hairs-talk.pdf))
-  * Quasiconformal Deformations and Sullivan's No Wandering Domains, IMA's Tomorrow's Mathematicians Today, University of Greenwich, Feb 2019, [slides](/files/qc-deformations-talk.pdf))
+  * Brushing the Hairs of Transcendental Entire Functions, Graduate Student Seminar, Stony Brook University, Oct 2019, [slides](/files/brushing-the-hairs-talk.pdf)
+  * Quasiconformal Deformations and Sullivan's No Wandering Domains, IMA's Tomorrow's Mathematicians Today, University of Greenwich, Feb 2019, [slides](/files/qc-deformations-talk.pdf)
   * A Conjecture on Quasiconformal Maps, Undergraduate Colloquium, Imperial College London, Mar 2018
 
 Notes
 ======
-  * Master's Thesis on Quadratic-Like Renormalisation ([pdf](/files/masters-thesis.pdf/))
-  * Strong Version of Eremenko's Conjecture ([pdf](/files/eremenko-lyubich-class.pdf/))
-  * Quasiconformal Deformations in Holomorphic Dynamics ([pdf](/files/quasiconformal-deformations.pdf/))
+  * Master's Thesis on Quadratic-Like Renormalisation, [pdf](/files/masters-thesis.pdf)
+  * Strong Version of Eremenko's Conjecture, [pdf](/files/eremenko-lyubich-class.pdf)
+  * Quasiconformal Deformations in Holomorphic Dynamics, [pdf](/files/quasiconformal-deformations.pdf)
