@@ -1,7 +1,7 @@
 ---
 layout: single
-title: About Me
-permalink: /about/
+title: Home
+permalink: /
 header:
     overlay_image: /images/header.jpg
     overlay_filter: rgba(150, 150, 150, 0.5)
