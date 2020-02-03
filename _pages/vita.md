@@ -29,6 +29,6 @@ Talks
 
 Notes
 ======
-  * Master's Thesis on Quadratic-Like Renormalisation ([pdf](/files/01053123_WRL.pdf/))
-  * Strong Version of Eremenko's Conjecture ([pdf](/files/Strong Version of Eremenko's Conjecture for Eremenko-Lyubich Class of Finite Order.pdf/))
-  * Quasiconformal Deformations in Holomorphic Dynamics ([pdf](/files/Strong Version of Eremenko's Conjecture for Eremenko-Lyubich Class of Finite Order.pdf/))
+  * Master's Thesis on Quadratic-Like Renormalisation ([pdf](/files/masters-thesis.pdf/))
+  * Strong Version of Eremenko's Conjecture ([pdf](/files/eremenko-lyubich-class.pdf/))
+  * Quasiconformal Deformations in Holomorphic Dynamics ([pdf](/files/quasiconformal-deformations.pdf/))
