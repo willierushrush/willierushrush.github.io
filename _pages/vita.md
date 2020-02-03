@@ -21,20 +21,14 @@ Awards
   * G-Research Prize, 2017
   * President's Undergraduate Scholarship, 2015-2019
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Talks
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  * Brushing the Hairs of Transcendental Entire Functions, Graduate Student Seminar, Stony Brook University, Oct 2019, [slides](/files/brushing-the-hairs-talk.pdf))
+  * Quasiconformal Deformations and Sullivan's No Wandering Domains, IMA's Tomorrow's Mathematicians Today, University of Greenwich, Feb 2019, [slides](/files/qc-deformations-talk.pdf))
+  * A Conjecture on Quasiconformal Maps, Undergraduate Colloquium, Imperial College London, Mar 2018
 
-Teaching
+Notes
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * Master's Thesis on Quadratic-Like Renormalisation ([pdf](/files/01053123_WRL.pdf/))
+  * Strong Version of Eremenko's Conjecture ([pdf](/files/Strong Version of Eremenko's Conjecture for Eremenko-Lyubich Class of Finite Order.pdf/))
+  * Quasiconformal Deformations in Holomorphic Dynamics ([pdf](/files/Strong Version of Eremenko's Conjecture for Eremenko-Lyubich Class of Finite Order.pdf/))
