@@ -2,6 +2,7 @@
 layout: single
 title: About
 permalink: /about/
+tipue_search_active: true
 header:
     overlay_image: /images/header.jpg
     # overlay_filter: rgba(150, 150, 150, 0.5)

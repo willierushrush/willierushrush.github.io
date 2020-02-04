@@ -196,6 +196,7 @@ defaults:
       type: posts
     values:
       layout: single
+      tipue_search_active: true
       author_profile: true
       read_time: true
       comments: true
