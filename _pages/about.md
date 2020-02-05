@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 tipue_search_active: true
 header:
-    overlay_img_path: "/images/header.jpg"
+    overlay_image: "/images/image-alignment-1200x4002.jpg"
     # overlay_filter: rgba(150, 150, 150, 0.5)
 ---
 
