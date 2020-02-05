@@ -121,6 +121,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - assets/tipuesearch
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -214,7 +215,6 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
 
 # Sass/SCSS
 sass:
