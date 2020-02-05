@@ -2,7 +2,6 @@
 layout: single
 title: Teaching
 permalink: /teaching/
-author_profile: true
 ---
 
 Office hours: Wednesdays, 5 - 6pm
