@@ -121,7 +121,7 @@ include:
   - .htaccess
   - _pages
   - files
-  - assets/tipuesearch
+  - tipuesearch
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
