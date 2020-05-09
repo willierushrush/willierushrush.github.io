@@ -2,7 +2,6 @@
 layout: single
 title: About
 permalink: /about/
-tipue_search_active: true
 author_profile: true
 ---
 
