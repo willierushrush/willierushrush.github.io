@@ -5,6 +5,4 @@ permalink: /about/
 author_profile: true
 ---
 
-My name is Willie Rush Lim. Born and raised in the tropics of Indonesia, educated in the little red dot of Singapore, and previously based in a bustling neighbourhood in London, I am currently a graduate student in mathematics at Stony Brook University, NY.
-
-In this blog, you will find posts about mathematics, life in graduate school, and my personal experiences.
+Born and raised in the tropics of Indonesia, the teenage me grew up in the little red dot of Singapore and spent my college/uni years in London. I am currently a graduate student in mathematics at Stony Brook University, NY, specialising in complex analysis and holomorphic dynamics.

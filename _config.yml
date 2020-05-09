@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : google-site-verification=WfmBETSqkYc96Urqf7B3wxnOKrCW6C5nchQz0mYwTUA
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           :
   googlescholar    :
-  email            :
+  email            : willierushrush@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,7 +99,7 @@ author:
   github           : "willierushrush"
   google_plus      :
   keybase          :
-  instagram        : "willierushrush"
+  instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
@@ -178,9 +178,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
