@@ -6,7 +6,6 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-minimal_mistakes_skin    : "dark"
 
 locale                   : "en-US"
 title                    : "Willie Rush"
@@ -18,7 +17,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "willierushrush.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
+words_per_minute         : 200
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
@@ -195,7 +194,6 @@ defaults:
       type: posts
     values:
       layout: single
-      tipue_search_active: true
       author_profile: true
       read_time: true
       comments: true
