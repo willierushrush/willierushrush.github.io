@@ -1,5 +1,5 @@
 ---
-title: 'Riemann surfaces are always second countable.'
+title: 'Riemann surfaces are always second-countable.'
 date: 2020-05-21
 permalink: /posts/2013/08/blog-post-2/
 tags:
