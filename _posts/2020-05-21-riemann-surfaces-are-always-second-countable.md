@@ -1,6 +1,6 @@
 ---
-title: 'Blog Post number 2'
-date: 2013-08-14
+title: 'Riemann surfaces are always second countable.'
+date: 2020-05-21
 permalink: /posts/2013/08/blog-post-2/
 tags:
   - cool posts
@@ -12,7 +12,7 @@ Manifolds are automatically assumed to be 2nd countable by definition. Without t
 
 Most introductory classes on Riemann surfaces or complex geometry will make a side remark that Riemann surfaces (without assuming 2nd countability) are always 2nd countable. This is quite a remarkable result and typically known as Radó's theorem [insert citation].
 
-[insert bold] Rado's theorem
+## Rado's theorem
 Every connected Riemann surface is second countable.
 
 A Riemann surface is a connected one dimensional complex manifold, that is, a connected Hausdorff topological space that is locally homeomorphic to the unit disk $\mathbb{D} \subset \mathbb{C}$ and each transition map between two such overlapping charts is holomorphic.
