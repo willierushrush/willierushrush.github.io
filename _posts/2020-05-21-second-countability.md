@@ -11,7 +11,7 @@ tags:
 
 Manifolds are automatically assumed to be second-countable by definition. Without this assumption, horrible topological objects like the long line, i.e. the concatenation of uncountably many copies of $[0,1)$, would be manifolds and paracompactness as well as the existence of partitions of unity would not come for granted.
 
-A Riemann surface is a connected one dimensional complex manifold, that is, a connected Hausdorff topological space that is locally homeomorphic to the unit disk $\mathbb{D}$ on the complex plane $\mathbb{C}$ and each transition map between two such overlapping charts is holomorphic. Most introductory lectures on Riemann surfaces or complex geometry will make a side remark that Riemann surfaces (without assuming second-countability) are always second-countable. This is quite an extraordinary result typically known as Radó's theorem [1](#myfootnote1).
+A Riemann surface is a connected one dimensional complex manifold, that is, a connected Hausdorff topological space that is locally homeomorphic to the unit disk $\mathbb{D}$ on the complex plane $\mathbb{C}$ and each transition map between two such overlapping charts is holomorphic. Most introductory lectures on Riemann surfaces or complex geometry will make a side remark that Riemann surfaces (without assuming second-countability) are always second-countable. This is quite an extraordinary result typically known as Radó's theorem [[3](#myfootnote1)].
 
 > **_Radó's theorem:_** Every connected Riemann surface is second-countable.
 
@@ -31,9 +31,10 @@ on the universal cover $Z$ of $Y$ such that $df = \partial h$. Therefore, $X$ is
 
 This concludes the proof of Radó's theorem. A straightforward consequence is that tautological examples like the long plane, i.e. a product of two long lines, do not admit a complex structure.
 
-The theorem, however, does not hold for higher complex dimensions.
-
+The theorem, however, does not hold for higher complex dimensions. One of the first examples was explicitly constructed Calabi and Rosenlicht in [[1](#myfootnote2)] via algebraic geometry.
 
 ### References
-<a name="myfootnote1">1</a>: Footnote content goes here
+[<a name="myfootnote1">1</a>]: E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3), 335-340, 1953
+[<a name="myfootnote2">2</a>]: J. H. Hubbard. Teichmüller theory and applications to geometry, topology, and dynamics. Vol. 1, Matrix Editions, Ithaca, NY, 2006.
+[<a name="myfootnote2">3</a>]: T. Radó. Über den Begriff der Riemannschen Fläche. Acta Szeged, 2(2): 101–121, 1925.
 ------
