@@ -11,7 +11,7 @@ tags:
 
 Manifolds are automatically assumed to be second-countable by definition. Without this assumption, horrible topological objects like the long line, i.e. the concatenation of uncountably many copies of $[0,1)$, would be manifolds and paracompactness as well as the existence of partitions of unity would not come for granted.
 
-A Riemann surface is a connected one dimensional complex manifold, that is, a connected Hausdorff topological space that is locally homeomorphic to the unit disk $\mathbb{D}$ on the complex plane $\mathbb{C}$ and each transition map between two such overlapping charts is holomorphic. Most introductory lectures on Riemann surfaces or complex geometry will make a side remark that Riemann surfaces (without assuming second-countability) are always second-countable. This is quite an extraordinary result typically known as Radó's theorem [[4](#ref4)].
+A Riemann surface is a connected one dimensional complex manifold, that is, a connected Hausdorff topological space that is locally homeomorphic to the unit disk $\mathbb{D}$ on the complex plane $\mathbb{C}$ and each transition map between two such overlapping charts is holomorphic. Most introductory lectures on Riemann surfaces or complex geometry will make a side remark that Riemann surfaces (without assuming second-countability) are always second-countable. This is quite an extraordinary result typically known as Radó's theorem[^4].
 
 > **_Radó's theorem:_** Every connected Riemann surface is second-countable.
 
@@ -29,18 +29,18 @@ $$
 f : Z \to \mathbb{C}, \quad (z,[\gamma]) \mapsto \int_\gamma \partial h,
 $$
 
-which is holomorphic and non-constant. Therefore, $X$ is second-countable if find a solution $h$ to the Dirichlet problem. A common approach would be the Perron method, a variant of which is stated below. (See [[2](#ref2)] $\S 22$.)
+which is holomorphic and non-constant. Therefore, $X$ is second-countable if find a solution $h$ to the Dirichlet problem. A common approach would be the Perron method, a variant of which is stated below. (See [^2] $\S 22$.)
 
 > **_Perron Method:_** Let $Y$ be an open subset of a Riemann surface $X$ with smooth boundary $\partial Y$ compactly contained in $X$. If $\phi: \partial Y \to \mathbb{R}$ is a bounded continuous map and $\mathcal{F}$ is a family of all subharmonic functions $g: Y \to \mathbb{R}$ bounded above by $\sup_{x \in \partial Y} \phi(x)$ such that $g \leq \phi$ on $\partial Y$. Then, the supremum $h(x) = \sup_{g \in \mathcal{F}} g(x)$ is a continuous map on $\bar{Y}$ which is harmonic on $Y$ and has boundary value $\phi$.
 
 This concludes the proof of Radó's theorem. A straightforward consequence is that tautological examples like the long plane, i.e. a product of two long lines, do not admit a complex structure.
 
-The theorem, however, does not hold for higher complex dimensions. One of the first examples was explicitly constructed Calabi and Rosenlicht in [[1](#ref1)] via algebraic geometry.
+The theorem, however, does not hold for higher complex dimensions. One of the first examples was explicitly constructed Calabi and Rosenlicht in [1] via algebraic geometry.
 
 ### References
-[<a name="ref1">1</a>]: E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3): 335-340, 1953.
-[<a name="ref2">2</a>]: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.
-[<a name="ref3">3</a>]: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.
-[<a name="ref4">4</a>]: T. Radó. Über den Begriff der Riemannschen Fläche. Acta Szeged, 2(2): 101–121, 1925.
+[^1] E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3): 335-340, 1953.
+[^2]: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.
+[^3]: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.
+[^4]: T. Radó. Über den Begriff der Riemannschen Fläche. Acta Szeged, 2(2): 101–121, 1925.
 
 ------
