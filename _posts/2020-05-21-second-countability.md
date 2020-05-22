@@ -35,7 +35,7 @@ which is holomorphic and non-constant. Therefore, $X$ is second-countable if fin
 
 This concludes the proof of Radó's theorem. A straightforward consequence is that tautological examples like the long plane, i.e. a product of two long lines, do not admit a complex structure.
 
-The theorem, however, does not hold for higher complex dimensions. One of the first examples was explicitly constructed Calabi and Rosenlicht<sup>[1](#fn1)</sup> via algebraic geometry.
+The theorem, however, does not hold for higher complex dimensions. One of the first examples was explicitly constructed Calabi and Rosenlicht<sup>[1](#fn1)</sup> via algebraic geometry. Will this work?
 
 ### References
 <a name="fn1">1</a>: E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3): 335-340, 1953.
