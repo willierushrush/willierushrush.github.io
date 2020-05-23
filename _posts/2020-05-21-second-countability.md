@@ -38,9 +38,9 @@ This concludes the proof of Radó's theorem. A straightforward consequence is th
 The theorem, however, does not hold for higher complex dimensions. One of the first examples was explicitly constructed Calabi and Rosenlicht<sup>[1](#fn1)</sup> via algebraic geometry.
 
 ### References
-<a name="fn1">1</a>: E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3): 335-340, 1953.
-<a name="fn2">2</a>: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.
-<a name="fn3">3</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.
-<a name="fn4">4</a>: T. Radó. Über den Begriff der Riemannschen Fläche. Acta Szeged, 2(2): 101–121, 1925.
+<a name="fn1">1</a>: E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3): 335-340, 1953.  
+<a name="fn2">2</a>: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.  
+<a name="fn3">3</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.  
+<a name="fn4">4</a>: T. Radó. Über den Begriff der Riemannschen Fläche. Acta Szeged, 2(2): 101–121, 1925.  
 
 ------
