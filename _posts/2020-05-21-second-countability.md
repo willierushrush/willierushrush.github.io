@@ -31,7 +31,7 @@ $$
 
 which is holomorphic and non-constant. Therefore, $X$ is second-countable if find a solution $h$ to the Dirichlet problem. A common approach would be the Perron method, a variant of which is stated below. (See Forster<sup>[2](#fn2)</sup> $\S 22$.)
 
-> **_Perron Method:_** Let $Y$ be an open subset of a Riemann surface $X$ with smooth boundary $\partial Y$ compactly contained in $X$. If $\phi: \partial Y \to \mathbb{R}$ is a bounded continuous map and $\mathcal{F}$ is a family of all subharmonic functions $g: Y \to \mathbb{R}$ bounded above by $\sup_{x \in \partial Y} \phi(x)$ such that $g \leq \phi$ on $\partial Y$. Then, the supremum $h(x) = \sup_{g \in \mathcal{F}} g(x)$ is a continuous map on $\bar{Y}$ which is harmonic on $Y$ and has boundary value $\phi$.
+> **_Perron Method:_** Let $Y$ be an open subset of a Riemann surface $X$ with smooth boundary $\partial Y$ compactly contained in $X$. Let $\phi: \partial Y \to \mathbb{R}$ be a bounded continuous map and $\mathcal{F}$ be a family of all subharmonic functions $g: Y \to \mathbb{R}$ bounded above by $\sup_{x \in \partial Y} \phi(x)$ such that $g \leq \phi$ on $\partial Y$. Then, the supremum $h(x) = \sup_{g \in \mathcal{F}} g(x)$ is a continuous map on $\bar{Y}$ which is harmonic on $Y$ and has boundary value $\phi$.
 
 This concludes the proof of Radó's theorem. A straightforward consequence is that tautological examples like the long plane, i.e. a product of two long lines, do not admit a complex structure.
 
