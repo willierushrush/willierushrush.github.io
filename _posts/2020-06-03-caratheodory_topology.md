@@ -33,7 +33,7 @@ $$
 D(A,B) = \inf \{ \epsilon \geq 0 \: | \: A \subset B_{\epsilon}, B \subset A_{\epsilon} \},
 $$
 
-where $A_{\epsilon} := \\{ x \in X \: | \: d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
+where $ A_{\epsilon} := \\{ x \in X \: : \: d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
 
 The set $O(X)$ of all proper open subsets of $X$ can also be topologised by saying that $U_n \to U$ if and only if
 
@@ -46,7 +46,7 @@ $$
 D(U,V) = \inf \{ \epsilon \geq 0 \: | \: U^{\epsilon} \subset V, V^{\epsilon} \subset U \},
 $$
 
-where $U^{\epsilon} := \\{ x \in U \: | \: d(x, X \backslash U) > \epsilon \\}$ denotes the set of points in $U$ which is at least $\epsilon$ distance away from its complement. This definition coincides with our previous one by the relation $D(U,V) = D(X\backslash U, X \backslash V)$.
+where $U^{\epsilon} := \\{ x \in U \: : \: d(x, X \backslash U) > \epsilon \\}$ denotes the set of points in $U$ which is at least $\epsilon$ distance away from its complement. This definition coincides with our previous one by the relation $D(U,V) = D(X\backslash U, X \backslash V)$.
 
 ## Riemann mappings
 
