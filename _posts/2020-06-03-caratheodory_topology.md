@@ -30,10 +30,10 @@ $$
 In fact, $C(X)$ is metrisable. Define $D: C(X) \times C(X) \to [0,\infty)$ by
 
 $$
-D(A,B) = \inf \{ \epsilon \geq 0 \: | \: A \subset B_{\epsilon}, B \subset A_{\epsilon} \},
+D(A,B) = \inf \{ \epsilon \geq 0 : A \subset B_{\epsilon}, B \subset A_{\epsilon} \},
 $$
 
-where $ A_{\epsilon} := \\{ x \in X \: : \: d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
+where $ A_{\epsilon} := \\{ x \in X  d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
 
 The set $O(X)$ of all proper open subsets of $X$ can also be topologised by saying that $U_n \to U$ if and only if
 
@@ -42,11 +42,12 @@ U = \text{int} \left( \liminf_{n\to \infty} U_n \right) = \text{int} \left( \lim
 $$
 
 It can also be endowed with a similar metric which we shall again call the **Hausdorff metric** denoted by $D$:
+
 $$
-D(U,V) = \inf \{ \epsilon \geq 0 \: | \: U^{\epsilon} \subset V, V^{\epsilon} \subset U \},
+D(U,V) = \inf \{ \epsilon \geq 0 : U^{\epsilon} \subset V, V^{\epsilon} \subset U \},
 $$
 
-where $U^{\epsilon} := \\{ x \in U \: : \: d(x, X \backslash U) > \epsilon \\}$ denotes the set of points in $U$ which is at least $\epsilon$ distance away from its complement. This definition coincides with our previous one by the relation $D(U,V) = D(X\backslash U, X \backslash V)$.
+where $U^{\epsilon} := \\{ x \in U : d(x, X \backslash U) > \epsilon \\}$ denotes the set of points in $U$ which is at least $\epsilon$ distance away from its complement. This definition coincides with our previous one by the relation $D(U,V) = D(X\backslash U, X \backslash V)$.
 
 ## Riemann mappings
 
@@ -67,9 +68,6 @@ $$
 When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite.
 
 ### References
-<a name="fn1">1</a>: E. Calabi and M. Rosenlicht. Complex Analytic Manifolds Without Countable Base. Proceedings of the American Mathematical Society, 4(3): 335-340, 1953.  
-<a name="fn2">2</a>: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.  
-<a name="fn3">3</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.  
-<a name="fn4">4</a>: T. Radó. Über den Begriff der Riemannschen Fläche. Acta Szeged, 2(2): 101–121, 1925.  
+?
 
 ------
