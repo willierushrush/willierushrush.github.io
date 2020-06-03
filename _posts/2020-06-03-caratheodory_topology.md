@@ -33,7 +33,7 @@ $$
 D(A,B) = \inf \\{ \epsilon \geq 0 \: | \: A \subset B_{\epsilon}, B \subset A_{\epsilon} \\},
 $$
 
-where $A_{\epsilon} := \\{ x \in X \: | \: d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the \emph{Hausdorff metric} and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
+where $A_{\epsilon} := \\{ x \in X \: | \: d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
 
 The set $O(X)$ of all proper open subsets of $X$ can also be topologised by saying that $U_n \to U$ if and only if
 
@@ -41,7 +41,7 @@ $$
 U = \text{int} \left( \liminf_{n\to \infty} U_n \right) = \text{int} \left( \limsup_{n\to \infty} U_n \right).
 $$
 
-It can also be endowed with a similar metric which we shall again call the \emph{Hausdorff metric} denoted by $D$:
+It can also be endowed with a similar metric which we shall again call the **Hausdorff metric** denoted by $D$:
 $$
 D(U,V) = \inf \\{ \epsilon \geq 0 \: | \: U^{\epsilon} \subset V, V^{\epsilon} \subset U \\},
 $$
@@ -52,11 +52,11 @@ where $U^{\epsilon} := \\{ x \in U \: | \: d(x, X \backslash U) > \epsilon \\}$ 
 
 Let's look at the one-point compactification $\mathbb{P}^1 = \mathbb{C} \cup \\{ \infty \\}$ of the complex plane $\mathbb{C}$. As a Riemann surface, the Riemann sphere $\mathbb{P}^1$ can be endowed with the spherical metric $d$.
 
-Let's call $U$ a \emph{topological disk} if it is a simply connected domain (connected open subset) in $\mathbb{P}^1$ whose complement consists of at least two distinct points. The set $\mathcal{D}$ of all topological disks can be viewed as a subspace of the Hausdorff metric space $( O(\mathbb{P}^1), D)$.
+Let's call $U$ a **topological disk** if it is a simply connected domain (connected open subset) in $\mathbb{P}^1$ whose complement consists of at least two distinct points. The set $\mathcal{D}$ of all topological disks can be viewed as a subspace of the Hausdorff metric space $( O(\mathbb{P}^1), D)$.
 
-The uniformisation theorem asserts that every topological disk $U$ admits a conformal isomorphism $f: \mathbb{D} \to U$. By studying the conformal automorphisms of $\mathbb{D}$, we can also say that for every basepoint $u \in U$ there is a unique $f$ such that $f(0)=u$ and $f'(0) \in \mathbb{R}_+$. We shall call such function the \emph{Riemann mapping} of the pointed topological disk $(U,u)$. Riemann mappings provide a bijective correspondence $\Phi: (U,u) \mapsto f$ between the set $\mathcal{E}$ of all pointed topological disks and the set $\mathcal{F}$ of all conformal injections from $\mathbb{D}$ to $\mathbb{P}^1$ with positive derivative at $0$.
+The uniformisation theorem asserts that every topological disk $U$ admits a conformal isomorphism $f: \mathbb{D} \to U$. By studying the conformal automorphisms of $\mathbb{D}$, we can also say that for every basepoint $u \in U$ there is a unique $f$ such that $f(0)=u$ and $f'(0) \in \mathbb{R}_+$. We shall call such function the **Riemann mapping** of the pointed topological disk $(U,u)$. Riemann mappings provide a bijective correspondence $\Phi: (U,u) \mapsto f$ between the set $\mathcal{E}$ of all pointed topological disks and the set $\mathcal{F}$ of all conformal injections from $\mathbb{D}$ to $\mathbb{P}^1$ with positive derivative at $0$.
 
-We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, $\mathcal{E}$ can be endowed with the metric $d_\mathcal{E}$ where $d_\mathcal{E}( (U,u), (V,v)) = \max \\{ D(U,V), d(u,v) \\}$. This topology is often called the \emph{Carathéodory topology}. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$.
+We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, $\mathcal{E}$ can be endowed with the metric $d_\mathcal{E}$ where $d_\mathcal{E}( (U,u), (V,v)) = \max \\{ D(U,V), d(u,v) \\}$. This topology is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$.
 
 > **_Theorem:_** The map $\Phi: \mathcal{E} \to \mathcal{F}$ is a homeomorphism.
 
