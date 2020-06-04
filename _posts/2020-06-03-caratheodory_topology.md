@@ -81,9 +81,7 @@ $$
 f_0(z_0) = \lim_{k\to \infty} f_{n_k}(z_{n_k}) = \lim_{k \to \infty} w_{n_k} \in A_0 \cap \partial f_0 (\mathbb{D}_r).
 $$
 
-This contradicts the fact that $A$ is disjoint from the circle $\partial \mathbb{D}_{\epsilon}$.
-
-As $A_0$ is arbitrary, we have shown that $U_0 \subset \text{int} \left( \liminf U_n \right) $.
+This contradicts the fact that $A$ is disjoint from the circle $\partial \mathbb{D}_{\epsilon}$. As $A_0$ is arbitrary, we have shown that $U_0 \subset \text{int} \left( \liminf U_n \right) $.
 
 Let's pick an arbitrary non-zero point $ w \in \text{int} \left( \limsup U_n \right) $.
 
