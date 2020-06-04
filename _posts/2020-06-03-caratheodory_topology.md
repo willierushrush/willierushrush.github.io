@@ -57,10 +57,10 @@ Let's call $U$ a **topological disk** if it is a simply connected domain (connec
 
 The uniformisation theorem asserts that every topological disk $U$ admits a conformal isomorphism $f: \mathbb{D} \to U$. By studying the conformal automorphisms of $\mathbb{D}$, we can also say that for every basepoint $u \in U$ there is a unique $f$ such that $f(0)=u$ and $f'(0) \in \mathbb{R}_+$. We shall call such function the **Riemann mapping** of the pointed topological disk $(U,u)$. Riemann mappings provide a bijective correspondence $\Phi: (U,u) \mapsto f$ between the set $\mathcal{E}$ of all pointed topological disks and the set $\mathcal{F}$ of all conformal injections from $\mathbb{D}$ to $\mathbb{P}^1$ with positive derivative at $0$.
 
-We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, we can endow $\mathcal{E}$ with the metric
+We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, we can endow $\mathcal{E}$ with the metric $d_\mathcal{E}$ where 
 
 $$
-d_\mathcal{E}$ where $d_\mathcal{E}( (U,u), (V,v)) = \max \{ D(U,V), d(u,v) \}.
+d_\mathcal{E}( (U,u), (V,v)) = \max \{ D(U,V), d(u,v) \}.
 $$
 
 The resulting topological structure is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$. The following theorem by Carathéodory states that $\Phi$ is much more than just a bijection.
