@@ -21,7 +21,7 @@ In set and measure theories, it is common to say that $A_n$ has a limit $A$ when
 
 ## Hausdorff Metric Topology
 
-Now, assume that $(X,d)$ is a compact metric space and let's have a look at the set $C(X)$ of all non-empty closed subsets of $X$. We can in fact fix the earlier problem by endowing $C(X)$ with the topology where closed subsets $A_n$ converge to $A$ if and only if the closure of the two limits coincide with $A$:
+Now, assume that $(X,d)$ is a compact metric space and let's have a look at the set $C(X)$ of all non-empty closed subsets of $X$. We can fix the earlier problem by endowing $C(X)$ with the topology where closed subsets $A_n$ converge to $A$ if and only if the closure of the two limits coincide with $A$:
 
 $$
 A = \overline{ \liminf_{n\to \infty} A_n } = \overline{ \limsup_{n\to \infty} A_n }.
@@ -33,7 +33,7 @@ $$
 D(A,B) = \inf \{ \epsilon \geq 0 : A \subset B_{\epsilon}, B \subset A_{\epsilon} \},
 $$
 
-where $ A_{\epsilon} := \\{ x \in X  d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. (I'll leave it to you to check that $D$ really is a metric on $C(X)$.) The metric $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\{0,1\}, [0,0.4]) = 0.6$.
+where $ A_{\epsilon} := \\{ x \in X  d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. I'll leave it to you to check that $D$ really is a metric on $C(X)$. $D$ is often called the **Hausdorff metric** and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\\{0,1\\}, [0,0.4]) = 0.6$.
 
 The set $O(X)$ of all proper open subsets of $X$ can also be topologised by saying that $U_n \to U$ if and only if
 
@@ -57,7 +57,7 @@ Let's call $U$ a **topological disk** if it is a simply connected domain (connec
 
 The uniformisation theorem asserts that every topological disk $U$ admits a conformal isomorphism $f: \mathbb{D} \to U$. By studying the conformal automorphisms of $\mathbb{D}$, we can also say that for every basepoint $u \in U$ there is a unique $f$ such that $f(0)=u$ and $f'(0) \in \mathbb{R}_+$. We shall call such function the **Riemann mapping** of the pointed topological disk $(U,u)$. Riemann mappings provide a bijective correspondence $\Phi: (U,u) \mapsto f$ between the set $\mathcal{E}$ of all pointed topological disks and the set $\mathcal{F}$ of all conformal injections from $\mathbb{D}$ to $\mathbb{P}^1$ with positive derivative at $0$.
 
-We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, we can endow $\mathcal{E}$ with the metric $d_\mathcal{E}$ where $d_\mathcal{E}( (U,u), (V,v)) = \max \\{ D(U,V), d(u,v) \\}$. The resulting topological structure is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$.
+We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, we can endow $\mathcal{E}$ with the metric $d_\mathcal{E}$ where $d_\mathcal{E}( (U,u), (V,v)) = \max \\{ D(U,V), d(u,v) \\}$. The resulting topological structure is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$. The following theorem by Carathéodory states that $\Phi$ is much more than just a bijection.
 
 > **_Theorem:_** The map $\Phi: \mathcal{E} \to \mathcal{F}$ is a homeomorphism.
 
@@ -67,6 +67,15 @@ $$
 $$
 When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite.
 
+Let's have a look at a disk $U_0$ and a sequence of disks $U_n \i \mathcal{D}_0$ as well as their respective Riemann mappings $f_0 \in \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
+
+Suppose $f_n \to f_0$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $\mathbb{D}_r = \\{|z|<r\\}$ for some $r<1$. Suppose for a contradiction that $A_0 \not\subset f_{n_k}(\mathbb{D}_r)$ for some subsequence $f_{n_k}$, then there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\partial \mathbb{D}_r)$. The preimages $z_{n_k} = f^{-1}_{n_k}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_r$.
+
+$$
+f_0(z_0) = \lim_{k\to \infty} f_{n_k}(z_{n_k}) = \lim_{k \to \infty} w_{n_k} \in A_0 \cap \partial f_0 (\mathbb{D}_r).
+$$
+
+This contradicts the fact that $A \cap \partial \mathbb{D}_r = \emptyset$. As $A_0$ is arbitrary, we have shown that $U_0 \subset \int\\{ \liminf U_n \\}$. 
 ### References
 ?
 
