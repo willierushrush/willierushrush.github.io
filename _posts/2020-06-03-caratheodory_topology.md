@@ -75,7 +75,11 @@ $$
 
 When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite. Let's now have a look at a disk $U_0$ and a sequence of disks $U_n$ in $\mathcal{D}_0$ as well as their respective Riemann mappings $f_0 = \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
 
-Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $\mathbb{D}_\epsilon$ of some radius $\epsilon < 1$ centered at $0$. Suppose for a contradiction that for some subsequence $f_{n_k}$, $A_0$ is not contained in $f_{n_k} (\mathbb{D}_\epsilon)$ for all $k$. Then, there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\mathbb{D}_\epsilon)$.  
+Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $ {\mathbb{D}_\epsilon } $ of some radius $\epsilon < 1$ centered at $0$.
+
+Suppose for a contradiction that for some subsequence $f_{n_k}$, $A_0$ is not contained in $f_{n_k} (\mathbb{D} \epsilon)$ for all $k$.
+
+Then, there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\mathbb{D}^\epsilon)$.  
 
 The preimages $z_{n_k} = f_{n_k}^{-1}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_{\epsilon}$. Therefore,
 
