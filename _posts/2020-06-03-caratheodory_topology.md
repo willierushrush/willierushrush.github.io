@@ -62,12 +62,12 @@ We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times 
 > **_Theorem:_** The map $\Phi: \mathcal{E} \to \mathcal{F}$ is a homeomorphism.
 
 To prove the theorem, it is sufficient to prove that the map $\Psi : \mathcal{D}_0 \to \mathcal{G}$ where $\mathcal{D}_0 \subset \mathcal{D}$ is the space of all topological disks containing $0$, $\mathcal{G} \subset \mathcal{F}$ is the space of all conformal injections fixing $0$ and $\Psi(U) = \Phi((U,0))$. Indeed, suppose $(U_n, u_n)$, $n \geq 1$, and $(U,u)$ are pointed disks with Riemann mappings $f_n$ and $f$. If $u \neq \infty$, then we may assume all $u_n$'s are finite too. Then, we can post-compose $f_n$ with the translation $z \mapsto z - u_n$ and $f$ with $z \mapsto z-u$. By applying triangle inequality and the fact that $\Psi$ is a homeomorphism, we can show the following:
+
 $$
 (U_n ,u_n) \to (U, u) \Longleftrightarrow (U_n -u_n, 0) \to (U - u, 0) \Longleftrightarrow f_n - u_n \to f - u \Longleftrightarrow f_n \to f.
 $$
-When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite.
 
-Let's have a look at a disk $U_0$ and a sequence of disks $U_n \i \mathcal{D}_0$ as well as their respective Riemann mappings $f_0 \in \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
+When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite. Let's now have a look at a disk $U_0$ and a sequence of disks $U_n \subset \mathcal{D}_0$ as well as their respective Riemann mappings $f_0 \in \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
 
 Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $\mathbb{D}_r$ of some radius $r<1$ centered at $0$. Suppose for a contradiction that $A_0 \not\subset f_{n_k}(\mathbb{D}_r)$ for some subsequence $f_{n_k}$, then there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\partial \mathbb{D}_r)$. The preimages $z_{n_k} = f^{-1}_{n_k}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_r$.
 
