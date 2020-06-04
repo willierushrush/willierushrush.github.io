@@ -81,7 +81,19 @@ $$
 f_0(z_0) = \lim_{k\to \infty} f_{n_k}(z_{n_k}) = \lim_{k \to \infty} w_{n_k} \in A_0 \cap \partial f_0 (\mathbb{D}_r).
 $$
 
-This contradicts the fact that $A$ is disjoint from the circle $\partial \mathbb{D}_{\epsilon}$. As $A_0$ is arbitrary, we have shown that $U_0 \subset \text{int} \left( \liminf U_n \right) $. Let's pick an arbitrary non-zero point $ w \in \text{int} \left( \limsup U_n \right) $. There is a open neighbourhood $B$ of both $0$ and $w$ contained in some infinite subsequence $U_{n_l}$. When $B$ is small enough, the family $\\{ f_{n_l}^{-1} : B \to \mathbb{D} \\}$ is uniformly bounded and forms a normal family. Passing to a subsequence, $f_{n_l}^{-1}$ converges to some map $g$. Let $z_l = f_{n_l}^{-1}(w)$ and $z = g(w)$, then since $f_0(z) = \lim_{l\to \infty} f_{n_l}(z_l) = w$, $w \in U_0$. Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$, and we have then shown that $U_n \to U_0$.
+This contradicts the fact that $A$ is disjoint from the circle $\partial \mathbb{D}_{\epsilon}$.
+
+As $A_0$ is arbitrary, we have shown that $U_0 \subset \text{int} \left( \liminf U_n \right) $.
+
+Let's pick an arbitrary non-zero point $ w \in \text{int} \left( \limsup U_n \right) $.
+
+There is a open neighbourhood $B$ of both $0$ and $w$ contained in some infinite subsequence $U_{n_l}$.
+
+When $B$ is small enough, the family $\\{ f_{n_l}^{-1} : B \to \mathbb{D} \\}$ is uniformly bounded and forms a normal family.
+
+Passing to a subsequence, $f_{n_l}^{-1}$ converges to some map $g$. Let $z_l = f_{n_l}^{-1}(w)$ and $z = g(w)$, then since $f_0(z) = \lim_{l\to \infty} f_{n_l}(z_l) = w$, $w \in U_0$.
+
+Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$, and we have then shown that $U_n \to U_0$.
 
 Suppose instead that $U_n \to U$.
 ### References
