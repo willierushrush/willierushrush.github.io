@@ -69,13 +69,15 @@ When $u = \infty$, then we may assume that all $u_n$'s are non-zero and addition
 
 Let's have a look at a disk $U_0$ and a sequence of disks $U_n \i \mathcal{D}_0$ as well as their respective Riemann mappings $f_0 \in \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
 
-Suppose $f_n \to f_0$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $\mathbb{D}_r = \\{|z|<r\\}$ for some $r<1$. Suppose for a contradiction that $A_0 \not\subset f_{n_k}(\mathbb{D}_r)$ for some subsequence $f_{n_k}$, then there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\partial \mathbb{D}_r)$. The preimages $z_{n_k} = f^{-1}_{n_k}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_r$.
+Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $\mathbb{D}_r = \\{|z|<r\\}$ for some $r<1$. Suppose for a contradiction that $A_0 \not\subset f_{n_k}(\mathbb{D}_r)$ for some subsequence $f_{n_k}$, then there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\partial \mathbb{D}_r)$. The preimages $z_{n_k} = f^{-1}_{n_k}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_r$.
 
 $$
 f_0(z_0) = \lim_{k\to \infty} f_{n_k}(z_{n_k}) = \lim_{k \to \infty} w_{n_k} \in A_0 \cap \partial f_0 (\mathbb{D}_r).
 $$
 
-This contradicts the fact that $A \cap \partial \mathbb{D}_r = \emptyset$. As $A_0$ is arbitrary, we have shown that $U_0 \subset \int\\{ \liminf U_n \\}$. 
+This contradicts the fact that $A \cap \partial \mathbb{D}_r = \emptyset$. As $A_0$ is arbitrary, we have shown that $U_0 \subset \int\\{ \liminf U_n \\}$. Let's pick an arbitrary non-zero point $w \in \int \\{ \limsup U_n}$. There is a open neighbourhood $B$ of both $0$ and $w$ contained in some infinite subsequence $U_{n_l}$. When $B$ is small enough, the family $\\{ f_{n_l}^{-1} : B \to \mathbb{D} \\} is uniformly bounded and forms a normal family. Passing to a subsequence, $f_{n_l}^{-1}$ converges to some map $g$. Let $z_l = f_{n_l}^{-1}(w)$ and $z = g(w)$, then since $f_0(z) = \lim_{l\to \infty} f_{n_l}(z_l) = w$, $w \in U_0$. Therefore, $\int\\{ \limsup U_n \\} \subset U_0$, and we have then shown that $U_n \to U_0$.
+
+
 ### References
 ?
 
