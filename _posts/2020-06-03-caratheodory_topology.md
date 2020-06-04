@@ -85,9 +85,9 @@ $$
 
 This contradicts the fact that $A$ is disjoint from the circle $\partial \mathbb{D}_{\epsilon}$. As $A_0$ is arbitrary, we have shown that $U_0 \subset \text{int} \left( \liminf U_n \right) $.
 
-Let's pick an arbitrary non-zero point $ w \in \text{int} \left( \limsup U_n \right) $. There is a open neighbourhood $B$ of both $0$ and $w$ contained in some infinite subsequence $U_{n_l}$. When $B$ is small enough, the family $\\{ f_{n_l}^{-1} : B \to \mathbb{D} \\}$ is uniformly bounded and forms a normal family. Passing to a subsequence, $f_{n_l}^{-1}$ converges to some map $g$. Let $z_l = f_{n_l}^{-1}(w)$ and $z = g(w)$, then since $f_0(z) = \lim_{l\to \infty} f_{n_l}(z_l) = w$, $w \in U_0$. Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$, and we have then shown that $U_n \to U_0$.
+Let's pick an arbitrary non-zero point $ w \in \text{int} \left( \limsup U_n \right) $. There is a open neighbourhood $B$ of both $0$ and $w$ contained in some infinite subsequence $U_{n_l}$. Obviously, the family $\\{ f_{n_l}^{-1} : B \to \mathbb{D} \\}$ forms a normal family as it is uniformly bounded. Passing to a subsequence, $f_{n_l}^{-1}$ converges to some map $g$. Let $z_l = f_{n_l}^{-1}(w)$ and $z = g(w)$, then since $f_0(z) = \lim_{l\to \infty} f_{n_l}(z_l) = w$, $w \in U_0$. Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$, and we have then shown that $U_n \to U_0$.
 
-Suppose instead that $U_n \to U$.
+Suppose instead that $U_n \to U$. The sequence $\\{f_n \mid_{\mathbb{D}_\epsilon } \\}$ is uniformly bounded for each $\epsilon <1$. Since $U_n \to U$, $\\{f_n \\}$$ forms a normal family. Every limit in this family will have image $U_0$, so then by uniqueness of Riemann mappings, this limit has to be $f_0$. Thus, $f_n \to f_0$.
 ### References
 ?
 
