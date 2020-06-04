@@ -77,11 +77,9 @@ When $u = \infty$, then we may assume that all $u_n$'s are non-zero and addition
 
 Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $ {\mathbb{D}_\epsilon } $ of some radius $\epsilon < 1$ centered at $0$.
 
-Suppose for a contradiction that for some subsequence $f_{n_k}$, $A_0$ is not contained in $f_{n_k} (\mathbb{D}_\epsilon)$ for all $k$.
+Suppose for a contradiction that for some subsequence $f_{n_k}$, $A_0$ is not contained in $f_{n_k} (\mathbb{D}_\epsilon)$ for all $k$. Then, there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\mathbb{D}_\epsilon)$.  
 
-Then, there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\mathbb{D}_\epsilon)$.  
-
-The preimages $z_{n_k} = f_{n_k}^{-1}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_{\epsilon}$. Therefore,
+The preimages $z_{n_k} = f_{n_k}^{-1} (w_{n_k})$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_{\epsilon}$. Therefore,
 
 $$
 f_0(z_0) = \lim_{k\to \infty} f_{n_k}(z_{n_k}) = \lim_{k \to \infty} w_{n_k} \in A_0 \cap \partial f_0 (\mathbb{D}_r).
