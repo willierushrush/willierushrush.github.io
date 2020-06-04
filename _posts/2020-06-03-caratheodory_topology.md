@@ -73,9 +73,9 @@ $$
 (U_n ,u_n) \to (U, u) \Longleftrightarrow (U_n -u_n, 0) \to (U - u, 0) \Longleftrightarrow f_n - u_n \to f - u \Longleftrightarrow f_n \to f.
 $$
 
-When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite. Let's now have a look at a disk $U_0$ and a sequence of disks $U_n$ in $\mathcal{D}_0$ as well as their respective Riemann mappings $f_0 \in \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
+When $u = \infty$, then we may assume that all $u_n$'s are non-zero and additionally post-compose $f_n$'s and $f$ with the inversion map $z \mapsto \frac{1}{z}$ in order to make the basepoints finite. Let's now have a look at a disk $U_0$ and a sequence of disks $U_n$ in $\mathcal{D}_0$ as well as their respective Riemann mappings $f_0 = \Psi(U_0)$ and $f_n = \Psi(U_n)$ for $n\geq 1$.
 
-Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk of some radius $\epsilon < 1$ centered at $0$. Suppose for a contradiction that $A_0 \not \subset f_{n_k} ( \mathbb{D}_{\epsilon} )$ for some subsequence $f_{n_k}$, then there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\partial \mathbb{D}_{\epsilon})$.  
+Suppose $f_n \to f_0$ in $\mathcal{G}$. Let $A_0$ be a continuum in the disk $U_0$. We wish to show that $A_0$ is contained in $U_n$ for sufficiently high $n$. Since its preimage $A = f_0^{-1}(A_0)$ is compact in $\mathbb{D}$, $A$ must be contained in an open disk $\mathbb{D}_{\epsilon}$ of some radius $\epsilon < 1$ centered at $0$. Suppose for a contradiction that for some subsequence $f_{n_k}$, $A_0$ is not contained in $f_{n_k} ( \mathbb{D}_{\epsilon} )$ for all $k$. Then, there must be some sequence of points $w_{n_k} \in A_0 \cap f_{n_k}(\partial \mathbb{D}_{\epsilon})$.  
 
 The preimages $z_{n_k} = f_{n_k}^{-1}$ all lie in the compact set $A$ and therefore, by passing to some further subsequence, converges to some $z_0 \in \partial \mathbb{D}_{\epsilon}$. Therefore,
 
@@ -87,7 +87,7 @@ This contradicts the fact that $A$ is disjoint from the circle $\partial \mathbb
 
 Let's pick an arbitrary non-zero point $ w \in \text{int} \left( \limsup U_n \right) $. There is a open neighbourhood $B$ of both $0$ and $w$ contained in some infinite subsequence $U_{n_l}$. Obviously, the family $\\{ f_{n_l}^{-1} : B \to \mathbb{D} \\}$ forms a normal family as it is uniformly bounded. Passing to a subsequence, $f_{n_l}^{-1}$ converges to some map $g$. Let $z_l = f_{n_l}^{-1}(w)$ and $z = g(w)$, then since $f_0(z) = \lim_{l\to \infty} f_{n_l}(z_l) = w$, $w \in U_0$. Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$, and we have then shown that $U_n \to U_0$.
 
-Suppose instead that $U_n \to U$. The sequence $\\{f_n \mid_{\mathbb{D}_\epsilon } \\}$ is uniformly bounded for each $\epsilon <1$. Since $U_n \to U$, $\\{f_n \\}$ forms a normal family. Every limit in this family will have image $U_0$, so then by uniqueness of Riemann mappings, this limit has to be $f_0$. Thus, $f_n \to f_0$.
+Suppose instead that $U_n \to U$. The sequence $\\{f_n \mid_{\mathbb{D}_\epsilon } \\}$ is uniformly bounded for each $\epsilon <1$. Since $U_n \to U$, $\\{f_n \\}$ forms a normal family. Every limit in this family will have image $U_0$, so then by uniqueness of Riemann mappings, this limit has to be $f_0$. Thus, $f_n \to f_0$, and we have finally proven the theorem.
 ### References
 ?
 
