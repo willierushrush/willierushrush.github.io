@@ -96,6 +96,6 @@ then $w \in U_0$. Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$
 Suppose instead that $U_n \to U$. Since $U_n \to U$, the sequence $\\{f_n \mid_{\mathbb{D}_r } \\}$ is uniformly bounded for each $r <1$ and consequently, $\\{f_n \\}$ forms a normal family. Every limit in this family will have image $U_0$, so then by uniqueness of Riemann mappings, this limit has to be $f_0$. Thus, $f_n \to f_0$, and we have finally proven the theorem.
 
 ### References
-<a name="fn1">1</a>: C. Carathéodory. Conformal Representation. Cambridge University Press, 1952.
+<a name="fn1">1</a>: C. Carathéodory. Conformal Representation. Cambridge University Press, 1952.   
 <a name="fn2">2</a>: F. Hausdorff. Set Theory. Chelsea Publishing Co., 1957.
 ------
