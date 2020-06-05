@@ -60,7 +60,7 @@ The uniformisation theorem asserts that every topological disk $U$ admits a conf
 We can view $\mathcal{E}$ as both a subspace of the product $\mathcal{D} \times \mathbb{P}^1$ and a fiber bundle of $\mathcal{D}$ over $\mathbb{D}$. In particular, we can endow $\mathcal{E}$ with the metric $d_\mathcal{E}$ where
 
 $$
-d_\mathcal{E}( (U,u), (V,v)) = \max \{ D(U,V), d(u,v) \}.
+d_\mathcal{E}\left( (U,u), (V,v) \right) = \max \{ D(U,V), d(u,v) \}.
 $$
 
 The resulting topological structure is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$. The following theorem by Carathéodory<sup>[1](#fn1)</sup> states that $\Phi$ is much more than just a bijection.
@@ -98,4 +98,5 @@ Suppose instead that $U_n \to U$. Since $U_n \to U$, the sequence $\\{f_n \mid_{
 ### References
 <a name="fn1">1</a>: C. Carathéodory. Conformal Representation. Cambridge University Press, 1952.   
 <a name="fn2">2</a>: F. Hausdorff. Set Theory. Chelsea Publishing Co., 1957.
+
 ------
