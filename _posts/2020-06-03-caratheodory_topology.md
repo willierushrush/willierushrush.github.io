@@ -97,5 +97,5 @@ Suppose instead that $U_n \to U$. Since $U_n \to U$, the sequence $\\{f_n \mid_{
 
 ### References
 <a name="fn1">1</a>: C. Carathéodory. Conformal Representation. Cambridge University Press, 1952.
-<a name="fn1">2</a>: F. Hausdorff. Set Theory. Chelsea Publishing Co., 1957.
+<a name="fn2">2</a>: F. Hausdorff. Set Theory. Chelsea Publishing Co., 1957.
 ------
