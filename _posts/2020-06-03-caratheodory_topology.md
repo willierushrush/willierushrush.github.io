@@ -63,7 +63,7 @@ $$
 d_\mathcal{E}\left( (U,u), (V,v) \right) = \max \{ D(U,V), d(u,v) \}.
 $$
 
-The resulting topological structure is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$. The following theorem by Carathéodory<sup>[2](#fn2)</sup> states that $\Phi$ is much more than just a bijection.
+The resulting topological structure is often called the **Carathéodory topology**. Meanwhile, the set $\mathcal{F}$ can be endowed with the compact-open topology, that is, $f_n \to f$ if and only if $f_n$ converges to $f$ uniformly on every compact subset of $\mathbb{D}$. The following theorem by Carathéodory<sup>[2](#fn2)</sup> states that $\Phi$ is much more than just a bijection. With respect to the topologies stated before, pointed disks and their respective Riemann mappings are topologically equivalent!
 
 > **_Theorem:_** The map $\Phi: \mathcal{E} \to \mathcal{F}$ is a homeomorphism.
 
@@ -96,8 +96,8 @@ then $w \in U_0$. Therefore, $\text{int} \left( \limsup U_n \right) \subset U_0$
 Suppose instead that $U_n \to U$. Since $U_n \to U$, the sequence $\\{f_n \mid_{\mathbb{D}_r } \\}$ is uniformly bounded for each $r <1$ and consequently, $\\{f_n \\}$ forms a normal family. Every limit in this family will have image $U_0$, so then by uniqueness of Riemann mappings, this limit has to be $f_0$. Thus, $f_n \to f_0$, and we have finally proven the theorem.
 
 ### References
-<a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.
-<a name="fn2">2</a>: C. Carathéodory. Conformal Representation. Cambridge University Press, 1952.
+<a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.  
+<a name="fn2">2</a>: C. Carathéodory. Conformal Representation. Cambridge University Press, 1952.  
 <a name="fn3">3</a>: F. Hausdorff. Set Theory. Chelsea Publishing Co., 1957.
 
 ------
