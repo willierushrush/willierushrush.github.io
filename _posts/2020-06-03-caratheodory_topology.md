@@ -5,11 +5,10 @@ permalink: /posts/2020/06/caratheodory_topology/
 tags:
   - Complex analysis
   - Riemann surfaces
-  - Set Theory
   - Topology
 ---
 
-Let $X$ be a set. For any infinite sequence $A_n$ of subsets, define
+Let $X$ be a set. Any infinite sequence $A_n$ of subsets admits two limits:
 
 $$
 \liminf_{n\to \infty} A_n := \bigcup_{m \geq 1} \bigcap_{n \geq m} A_n, \qquad \limsup_{n\to \infty} A_n := \bigcap_{m \geq 1} \bigcup_{n \geq m} A_n.
