@@ -69,7 +69,7 @@ One special case is when $f$ is a polynomial of degree $d \geq 2$. This map alwa
 
 ### References
 
-<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, New York.  
-<a name="fn2">2</a>: J. Milnor. Dynamics in one complex variable. Annals of Mathematics Studies, Vol 160. Princeton University Press, Princeton, NJ, third edition, 2006.  
+<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.
+<a name="fn2">2</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.  
 
 ------
