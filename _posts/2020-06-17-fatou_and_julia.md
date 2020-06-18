@@ -8,7 +8,7 @@ tags:
   - Dynamical systems
 ---
 
-Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$. Proofs will be skipped and I would personally recommend referring to Beardon or Milnor.
+Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$. Proofs will be skipped and I would personally recommend referring to Beardon<sup>[1](#fn1)</sup> or Milnor<sup>[2](#fn2)</sup>.
 
 A collection $\mathcal{F}$ of continuous functions from topological spaces $A$ to $B$ is called a **normal family** if it is precompact with respect to the compact-open topology. That is, every sequence of functions $f_n$ in $\mathcal{F}$ contains a subsequence which converges uniformly on compact subsets of $A$ to a continuous function $f: A \to B$, not necessarily in the family $\mathcal{F}$. A simple example would be the family of linear maps $\mathcal{F} = \\{ \hat{\mathbb{C}} \to \hat{\mathbb{C}}, z \mapsto 2^{-n} z \\}_{n \in \mathbb{Z}}$. It is is normal because any infinite sequence of maps in $\mathcal{F}$ subsequentially converges to either a map in $\mathcal{F}$, the zero map $z \mapsto 0$, or the infinity map $z \mapsto \infty$.
 
@@ -18,7 +18,7 @@ We then define the **Fatou set** $F(f)$ of a holomorphic map $f: X \to X$ as the
 
 > **_Montel's Theorem:_** If $\mathcal{F}$ is a family of holomorphic maps from a hyperbolic Riemann surface $A$ to $\hat{\mathbb{C}} \backslash K$ for some compact subset $K$ containing at least 3 distinct points, then $\mathcal{F}$ is a normal family.
 
-Here, hyperbolic means that the universal cover of $A$ can be taken to be the unit disk $\mathbb{D}$. The good news is that, by uniformisation theorem, most Riemann surfaces are hyperbolic. Every non-hyperbolic surface is either $\hat{\mathbb{C}}$, $\mathbb{C}$, the punctured plane $\mathbb{C}^\*$, or a complex torus. (In particular, $\hat{\mathbb{C}} \backslash K$ is hyperbolic.) Montel's theorem immediately guarantees that the Julia set of $f$ is empty when $\hat{\mathbb{C}} \backslash X$ contains at least three distinct points. When $X$ is a complex torus, Milnor $\S 6$ explained clearly that $J(f)$ is either empty or $X$. This leaves $X$ being either $\hat{\mathbb{C}}$, $\mathbb{C}$ or $\mathbb{C}^\*$ as the only non-trivial cases.
+Here, hyperbolic means that the universal cover of $A$ can be taken to be the unit disk $\mathbb{D}$. The good news is that, by uniformisation theorem, most Riemann surfaces are hyperbolic. Every non-hyperbolic surface is either $\hat{\mathbb{C}}$, $\mathbb{C}$, the punctured plane $\mathbb{C}^\*$, or a complex torus. (In particular, $\hat{\mathbb{C}} \backslash K$ is hyperbolic.) Montel's theorem immediately guarantees that the Julia set of $f$ is empty when $\hat{\mathbb{C}} \backslash X$ contains at least three distinct points. When $X$ is a complex torus, Milnor<sup>[2](#fn2)</sup> $\S 6$ explained clearly that $J(f)$ is either empty or $X$. This leaves $X$ being either $\hat{\mathbb{C}}$, $\mathbb{C}$ or $\mathbb{C}^\*$ as the only non-trivial cases.
 
 Let's look some easy examples when $X=\hat{\mathbb{C}}$.
 * If $f$ is a rotation $f(z) = e^{i\theta} z$, $F(f) = \hat{\mathbb{C}}$ because $f$ is an isometry with respect to the spherical metric and the family of iterates is automatically equicontinuous.
@@ -66,5 +66,10 @@ One special case is when $f$ is a polynomial of degree $d \geq 2$. This map alwa
 <p align="center">
   <img src="/images/filledjuliaset01.jpg" width="320" height="240" /> <img src="/images/escapingset01.png" width="320" height="240" />
 </p>
+
+### References
+
+<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, New York.  
+<a name="fn2">2</a>: J. Milnor. Dynamics in one complex variable. Annals of Mathematics Studies, Vol 160. Princeton University Press, Princeton, NJ, third edition, 2006.  
 
 ------
