@@ -9,18 +9,22 @@ tags:
   - Riemann surfaces
 ---
 
-Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics where $X$ is the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \mathbb{C}up \{\infty\}$.
+Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$.
 
 A collection $\mathcal{F}$ of continuous functions from topological spaces $A$ to $B$ is called a **normal family** if it is precompact with respect to the compact-open topology. That is, every sequence of functions $f_n$ in $\mathcal{F}$ contains a subsequence which converges uniformly on compact subsets of $A$ to a continuous function $f: A \to B$, not necessarily in the family $\mathcal{F}$.
 
-A simple example would be the following. The family of linear maps $\mathcal{F} = \\{ \hat{\mathbb{C}} to \hat{\mathbb{C}}, z \mapsto 2^{-n} z \\}_{n \in \mathbb{Z}}$ is normal because any infinite sequence of maps in $\mathcal{F}$ subsequentially converges to either a map in $\mathcal{F}$, the zero map $z \mapsto 0$, or the infinity map $z \mapsto \infty$.
+A simple example would be the following. The family of linear maps $\mathcal{F} = \\{ \hat{\mathbb{C}} \to \hat{\mathbb{C}}, z \mapsto 2^{-n} z \\}_{n \in \mathbb{Z}}$ is normal because any infinite sequence of maps in $\mathcal{F}$ subsequentially converges to either a map in $\mathcal{F}$, the zero map $z \mapsto 0$, or the infinity map $z \mapsto \infty$.
 
-When $A \subset \hat{\mathbb{C}}$ and $B = \hat{\mathbb{C}}$, Arzelà–Ascoli theorem implies that normality is equivalent to equicontinuity of $\mathcal{F}$ with respect to the spherical metric $d$ on $\hat{\mathbb{C}}$. When the family $\mathca{F}$ is the set of iterates $\{f^n\}_{n \in \mathbb{N}}$ of a holomorphic function $f: A \to \hat{\mathbb{C}}$, equicontinuity means that for all $\epsilon >0$, whenever two points $z$ and $w$ are sufficiently close, then for any iterate $f^n$, $d(f^n(x),f^n(y)) < \epsilon$. This notion is our notion of stability. We then define the **Fatou set** of a holomorphic map $f: \hat{\mathbb{C}} \to \hat{\mathbb{C}}$ to be:
+When $A \subset \hat{\mathbb{C}}$ and $B = \hat{\mathbb{C}}$, Arzelà–Ascoli theorem implies that normality is equivalent to equicontinuity of $\mathcal{F}$ with respect to the spherical metric $d$ on $\hat{\mathbb{C}}$. When the family $\mathca{F}$ is the set of iterates $\{f^n\}_{n \in \mathbb{N}}$ of a holomorphic function $f: A \to \hat{\mathbb{C}}$, equicontinuity means that for all $\epsilon >0$, whenever two points $z$ and $w$ are sufficiently close, then for any iterate $f^n$, $d(f^n(z),f^n(w)) < \epsilon$. This notion is our notion of stability.
 
-$$
-F(f) = \{ z \in \hat{\mathbb{C}} | \text{there is a neighbourhood of } z \text{ on which } \{f^n\}_{n \in \mathbb{N}} \text{ is a normal family} \}.
-$$
+We then define the **Fatou set** $F(f)$ of a holomorphic map $f: X \to X$ as the open set of points $z \in X$ such that there is a neighbourhood of z on which \{f^n\}_{n \in \mathbb{N}} is a normal family}. The **Julia set** of $f$ is the closed set $J(f) = \hat{\mathbb{C}} \backslash F(f)$. Checking the normality assumption can be rather tedious. A commonly used tool is the following result by Montel.
 
-The **Julia set** of $f$ is the complement $J(f) = \hat{\mathbb{C}} \backslash F(f)$.
+> **_Montel's Theorem:_** If $\mathcal{F}$ is a family of holomorphic maps from a hyperbolic Riemann surface $A$ to $\hat{\mathbb{C}} \backslash K$ for some compact subset $K$ containing at least 3 distinct points, then $\mathcal{F}$ is a normal family.
+
+Here, hyperbolic means that the universal cover of $A$ can be taken to be the unit disk $\mathbb{D}$. The good news is that, by uniformisation theorem, most Riemann surfaces are hyperbolic. Every non-hyperbolic surface is either $\hat{\mathbb{C}}$, $\mathbb{C}$, the punctured plane $\mathbb{C}^\*$, or a complex torus. (In particular, $\hat{\mathbb{C}} \backslash K$ is hyperbolic.)
+
+Let's look some easy examples on $X=\hat{\mathbb{C}}$. If $f$ is a rotation $f(z) = e^{i\theta} z$, $F(f) = \hat{\mathbb{C}}$ because $f$ is an isometry with respect to the spherical metric and the family of iterates is automatically equicontinuous. If $f(z) = az$ for some $a \in \mathbb{C}$ where $|a| < 1$, $F(f) = \mathbb{C}$ since we can apply Montel's theorem to any finite disk $\mathbb{D}(0,r)$ centered at $0$ but on any neighbourhood $N$ of $\infty$, $\mathbb{C} \subset \cup_{n=1}^\infty f^n(N)$. Similarly, if $f(z) = z+a$ is a translation, $F(f) =  \mathbb{C}$ and $J(f) = \\{ \infty \\}$. By classification of Möbius transformations on $\hat{\mathbb{C}}$, the Julia set of any transformation  
+
+
 
 ------
