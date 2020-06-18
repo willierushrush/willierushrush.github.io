@@ -10,11 +10,9 @@ tags:
 
 Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$. Proofs will be skipped and I would personally recommend referring to Beardon or Milnor.
 
-A collection $\mathcal{F}$ of continuous functions from topological spaces $A$ to $B$ is called a **normal family** if it is precompact with respect to the compact-open topology. That is, every sequence of functions $f_n$ in $\mathcal{F}$ contains a subsequence which converges uniformly on compact subsets of $A$ to a continuous function $f: A \to B$, not necessarily in the family $\mathcal{F}$.
+A collection $\mathcal{F}$ of continuous functions from topological spaces $A$ to $B$ is called a **normal family** if it is precompact with respect to the compact-open topology. That is, every sequence of functions $f_n$ in $\mathcal{F}$ contains a subsequence which converges uniformly on compact subsets of $A$ to a continuous function $f: A \to B$, not necessarily in the family $\mathcal{F}$. A simple example would be the family of linear maps $\mathcal{F} = \\{ \hat{\mathbb{C}} \to \hat{\mathbb{C}}, z \mapsto 2^{-n} z \\}_{n \in \mathbb{Z}}$. It is is normal because any infinite sequence of maps in $\mathcal{F}$ subsequentially converges to either a map in $\mathcal{F}$, the zero map $z \mapsto 0$, or the infinity map $z \mapsto \infty$.
 
-A simple example would be the following. The family of linear maps $\mathcal{F} = \\{ \hat{\mathbb{C}} \to \hat{\mathbb{C}}, z \mapsto 2^{-n} z \\}_{n \in \mathbb{Z}}$ is normal because any infinite sequence of maps in $\mathcal{F}$ subsequentially converges to either a map in $\mathcal{F}$, the zero map $z \mapsto 0$, or the infinity map $z \mapsto \infty$.
-
-When $A \subset \hat{\mathbb{C}}$ and $B = \hat{\mathbb{C}}$, Arzelà–Ascoli theorem implies that normality is equivalent to equicontinuity of $\mathcal{F}$ with respect to the spherical metric $d$ on $\hat{\mathbb{C}}$. When the family $\mathcal{F}$ is the set of iterates $\{f^n\}_{n \in \mathbb{N}}$ of a holomorphic function $f: A \to \hat{\mathbb{C}}$, equicontinuity means that for all $\epsilon >0$, whenever two points $z$ and $w$ are sufficiently close, then for any iterate $f^n$, $d(f^n(z),f^n(w)) < \epsilon$. This notion is our notion of stability.
+When $A \subset \hat{\mathbb{C}}$ and $B = \hat{\mathbb{C}}$, Arzelà–Ascoli theorem implies that normality is equivalent to equicontinuity of $\mathcal{F}$ with respect to the spherical metric $d$ on $\hat{\mathbb{C}}$. When the family $\mathcal{F}$ is the set of iterates $\{f^n\}_{n \in \mathbb{N}}$ of a holomorphic function $f: A \to \hat{\mathbb{C}}$, equicontinuity means that for all $\epsilon >0$, whenever two points $z$ and $w$ are sufficiently close, then for any iterate $f^n$, $d(f^n(z),f^n(w)) < \epsilon$. This is our notion of stability.
 
 We then define the **Fatou set** $F(f)$ of a holomorphic map $f: X \to X$ as the open set of points $z \in X$ such that there is a neighbourhood of z on which $\{f^n\}_{n \in \mathbb{N}}$ is a normal family. The **Julia set** of $f$ is the closed set $J(f) = \hat{\mathbb{C}} \backslash F(f)$. Checking the normality assumption can be rather tedious. A commonly used tool is the following result by Montel.
 
@@ -27,7 +25,7 @@ Let's look some easy examples when $X=\hat{\mathbb{C}}$.
 * If $f(z) = az$ for some $a \in \mathbb{C}$ where $\lvert a \rvert < 1$, $F(f) = \mathbb{C}$ since we can apply Montel's theorem to any finite disk centered at $0$, but on any neighbourhood $N$ of $\infty$, $\mathbb{C} \subset \cup_{n=1}^\infty f^n(N)$.
 * Similarly, if $f(z) = z+a$ is a translation, $F(f) =  \mathbb{C}$ and $J(f) = \\{ \infty \\}$.
 * By classification of Möbius transformations on $\hat{\mathbb{C}}$, the Julia set of any Möbius transformation is either empty or a singleton.
-* If $f(z) = az^n$ where $\lvert a \rvert = 1$ and $n \geq 1$, $J(f)$ is the unit circle $\\{ z= 1 \\}$.
+* If $f(z) = az^n$ where $\lvert a \rvert = 1$ and $n \geq 1$, $J(f)$ is the unit circle.
 
 Below are some dynamical properties of the Julia set (and consequently the Fatou set as well).
 
@@ -47,7 +45,7 @@ Computing the Julia set by finding each repelling periodic point is computationa
 
 > **_Proposition:_** If $z_0 \in J(f)$, then the closure of the set of preimages $\bigcup_{n=1}^\infty f^{-n}\\{z_0\\}$ of $z_0$ is the Julia set.
 
-The method of iterated preimages works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy. The gifs below are two examples of the Julia sets of $z^2 + 0.25$ and $z^2-0.8+0.25i$ respectively.
+The method of iterated preimages works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy. The gifs below provide two examples of how the preimages of the repelling fixed point of $z^2 + 0.25$ and $z^2-0.8+0.25i$ respectively approximate the Julia set.
 
 <p align="center">
   <img src="/images/iteratedpreimages01.gif" width="320" height="240" /> <img src="/images/iteratedpreimages02.gif" width="320" height="240" />
