@@ -20,18 +20,18 @@ We then define the **Fatou set** $F(f)$ of a holomorphic map $f: X \to X$ as the
 
 > **_Montel's Theorem:_** If $\mathcal{F}$ is a family of holomorphic maps from a hyperbolic Riemann surface $A$ to $\hat{\mathbb{C}} \backslash K$ for some compact subset $K$ containing at least 3 distinct points, then $\mathcal{F}$ is a normal family.
 
-Here, hyperbolic means that the universal cover of $A$ can be taken to be the unit disk $\mathbb{D}$. The good news is that, by uniformisation theorem, most Riemann surfaces are hyperbolic. Every non-hyperbolic surface is either $\hat{\mathbb{C}}$, $\mathbb{C}$, the punctured plane $\mathbb{C}^\*$, or a complex torus. (In particular, $\hat{\mathbb{C}} \backslash K$ is hyperbolic.) Montel's theorem immediately guarantees that the Julia set of $f$ is empty when $\hat{\mathbb{C}} \backslash X$ contains at least three distinct points. When $X$ is a complex torus, Milnor $\S 6$ explained clearly that $J(f)$ is either empty or $X$. This leaves $X$ being either $\hat{mathbb{C}}$, $\mathbb{C}$ or $\mathbb{C}^\*$ as the only non-trivial cases.
+Here, hyperbolic means that the universal cover of $A$ can be taken to be the unit disk $\mathbb{D}$. The good news is that, by uniformisation theorem, most Riemann surfaces are hyperbolic. Every non-hyperbolic surface is either $\hat{\mathbb{C}}$, $\mathbb{C}$, the punctured plane $\mathbb{C}^\*$, or a complex torus. (In particular, $\hat{\mathbb{C}} \backslash K$ is hyperbolic.) Montel's theorem immediately guarantees that the Julia set of $f$ is empty when $\hat{\mathbb{C}} \backslash X$ contains at least three distinct points. When $X$ is a complex torus, Milnor $\S 6$ explained clearly that $J(f)$ is either empty or $X$. This leaves $X$ being either $\hat{\mathbb{C}}$, $\mathbb{C}$ or $\mathbb{C}^\*$ as the only non-trivial cases.
 
 Let's look some easy examples when $X=\hat{\mathbb{C}}$.
 * If $f$ is a rotation $f(z) = e^{i\theta} z$, $F(f) = \hat{\mathbb{C}}$ because $f$ is an isometry with respect to the spherical metric and the family of iterates is automatically equicontinuous.
-* If $f(z) = az$ for some $a \in \mathbb{C}$ where $\lvert a \rvert < 1$, $F(f) = \mathbb{C}$ since we can apply Montel's theorem to any finite disk $\mathbb{D}(0,r)$ centered at $0$ but on any neighbourhood $N$ of $\infty$, $\mathbb{C} \subset \cup_{n=1}^\infty f^n(N)$.
+* If $f(z) = az$ for some $a \in \mathbb{C}$ where $\lvert a \rvert < 1$, $F(f) = \mathbb{C}$ since we can apply Montel's theorem to any finite disk centered at $0$, but on any neighbourhood $N$ of $\infty$, $\mathbb{C} \subset \cup_{n=1}^\infty f^n(N)$.
 * Similarly, if $f(z) = z+a$ is a translation, $F(f) =  \mathbb{C}$ and $J(f) = \\{ \infty \\}$.
 * By classification of Möbius transformations on $\hat{\mathbb{C}}$, the Julia set of any Möbius transformation is either empty or a singleton.
 * If $f(z) = az^n$ where $\lvert a \rvert = 1$ and $n \geq 1$, $J(f)$ is the unit circle $\\{ z= 1 \\}$.
 
 Below are some dynamical properties of the Julia set (and consequently the Fatou set as well).
 
-> **_Proposition:_** Let $f: X \to X$ be a holomorphic map on an open non-empty subset $X \subset \hat{\mathbb{C}}$.
+> **_Proposition:_** Let $f: X \to X$ be a holomorphic map on an open subset $X \subset \hat{\mathbb{C}}$.
 > 1. The Julia set of $f$ is completely invariant: $f^{-1}J(f) = J(f) = f J(f)$.   
 > 2. For any $n \in \mathbb{N}$, $J(f^n) = J(f)$.
 
@@ -43,11 +43,15 @@ Using the vocabulary above, another useful way of characterising the Julia set i
 
 > **_Theorem:_** The Julia set $J(f)$ is the closure of the set of all repelling periodic points of $f$.
 
-Computing a Julia set by finding each repelling periodic point is computationally intensive and, in fact, almost impossible. Instead, one possible approach is to find one repelling periodic point, we can find its iterated preimages. This is made possible by the following result.
+Computing the Julia set by finding each repelling periodic point is computationally intensive and, in fact, almost impossible. Instead, one possible approach is to find one repelling periodic point, we can find its iterated preimages. This is made possible by the following result.
 
 > **_Proposition:_** If $z_0 \in J(f)$, then the closure of the set of preimages $\bigcup_{n=1}^\infty f^{-n}\\{z_0\\}$ of $z_0$ is the Julia set.
 
-Denote by $\mathcal{A}(z_0)$ the basin of attraction of the orbit of $z_0$. Using the spherical metric $d$, this set can be defined as
+This method works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy. 
+
+<img src="/images/iteratedpreimages01.gif" width="80" height="60" />
+
+We will offer another approach using attracting periodic points. Denote by $\mathcal{A}(z_0)$ the basin of attraction of the orbit of an attracting periodic point $z_0$. Using the spherical metric $d$, this set can be defined as
 
 $$
 \mathcal{A}(z_0) := \{ z \in \hat{\mathbb{C}} \: | \: \text{ there is some } m \geq 0 \text{ such that } f^n(z) \to f^m(z_0) \text{ as } n \to \infty \}.
