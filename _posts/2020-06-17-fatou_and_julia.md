@@ -66,7 +66,7 @@ When we are blessed with the presence of an attracting periodic point $z_0$, we 
 One special case is when $f$ is a polynomial of degree $d \geq 2$. This map always has a (super)attracting fixed point at $\infty$, and upon finding which points iterate away towards $\infty$, we obtain the attracting basin of infinity $\mathcal{A}(\infty)$ and its boundary is the Julia set $J(f)$. The complement $K(f) := \hat{\mathbb{C}} \backslash \mathcal{A}(\infty)$ is often called the filled Julia set. Below are the filled Julia set of $(-0.4+0.1i)(z^3-3z-2)-1$ and the complement of the attracting basin of the fixed point $0.8767\ldots$ of the transcendental map $\frac{\sin z}{z}$.
 
 <p align="center">
-  <img src="/images/filledjuliaset01.jpg" width="320" height="240" /> <img src="/images/escapingset01.jpg" width="320" height="240" />
+  <img src="/images/filledjuliaset01.jpg" width="320" height="240" /> <img src="/images/escapingset01.png" width="320" height="240" />
 </p>
 
 ------
