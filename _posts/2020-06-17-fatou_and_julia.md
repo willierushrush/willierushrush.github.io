@@ -47,12 +47,11 @@ Computing the Julia set by finding each repelling periodic point is computationa
 
 > **_Proposition:_** If $z_0 \in J(f)$, then the closure of the set of preimages $\bigcup_{n=1}^\infty f^{-n}\\{z_0\\}$ of $z_0$ is the Julia set.
 
-This method works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy.
+The method of iterated preimages works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy. The gifs below are two examples of the Julia sets of $z^2 + 0.25$ and $z^2-0.8+0.25i$ respectively.
 
 <p align="center">
   <img src="/images/iteratedpreimages01.gif" width="320" height="240" /> <img src="/images/iteratedpreimages02.gif" width="320" height="240" />
 </p>
-
 
 We will offer another approach using attracting periodic points. Denote by $\mathcal{A}(z_0)$ the basin of attraction of the orbit of an attracting periodic point $z_0$. Using the spherical metric $d$, this set can be defined as
 
@@ -64,6 +63,10 @@ When we are blessed with the presence of an attracting periodic point $z_0$, we 
 
 > **_Proposition:_** If $z_0$ is an attracting periodic point of $f$, then the boundary of its attracting basin $\mathcal{A}(z_0)$ is the Julia set $J(f)$.
 
-One special case is when $f$ is a polynomial of degree $d \geq 2$. This map always has a (super)attracting fixed point at $\infty$, and upon finding which points iterate away towards $\infty$, we obtain the attracting basin of infinity $\mathcal{A}(\infty)$ and its boundary is the Julia set $J(f)$. The complement $K(f) := \hat{\mathbb{C}} \backslash \mathcal{A}(\infty)$ is often called the filled Julia set.
+One special case is when $f$ is a polynomial of degree $d \geq 2$. This map always has a (super)attracting fixed point at $\infty$, and upon finding which points iterate away towards $\infty$, we obtain the attracting basin of infinity $\mathcal{A}(\infty)$ and its boundary is the Julia set $J(f)$. The complement $K(f) := \hat{\mathbb{C}} \backslash \mathcal{A}(\infty)$ is often called the filled Julia set. Below are the filled Julia set of $(-0.4+0.1i)(z^3-3z-2)-1$ and the complement of the attracting basin of the fixed point $0.8767\ldots$ of the transcendental map $\frac{\sin z}{z}$.
+
+<p align="center">
+  <img src="/images/filledjuliaset01.jpg" width="320" height="240" /> <img src="/images/escapingset01.jpg" width="320" height="240" />
+</p>
 
 ------
