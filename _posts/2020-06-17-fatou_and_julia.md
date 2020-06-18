@@ -50,7 +50,7 @@ Computing the Julia set by finding each repelling periodic point is computationa
 This method works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy.
 
 <p align="center">
-  <img src="/images/iteratedpreimages01.gif" width="400" height="300" />
+  <img src="/images/iteratedpreimages01.gif" width="400" height="300" /> <img src="/images/iteratedpreimages02.gif" width="400" height="300" />
 </p>
 
 
