@@ -27,7 +27,7 @@ Let's look some easy examples on $X=\hat{\mathbb{C}}$.
 * If $f(z) = az$ for some $a \in \mathbb{C}$ where $\mid a \mid < 1$, $F(f) = \mathbb{C}$ since we can apply Montel's theorem to any finite disk $\mathbb{D}(0,r)$ centered at $0$ but on any neighbourhood $N$ of $\infty$, $\mathbb{C} \subset \cup_{n=1}^\infty f^n(N)$.
 * Similarly, if $f(z) = z+a$ is a translation, $F(f) =  \mathbb{C}$ and $J(f) = \\{ \infty \\}$.
 * By classification of Möbius transformations on $\hat{\mathbb{C}}$, the Julia set of any Möbius transformation is either empty or a singleton.
-* If $f(z) = az^n$ where $|a| = 1$ and $n \geq 1$, $J(f)$ is the unit circle $\\{ z= 1 \\}$.
+* If $f(z) = az^n$ where $\mid a \mid = 1$ and $n \geq 1$, $J(f)$ is the unit circle $\\{ z= 1 \\}$.
 
 Below are some dynamical properties of the Julia set (and consequently the Fatou set as well).
 
@@ -35,7 +35,7 @@ Below are some dynamical properties of the Julia set (and consequently the Fatou
 > 1. The Julia set of $f$ is completely invariant: $f^{-1}J(f) = J(f) = f J(f)$.   
 > 2. For any $n \in \mathbb{N}$, $J(f^n) = J(f)$.
 
-Recall that a point $z_0 \in X$ is a periodic point of (prime) period $n$ if $n$ is the smallest positive integer such that $z_0$ is a fixed point of $f^n$. Its multiplier $\lambda$ is the derivative $(f^n)'(z_0)$. (When $z_0 = \infty$, pass it to the chart $z \mapsto z^{-1}$ about $\infty$.) We say that $z_0$ is attracting if $|\lambda|<1$, repelling if $|\lambda|>1$, and indifferent if $|\lambda|=1$.
+Recall that a point $z_0 \in X$ is a periodic point of (prime) period $n$ if $n$ is the smallest positive integer such that $z_0$ is a fixed point of $f^n$. Its multiplier $\lambda$ is the derivative $(f^n)'(z_0)$. (When $z_0 = \infty$, pass it to the chart $z \mapsto z^{-1}$ about $\infty$.) We say that $z_0$ is attracting if $\mid\lambda\mid<1$, repelling if $\mid\lambda\mid>1$, and indifferent if $\mid\lambda\mid=1$.
 
 The different types of a periodic point $z_0$ tell us the behaviour of iterates near $z_0$. For every point $w$ in a small neighbourhood $U$ of $z_0$, $f^n(w) \to z_0$ if attracting, and there is some $n$ where $f^n(w)$ escapes $U$ if repelling. The behaviour when $z_0$ is indifferent is almost always a saddle or rotational, though it can be much more complicated. (This nonsense is called the Cremer periodic point.)
 
