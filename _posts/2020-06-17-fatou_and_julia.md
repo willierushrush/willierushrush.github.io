@@ -8,7 +8,7 @@ tags:
   - Dynamical systems
 ---
 
-Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$. Proofs will be skipped and I would personally recommend referring to Beardon<sup>[1](#fn1)</sup> or Milnor<sup>[2](#fn2)</sup>.
+Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$. Proofs will be skipped and I would personally recommend referring to Beardon<sup>[1](#fn1)</sup> or Milnor<sup>[2](#fn2)</sup> for more details.
 
 A collection $\mathcal{F}$ of continuous functions from topological spaces $A$ to $B$ is called a **normal family** if it is precompact with respect to the compact-open topology. That is, every sequence of functions $f_n$ in $\mathcal{F}$ contains a subsequence which converges uniformly on compact subsets of $A$ to a continuous function $f: A \to B$, not necessarily in the family $\mathcal{F}$. A simple example would be the family of linear maps $\mathcal{F} = \\{ \hat{\mathbb{C}} \to \hat{\mathbb{C}}, z \mapsto 2^{-n} z \\}_{n \in \mathbb{Z}}$. It is is normal because any infinite sequence of maps in $\mathcal{F}$ subsequentially converges to either a map in $\mathcal{F}$, the zero map $z \mapsto 0$, or the infinity map $z \mapsto \infty$.
 
@@ -69,7 +69,7 @@ One special case is when $f$ is a polynomial of degree $d \geq 2$. This map alwa
 
 ### References
 
-<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.
+<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.  
 <a name="fn2">2</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.  
 
 ------
