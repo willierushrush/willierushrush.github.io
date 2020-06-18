@@ -47,9 +47,12 @@ Computing the Julia set by finding each repelling periodic point is computationa
 
 > **_Proposition:_** If $z_0 \in J(f)$, then the closure of the set of preimages $\bigcup_{n=1}^\infty f^{-n}\\{z_0\\}$ of $z_0$ is the Julia set.
 
-This method works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy. 
+This method works best when the map $f$ has a small finite degree and is somewhat 'nice' enough. When it has high or infinite degree, finding the Julia set may still be computationally heavy.
 
-<img src="/images/iteratedpreimages01.gif" width="80" height="60" />
+<p align="center">
+  <img src="/images/iteratedpreimages01.gif" width="400" height="300" />
+</p>
+
 
 We will offer another approach using attracting periodic points. Denote by $\mathcal{A}(z_0)$ the basin of attraction of the orbit of an attracting periodic point $z_0$. Using the spherical metric $d$, this set can be defined as
 
