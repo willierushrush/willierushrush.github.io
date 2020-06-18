@@ -6,7 +6,6 @@ tags:
   - Complex analysis
   - Holomorphic dynamics
   - Dynamical systems
-  - Riemann surfaces
 ---
 
 Complex dynamics is the study of iterations of a holomorphic map $f: X \to X$ where $X$ is a Riemann surface. Dynamical objects of interest are the Fatou set $F(f)$, i.e. the subset of $X$ on which the iterations are stable, and the Julia set, which is the unstable region. Below, I am to summarise the basic concepts of Fatou and Julia sets in one-dimensional complex dynamics. I will focus on the case where $X$ is an open subset of the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \backslash \{\infty\}$. Proofs will be skipped and I would personally recommend referring to Beardon or Milnor.
@@ -57,5 +56,7 @@ $$
 When we are blessed with the presence of an attracting periodic point $z_0$, we can obtain the Julia set for granted.
 
 > **_Proposition:_** If $z_0$ is an attracting periodic point of $f$, then the boundary of its attracting basin $\mathcal{A}(z_0)$ is the Julia set $J(f)$.
+
+One special case is when $f$ is a polynomial of degree $d \geq 2$. This map always has a (super)attracting fixed point at $\infty$, and upon finding which points iterate away towards $\infty$, we obtain the attracting basin of infinity $\mathcal{A}(\infty)$ and its boundary is the Julia set $J(f)$. The complement $K(f) := \hat{\mathbb{C}} \backslash \mathcal{A}(\infty)$ is often called the filled Julia set.
 
 ------
