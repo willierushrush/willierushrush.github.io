@@ -11,7 +11,7 @@ main:
     url: /vita/
 
   - title: "Blog"
-      url: /year-archive/
+    url: /year-archive/
 
   - title: "Search"
     url: /search/
