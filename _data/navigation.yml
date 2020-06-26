@@ -4,14 +4,14 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Blog"
-    url: /year-archive/
-
   - title: "Teaching"
     url: /teaching/
 
   - title: "Vita"
     url: /vita/
+
+  - title: "Blog"
+      url: /year-archive/
 
   - title: "Search"
     url: /search/
