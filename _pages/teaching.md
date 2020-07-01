@@ -4,7 +4,8 @@ title: Teaching
 permalink: /teaching/
 ---
 
-Office hours: Wednesdays, 5 - 6pm
+Office hours: Wednesdays, 10 - 11 am
+[MLC](http://www.math.stonybrook.edu/mlc/center-hours.html): MW, 2 - 3 pm
 
 Instructor:
 * [MAT 342](/teaching/mat342-summer20): Applied Complex Analysis, Summer II 2020
