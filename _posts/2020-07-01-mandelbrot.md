@@ -26,7 +26,7 @@ $$
 \mathbb{M} = \bigcap_{n=1}^\infty P_n^{-1}(\mathbb{D}_2).
 $$
 
-Each of these preimages is non-empty and compact. By Cantor's intersection theorem, we can easily deduce that $\mathbb{M}$ is non-empty and compact. The countable intersection expression above also inspires a straightforward algorithm to produce an image of the Mandelbrot set, illustrated below.
+Each of these preimages is a compact set containing a common point $0$ since $P_n(0) = 0$ for every $n$. By Cantor's intersection theorem, we can easily deduce that $\mathbb{M}$ is non-empty and compact. The countable intersection expression above also inspires a straightforward algorithm to produce an image of the Mandelbrot set, illustrated below.
 
 <p align="center">
   <img src="/images/simplemandelbrot.gif" />
