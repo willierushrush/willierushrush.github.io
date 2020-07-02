@@ -58,10 +58,10 @@ The countable intersection expression above also inspires a straightforward algo
   <img src="/images/simplemandelbrot.gif" />
 </p>
 
-It isn't obvious from the image above that $\mathbb{M}$ is connected. We can actually see this if we make the illustration even fancier. For each time $N \in \mathbb{N}$, we assign a color $c_N$ to the set of parameters $c$ such that $c$ escapes from $\overline{\mathbb{D}_2}$ at the $N^\text{th}$ iterate, i.e. $\lvert f^k_c(0)\rvert \leq 2$ for all $k< N$ but $\lvert f^N_c(0)\rvert \geq 2$.  Choosing contrasting colors will help us see the boundary more clearly.
+It isn't obvious from the gif above that $\mathbb{M}$ is connected. We can actually see this if we make the illustration even fancier. For each time $N \in \mathbb{N}$, we assign a color $c_N$ to the set of parameters $c$ such that $c$ escapes from $\overline{\mathbb{D}_2}$ at the $N^\text{th}$ iterate, i.e. $\lvert f^k_c(0)\rvert \leq 2$ for all $k< N$ but $\lvert f^N_c(0)\rvert \geq 2$.  Choosing contrasting colors will help us see the boundary more clearly.
 
 <p align="center">
-  <img src="/images/escapetimealgorithm.jpg" />
+  <img src="/images/escapetimealgorithm.jpg" width="450" length="450"/>
 </p>
 
 ## Properties
