@@ -12,8 +12,7 @@ Beautiful images of the Mandelbrot set are ubiquitous. You might have seen them 
 
 The Mandelbrot set is, first and foremost, a subset of the complex plane $\mathbb{C}$. Holly Krieger on numberphile gave a clear and pictorial definition.
 
-<iframe src="https://www.youtube.com/embed/NGMRB4O922I">
-</iframe>   
+<iframe src="https://www.youtube.com/embed/NGMRB4O922I"> </iframe> <br>
 
 Let's go through a brief summary of the video. Krieger defined the Mandelbrot set $\mathbb{M}$ as the set of complex parameters $c \in \mathbb{C}$ such that the sequence of iterates of the quadratic map $f_c(z) = z^2 +c$ for the initial value $0$ satisfies $\lvert f^n_c(0) \rvert \leq 2$ for all integers $n \geq 0$. Each iterate $f^n_c(0)$ is a polynomial of degree $2^{n-1}$ given by
 
