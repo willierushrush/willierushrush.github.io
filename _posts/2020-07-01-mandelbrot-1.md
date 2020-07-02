@@ -70,20 +70,21 @@ Looking back at the countable intersection expression above, each of the preimag
 
 > **_Theorem:_** The Mandelbrot set is connected.
 
-Douady and Hubbard proved the connectivity of $\mathbb{M}$ by explicitly constructing a conformal isomorphism $\Phi: \mathbb{C} \backslash \mathbb{M} \to \mathbb{C} \backslash \bar{\mathbb{D}}$. Let's briefly sketch its construction. For each parameter $c \in \mathbb{C}$, there is a unique holomorphic map $B_c : \mathbb{C} \backslash K(f_c) \to \mathbb{C} \backslash \bar{\mathbb{D}}$ called the Böttcher coordinate such that $B_c \circ f_c (z) = B_c(z)^2$ for all $z \in \mathbb{C} \backslash K(f_c)$. The equation essentially states that $f_c$ behaves like a doubling map $z^2$ outside the filled Julia set. The map $\Phi(c) = B_c(c)$ is the desired conformal isomorphism. Refer to Milnor<sup>[2](#fn2)</sup> $\S 9$ for the construction of the Böttcher coordinate. Further details of the proof can be found on Douady and Hubbard's Orsay notes<sup>[1](#fn1)</sup>, Chapter 8.
+Douady and Hubbard proved the connectivity of $\mathbb{M}$ by explicitly constructing a conformal isomorphism $\Phi: \mathbb{C} \backslash \mathbb{M} \to \mathbb{C} \backslash \bar{\mathbb{D}}$. Let's briefly sketch its construction. For each parameter $c \in \mathbb{C}$, there is a unique holomorphic map $B_c : \mathbb{C} \backslash K(f_c) \to \mathbb{C} \backslash \bar{\mathbb{D}}$ called the Böttcher coordinate such that $B_c \circ f_c (z) = B_c(z)^2$ for all $z \in \mathbb{C} \backslash K(f_c)$. The equation essentially states that $f_c$ behaves like a doubling map $z^2$ outside the filled Julia set. The map $\Phi(c) = B_c(c)$ is the desired conformal isomorphism. Refer to Milnor<sup>[3](#fn3)</sup> $\S 9$ for the construction of the Böttcher coordinate. Further details of the proof can be found on Douady and Hubbard's Orsay notes<sup>[2](#fn2)</sup>, Chapter 8.
 
 A central conjecture in holomorphic dynamics is the following.
 
 > **_MLC Conjecture:_** The Mandelbrot set is locally connected.
 
-Local connectivity of $\mathbb{M}$ has highly important implications. An immediate one is that the conformal isomorphism $\Phi^{-1}$ extends to a continuous map from the unit circle $S^1$ to the boundary $\partial\mathbb{M}$. Topologically, this extension will allow us to obtain a precise topological model of $\mathbb{M}$. Dynamically, MLC implies (in fact, is equivalent) to a strong property called combinatorial rigidity which says that any two quadratics $f_c$ and $f_{c'}$ having no non-repelling periodic points have the same combinatorics if and only if $c = c'$. Ultimately, MLC implies one of the most important open problems in holomorphic dynamics.
+Local connectivity of $\mathbb{M}$ has highly important implications. An immediate one is that the conformal isomorphism $\Phi^{-1}$ extends to a continuous map from the unit circle $S^1$ to the boundary $\partial\mathbb{M}$. Topologically, this extension will allow us to obtain a precise topological model of $\mathbb{M}$. Dynamically, MLC implies (in fact, is equivalent) to a strong property called combinatorial rigidity which says that any two quadratics $f_c$ and $f_{c'}$ having no non-repelling periodic points have the same combinatorics if and only if $c = c'$. Ultimately, MLC implies one of the most important open problems in holomorphic dynamics. (Refer to Benini's survey<sup>[1](#fn1)</sup>.)
 
 > **_Density of Hyperbolicity Conjecture:_** The set of parameters $c \in \mathbb{M}$ such that $f_c$ is hyperbolic is dense in $\mathbb{M}$.
 
-We say that $c \in \mathbb{M}$ is a **hyperbolic parameter** if $f_c$ has a finite attracting periodic point. The Julia sets of hyperbolic maps are nice to deal with since they have zero area and are locally connected. (Refer to Milnor<sup>[2](#fn2)</sup> $\S 19$.) I will discuss more on hyperbolicity and the Mandelbrot set in future posts.
+We say that $c \in \mathbb{M}$ is a **hyperbolic parameter** if $f_c$ has a finite attracting periodic point. The Julia sets of hyperbolic maps are nice to deal with since they have zero area and are locally connected. (Refer to Milnor<sup>[3](#fn3)</sup> $\S 19$.) I will discuss more on hyperbolicity and the Mandelbrot set in future posts.
 
 ### References
-<a name="fn1">1</a>: A. Douady, J. Hubbard. Exploring the Mandelbrot set. The Orsay Notes. Available at http://pi.math.cornell.edu/~hubbard/OrsayEnglish.pdf   
-<a name="fn2">2</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.   
+<a name="fn1">1</a>: A. M. Benini. A Survey on MLC, Rigidity and Related Topics. arXiv: Dynamical Systems, 2017.
+<a name="fn2">2</a>: A. Douady, J. Hubbard. Exploring the Mandelbrot set. The Orsay Notes. Available at http://pi.math.cornell.edu/~hubbard/OrsayEnglish.pdf   
+<a name="fn3">3</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   
 
 ------
