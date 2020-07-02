@@ -1,5 +1,5 @@
 ---
-title: 'Caratheodory topology and the space of Riemann mappings'
+title: 'Carathéodory topology and the space of Riemann mappings'
 date: 2020-06-03
 permalink: /posts/2020/06/caratheodory_topology/
 tags:
