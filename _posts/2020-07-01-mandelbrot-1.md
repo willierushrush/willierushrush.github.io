@@ -8,7 +8,7 @@ tags:
   - Dynamical systems
 ---
 
-Beautiful images of the Mandelbrot set are ubiquitous. You might have seen them randomly featured on your school math textbooks for God knows what reason. They're probably on the posters of some of math professors in your college. You've probably seen some people wearing Mandelbrot set T-shirts or even having Mandelbrot tattoos. Rather than trying to explain its fame, I would like to firstly define this object and state its basic properties.
+Intricate images of the Mandelbrot set are ubiquitous. You might have seen them randomly featured on your school math textbooks for God knows what reason. They're probably on the posters of some of math professors in your college. You've probably seen some people wearing Mandelbrot set T-shirts or even having Mandelbrot tattoos. Rather than trying to explain its fame, I would like to firstly define this object and state its basic properties.
 
 ## Definitions
 
