@@ -3,7 +3,6 @@ title: 'Fatou and Julia'
 date: 2020-06-17
 permalink: /posts/2020/06/fatou_and_julia/
 tags:
-  - Complex analysis
   - Holomorphic dynamics
   - Dynamical systems
 ---

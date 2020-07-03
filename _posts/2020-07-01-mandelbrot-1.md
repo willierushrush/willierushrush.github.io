@@ -3,7 +3,6 @@ title: 'Mandelbrot 1'
 date: 2020-07-01
 permalink: /posts/2020/07/mandelbrot-1/
 tags:
-  - Complex analysis
   - Holomorphic dynamics
   - Dynamical systems
 ---
