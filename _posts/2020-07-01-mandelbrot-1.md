@@ -52,7 +52,7 @@ $$
 \mathbb{M} = \bigcap_{n=1}^\infty P_n^{-1}(\overline{\mathbb{D}_2}).
 $$
 
-The countable intersection expression above also inspires a straightforward algorithm to produce an image of the Mandelbrot set, illustrated below.
+The expression above inspires a straightforward algorithm to produce an image of the Mandelbrot set. Illustrated below is the first few partial intersections.
 
 <p align="center">
   <img src="/images/simplemandelbrot.gif" />
