@@ -46,7 +46,7 @@ $$
 c, \; c^2 + c, \; (c^2 + c)^2 + c, \ldots
 $$
 
-If we let $P_n(c) = f^n_c(0)$, then the Mandelbrot set is defined as the countable intersection of preimages of the disk $\mathbb{D}_2$ of radius 2 centered at 0:
+If we let $P_n(c) = f^n_c(0)$, then the Mandelbrot set is defined as the countable intersection of preimages of the closed disk $\mathbb{\mathbb{D}_2}$ of radius 2 centered at 0:
 
 $$
 \mathbb{M} = \bigcap_{n=1}^\infty P_n^{-1}(\overline{\mathbb{D}_2}).
