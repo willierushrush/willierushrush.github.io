@@ -8,7 +8,7 @@ tags:
   - Topology
 ---
 
-Riemann mapping theorem states that every simply connected open proper subset $U$ of the complex plane $\mathbb{C}$ is conformally isomorphic to the unit disk $\mathbb{D}$. In other words, there exists a conformal isomorphism $f: \mathbb{D} \to U$. What I would like to discuss is a way to topologise the set of simply connected open proper subsets $U$ of $\mathbb{C}$ and to naturally normalise the corresponding conformal isomorphisms $f$ in order to establish a natural topological correspondence $U \mapsto (f: \mathbb{D} \to U).
+Riemann mapping theorem states that every simply connected open proper subset $U$ of the complex plane $\mathbb{C}$ is conformally isomorphic to the unit disk $\mathbb{D}$. In other words, there exists a conformal isomorphism $f: \mathbb{D} \to U$. What I would like to discuss is a way to topologise the set of simply connected open proper subsets $U$ of $\mathbb{C}$ and to naturally normalise the corresponding conformal isomorphisms $f$ in order to establish a natural topological correspondence $U \mapsto (f: \mathbb{D} \to U)$.
 
 ## Limits of Sets
 
