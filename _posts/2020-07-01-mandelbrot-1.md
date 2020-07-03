@@ -83,7 +83,7 @@ Local connectivity of $\mathbb{M}$ has highly important implications. An immedia
 We say that $c \in \mathbb{M}$ is a **hyperbolic** parameter if $f_c$ has a finite attracting periodic point. The Julia sets of hyperbolic maps are nice to deal with since they have zero area and are locally connected. (Refer to Milnor<sup>[3](#fn3)</sup> $\S 19$.) I will discuss more on hyperbolicity and the Mandelbrot set in future posts.
 
 ### References
-<a name="fn1">1</a>: A. M. Benini. A Survey on MLC, Rigidity and Related Topics. arXiv: Dynamical Systems, 2017.
+<a name="fn1">1</a>: A. M. Benini. A Survey on MLC, Rigidity and Related Topics. arXiv: Dynamical Systems, 2017.   
 <a name="fn2">2</a>: A. Douady, J. Hubbard. Exploring the Mandelbrot set. The Orsay Notes. Available at http://pi.math.cornell.edu/~hubbard/OrsayEnglish.pdf   
 <a name="fn3">3</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   
 
