@@ -84,7 +84,7 @@ We say that $c \in \mathbb{M}$ is a **hyperbolic** parameter if $f_c$ has a fini
 
 ### References
 <a name="fn1">1</a>: A. M. Benini. A Survey on MLC, Rigidity and Related Topics. arXiv: Dynamical Systems, 2017.   
-<a name="fn2">2</a>: A. Douady, J. Hubbard. Exploring the Mandelbrot set. The Orsay Notes. Available at http://pi.math.cornell.edu/~hubbard/OrsayEnglish.pdf   
+<a name="fn2">2</a>: A. Douady, J. Hubbard. Exploring the Mandelbrot set. The Orsay Notes. Available at <http://pi.math.cornell.edu/~hubbard/OrsayEnglish.pdf>  
 <a name="fn3">3</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   
 
 ------
