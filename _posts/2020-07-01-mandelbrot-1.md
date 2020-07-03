@@ -24,13 +24,13 @@ In the study of holomorphic dynamics, there are a few other equivalent ways of d
 > 1. $\lvert f^n_c(0) \rvert \not\to \infty$ as $n \to \infty$;
 > 2. The filled Julia set $K(f_c)$ of $f_c$ is connected.
 
-The original definition immediately implies 1., and the converse is true as well by elementary analysis. Indeed, if $\lvert c \rvert < 2$ and $\lvert z \rvert = 2+ \epsilon$ for some $\epsilon > 0$, then
+The original definition immediately implies 1., and the converse is true as well by elementary analysis. Indeed, if $\lvert c \rvert \leq 2$ and $\lvert z \rvert = 2+ \epsilon$ for some $\epsilon > 0$, then
 
 $$
 \lvert f_c(z) \rvert = \lvert z^2 + c \rvert \geq \lvert z \rvert^2 - \lvert c \rvert \geq (4 + 4 \epsilon + \epsilon^2) - 2 \geq 2 + 4\epsilon.
 $$
 
-The inequality shows that if there is some $k$ such that $\lvert f^k_c(0) \rvert > 2$, then the distance between $\lvert f^n_c(0) \rvert$ and the circle $\partial \mathbb{D}_2$ diverges to $\infty$. If $\lvert c \rvert = 2 + \epsilon > 2$, then we can show inductively that $\lvert f^n_c(0) \rvert \geq 2 + 3^{n-1} \epsilon$ which again shows divergence to $\infty$.
+The inequality shows that if there is some $k$ such that $\lvert f^k_c(0) \rvert = 2 + \epsilon$, then $\lvert f^{k+n}_c(0) \rvert \geq 2 + 4^n \epsilon \to \infty$ as $n \to \infty$. If $\lvert c \rvert = 2 + \epsilon > 2$, then we can show inductively that $\lvert f^n_c(0) \rvert \geq 2 + 3^{n-1} \epsilon$ which again shows divergence to $\infty$.
 
 The second part of the proposition is actually a consequence of the following theorem.
 
@@ -49,7 +49,7 @@ $$
 If we let $P_n(c) = f^n_c(0)$, then the Mandelbrot set is defined as the countable intersection of preimages of the disk $\mathbb{D}_2$ of radius 2 centered at 0:
 
 $$
-\mathbb{M} = \bigcap_{n=1}^\infty P_n^{-1}(\mathbb{D}_2).
+\mathbb{M} = \bigcap_{n=1}^\infty P_n^{-1}(\overline{\mathbb{D}_2}).
 $$
 
 The countable intersection expression above also inspires a straightforward algorithm to produce an image of the Mandelbrot set, illustrated below.
@@ -58,7 +58,7 @@ The countable intersection expression above also inspires a straightforward algo
   <img src="/images/simplemandelbrot.gif" />
 </p>
 
-It isn't obvious from the gif above that $\mathbb{M}$ is connected. We can actually see this if we make the illustration even fancier. For each time $N \in \mathbb{N}$, we assign a color $c_N$ to the set of parameters $c$ such that $c$ escapes from $\overline{\mathbb{D}_2}$ at the $N^\text{th}$ iterate, i.e. $\lvert f^k_c(0)\rvert \leq 2$ for all $k< N$ but $\lvert f^N_c(0)\rvert \geq 2$.  Choosing contrasting colors will help us see the boundary more clearly.
+It isn't obvious from the gif above that $\mathbb{M}$ is connected. We can actually see this if we make the illustration even fancier. For each time $N \in \mathbb{N}$, we assign a color to the set of parameters $c$ such that $c$ escapes from $\overline{\mathbb{D}_2}$ at the $N^\text{th}$ iterate, i.e. $\lvert f^k_c(0)\rvert \leq 2$ for all $k< N$ but $\lvert f^N_c(0)\rvert \geq 2$. Choosing contrasting colors will help us see the boundary more clearly.
 
 <p align="center">
   <img src="/images/escapetimealgorithm.jpg" width="450" length="450"/>
@@ -70,17 +70,17 @@ Looking back at the countable intersection expression above, each of the preimag
 
 > **_Theorem:_** The Mandelbrot set is connected.
 
-Douady and Hubbard proved the connectivity of $\mathbb{M}$ by explicitly constructing a conformal isomorphism $\Phi: \mathbb{C} \backslash \mathbb{M} \to \mathbb{C} \backslash \bar{\mathbb{D}}$. Let's briefly sketch its construction. For each parameter $c \in \mathbb{C}$, there is a unique holomorphic map $B_c : \mathbb{C} \backslash K(f_c) \to \mathbb{C} \backslash \bar{\mathbb{D}}$ called the Böttcher coordinate such that $B_c \circ f_c (z) = B_c(z)^2$ for all $z \in \mathbb{C} \backslash K(f_c)$. The equation essentially states that $f_c$ behaves like a doubling map $z^2$ outside the filled Julia set. The map $\Phi(c) = B_c(c)$ is the desired conformal isomorphism. Refer to Milnor<sup>[3](#fn3)</sup> $\S 9$ for the construction of the Böttcher coordinate. Further details of the proof can be found on Douady and Hubbard's Orsay notes<sup>[2](#fn2)</sup>, Chapter 8.
+Douady and Hubbard proved the connectivity of $\mathbb{M}$ by explicitly constructing a conformal isomorphism $\Phi: \mathbb{C} \backslash \mathbb{M} \to \mathbb{C} \backslash \bar{\mathbb{D}}$. Let's briefly sketch its construction. For each parameter $c \in \mathbb{C}$, there is a unique holomorphic map $B_c : \mathbb{C} \backslash K(f_c) \to \mathbb{C} \backslash \bar{\mathbb{D}}$ called the Böttcher coordinate such that $B_c \circ f_c (z) = B_c(z)^2$ for all $z \in \mathbb{C} \backslash K(f_c)$. (Refer to Milnor<sup>[3](#fn3)</sup> $\S 9$.) The equation essentially states that $f_c$ behaves like a doubling map $z^2$ outside the filled Julia set. The map $\Phi(c) = B_c(c)$ is the desired conformal isomorphism. Further details of the proof can be found on Douady and Hubbard's Orsay notes<sup>[2](#fn2)</sup>, Chapter 8.
 
 A central conjecture in holomorphic dynamics is the following.
 
 > **_MLC Conjecture:_** The Mandelbrot set is locally connected.
 
-Local connectivity of $\mathbb{M}$ has highly important implications. An immediate one is that the conformal isomorphism $\Phi^{-1}$ extends to a continuous map from the unit circle $S^1$ to the boundary $\partial\mathbb{M}$. Topologically, this extension will allow us to obtain a precise topological model of $\mathbb{M}$. Dynamically, MLC implies (in fact, is equivalent) to a strong property called combinatorial rigidity which says that any two quadratics $f_c$ and $f_{c'}$ having no non-repelling periodic points have the same combinatorics if and only if $c = c'$. Ultimately, MLC implies one of the most important open problems in holomorphic dynamics. (Refer to Benini's survey<sup>[1](#fn1)</sup>.)
+Local connectivity of $\mathbb{M}$ has highly important implications. An immediate one is that the conformal isomorphism $\Phi^{-1}$ extends to a continuous map from the unit circle $S^1$ to the boundary $\partial\mathbb{M}$. Topologically, this extension will allow us to obtain a precise topological model of $\mathbb{M}$. Dynamically, MLC implies (in fact, is equivalent to) a strong property called combinatorial rigidity which says that any two quadratics $f_c$ and $f_{c'}$ having no non-repelling periodic points have the same combinatorics if and only if $c = c'$. Ultimately, MLC implies one of the most important open problems in holomorphic dynamics. (Refer to Benini's survey<sup>[1](#fn1)</sup>.)
 
 > **_Density of Hyperbolicity Conjecture:_** The set of parameters $c \in \mathbb{M}$ such that $f_c$ is hyperbolic is dense in $\mathbb{M}$.
 
-We say that $c \in \mathbb{M}$ is a **hyperbolic parameter** if $f_c$ has a finite attracting periodic point. The Julia sets of hyperbolic maps are nice to deal with since they have zero area and are locally connected. (Refer to Milnor<sup>[3](#fn3)</sup> $\S 19$.) I will discuss more on hyperbolicity and the Mandelbrot set in future posts.
+We say that $c \in \mathbb{M}$ is a **hyperbolic** parameter if $f_c$ has a finite attracting periodic point. The Julia sets of hyperbolic maps are nice to deal with since they have zero area and are locally connected. (Refer to Milnor<sup>[3](#fn3)</sup> $\S 19$.) I will discuss more on hyperbolicity and the Mandelbrot set in future posts.
 
 ### References
 <a name="fn1">1</a>: A. M. Benini. A Survey on MLC, Rigidity and Related Topics. arXiv: Dynamical Systems, 2017.
