@@ -8,7 +8,7 @@ main:
     url: /vita/
 
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
 
   - title: "Search"
     url: /search/
