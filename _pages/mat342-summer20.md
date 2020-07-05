@@ -5,7 +5,7 @@ permalink: /teaching/mat342-summer20
 ---
 
 Resources:
-* [Syllabus](/files/MAT342_Syllabus_Summer2020.pdf)
+* [Syllabus](/files/MAT342-summer20/MAT342_Syllabus_Summer2020.pdf)
 * Notes
-* [Problem sets](/files/MAT342-problems.pdf)
+* Problem sets: [1](/files/MAT342-problem-1.pdf)
 * Solutions
