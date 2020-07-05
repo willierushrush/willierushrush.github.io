@@ -12,3 +12,17 @@ main:
 
   - title: "Search"
     url: /search/
+
+tags:
+  - title: Tags
+    children:
+      - title: "Complex Analysis"
+        url: /tags/#complex-analysis
+      - title: "Dynamical Systems"
+        url: /tags/#dynamical-systems
+      - title: "Holomorphic Dynamics"
+        url: /tags/#holomorphic-dynamics
+      - title: "Riemann Surfaces"
+        url: /tags/#riemann-surfaces
+      - title: "Topology"
+        url: /tags/#topology

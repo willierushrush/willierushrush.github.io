@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 sidebar:
-    nav: "docs"
+    nav: "tags"
 ---
 
 {% include base_path %}
