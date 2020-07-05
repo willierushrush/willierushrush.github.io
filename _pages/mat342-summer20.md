@@ -1,6 +1,6 @@
 ---
 layout: single
-title: MAT342 Summer 2020
+title: MAT 342 Summer 2020
 permalink: /teaching/mat342-summer20
 ---
 

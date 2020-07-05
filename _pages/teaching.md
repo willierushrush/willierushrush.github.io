@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: splash
 title: Teaching
 permalink: /teaching/
+header:
+  overlay_color: "#000"
+  caption: "header"
 ---
 
 Office hours: Wednesdays, 10-11 am   
