@@ -1,9 +1,10 @@
 ---
 layout: splash
-title: Sample
+title: Sample Title
 permalink: /splashpage/
 header:
-  overlay_image: /images/escapingset01.jpg
+  overlay_image: /images/header.jpg
+  caption: "header"
 ---
 
 Office hours: Wednesdays, 10 - 11 am   
