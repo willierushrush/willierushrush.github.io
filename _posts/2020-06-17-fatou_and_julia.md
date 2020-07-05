@@ -2,8 +2,6 @@
 title: 'Fatou and Julia'
 date: 2020-06-17
 permalink: /posts/2020/06/fatou_and_julia/
-categories:
-  - '2020'
 tags:
   - Holomorphic dynamics
   - Dynamical systems

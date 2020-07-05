@@ -29,4 +29,4 @@ blog:
   - title: year
     children:
       - title: "2020"
-        url: /year/#2020
+        url: /blog/#2020
