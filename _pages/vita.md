@@ -5,6 +5,8 @@ permalink: /vita/
 author_profile: true
 redirect_from:
   - /resume
+sidebar:
+    nav: "docs"
 ---
 
 {% include base_path %}
