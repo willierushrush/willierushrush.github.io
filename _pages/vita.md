@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Vita"
 permalink: /vita/
 author_profile: true
@@ -8,8 +8,6 @@ redirect_from:
 sidebar:
     nav: "tags"
 ---
-
-{% include base_path %}
 
 ## Education
 * Ph.D in Pure Mathematics, Stony Brook University, 2019-
