@@ -3,7 +3,7 @@ layout: splash
 title: Sample Title
 permalink: /splashpage/
 header:
-  overlay_color: "#000"
+  image: https://mobirise.com/extensions/simpleamp/assets/images/background17.jpg
   caption: "header"
 ---
 

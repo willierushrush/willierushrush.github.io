@@ -1,15 +1,11 @@
 # main links links
 main:
-
   - title: "Teaching"
     url: /teaching/
-
   - title: "Vita"
     url: /vita/
-
   - title: "Blog"
     url: /blog/
-
   - title: "Search"
     url: /search/
 
@@ -26,6 +22,7 @@ blog:
         url: /topics/#riemann-surfaces
       - title: "Topology"
         url: /topics/#topology
+        
   - title: year
     children:
       - title: "2020"
