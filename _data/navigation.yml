@@ -14,7 +14,7 @@ main:
     url: /search/
 
 tags:
-  - title: Tags
+  - title: Topics
     children:
       - title: "Complex Analysis"
         url: /tags/#complex-analysis
