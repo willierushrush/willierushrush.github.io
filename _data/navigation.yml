@@ -17,16 +17,16 @@ blog:
   - title: Topics
     children:
       - title: "Complex Analysis"
-        url: /tags/#complex-analysis
+        url: /topics/#complex-analysis
       - title: "Dynamical Systems"
-        url: /tags/#dynamical-systems
+        url: /topics/#dynamical-systems
       - title: "Holomorphic Dynamics"
-        url: /tags/#holomorphic-dynamics
+        url: /topics/#holomorphic-dynamics
       - title: "Riemann Surfaces"
-        url: /tags/#riemann-surfaces
+        url: /topics/#riemann-surfaces
       - title: "Topology"
-        url: /tags/#topology
+        url: /topics/#topology
   - title: year
     children:
       - title: "2020"
-        url: /categories/#2020
+        url: /year/#2020
