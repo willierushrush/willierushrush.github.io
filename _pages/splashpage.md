@@ -3,7 +3,7 @@ layout: splash
 title: Sample Title
 permalink: /splashpage/
 header:
-  overlay_image: /images/header.jpg
+  overlay_color: "#333"
   caption: "header"
 ---
 
