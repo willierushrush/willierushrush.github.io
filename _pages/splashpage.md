@@ -2,6 +2,8 @@
 layout: splash
 title: Sample
 permalink: /splashpage/
+header:
+  image: /images/header.jpg
 ---
 
 Office hours: Wednesdays, 10 - 11 am   
