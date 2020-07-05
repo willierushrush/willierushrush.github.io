@@ -13,7 +13,7 @@ main:
   - title: "Search"
     url: /search/
 
-tags:
+blog:
   - title: Topics
     children:
       - title: "Complex Analysis"
@@ -26,3 +26,7 @@ tags:
         url: /tags/#riemann-surfaces
       - title: "Topology"
         url: /tags/#topology
+  - title: year
+    children:
+      - title: "2020"
+        url: /categories/#2020

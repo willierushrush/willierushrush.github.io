@@ -2,6 +2,8 @@
 title: 'Riemann surfaces are always second-countable'
 date: 2020-05-21
 permalink: /posts/2020/05/second-countability/
+categories:
+  - '2020'
 tags:
   - Riemann surfaces
   - Topology

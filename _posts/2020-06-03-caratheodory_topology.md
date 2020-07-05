@@ -2,6 +2,8 @@
 title: 'Carathéodory topology and the space of Riemann mappings'
 date: 2020-06-03
 permalink: /posts/2020/06/caratheodory_topology/
+categories:
+  - '2020'
 tags:
   - Complex analysis
   - Riemann surfaces
