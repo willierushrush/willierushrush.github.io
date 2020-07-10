@@ -13,7 +13,7 @@ A collection $\mathcal{F}$ of continuous functions from topological spaces $A$ t
 
 When $A \subset \mathbb{P}^1$ and $B = \mathbb{P}^1$, Arzelà–Ascoli theorem implies that normality is equivalent to equicontinuity of $\mathcal{F}$ with respect to the spherical metric $d$ on $\mathbb{P}^1$. When the family $\mathcal{F}$ is the set of iterates $\\{f^n\\}_{n \in \mathbb{N}}$ of a holomorphic function $f: A \to \mathbb{P}^1$, equicontinuity means that for all $\epsilon >0$, whenever two points $z$ and $w$ are sufficiently close, then for any iterate $f^n$, $d(f^n(z),f^n(w)) < \epsilon$. This is our notion of stability.
 
-We then define the **Fatou set** $F(f)$ of a holomorphic map $f: X \to X$ as the open set of points $z \in X$ such that there is a neighbourhood of z on which $\{f^n\}_{n \in \mathbb{N}}$ is a normal family. The **Julia set** of $f$ is the closed set $J(f) = \mathbb{P}^1 \backslash F(f)$. Checking the normality assumption can be rather tedious. A commonly used tool is the following result by Montel.
+We then define the **Fatou set** $F(f)$ of a holomorphic map $f: X \to X$ as the open set of points $z \in X$ such that there is a neighbourhood of z on which $\\{f^n\\}_{n \in \mathbb{N}}$ is a normal family. The **Julia set** of $f$ is the closed set $J(f) = \mathbb{P}^1 \backslash F(f)$. Checking the normality assumption can be rather tedious. A commonly used tool is the following result by Montel.
 
 > **_Montel's Theorem:_** If $\mathcal{F}$ is a family of holomorphic maps from a hyperbolic Riemann surface $A$ to $\mathbb{P}^1 \backslash K$ for some compact subset $K$ containing at least 3 distinct points, then $\mathcal{F}$ is a normal family.
 
