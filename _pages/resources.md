@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Research"
-permalink: /research/
+title: "Resources"
+permalink: /resources/
 ---
 
 ## Master's Project
