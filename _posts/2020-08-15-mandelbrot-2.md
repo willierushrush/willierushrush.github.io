@@ -1,7 +1,7 @@
 ---
 title: 'Mandelbrot 2'
-date: 2020-07-15
-permalink: /posts/2020/07/mandelbrot-2/
+date: 2020-08-15
+permalink: /posts/2020/08/mandelbrot-2/
 tags:
   - Complex analysis
   - Holomorphic dynamics
