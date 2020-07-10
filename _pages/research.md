@@ -2,6 +2,9 @@
 layout: single
 title: "Research"
 permalink: /research/
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 ## Master's Project
