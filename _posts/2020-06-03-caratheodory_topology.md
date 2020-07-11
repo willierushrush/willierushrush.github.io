@@ -36,7 +36,7 @@ $$
 D(A,B) = \inf \{ \epsilon \geq 0 : A \subset B_{\epsilon}, B \subset A_{\epsilon} \},
 $$
 
-where $ A_{\epsilon} := \\{ x \in X  d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. I'll leave it to you to check that $D$ really is a metric on $C(X)$. $D$ is often called the **Hausdorff metric**<sup>[3](#fn3)</sup> and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\\{0,1\\}, [0,0.4]) = 0.6$.
+where $ A_{\epsilon} := \\{ x \in X : d(x,A) \leq \epsilon \\}$ denotes the closed $\epsilon$-neighbourhood of the closed subset $A$. I'll leave it to you to check that $D$ really is a metric on $C(X)$. $D$ is often called the **Hausdorff metric**<sup>[3](#fn3)</sup> and it measures the maximum distance a point in $A$ has to travel to go to some point in $B$, and vice versa. For example, if $X = [0,1]$ is the Euclidean unit interval, $D(\\{0,1\\}, [0,0.4]) = 0.6$.
 
 The set $O(X)$ of all proper open subsets of $X$ can also be topologised by saying that $U_n \to U$ if and only if
 
