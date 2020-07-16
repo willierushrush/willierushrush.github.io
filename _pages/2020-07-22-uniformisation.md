@@ -18,7 +18,7 @@ The goal for now is to see what $\Gamma$ looks like for every possible $Z$. This
 Suppose $Z$ is the Riemann sphere. A result in complex analysis states that every holomorphic self map of the Riemann sphere is a rational map $p(z)/q(z)$ where $p$ and $q$ are polynomials. Consequently, the group $\text{Aut}(\mathbb{P}^1)$ of conformal automorphisms of $\mathbb{P}^1$ has to be the group of Möbius transformations, often denoted as $PSL(2,\mathbb{C})$:
 
 $$
-\text{Aut}(\mathbb{P}^1) = \{ \frac{az+b}{cz+d} \: \vert \: a,b,c,d \in \mathbb{C}, ad-bc \neq 0 \}.
+\text{Aut}(\mathbb{P}^1) = \big\{ \frac{az+b}{cz+d} \: \big\vert \: a,b,c,d \in \mathbb{C}, ad-bc \neq 0 \big\}.
 $$
 
 A simply algebraic exercise should convince you that every Möbius transformation (that is not the identity) has a fixed point. As such, every subgroup $\Gamma$ of $\text{Aut}(\mathbb{P}^1)$ does not act freely on $\mathbb{P}^1$ unless $\Gamma$ is the trivial group consisting only of the identity map. Therefore, every connected Riemann surface $X$ which admits a universal cover $\mathbb{P}^1$ must be $\mathbb{P}^1$ itself!
@@ -53,13 +53,13 @@ It then follows from above that a Riemann surface $X$ must be hyperbolic if it i
 To obtain more concrete examples, we will again consider the group of conformal automorphisms of $\mathbb{D}$. A consequence of Schwarz Lemma is that this group is just the group of degree 1 Blashcke products:
 
 $$
-\text{Aut}(\mathbb{D}) = \left{ \zeta \frac{a-z}{1-\bar{a}z} \: \big\vert \: \lvert\zeta\rvert = 1, a \in \mathbb{D} \right}.
+\text{Aut}(\mathbb{D}) = \big\{ \zeta \frac{a-z}{1-\bar{a}z} \: \big\vert \: \lvert\zeta\rvert = 1, a \in \mathbb{D} \big\}.
 $$
 
 It is often easier to work with the upper half plane model of the With the aid of conformal automorphism $\Phi : \mathbb{H} \to \mathbb{D}, z \mapsto \frac{i-z}{i+z}$, we can obtain $\text{Aut}(\mathbb{H})$ by working out $\Phi^{-1} \text{Aut}(\mathbb{D}) \Phi$. This turns out to be the group $PSL(2,\mathbb{R})$:
 
 $$
-\text{Aut}(\mathbb{H}) = \left{ \frac{az+b}{cz+d} \: \big\vert \: a,b,c,d \in \mathbb{R}, ad-bc > 0 \right}.
+\text{Aut}(\mathbb{H}) = \big\{ \frac{az+b}{cz+d} \: \big\vert \: a,b,c,d \in \mathbb{R}, ad-bc > 0 \big\}.
 $$
 
 Notice that $\text{Aut}(\mathbb{H})$ is a subgroup of $\text{Aut}(\mathbb{C})$ consisting of all Möbius transformations preserving the upper half plane. Every element that has no fixed point in $\mathbb{H}$ turns out to be conjugate to either a translation $\sigma_{\pm}(z) = z \pm 1$ or a dilation $\tau_a(z) = az$ where $a>1$. Let $X$ be a hyperbolic Riemann surface with covering group $\Gamma$, a discrete subgroup of $\text{Aut}(\mathbb{H})$ acting freely and properly discontinuously.
