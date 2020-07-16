@@ -3,7 +3,6 @@ title: 'Classification of Riemann surfaces'
 date: 2020-07-15
 permalink: /posts/2020/07/classification/
 tags:
-  - Complex Analysis
   - Riemann Surfaces
 ---
 
