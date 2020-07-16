@@ -1,7 +1,7 @@
 ---
 title: 'Classification of Riemann surfaces'
-date: 2020-07-22
-permalink: /test/
+date: 2020-07-15
+permalink: /posts/2020/07/classification/
 tags:
   - Complex Analysis
   - Riemann Surfaces
@@ -80,7 +80,7 @@ More complicated hyperbolic Riemann surfaces arise when $\Gamma$ has at least tw
   <img src="/images/puncturedtorus01.png" width="500" height="250" />
 </p>
 
-The function $\tau_2$ fixes $0$ and $\infty$, preserves the positive imaginary axis in yellow, and maps the green semicircle to the cyan semicircle, and the latter to the blue semicircle. The function $\tau_2$ fixes $0$ and $\infty$, preserves the positive imaginary axis in yellow, and maps the green semicircle to the cyan semicircle, and the latter to the blue semicircle. Meanwhile, the function $\phi$ fixes $\pm 1$, preserves the cyan semicircle, and maps the purple semicircle to the positive imaginary axis in yellow, and then to the red semicircle. As the blue and cyan semicircles are glued together, and so are they yellow ray and the red ray respectively, the gray region becomes a fundamental domain of $\Gamma$. The non-existent vertex at the point $2$ gives us the puncture in the torus obtained after gluing. Since a punctured torus deformation retracts onto a bouquet of two circles, its fundamental group must be a free group of two generators.
+The function $\tau_2$ fixes $0$ and $\infty$, preserves the positive imaginary axis in yellow, and maps the green semicircle to the cyan semicircle, and the latter to the blue semicircle. Meanwhile, the function $\phi$ fixes $\pm 1$, preserves the cyan semicircle, and maps the purple semicircle to the positive imaginary axis in yellow, and then to the red semicircle. As the blue and cyan semicircles are glued together, and so are they yellow ray and the red semicircle respectively, the gray region becomes a fundamental domain of $\Gamma$. The non-existent vertex at the point $2$ gives us the puncture in the torus obtained after gluing. Since a punctured torus deformation retracts onto a bouquet of two circles, its fundamental group must be a free group of two generators.
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.   
