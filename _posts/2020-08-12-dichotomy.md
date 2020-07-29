@@ -1,7 +1,7 @@
 ---
 title: 'Dichotomy of quadratic Julia sets'
-date: 2020-07-29
-permalink: /posts/2020/07/dichotomy/
+date: 2020-08-12
+permalink: /posts/2020/08/dichotomy/
 tags:
   - Holomorphic dynamics
   - Dynamical systems
