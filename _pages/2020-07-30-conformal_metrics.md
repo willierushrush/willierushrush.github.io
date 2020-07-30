@@ -30,12 +30,12 @@ Every immersion $f: M \to (N,h)$ from a smooth manifold $M$ to a Riemannian mani
 
 ## Conformal metrics
 
-When $M$ is a Riemann surface, we say that a Riemannian metric $g$ on $M$ is **conformal** if on each local chart, $g$ can be written as $\rho(z)^2 \lvert dz \rvert$ (alternatively, $\rho(z)^2 (dx^2 + dy^2)$ or $\rho(z)^2 dz d\bar{z}$) for some smooth positive function $\rho(z)$. The corresponding matrix $g_{ij}$ will be precisely $\rho(z)^2 I_2$ where $I_2$ is the $2 \times 2$ identity matrix. It is common to use the notation $\rho(z) |dz|$ to refer to $g$. We are still able to argue by partition of unity that every Riemann surface admits a conformal metric.
+When $M$ is a Riemann surface, we say that a Riemannian metric $g$ on $M$ is **conformal** if on each local chart, $g$ can be written as $\rho(z)^2 \lvert dz \rvert$ (alternatively, $\rho(z)^2 (dx^2 + dy^2)$ or $\rho(z)^2 dz d\bar{z}$) for some smooth positive function $\rho(z)$. The corresponding matrix $g_{ij}$ will be precisely $\rho(z)^2 I_2$ where $I_2$ is the $2 \times 2$ identity matrix. It is common to use the notation $\rho(z) \lvert dz \rvert$ to refer to $g$. We are still able to argue by partition of unity that every Riemann surface admits a conformal metric.
 
-The conformal metric $\rho(z) |z|$ gives rise to a geometry on $M$. As the name suggests, on each local chart, angles with respect to $\rho(z) |dz|$ are the same as angles with respect to the flat metric $|dz|$ because they only differ by a positive factor of $\lambda^2$. The $\rho$-length of a curve $\gamma : [a,b] \to M$ is
+The conformal metric $\rho(z) \lvert dz \rvert$ gives rise to a geometry on $M$. As the name suggests, on each local chart, angles with respect to $\rho(z) \lvert dz \rvert$ are the same as angles with respect to the flat metric $\lvert dz \rvert$ because they only differ by a positive factor of $\lambda^2$. The $\rho$-length of a curve $\gamma : [a,b] \to M$ is
 
 $$
-L_\rho(\gamma) = \int_\gamma \rho(z) |dz|.
+L_\rho(\gamma) = \int_\gamma \rho(z) \lvert dz \rvert.
 $$
 
 The $\rho$-distance between two points are defined similarly as before. The $\rho$-area of a measurable subset $E$ of $M$ is
@@ -52,9 +52,9 @@ $$
 
 where $\Delta = 4\frac{\partial}{\partial z} \frac{\partial}{\partial \bar{z}}$ is the usual Laplacian operator. (I am trying to avoid introducing the Levi-Civita connection or Riemannian curvature tensor, but if you do know these objects, you may wish to confirm that $K$ coincides with the Gaussian curvature.)
 
-Let's look at some examples of conformal metrics on commonly found Riemann surfaces.
+Let's look at some examples of conformal metrics on commonly found Riemann surfaces. We shall do this based on the classification (see my previous [post](/posts/2020/06/classificaiton/))
 
-## Spherical metrics
+## Spherical metric
 
 Stereographic projection $P : S^2 \to \mathbb{P}^1$ from the unit sphere $S^2 \subset \mathbb{R}^3$ to the Riemann sphere $\mathbb{P}^1 = \mathbb{C} \cup \{\infty\}$ given by
 
@@ -65,7 +65,17 @@ P(\theta,\phi) = \begin{cases}
 \end{cases}
 $$
 
-is a diffeomorphism. The unit sphere $S^2$ has a natural round metric
+is a diffeomorphism. The natural round metric $d\theta^2 + \sin^2\theta d\phi^2$ on the unit sphere $S^2$ can be pushed forward by $P$ to obtain the metric
+
+$$
+\frac{4 dz d\bar{z}}{1+ \lvert z \rvert^2}
+$$
+
+on $\mathbb{P}^1$ in local coordinates away from $\infty$. This is in fact a conformal metric $\rho(z) \lvert dz\rvert$ where $\rho(z) = \frac{2}{1+\lvert z \rvert^2}$. Unsurprisingly, this is often called the **round / spherical / Fubini-Study metric** on $\mathbb{P}^1$. Similar to $S^2$ equipped with the round metric, $(\mathbb{P}^1,\rho)$ has total area $4 \pi$ and constant curvature $K \equiv 1$.
+
+## Euclidean metric
+
+The only
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.   
