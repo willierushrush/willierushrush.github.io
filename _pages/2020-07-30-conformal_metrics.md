@@ -10,7 +10,7 @@ As smooth two dimensional smooth real manifolds, Riemann surfaces admit Riemanni
 
 ## Riemannian metrics
 
-Recall that a **Riemannian metric** $g$ on a smooth real $n$-manifold $M$ is a (0,2)-tensor field; at each point $p \in M$, we have a symmetric bilinear and positive definite map $g_p : T_p M \times T_p M \to \mathbb{R}$. On any smooth local charts, $g$ can be expressed as $g = \sum_{1\leq i,j\leq n} g_{ij} dx_i \tensor dx_j$ for some symmetric and positive definite $n \times n$ matrix of smooth functions $g_{ij}$. For example, $\mathbb{R}^n$ admits the flat metric $g = \sum_{i=1}^n dx_i \tensor dx_i$ where the matrix $g_{ij}$ is globally the identity matrix.
+Recall that a **Riemannian metric** $g$ on a smooth real $n$-manifold $M$ is a smooth (0,2)-tensor field; at each point $p \in M$, we have a symmetric bilinear and positive definite map $g_p : T_p M \times T_p M \to \mathbb{R}$. On any smooth local charts, $g$ can be expressed as $g = \sum_{1\leq i,j\leq n} g_{ij} dx_i \tensor dx_j$ for some symmetric and positive definite $n \times n$ matrix of smooth functions $g_{ij}$. For example, $\mathbb{R}^n$ admits the flat metric $g = \sum_{i=1}^n dx_i \tensor dx_i$ where the matrix $g_{ij}$ is globally the identity matrix.
 
 The pair $(M, g)$ is often called a **Riemannian manifold**. A simple fact in this matter is that every smooth real manifold $M$ admits a Riemannian manifold structure. Indeed, by partition of unity, we can glue together a collection of flat metrics on each local chart to form a global Riemannian metric on $M$.
 
@@ -49,10 +49,10 @@ $$
 The curvature $K$ of $(M,\rho)$ at a point $p \in M$ is defined locally to be
 
 $$
-K(p) := \frac{\Delta \log \rho(p)}{\rho(p)^2},
+K(p) := - \frac{\Delta \log \rho(p)}{\rho(p)^2},
 $$
 
-where $\Delta = 4\frac{\partial}{\partial z} \frac{\partial}{\partial \bar{z}}$ is the usual Laplacian operator. (I am trying to avoid introducing the Levi-Civita connection or Riemannian curvature tensor, but if you do know these objects, you may wish to confirm that $K$ coincides with the Gaussian curvature.)
+where $\Delta = 4\frac{\partial}{\partial z} \frac{\partial}{\partial \bar{z}}$ is the usual Laplacian operator. (I am trying to avoid introducing the Levi-Civita connection or Riemannian curvature tensor, but if you do know these objects, you may wish to confirm that $K$ coincides with the Gaussian curvature.) Every conformal map $f: M \to N, z \mapsto w=f(z)$ between a Riemann surface $M$ and a Riemann surface $N$ endowed with a conformal metric $\rho(w) \lvert dw \rvert$ induces the pullback metric $f^\* \rho \lvert dw \rvert$ which can be nicely expressed as $\rho(f(z)) \lvert f'(z) \rvert \lvert dz \rvert$.
 
 Let's look at some examples of conformal metrics on commonly found Riemann surfaces. We shall do this based on the classification. (See my previous [post](/posts/2020/06/classificaiton/).)
 
@@ -64,23 +64,23 @@ $$
 \frac{4 dz d\bar{z}}{1+ \lvert z \rvert^2}
 $$
 
-on $\mathbb{P}^1$ in local coordinates away from $\infty$. This is in fact a conformal metric $\rho(z) \lvert dz\rvert$ where $\rho(z) = \frac{2}{1+\lvert z \rvert^2}$. Unsurprisingly, this is often called the round / spherical / Fubini-Study metric on $\mathbb{P}^1$. Similar to $S^2$ equipped with the round metric, $(\mathbb{P}^1,\rho)$ has total area $4 \pi$ and constant curvature $K \equiv 1$. Geodesics of $\mathbb{P}^1.
+on $\mathbb{P}^1$ in local coordinates away from $\infty$. This is in fact a conformal metric $\rho(z) \lvert dz\rvert$ where $\rho(z) = \frac{2}{1+\lvert z \rvert^2}$. Unsurprisingly, this is often called the round / spherical / Fubini-Study metric on $\mathbb{P}^1$. Similar to $S^2$ equipped with the round metric, $(\mathbb{P}^1,\rho)$ has total area $4 \pi$ and constant curvature $K \equiv 1$. Geodesics of $\mathbb{P}^1$.
 
 ## Flat metric
 
-The complex plane $\mathbb{C}$ is trivially equipped with the flat metric $\lvert dz \rvert$ with uniform density $\rho(z) \equiv 1$ and constant curvature zero. The only isometries of $\C$ are translations $z+a$ and all geodesics of $\mathbb{C}$ are straight lines. This $\mathbb{C}$ case is not very exciting, so we'll go straight to other parabolic Riemann surfaces.
+The complex plane $\mathbb{C}$ is trivially equipped with the flat metric $\lvert dz \rvert$ with uniform density $\rho(z) \equiv 1$ and constant curvature zero. The only isometries of $\mathbb{C}$ are translations $z+a$ and all geodesics of $\mathbb{C}$ are straight lines. This $\mathbb{C}$ case is not very exciting, so we'll go straight to other parabolic Riemann surfaces.
 
 Let $X$ be the punctured plane $\mathbb{C}^\*$ or a complex torus and let $p : \mathbb{C} \to X$ be its universal cover. We can push forward the flat metric $g = \lvert dz \rvert$ to a metric $p_\*g$ defined by
 
 $$
-p_\*g(z) = \frac{\rho(w)}{\lvert p'(w)\rvert}
+p_*g(z) = \frac{\rho(w)}{\lvert p'(w)\rvert}
 $$
 
 where $p(w) = z$. This pushforward metric is well-defined, i.e. independent of the choice of the preimage $z$ of $w$ because deck transformations of $p$ consist of translations, which are isometries. It is clear that $(X, p_\* 1)$ must have zero curvature too.
 
 When $X = \mathbb{C}^\*$, the pushforward flat metric is $\lvert\frac{dz}{z}\rvert$. All closed geodesics are concentric circles centered at $0$ are closed geodesics of length $2\pi$ and all open geodesics are infinite spirals or straight rays from $0$ to $\infty$. $X$ has infinite area.
 
-When $X$ = \mathbb{c} / \Lambda$ for some lattice $\Lambda = w_1\mathbb{Z} + w_2 \mathbb{Z}$, then the pushforward flat metric is often still denoted by $\lvert dz \rvert$. $X$ has finite area $\lvert \text{Im} (w_1 \bar{w_2}) \rvert $. Any straight line in $\mathbb{C}$ induces a closed geodesic on $X$ if and only if it is parallel to a vector $a w_1 + b w_2$ for some integers $a$ and $b$. Moreover, every open geodesic in $X$ extends to a dense subset of $X$.
+When $X = \mathbb{c} / \Lambda$ for some lattice $\Lambda = w_1\mathbb{Z} + w_2 \mathbb{Z}$, then the pushforward flat metric is often still denoted by $\lvert dz \rvert$. $X$ has finite area $\lvert \text{Im} (w_1 \bar{w_2}) \rvert $. Any straight line in $\mathbb{C}$ induces a closed geodesic on $X$ if and only if it is parallel to a vector $a w_1 + b w_2$ for some integers $a$ and $b$. Moreover, every open geodesic in $X$ extends to a dense subset of $X$.
 
 ## Hyperbolic metric
 
@@ -90,7 +90,7 @@ $$
 \rho_{\mathbb{D}}(z) = \frac{2}{1-\lvert z \rvert^2}.
 $$
 
-$\rho_{\mathbb{D}}(z) |dz|$ is the unique (up to multiplication by a positive constant) conformal metric on $\mathbb{D}$ such that all biholomorphisms of $\mathbb{D}$ are isometries of $(\mathbb{D}, \rho_{\mathbb{D}})$. We can pull this metric back by the conformal map $\mathbb{H} \to \mathbb{D}, z \mapsto \frac{i-z}{i+z}$ to obtain the **Poincaré metric** $\rho_{\mathbb{H}}(z) \lvert dz \rvert$ on the upper half plane $\mathbb{H}$ where
+$\rho_{\mathbb{D}}(z) \lvert dz \rvert$ is the unique (up to multiplication by a positive constant) conformal metric on $\mathbb{D}$ such that all biholomorphisms of $\mathbb{D}$ are isometries of $(\mathbb{D}, \rho_{\mathbb{D}})$. We can pull this metric back by the conformal map $\mathbb{H} \to \mathbb{D}, z \mapsto \frac{i-z}{i+z}$ to obtain the **Poincaré metric** $\rho_{\mathbb{H}}(z) \lvert dz \rvert$ on the upper half plane $\mathbb{H}$ where
 
 $$
 \rho_{\mathbb{H}}(z) = \frac{1}{\text{Im}z}.
