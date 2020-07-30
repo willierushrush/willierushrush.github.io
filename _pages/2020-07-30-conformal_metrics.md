@@ -7,7 +7,7 @@ tags:
   - Riemannian Geometry
 ---
 
-As smooth two dimensional smooth real manifolds, Riemann surfaces admit Riemannian metrics. In the study of Riemann surfaces, it is more interesting to look at those Riemannian metrics which behave nicely under conformal maps between Riemann surfaces. This gives rise to conformal metrics.
+As smooth two dimensional smooth real manifolds, Riemann surfaces admit Riemannian metrics. In the study of Riemann surfaces, it is more interesting to look at those Riemannian metrics which behave nicely under conformal maps between Riemann surfaces. This gives rise to the study of conformal metrics. I aim to introduce what conformal metrics are and provide some examples of commonly used conformal metrics in different Riemann surfaces.
 
 ## Riemannian metrics
 
@@ -105,7 +105,12 @@ Let $X$ be an arbitrary hyperbolic Riemann surface with universal cover $p: \mat
 * When $X = \mathbb{D}^\*$, the universal cover can be chosen to be $e^{2\pi i z}$. The hyperbolic metric on $\mathbb{D}^\*$ is $\rho_{\mathbb{D}^\*}(z) = - \lvert z \rvert^{-1} \ln \lvert z \rvert^{-1}$. Think of $\mathbb{D}^\*$ as a smooth infinite funnel with the following geometry. The radial segment $(0,r]$ for any $0<r<1$ is a geodesic arc of infinite length. The concentric circle of radius $r>0$ (This is not a geodesic. In fact, there are no closed geodesics!) have length $-\frac{2\pi}{\ln r}$, which varies from $0$ to $\infty$ as $r$ increases from $0$ to $1$. Coincidentally, the punctured disk $\{0<\lvert z \rvert< r\}$ have area $-\frac{2\pi}{\ln r}$ as well. In particular, it has finite area near the puncture even though the puncture is infinitely far away.
 * When $X = \mathbb{A}_{r,R}$ is a concentric annulus of inner radius $r$ and outer radius $R$, the universal cover can be chosen to be $R z^{\frac{i}{\pi} \ln \frac{R}{r}}$. The explicit hyperbolic metric on $\mathbb{A}_{r,R}$ is rather complicated. The annulus admits a unique closed geodesic $\\{ \lvert z \rvert = \sqrt{rR} \\}$ and it has length $\frac{2\pi^2}{\ln\frac{R}{r}}$.
 
-## Schwarz-Pick
+> **_Schwarz-Pick Theorem:_** Let $f: M \to N$ be a holomorphic map between two hyperbolic Riemann surfaces. Exactly one of the following holds.
+> * $f$ is a biholomorphism and is an isometry from $M$ to $N$,
+> * $f$ is a non-injective covering map and is a local isometry,
+> * $f$ is not a covering map and is a uniform contraction on compact subsets.
+
+The first two cases follow from the fact that hyperbolic metrics on hyperbolic Riemann surfaces are defined by pushforwards of the Poincaré metric of $\mathbb{H}$. Let's lift $f$ to $F: \mathbb{D} \to \mathbb{D}$ on the universal covering space $\mathbb{D}$. Surely, there are elements $\phi, \psi \in \text{Aut}(\mathbb{D})$ such that $\phi \circ F \psi$ fixes the origin. By Schwarz Lemma, if $f$ is not a covering map, then $|\phi \circ F \psi(z)| < |z|$ for every non-zero $z \in \mathbb{D}$, implying that $\phi \circ F \psi$ is a uniform contraction on compact subsets of $\mathbb{D}$. This property will then be passed on to $f$ as well.
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Conformal Invariants: Topics in Geometric Function Theory. AMS Chelsea Publishing, 1973.  
