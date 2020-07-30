@@ -10,7 +10,7 @@ As smooth two dimensional smooth real manifolds, Riemann surfaces admit Riemanni
 
 ## Riemannian metrics
 
-Recall that a **Riemannian metric** $g$ on a smooth real $n$-manifold $M$ is a smooth (0,2)-tensor field; at each point $p \in M$, we have a symmetric bilinear and positive definite map $g_p : T_p M \times T_p M \to \mathbb{R}$. On any smooth local charts, $g$ can be expressed as $g = \sum_{1\leq i,j\leq n} g_{ij} dx_i \tensor dx_j$ for some symmetric and positive definite $n \times n$ matrix of smooth functions $g_{ij}$. For example, $\mathbb{R}^n$ admits the flat metric $g = \sum_{i=1}^n dx_i \tensor dx_i$ where the matrix $g_{ij}$ is globally the identity matrix.
+Recall that a **Riemannian metric** $g$ on a smooth real $n$-manifold $M$ is a smooth (0,2)-tensor field; at each point $p \in M$, we have a symmetric bilinear and positive definite map $g_p : T_p M \times T_p M \to \mathbb{R}$. On any smooth local charts, $g$ can be expressed as $g = \sum_{1\leq i,j\leq n} g_{ij} dx_i \otimes dx_j$ for some symmetric and positive definite $n \times n$ matrix of smooth functions $g_{ij}$. For example, $\mathbb{R}^n$ admits the flat metric $g = \sum_{i=1}^n dx_i \otimes dx_i$ where the matrix $g_{ij}$ is globally the identity matrix.
 
 The pair $(M, g)$ is often called a **Riemannian manifold**. A simple fact in this matter is that every smooth real manifold $M$ admits a Riemannian manifold structure. Indeed, by partition of unity, we can glue together a collection of flat metrics on each local chart to form a global Riemannian metric on $M$.
 
