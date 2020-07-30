@@ -83,7 +83,7 @@ The function $\tau_2$ fixes $0$ and $\infty$, preserves the positive imaginary a
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.   
-<a name="fn2">2</a>: L. Ahlfors. Conformal Invariants: Topics in Geometric Function Theory. AMS Chelsea Publishing, 1973.
+<a name="fn2">2</a>: L. Ahlfors. Conformal Invariants: Topics in Geometric Function Theory. AMS Chelsea Publishing, 1973.   
 <a name="fn3">3</a>: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.  
 <a name="fn4">4</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.  
 

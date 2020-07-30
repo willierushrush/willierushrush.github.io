@@ -4,6 +4,7 @@ date: 2020-07-30
 permalink: /conformal_metrics/
 tags:
   - Riemann Surfaces
+  - Riemannian Geometry
 ---
 
 As smooth two dimensional smooth real manifolds, Riemann surfaces admit Riemannian metrics. In the study of Riemann surfaces, it is more interesting to look at those Riemannian metrics which behave nicely under conformal maps between Riemann surfaces. This gives rise to conformal metrics.
@@ -72,13 +73,13 @@ on $\mathbb{P}^1$ in local coordinates away from $\infty$. This is in fact a con
 
 The complex plane $\mathbb{C}$ is trivially equipped with the flat metric $\lvert dz \rvert$ with uniform density $\rho(z) \equiv 1$ and constant curvature zero. The only isometries of $\mathbb{C}$ are translations $z+a$ and all geodesics of $\mathbb{C}$ are straight lines. This $\mathbb{C}$ case is not very exciting, so we'll go straight to other parabolic Riemann surfaces.
 
-Let $X$ be the punctured plane $\mathbb{C}^\*$ or a complex torus and let $p : \mathbb{C} \to X$ be its universal cover. We can push forward the flat metric $g = \lvert dz \rvert$ to a metric $p_\*g$ defined by
+Let $X$ be the punctured plane $\mathbb{C}^\*$ or a complex torus and let $p : \mathbb{C} \to X$ be its universal cover. We can push forward the flat metric $\lvert dw \rvert$ to a metric $\rho_X(z) \lvert dz \rvert$ defined by
 
 $$
-p_*g(z) = \frac{\rho(w)}{\lvert p'(w)\rvert}
+\rho_X(z) = \frac{\rho(w)}{\lvert p'(w)\rvert}
 $$
 
-where $p(w) = z$. This pushforward metric is well-defined, i.e. independent of the choice of the preimage $z$ of $w$ because deck transformations of $p$ consist of translations, which are isometries. It is clear that $(X, p_\* 1)$ must have zero curvature too.
+where $p(w) = z$. This pushforward metric is well-defined, i.e. independent of the choice of the preimage $z$ of $w$ because deck transformations of $p$ consist of translations, which are isometries. It is clear that $(X, \rho_X)$ must have zero curvature too.
 
 When $X = \mathbb{C}^\*$, the pushforward flat metric is $\lvert\frac{dz}{z}\rvert$. All closed geodesics are concentric circles centered at $0$ are closed geodesics of length $2\pi$ and all open geodesics are infinite spirals or straight rays from $0$ to $\infty$. $X$ has infinite area.
 
@@ -98,12 +99,18 @@ $$
 \rho_{\mathbb{H}}(z) = \frac{1}{\text{Im}z}.
 $$
 
-Geodesics in $\mathbb{D}$ are circular arcs or straight lines orthogonal to the unit circle, whereas geodesics in $\mathbb{H}$ are either vertical rays or semicircles centered at a real number.
+Both $(\mathbb{D}, \rho_{\mathbb{D}})$ and $(\mathbb{H}, \rho_{\mathbb{H}})$ have constant curvature $-1$. Geodesics in $\mathbb{D}$ are circular arcs or straight lines orthogonal to the unit circle, whereas geodesics in $\mathbb{H}$ are either vertical rays or semicircles centered at a real number.
 
-Let $X$ be an arbitrary hyperbolic Riemann surface with universal cover $p: \mathbb{D} \to X$. Since deck transformations of $p$ are always isometries of $(\mathbb{D}, \rho_{\mathbb{D}})$, we can again push forward the Poincaré metric to obtain the hyperbolic metric $\rho_X = p_\* \rho_{\mathbb{D}}$ on $X$. Let's look at a number of easy examples.
-* When $X = \mathbb{D}^\*$, the universal cover can be chosen to be $e^{2\pi i z}$.
+Let $X$ be an arbitrary hyperbolic Riemann surface with universal cover $p: \mathbb{H} \to X$. Since deck transformations of $p$ are always isometries of $(\mathbb{D}, \rho_{\mathbb{D}})$, we can again push forward the Poincaré metric to obtain the hyperbolic metric $\rho_X = p_\* \rho_{\mathbb{D}}$ on $X$. Let's look at a number of easy examples.
+* When $X = \mathbb{D}^\*$, the universal cover can be chosen to be $e^{2\pi i z}$. The hyperbolic metric on $\mathbb{D}^\*$ is $\rho_{\mathbb{D}^\*}(z) = - \lvert z \rvert^{-1} \ln \lvert |z| \rvert^{-1}$. Think of $\mathbb{D}^\*$ as a smooth infinite funnel with the following geometry. The radial segment $(0,r]$ for any $0<r<1$ is a geodesic arc of infinite length. The concentric circle of radius $r>0$ (This is not a geodesic. In fact, there are no closed geodesics!) have length $-\frac{2\pi}{\ln r}$, which varies from $0$ to $\infty$ as $r$ increases from $0$ to $1$. Coincidentally, the punctured disk $\{0<\lvert z \rvert< r\}$ have area $-\frac{2\pi}{\ln r}$ as well. In particular, it has finite area near the puncture even though the puncture is infinitely far away.
+* When $X = \mathbb{A}_{r,R}$ is a concentric annulus of inner radius $r$ and outer radius $R$, the universal cover can be chosen to be $R z^{\frac{i}{\pi} \ln \frac{R}{r}}$. The explicit hyperbolic metric on $\mathbb{A}_{r,R}$ is rather complicated. The annulus admits a unique closed geodesic $\\{ \lvert z \rvert = \sqrt{rR} \\}$ and it has length $\frac{2\pi^2}{\ln\frac{R}{r}}$.
+
+## Schwarz-Pick
 
 ### References
-<a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.   
+<a name="fn1">1</a>: L. Ahlfors. Conformal Invariants: Topics in Geometric Function Theory. AMS Chelsea Publishing, 1973.  
+<a name="fn2">2</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2nd edition, 2006.  
+<a name="fn3">3</a>: J. Jost. Compact Riemann Surfaces: An Introduction to Contemporary Mathematics. Springer-Verlag, Berlin, 3rd edition, 2006.
+P. Petersen. Riemannian Geometry. Springer-Verlag, NY, 1998.  
 
 ------
