@@ -6,7 +6,7 @@ tags:
   - Riemann Surfaces
 ---
 
-The uniformisation theorem states that every simply connected Riemann surface $X$ is conformally isomorphic to either the unit disk $\mathbb{D}$, the complex plane $\mathbb{C}$ or the Riemann sphere $\mathbb{P}^1$. The classical proof relies heavily on techniques in potential theory including the Dirichlet principle and the Perron method. (Refer to Forster's book<sup>[2](#fn2)</sup>.) Rather than discussing the proof in detail, I am more interested in some of the immediate applications of the uniformisation theorem. This includes classification of Riemann surfaces in general.
+The uniformisation theorem states that every simply connected Riemann surface $X$ is conformally isomorphic to either the unit disk $\mathbb{D}$, the complex plane $\mathbb{C}$ or the Riemann sphere $\mathbb{P}^1$. The classical proof relies heavily on techniques in potential theory including the Dirichlet principle and the Perron method. (Refer to Forster's book<sup>[3](#fn3)</sup>.) Rather than discussing the proof in detail, I am more interested in some of the immediate applications of the uniformisation theorem. This includes classification of Riemann surfaces in general.
 
 Let's review a bit of covering space theory. Every connected Riemann surface $X$ admits a universal cover $p : Z \to X$, unique up to homeomorphism. The space $Z$ can be endowed with the pullback complex structure from $X$ such that $Z$ is a simply connected Riemann surface and $p$ is holomorphic. Consequently, with respect to this complex structure, the deck transformations of $p$ are automatically conformal automorphisms of $Z$ forming a subgroup $\Gamma$ of the group $\text{Aut}(Z)$ of all conformal automorphisms of $Z$. Surely, $\Gamma$ must be a discrete subgroup acting freely and properly discontinuously on $Z$.
 
@@ -61,7 +61,7 @@ $$
 \text{Aut}(\mathbb{D}) = \Big\{ \zeta \frac{a-z}{1-\bar{a}z} \: \Big\vert \: \lvert\zeta\rvert = 1, a \in \mathbb{D} \Big\}.
 $$
 
-It is often easier to work with the upper half plane model of the With the aid of conformal automorphism $\Phi : \mathbb{H} \to \mathbb{D}, z \mapsto \frac{i-z}{i+z}$, we can obtain $\text{Aut}(\mathbb{H})$ by working out $\Phi^{-1} \text{Aut}(\mathbb{D}) \Phi$. This turns out to be the group $PSL(2,\mathbb{R})$:
+It is often easier to work with the upper half plane model. With the aid of conformal automorphism $\Phi : \mathbb{H} \to \mathbb{D}, z \mapsto \frac{i-z}{i+z}$, we can obtain $\text{Aut}(\mathbb{H})$ by working out $\Phi^{-1} \text{Aut}(\mathbb{D}) \Phi$. This turns out to be the group $PSL(2,\mathbb{R})$:
 
 $$
 \text{Aut}(\mathbb{H}) = \Big\{ \frac{az+b}{cz+d} \: \Big\vert \: a,b,c,d \in \mathbb{R}, ad-bc > 0 \Big\}.
@@ -83,7 +83,8 @@ The function $\tau_2$ fixes $0$ and $\infty$, preserves the positive imaginary a
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.   
-<a name="fn2">2</a>: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.  
-<a name="fn3">3</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.  
+<a name="fn2">2</a>: L. Ahlfors. Conformal Invariants: Topics in Geometric Function Theory. AMS Chelsea Publishing, 1973.
+<a name="fn3">3</a>: O. Forster. Lectures on Riemann surfaces. Graduate Texts in Mathematics, Vol 81. Springer-Verlag, NY-Berlin, 1981.  
+<a name="fn4">4</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2006.  
 
 ------

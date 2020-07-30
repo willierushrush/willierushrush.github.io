@@ -26,7 +26,7 @@ $$
 L(\gamma) = \int_a^b \lvert \gamma'(t) \rvert_g dt,
 $$
 
-where $\gamma'(t)$ is the tangent vector on $T_{\gamma(t)}M$ tangent to the curve $\gamma$. The generalisation for piecewise smooth curves and even rectifiable curves is rather obvious. A standard use of change of variables formula should convince you that the length of a curve is independent of parametrisation. The distance $d(p,q)$ between two points $p,q$ on $M$ is taken to be the infimum of lengths of piecewise smooth curves in $M$ from $p$ to $q$. When $M$ is connected, the metric space topology induced by $d$ coincides with the original topology of $M$. A curve $\gamma : [a,b] \to M$, where $-\infty \leq a < b \leq \infty$, is a geodesic if it locally minimises distance. In other words, for sufficiently small closed interval $[c,d]$ in $[a,b]$, the length of $\gamma\rvert_{[c,d]}$ is equal to the distance $d(\gamma(c), \gamma(d))$.
+where $\gamma'(t)$ is the tangent vector on $T_{\gamma(t)}M$ tangent to the curve $\gamma$. The generalisation for piecewise smooth curves and even rectifiable curves is rather obvious. A standard use of change of variables formula should convince you that the length of a curve is independent of parametrisation. The distance $d(p,q)$ between two points $p,q$ on $M$ is taken to be the infimum of lengths of piecewise smooth curves in $M$ from $p$ to $q$. The metric space topology induced by $d$ coincides with the original topology of $M$. A curve $\gamma : [a,b] \to M$, where $-\infty \leq a < b \leq \infty$, is a geodesic if it locally minimises distance. In other words, for sufficiently small closed interval $[c,d]$ in $[a,b]$, the length of $\gamma\rvert_{[c,d]}$ is equal to the distance $d(\gamma(c), \gamma(d))$.
 
 Every immersion $f: M \to (N,h)$ from a smooth manifold $M$ to a Riemannian manifold $N$ induces the **pullback metric** $f^\*h$ on $M$ defined by $f^\*h_p(v,w) := h_p(df_p(v), df_p(w))$ at every point $p \in M$ for any $v,w \in N$. A smooth map $f: (M, g) \to (N,h)$ between two Riemannian manifolds is a **local isometry** if it is a local diffeomorphism and the metric $g$ coincides with the pullback metric $f^\*h$; $f$ is an **isometry** if additionally it is a diffeomorphism. As the name implies, a local/global isometry preserves lengths locally/globally.
 
@@ -49,10 +49,12 @@ $$
 The curvature $K$ of $(M,\rho)$ at a point $p \in M$ is defined locally to be
 
 $$
-K(p) := - \frac{\Delta \log \rho(p)}{\rho(p)^2},
+K(z) := - \frac{\Delta \log \rho(z)}{\rho(z)^2},
 $$
 
-where $\Delta = 4\frac{\partial}{\partial z} \frac{\partial}{\partial \bar{z}}$ is the usual Laplacian operator. (I am trying to avoid introducing the Levi-Civita connection or Riemannian curvature tensor, but if you do know these objects, you may wish to confirm that $K$ coincides with the Gaussian curvature.) Every conformal map $f: M \to N, z \mapsto w=f(z)$ between a Riemann surface $M$ and a Riemann surface $N$ endowed with a conformal metric $\rho(w) \lvert dw \rvert$ induces the pullback metric $f^\* \rho \lvert dw \rvert$ which can be nicely expressed as $\rho(f(z)) \lvert f'(z) \rvert \lvert dz \rvert$.
+where $\Delta = 4\frac{\partial}{\partial z} \frac{\partial}{\partial \bar{z}}$ is the usual Laplacian operator. (I am trying to avoid introducing the Levi-Civita connection or Riemannian curvature tensor, but if you do know these objects, you may wish to confirm that $K$ coincides with the Gaussian curvature.) You may check that curvature is a conformal invariant.
+
+Every conformal map $f: M \to N, z \mapsto w=f(z)$ between a Riemann surface $M$ and a Riemann surface $N$ endowed with a conformal metric $\rho(w) \lvert dw \rvert$ induces the pullback metric $f^\* \rho \lvert dw \rvert$ which can be nicely expressed as $\rho(f(z)) \lvert f'(z) \rvert \lvert dz \rvert$.
 
 Let's look at some examples of conformal metrics on commonly found Riemann surfaces. We shall do this based on the classification. (See my previous [post](/posts/2020/06/classificaiton/).)
 
@@ -95,6 +97,11 @@ $\rho_{\mathbb{D}}(z) \lvert dz \rvert$ is the unique (up to multiplication by a
 $$
 \rho_{\mathbb{H}}(z) = \frac{1}{\text{Im}z}.
 $$
+
+Geodesics in $\mathbb{D}$ are circular arcs or straight lines orthogonal to the unit circle, whereas geodesics in $\mathbb{H}$ are either vertical rays or semicircles centered at a real number.
+
+Let $X$ be an arbitrary hyperbolic Riemann surface with universal cover $p: \mathbb{D} \to X$. Since deck transformations of $p$ are always isometries of $(\mathbb{D}, \rho_{\mathbb{D}})$, we can again push forward the Poincaré metric to obtain the hyperbolic metric $\rho_X = p_\* \rho_{\mathbb{D}}$ on $X$. Let's look at a number of easy examples.
+* When $X = \mathbb{D}^\*$, the universal cover can be chosen to be $e^{2\pi i z}$.
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Complex Analysis. McGraw-Hill, 1979.   
