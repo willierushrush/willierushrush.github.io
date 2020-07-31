@@ -77,7 +77,7 @@ Let $X$ be the punctured plane $\mathbb{C}^\*$ or a complex torus and let $p : \
 
 When $X = \mathbb{C}^\*$, the pushforward flat metric is $\lvert\frac{dz}{z}\rvert$. All closed geodesics are concentric circles centered at $0$ are closed geodesics of length $2\pi$ and all open geodesics are infinite spirals or straight rays from $0$ to $\infty$. $X$ has infinite area.
 
-When $X = \mathbb{c} / \Lambda$ for some lattice $\Lambda = w_1\mathbb{Z} + w_2 \mathbb{Z}$, then the pushforward flat metric is often still denoted by $\lvert dz \rvert$. $X$ has finite area $\lvert \text{Im} (w_1 \bar{w_2}) \rvert $. Any straight line in $\mathbb{C}$ induces a closed geodesic on $X$ if and only if it is parallel to a vector $a w_1 + b w_2$ for some integers $a$ and $b$. Moreover, every open geodesic in $X$ extends to a dense subset of $X$.
+When $X = \mathbb{C} / \Lambda$ for some lattice $\Lambda = w_1\mathbb{Z} + w_2 \mathbb{Z}$, then the pushforward flat metric is often still denoted by $\lvert dz \rvert$. $X$ has finite area $\lvert \text{Im} (w_1 \bar{w_2}) \rvert $. Any straight line in $\mathbb{C}$ induces a closed geodesic on $X$ if and only if it is parallel to a vector $a w_1 + b w_2$ for some integers $a$ and $b$. Moreover, every open geodesic in $X$ extends to a dense subset of $X$.
 
 ## Hyperbolic metric
 
