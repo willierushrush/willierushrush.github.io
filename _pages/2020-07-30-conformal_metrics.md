@@ -106,17 +106,19 @@ Let $X$ be an arbitrary hyperbolic Riemann surface with universal cover $p: \mat
 * When $X = \\{ r < \lvert z \rvert < R \\}$ is a concentric annulus of inner radius $r$ and outer radius $R$, the universal cover can be chosen to be $R z^{\frac{i}{\pi} \ln \frac{R}{r}}$. The explicit hyperbolic metric on $X$ is rather complicated. The annulus admits a unique closed geodesic $\\{ \lvert z \rvert = \sqrt{rR} \\}$ and it has length $\frac{2\pi^2}{\ln\frac{R}{r}}$.
 * When $X$ is a compact surface of genus $g \geq 2$, we can deduce from Gauss-Bonnet, which says that $\int_X K dA = 2\pi \chi(X)$ where $\chi(X) = 2-2g$ is the Euler characteristic of $X$, that the hyperbolic area of $X$ is $4\pi(g-1)$.
 
+Holomorphic maps between hyperbolic Riemann surfaces, endowed with their hyperbolic metrics, turn out to never expand metrics.
+
 > **_Schwarz-Pick Theorem:_** Let $f: M \to N$ be a holomorphic map between two hyperbolic Riemann surfaces. Exactly one of the following holds.
 > * $f$ is a biholomorphism and is an isometry from $M$ to $N$,
 > * $f$ is a non-injective covering map and is a local isometry,
 > * $f$ is not a covering map and is a uniform contraction on compact subsets.
 
-The first two cases follow from the fact that hyperbolic metrics on hyperbolic Riemann surfaces are defined by pushforwards of the Poincaré metric of $\mathbb{H}$. Let's lift $f$ to $F: \mathbb{D} \to \mathbb{D}$ on the universal covering space $\mathbb{D}$. Surely, there are elements $\phi, \psi \in \text{Aut}(\mathbb{D})$ such that $\phi \circ F \psi$ fixes the origin. By Schwarz Lemma, if $f$ is not a covering map, then $\lvert\phi \circ F \psi(z)\rvert < \lvert z \rvert$ for every non-zero $z \in \mathbb{D}$, implying that $\phi \circ F \psi$ is a uniform contraction on compact subsets of $\mathbb{D}$. This property will then be passed on to $f$ as well.
+The first two cases follow from the fact that hyperbolic metrics on hyperbolic Riemann surfaces are defined by pushforwards of the Poincaré metric of $\mathbb{H}$. Let's lift $f$ to $F: \mathbb{D} \to \mathbb{D}$ on the universal covering space $\mathbb{D}$. Surely, there are elements $\phi, \psi \in \text{Aut}(\mathbb{D})$ such that $\phi \circ F \circ \psi$ fixes the origin. By Schwarz Lemma, if $f$ is not a covering map, then $\lvert(\phi \circ F \circ \psi)'(0)\rvert < 1$ and $\lvert\phi \circ F \circ \psi(z)\rvert < \lvert z \rvert$ for every non-zero $z \in \mathbb{D}$. This implies that $\phi \circ F \psi$ is a uniform contraction on compact subsets of $(\mathbb{D},\rho_{\mathbb{D}})$. This property will then be passed on to $f$ as well.
 
 ### References
 <a name="fn1">1</a>: L. Ahlfors. Conformal Invariants: Topics in Geometric Function Theory. AMS Chelsea Publishing, 1973.  
 <a name="fn2">2</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2nd edition, 2006.  
 <a name="fn3">3</a>: J. Jost. Compact Riemann Surfaces: An Introduction to Contemporary Mathematics. Springer-Verlag, Berlin, 3rd edition, 2006.
-P. Petersen. Riemannian Geometry. Springer-Verlag, NY, 1998.  
+<a name="fn3">4</a>: P. Petersen. Riemannian Geometry. Springer-Verlag, NY, 1998.  
 
 ------
