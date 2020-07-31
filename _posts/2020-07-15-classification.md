@@ -3,7 +3,7 @@ title: 'Classification of Riemann surfaces'
 date: 2020-07-15
 permalink: /posts/2020/07/classification/
 tags:
-  - Riemann Surfaces
+  - Riemann surfaces
 ---
 
 The uniformisation theorem states that every simply connected Riemann surface $X$ is conformally isomorphic to either the unit disk $\mathbb{D}$, the complex plane $\mathbb{C}$ or the Riemann sphere $\mathbb{P}^1$. The classical proof relies heavily on techniques in potential theory including the Dirichlet principle and the Perron method. (Refer to Forster's book<sup>[3](#fn3)</sup>.) Rather than discussing the proof in detail, I am more interested in some of the immediate applications of the uniformisation theorem. This includes classification of Riemann surfaces in general.

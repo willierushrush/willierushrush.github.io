@@ -22,6 +22,8 @@ blog:
         url: /topics/#holomorphic-dynamics
       - title: "Riemann Surfaces"
         url: /topics/#riemann-surfaces
+      - title: "Riemannian Geometry"
+        url: /topics/#riemannian-geometry
       - title: "Topology"
         url: /topics/#topology
 
