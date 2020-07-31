@@ -1,7 +1,7 @@
 ---
 title: 'Conformal metrics on Riemann surfaces'
 date: 2020-07-30
-permalink: /conformal_metrics/
+permalink: /posts/2020/07/conformal_metrics/
 tags:
   - Riemann Surfaces
   - Riemannian Geometry
