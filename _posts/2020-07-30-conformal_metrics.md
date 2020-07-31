@@ -47,7 +47,7 @@ $$
 A_\rho(E) = \int_E \rho(x+iy)^2 dx \wedge dy.
 $$
 
-The curvature $K$ of $(M,\rho)$ at a point $p \in M$ is defined locally to be
+The curvature $K$ of $(M,\rho)$ at a point $z \in M$ is defined locally to be
 
 $$
 K(z) := - \frac{\Delta \log \rho(z)}{\rho(z)^2},
@@ -67,7 +67,7 @@ $$
 \frac{4 dz d\bar{z}}{1+ \lvert z \rvert^2}
 $$
 
-on $\mathbb{P}^1$ in local coordinates away from $\infty$. This is in fact a conformal metric $\rho(z) \lvert dz\rvert$ where $\rho(z) = \frac{2}{1+\lvert z \rvert^2}$. Unsurprisingly, this is often called the round / spherical / Fubini-Study metric on $\mathbb{P}^1$. Similar to $S^2$ equipped with the round metric, $(\mathbb{P}^1,\rho)$ has total area $4 \pi$ and constant curvature $K \equiv 1$. Geodesics of $\mathbb{P}^1$.
+on $\mathbb{P}^1$ in local coordinates away from $\infty$. This is in fact a conformal metric $\rho(z) \lvert dz\rvert$ where $\rho(z) = \frac{2}{1+\lvert z \rvert^2}$. Unsurprisingly, this is often called the round / spherical / Fubini-Study metric on $\mathbb{P}^1$. Similar to $S^2$ equipped with the round metric, $(\mathbb{P}^1,\rho)$ has total area $4 \pi$ and constant curvature $K \equiv 1$. 
 
 ## Flat metric
 
