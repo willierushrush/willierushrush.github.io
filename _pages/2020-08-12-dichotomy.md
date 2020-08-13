@@ -51,6 +51,8 @@ where each level $n$ corresponds to the set of points $z$ such that $f^k(z) \in 
 
 Surjectivity is rather obvious because we can create a sequence $\underline{i}$ for each $z \in K(f)$ keeping track of the location of every forward iterate: $f^k(z) \in V_{i_k}$ for all $k$. Injectivity follows from the fact that if $\underline{i} \neq \underline{j}$, then the corresponding infinite nest of compact subsets will be different so they must contain disjoint level $n$ compact sets for some $n$ and consequently $z_{\underline{i}} \neq z_{\underline{j}}$. The mapping and its inverse have to be continuous the infinite nest consists of the images of cylinder sets $I_{i_0, \ldots i_n}$. Hence, the mapping is indeed a homeomorphism and $K(f)$ must also be a Cantor space.
 
+This dichotomy also applies to Julia sets of polynomials of the form $z^d + c$ of degree $d\geq 2$ (and other polynomials conformally conjugate to these). The same argument as above passes through because $0$ is still the only finite critical point of the polynomial. Below are some cute illustrations.
+
 ### References
 
 <a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.  
