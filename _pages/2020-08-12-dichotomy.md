@@ -42,7 +42,7 @@ Consider the binary infinite sequence space $\Sigma_2 = \\{ (i_0,i_1, i_2, \ldot
 Our goal now is to show that $K(f)$ is homeomorphic to $\Sigma_2$. Every element $\underline{i} = (i_k)_{k \in \mathbb{N}} \in \Sigma_2$ induces an infinite nest of compact subsets
 
 $$
-\ldots \Subset g_{i_0} g_{i_1} g_{i_2} (\overline{V_{i_3}}) \Subset g_{i_0} g_{i_1} (\overline{V_{i_2}}) \Subset g_{i_0} (V_{i_1}) \Subset \overline{V_{i_0}},
+\ldots \Subset g_{i_0} g_{i_1} g_{i_2} (\overline{V_{i_3}}) \Subset g_{i_0} g_{i_1} (\overline{V_{i_2}}) \Subset g_{i_0} (\overline{V_{i_1}}) \Subset \overline{V_{i_0}},
 $$
 
 where each level $n$ corresponds to the set of points $z$ such that $f^k(z) \in \overline{V_{i_k}}$ for all $k\leq n$. The infinite intersection of this nest must be non-empty by Cantor's intersection theorem and in fact a singleton $\\{ z_{\underline{i}} \\}$ by uniform contraction. Clearly, since $f^k(z_{\underline{i}}) \in V_{i_k}$ for all $k \geq 0$, $z_{\underline{i}}$ lies in the filled Julia set $K(f)$.
