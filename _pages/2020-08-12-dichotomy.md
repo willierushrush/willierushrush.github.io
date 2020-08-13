@@ -6,13 +6,14 @@ tags:
   - Holomorphic dynamics
   - Dynamical systems
 ---
-permalink: /posts/2020/07/dichotomy/?
 
 Consider the family of quadratics $f_c(z) = z^2 + c$ parametrised by $c \in \mathbb{C}$. Recall from [here](/posts/2020/06/fatou_and_julia/) that the filled Julia set $K(f_c)$ of $f_c$ is the complement of the basin of infinity
+
 $$
-A(\infty) = \\{ z \in \mathbb{C} \vert f_c^n(z) \to \infty \\},
+A(\infty) = \{ z \in \mathbb{C} \vert f_c^n(z) \to \infty \},
 $$
-and the Julia set $J(f_c)$ is the boundary of $K(f_c)$. I mentioned on my [post](/posts/2020/07/mandelbrot-1/) on the Mandelbrot set is known that the Julia set $f_c$ is either connected or Cantor.
+
+and the Julia set $J(f_c)$ is the boundary of $K(f_c)$. I mentioned on my [post](/posts/2020/07/mandelbrot-1/) about the Mandelbrot set that the Julia set $f_c$ is either connected or Cantor.
 
 > **_Dichotomy Theorem:_** For any arbitrary $c \in \mathbb{C}$, either $K(f_c)$ contains $0$ and is connected, or $K(f_c)$ does not contain $0$ and is homeomorphic to the Cantor set.
 
@@ -20,18 +21,33 @@ The map $f_c$ has a few crucial properties:
 * $\infty$ is a superattracting fixed point of $f_c$, i.e. it is both an attracting fixed point and a critical point,
 * $f_c$ is a holomorphic self double covering of $\mathbb{P}^1$ branched at critical points $0$ and $\infty$.
 
-Denote $U_0$ by the open neighbourhood $\\{ \lvert z \rvert \geq R \\} \cup \\{ \infty\\}$ for some large $R>1$ and let $U_n = f^{-n} (U_0)$. By topological attractivity, we can assume by taking $R>0$ to be sufficiently large that $U_0$ is compactly contained in $U_1$ and $U_0$ is be simply connected. It the follows that each $U_n$ is compactly contained in $U_{n+1}$ and that the domains $U_n$ form an exhaustion of the basin of infinity $\mathcal{A}(z_0)$.
+Denote by $U_0$ the open neighbourhood $\\{ \lvert z \rvert \geq R \\} \cup \\{ \infty\\}$ for some large $R>1$ and let $U_n = f^{-n} (U_0)$ for each natural number $n$. By topological attractivity, we can take $R>0$ to be sufficiently large so that $U_0$ is compactly contained in $U_1$ and $U_0$ is simply connected. It then follows that each $U_n$ is compactly contained in $U_{n+1}$ and that the domains $U_n$ form an exhaustion of the basin of infinity $\mathcal{A}(z_0)$.
 
-Suppose first that $0$ lies in $K(f_c)$. Since each $U_n$ does not contain $0$, each map $f: U_{n+1} \to U_n$ is a double covering branched only at $\infty$. We can use Riemann-Hurwitz formula on $f: U_{n+1} \to U_n$ to obtain the equation
+Suppose that $0$ lies in $K(f_c)$. Since each $U_n$ does not contain $0$, each map $f: U_{n+1} \to U_n$ is a double covering branched only at $\infty$. We can use Riemann-Hurwitz formula on $f: U_{n+1} \to U_n$ to obtain the equation
+
 $$
 \chi(U_{n+1}) = 2 \chi(U_n) - 1
 $$
-where $\chi$ denotes Euler characteristic. Thus, $\chi(U_0) = 1$. It follows inductively from the formula that every $U_n$ is simply connected. Therefore, $\mathcal{A}(z_0)$ must be simply connected and its complement $K(f_c)$ has to be connected.
 
-Suppose instead that $0$ lies in the basin of infinity $\mathcal{A}(\infty)$. We can take the smallest number $N$ such that the critical value $c$ lies in the closure $\overline{U_{N-1}}$. By perturbing $R$, we can assume that $c$ lies on the boundary of $U_{N-1}$, and consequently $0$ lies on the boundary of $U_{N}$. The boundary $\partial U_0$ is a Jordan curve. Since $U_n$ is connected and $f_c$ restricts to a double cover of $\partial U_{n}$ onto $\partial U_{n-1}$ for all $n\leq N-1$, we see inductively that each $\partial U_{n}$ is a Jordan curve for $n \leq N-1$. However, the boundary of $U_N$ will now be a bouquet of two circles since $f$ restricts to a double cover of $\partial U_{N}$ onto the Jordan curve $\partial U_{N-1}$ branched at the unique critical point at $0$.
+where $\chi$ denotes Euler characteristic. As $\chi(U_0) = 1$, it follows inductively that $\chi(U_n) = 1$ for all $n$ and every $U_n$ is simply connected. Therefore, $\mathcal{A}(z_0)$ must be simply connected and its complement $K(f_c)$ has to be connected.
 
-Let $V$ be the domain $\mathbb{P}^1 \backslash \overline{U_{N-1}}$ and let $V_1$, $V_2$ be the two connected components of $\mathbb{P}^1 \backslash \overline{U_{N}}$. The map $f_c$ restricts to a double covering of $V_1 \cup V_2$ onto $V$, so then the inverse branches $g_1 : V_1 \to V$ and $g_2 : V_2 \to V$ of $f_c$ are conformal isomorphisms. Since each $U_n$ is compactly contained in $U_{n+1}$, both $V_1$ and $V_2$ are compactly contained in $V$. The rest follows from Schwarz Lemma.
+Suppose instead that $0$ lies in the basin of infinity $\mathcal{A}(\infty)$. We can take the smallest number $N$ such that the critical value $c$ lies in the closure $\overline{U_{N-1}}$. By perturbing $R$, we can assume that $c$ lies on the boundary of $U_{N-1}$, and consequently $0$ lies on the boundary of $U_{N}$. The boundary $\partial U_0$ is a Jordan curve. Since $U_n$ is connected and $f_c$ restricts to a double cover of $\partial U_{n}$ onto $\partial U_{n-1}$ for all $n\leq N-1$, we see inductively that each $\partial U_{n}$ is a Jordan curve for $n \leq N-1$. However, the boundary of $U_N$ is a bouquet of two circles since $f$ restricts to a double cover of $\partial U_{N}$ onto the Jordan curve $\partial U_{N-1}$ branched at the unique critical point at $0$.
 
+Let $V$ be the domain $\mathbb{P}^1 \backslash \overline{U_{N-1}}$ and let $V_1$, $V_2$ be the two connected components of $\mathbb{P}^1 \backslash \overline{U_{N}}$. The map $f_c$ restricts to a double covering of $V_1 \cup V_2$ onto $V$, so then the inverse branches $g_1 : V \to V_1$ and $g_2 : V \to V_2$ of $f_c$ are conformal isomorphisms. Since each $U_n$ is compactly contained in $U_{n+1}$, both $V_1$ and $V_2$ are compactly contained in $V$. For $i \in \\{ 1,2 \\}$, let $\rho_V$ and $\rho{V_i}$ denote the corresponding hyperbolic metrics on $V$ and $V_i$. Recall by Schwarz-Pick theorem (refer to my previous [post](/posts/2020/07/conformal_metrics/)) that $g_i : (V, \rho_V) \to (V_i, \rho_{V_i})$ must be an isometry and the inclusion map $\iota_i : (V_i, \rho_{V_i}) \to (V, \rho_V)$ must be a uniform contraction on compact subsets. As such, $g_i : V \to V_i$ must be a uniform contraction on compact subsets with respect to $\rho_V$. Since the filled Julia set $K(f)$ is a compact subset of $V_1 \cup V_2$ consisting of all points $z \in \mathbb{C}$ such that $f^n(z) \in \overline{V_1} \cup \overline{V_2}$ for all $n \in \mathbb{Z}$, both $g_1$ and $g_2$ are contractions on $K(f)$ with a common contraction factor $<1$.
+
+Consider the binary infinite sequence space $\Sigma_2 = \\{ (i_0,i_1, i_2, \ldots ) \: | \: i_k \in \\{1,2\\} \text{ for all }k \\}$ endowed with the product topology generated by cylinder sets $I_{a_0, \ldots a_n} = \\{ \underlin{i} \: | \: i_k = a_k \text{ for } k\leq n \\}$. (In symbolic dynamics, $\Sigma_2$ is called the **shift space**.) It is known that $\Sigma_2$ is a nonempty totally disconnected perfect compact metrisable topological space, hence homeomorphic to the usual middle third Cantor set. (This is known as Brouwer's theorem. All spaces with this property is called a **Cantor space**.)
+
+Our goal now is to show that $K(f)$ is homeomorphic to $\Sigma_2$. Every element $\underline{i} = (i_k)_{k \in \mathbb{N}} \in \Sigma_2$ induces an infinite nest of compact subsets
+
+$$
+\ldots \Subset g_{i_0} g_{i_1} g_{i_2} (\overline{V_{i_3}}) \Subset g_{i_0} g_{i_1} (\overline{V_{i_2}}) \Subset g_{i_0} (V_{i_1}) \Subset \overline{V_{i_0}},
+$$
+
+where each level $n$ corresponds to the set of points $z$ such that $f^k(z) \in \overline{V_{i_k}}$ for all $k\leq n$. The infinite intersection of this nest must be non-empty by Cantor's intersection theorem and in fact a singleton $\\{ z_{\underline{i}} \\}$ by uniform contraction. Clearly, since $f^k(z_{\underline{i}}) \in V_{i_k}$ for all $k \geq 0$, $z_{\underline{i}}$ lies in the filled Julia set $K(f)$.
+
+> **_Proposition:_** The mapping $\Sigma_2 \to K(f), \underline{i} \mapsto z_{\underline{i}}$ is a homeomorphism.
+
+Surjectivity is rather obvious because we can create a sequence $\underline{i}$ for each $z \in K(f)$ keeping track of the location of every forward iterate: $f^k(z) \in V_{i_k}$ for all $k$. Injectivity follows from the fact that if $\underline{i} \neq \underline{j}$, then the corresponding infinite nest of compact subsets will be different so they must contain disjoint level $n$ compact sets for some $n$ and consequently $z_{\underline{i}} \neq z_{\underline{j}}$. The mapping and its inverse have to be continuous the infinite nest consists of the images of cylinder sets $I_{i_0, \ldots i_n}$. Hence, the mapping is indeed a homeomorphism and $K(f)$ must also be a Cantor space.
 
 ### References
 
