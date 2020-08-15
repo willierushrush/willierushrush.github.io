@@ -34,7 +34,7 @@ where $\chi$ denotes Euler characteristic. As $\chi(U_0) = 1$, it follows induct
 Suppose instead that $0$ lies in the basin of infinity $\mathcal{A}(\infty)$. We can take the smallest number $N$ such that the critical value $c$ lies in the closure $\overline{U_{N-1}}$. By perturbing $R$, we can assume that $c$ lies on the boundary of $U_{N-1}$, and consequently $0$ lies on the boundary of $U_{N}$. The boundary $\partial U_0$ is a Jordan curve. Since $U_n$ is connected and $f_c$ restricts to a double cover of $\partial U_{n}$ onto $\partial U_{n-1}$ for all $n\leq N-1$, we see inductively that each $\partial U_{n}$ is a Jordan curve for $n \leq N-1$. However, the boundary of $U_N$ is a bouquet of two circles since $f$ restricts to a double cover of $\partial U_{N}$ onto the Jordan curve $\partial U_{N-1}$ branched at the unique critical point at $0$.
 
 <p align="center">
-  <img src="/images/bouquetofcircles.png" width="18" height="342" />
+  <img src="/images/bouquetofcircles.png" width="418" height="342" />
 </p>
 
 Let $V$ be the domain $\mathbb{P}^1 \backslash \overline{U_{N-1}}$ and let $V_1$, $V_2$ be the two connected components of $\mathbb{P}^1 \backslash \overline{U_{N}}$. The map $f_c$ restricts to a double covering of $V_1 \cup V_2$ onto $V$, so then the inverse branches $g_1 : V \to V_1$ and $g_2 : V \to V_2$ of $f_c$ are conformal isomorphisms. Since each $U_n$ is compactly contained in $U_{n+1}$, both $V_1$ and $V_2$ are compactly contained in $V$.
