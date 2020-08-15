@@ -63,8 +63,8 @@ The proof again follows from uniform contraction and is essentially a generalisa
 
 ### References
 
-<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.  
-<a name="fn2">2</a>: L. E. J. Brouwer. On the structure of perfect sets of points. Proc. Koninklijke Akademie van Wetenschappen, 12: 785–794, 1910.
+<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.   
+<a name="fn2">2</a>: L. E. J. Brouwer. On the structure of perfect sets of points. Proc. Koninklijke Akademie van Wetenschappen, 12: 785–794, 1910.   
 <a name="fn3">3</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.  
 
 ------
