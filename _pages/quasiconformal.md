@@ -56,25 +56,20 @@ It is natural to ask whether quasiconformality is preserved under composition an
 
 The proof of the above very much relies on complex chain rule. In the general case, it is rather difficult to show that the composition or the inverse are ACL to begin with. To avoid the use of heavy analysis, many prefer using a more geometric definition of quasiconformal maps.
 
-## Extremal Length
+A topological quadrilateral $Q = (Q,a_1,a_2,a_3,a_4)$ is a Jordan disk in $\C$ equipped with four vertices $a_i$ for $i=1,2,3,4$ lying on the boundary $\partial Q$ and labelled cyclically in a counterclockwise manner. Every quadrilateral $Q$ admits a unique positive number $m>0$ and biholomorphism $\phi : Q \to \\{ x+iy \: \vert \: 0 < x < m, 0 < y < 1 \\}$ such that $\phi$ maps the vertices $(a_1,a_2,a_3,a_4)$ to the tuple $(0,m,m+i,i)$. The **(conformal) modulus** $\text{mod}(Q)$ of $Q$ is the side length $m$.
 
-We wish to introduce a conformal invariant on families of curves and define quasiconformal maps as those which distort this invariant up to some bounded constant. Consider the set $\mathcal{A}$ of all measurable functions $\rho: \mathbb{C} \to [0,\infty)$ such that the $\rho$-area $A(\rho) = \int_{\mathbb{C}} \rho^2 dx dy$ is a finite positive number. Consider a family of curves $\Gamma$ and define the $\rho$-length of $\Gamma$ as
+I think it is clear from the definition that the modulus of a quadrilateral is invariant under conformal maps, i.e. $\text{mod} f(Q) = \text{mod} Q$ if $f$ is conformal on a neighbourhood of $\overline{Q}$. Quasiconformal maps distort moduli up to some bounded constant; in fact, this can be taken as a geometric definition. (Refer to Ahlfors<sup>[1](#fn1)</sup>. If you do so, notice that I am trying hard to avoid using the term 'extremal length'.)
 
-$$
-L_{\Gamma} (\rho) = \inf_{\gamma \in \Gamma} L_{\gamma}(\rho),
-$$
-
-where $L_{\gamma}(\rho) = \int_\gamma \rho \vert dz \vert$ is the $\rho$-length of the curve $\gamma$. Then, the extremal length $\lambda(\Gamma)$ of $\Gamma$ is defined as
-
-$$
-\lambda(\Gamma) = \sup_{\rho \in \mathcal{A}} \frac{ L_{\Gamma}(\rho)^2 }{A(\rho)}.
+> **_Theorem:_** An orientation preserving homeomorphism $f: U \to V$ between two open subsets $U$ and $V$ of $\mathbb{C}$ is $K$-quasiconformal if and only if for every quadrilateral $Q$ in $U$,
+>
+>$$
+\frac{\text{mod}Q}{K} \leq \text{mod} f(Q) \leq K \text{mod}Q.
 $$
 
-
+As a consequence, it is clear that the inverse of a $K$-quasiconformal map is $K$-quasiconformal and the composition of a $K_1$-quasiconformal map with an $K_2$-quasiconformal map is $K_1 K_2$-quasiconformal.
 
 ### References
 
-<a name="fn1">1</a>: A. Beardon. Iteration of Rational Functions. Grad. Texts Math. 132, Springer-Verlag, NY, 1984.  
-<a name="fn2">2</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.  
+<a name="fn1">1</a>: L. Ahlfors. Lectures on Quasiconformal Mappings. Van Nostrand, 1966.  
 
 ------
