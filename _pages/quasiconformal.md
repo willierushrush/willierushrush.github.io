@@ -58,7 +58,7 @@ $$
 
 The function $f$ is a gluing of the identity map on the lower half plane and a shear map on the upper half plane. It is a homeomorphism which is differentiable everywhere except along the real axis $\mathbb{R}$, and its dilatation is again $K = \frac{\sqrt{a^2 + 4} + a}{\sqrt{a^2+4}-a}$.
 
-A topological quadrilateral $Q = (Q,a_1,a_2,a_3,a_4)$ is a Jordan disk in $\C$ equipped with four vertices $a_i$ for $i=1,2,3,4$ lying on the boundary $\partial Q$ and labelled cyclically in a counterclockwise manner. Every quadrilateral $Q$ admits a unique positive number $m>0$ and biholomorphism $\phi : Q \to \\{ x+iy \: \vert \: 0 < x < m, 0 < y < 1 \\}$ such that $\phi$ maps the vertices $(a_1,a_2,a_3,a_4)$ to the tuple $(0,m,m+i,i)$. The **(conformal) modulus** $\text{mod}(Q)$ of $Q$ is the side length $m$.
+A topological quadrilateral $Q = (Q,a_1,a_2,a_3,a_4)$ is a Jordan disk in $\mathbb{C}$ equipped with four vertices $a_i$ for $i=1,2,3,4$ lying on the boundary $\partial Q$ and labelled cyclically in a counterclockwise manner. Every quadrilateral $Q$ admits a unique positive number $m>0$ and biholomorphism $\phi : Q \to \\{ x+iy \: \vert \: 0 < x < m, 0 < y < 1 \\}$ such that $\phi$ maps the vertices $(a_1,a_2,a_3,a_4)$ to the tuple $(0,m,m+i,i)$. The **(conformal) modulus** $\text{mod}(Q)$ of $Q$ is the side length $m$.
 
 I think it is clear from the definition that the modulus of a quadrilateral is invariant under conformal maps, i.e. $\text{mod} (f(Q)) = \text{mod} (Q)$ whenever $f$ is conformal on $Q$. Quasiconformal maps distort moduli up to some bounded constant; in fact, this can be taken as a geometric definition. (Refer to Ahlfors<sup>[1](#fn1)</sup>. If you do so, notice that I am trying hard to avoid using the term 'extremal length'.)
 
