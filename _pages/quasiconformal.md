@@ -8,7 +8,7 @@ tags:
 
 Conformal mappings are often too rigid for us to use. We know that Riemann mappings, for example, are unique up to conformal automorphisms of the unit disk -- the set of which forms a topological group homeomorphic to $S^1 \times \mathbb{D}$. In complex analysis, we often need maps which are more flexible and in many cases, what we are looking for are quasiconformal maps.
 
-Throughout this post, we are only interested in orientation preserving homeomorphisms $f: U \to V$ between two open subsets $U$ and $V$ of $\mathbb{C}$.
+Throughout this post, we are only interested in orientation preserving homeomorphisms $f: U \to V$ between two non-empty open subsets $U$ and $V$ of $\mathbb{C}$.
 
 ## $C^1$ $K$-quasiconformal maps
 
@@ -48,7 +48,7 @@ Sometimes, $C^1$ is still too rigid. We can relax the regularity of $f$ and say 
 * locally, $f$ is absolutely continuous along almost every horizontal and vertical line,
 * $D_f(z) \leq K$ almost everywhere on $U$.
 
-The second criterion is very much similar to the $C^1$ case. The first criterion is often called ACL(absolutely continuous on lines) and it simply states that $x \mapsto f(x+iy)$ (resp. $y \mapsto f(x+iy)$) is differentiable almost everywhere and satisfies the fundamental theorem of calculus for almost all $y$ (resp. $x$). With more careful analysis, we can show that $f$ must be (real) differentiable almost everywhere. (Refer to Ahlfors.) Since both conditions are local, we can generalise this definition to maps on Riemann surfaces as well.
+The second criterion is very much similar to the $C^1$ case. The first criterion is often called ACL (absolutely continuous on lines) and it simply states that $x \mapsto f(x+iy)$ (resp. $y \mapsto f(x+iy)$) is differentiable almost everywhere and satisfies the fundamental theorem of calculus for almost all $y$ (resp. $x$). With more careful analysis, we can show that $f$ must be (real) differentiable almost everywhere. (Refer to Ahlfors<sup>[1](#fn1)</sup>.) Since both conditions are local, we can generalise this definition to maps on Riemann surfaces as well.
 
 There are of course plenty of examples of quasiconformal maps which are not $C^1$. One of them is the following. Pick any real number $a$ and let's define $f : \mathbb{C} \to \mathbb{C}$ by
 
