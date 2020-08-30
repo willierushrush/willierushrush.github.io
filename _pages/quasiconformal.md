@@ -53,7 +53,7 @@ The second criterion is very much similar to the $C^1$ case. The first criterion
 There are of course plenty of examples of quasiconformal maps which are not $C^1$. One of them is the following. Pick any real number $a$ and let's define $f : \mathbb{C} \to \mathbb{C}$ by
 
 $$
-f(x+iy) = \begin{cases} x+iy, & \text{if} y<0, \\ x + x+(a+i)y, & \text{if} y\geq 0 \end{cases}.
+f(x+iy) = \begin{cases} x+iy, & \text{if } y<0, \\ x + x+(a+i)y, & \text{if } y\geq 0 \end{cases}.
 $$
 
 The function $f$ is a gluing of the identity map on the lower half plane and a shear map on the upper half plane. It is a homeomorphism which is differentiable everywhere except along the real axis $\mathbb{R}$, and its dilatation is again $K = \frac{\sqrt{a^2 + 4} + a}{\sqrt{a^2+4}-a}$.
@@ -65,7 +65,7 @@ I think it is clear from the definition that the modulus of a quadrilateral is i
 > **_Theorem:_** An orientation preserving homeomorphism $f: U \to V$ between two open subsets $U$ and $V$ of $\mathbb{C}$ is $K$-quasiconformal if and only if for every quadrilateral $Q$ in $U$,
 >
 >$$
-\frac{\text{mod}Q}{K} \leq \text{mod} (f(Q)) \leq K \text{mod}(Q).
+\frac{\text{mod}(Q)}{K} \leq \text{mod} (f(Q)) \leq K \text{mod}(Q).
 $$
 
 An immediate consequence of the theorem is the following.
