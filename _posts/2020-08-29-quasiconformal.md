@@ -6,7 +6,7 @@ tags:
   - Complex Analysis
 ---
 
-Conformal mappings are often too rigid for us to use. We know that Riemann mappings, for example, are unique up to conformal automorphisms of the unit disk -- the set of which forms a topological group homeomorphic to $S^1 \times \mathbb{D}$. In complex analysis, we often need maps which are more flexible and in many cases, what we are looking for are quasiconformal maps. While conformal maps preserve angle locally, quasiconformal maps distort angles locally up to some factor depending on $K$.
+Conformal mappings are often too rigid for us to use. We know that Riemann mappings, for example, are unique up to conformal automorphisms of the unit disk -- the set of which forms a topological group homeomorphic to $S^1 \times \mathbb{D}$. In complex analysis, we often need maps which are more flexible and in many cases, what we are looking for are quasiconformal maps. While conformal maps preserve angle locally, quasiconformal maps distort angles locally up to some factor.
 
 Throughout this post, we are only interested in orientation preserving homeomorphisms $f: U \to V$ between two non-empty open subsets $U$ and $V$ of $\mathbb{C}$.
 
