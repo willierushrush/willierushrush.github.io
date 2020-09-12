@@ -1,10 +1,12 @@
 ---
-title: 'Extremal Lengths'
+title: 'Extremal Length'
 date: 2020-09-12
-permalink: /posts/2020/09/extremal-lengths
+permalink: /posts/2020/09/extremal-length
 tags:
   - Complex Analysis
 ---
+
+Extremal length measures the size of curve families in a way that is invariant under conformal mappings. The extremal length also gives a way to define quasiconformal maps, i.e. orientation preserving homoeomorphisms which distort angles locally up to some bounded constant, and equivalently, distort extremal lengths up to some bounded constant. In this post, I aim to discuss the basic concepts of extremal length.
 
 Consider a non-empty open subset $D \subset \mathbb{C}$ of the complex plane and the set $W_D$ of all measurable functions $\rho : D \to [0,\infty)$ such that $D$ always has finite positive $\rho$-area $A_\rho (D) = \int_D \rho^2 dx dy$. The **extremal length** $\lambda(\Gamma)$ of a collection of rectifiable curves $\Gamma$ in $D$ is defined to be
 
@@ -22,9 +24,9 @@ Extremal length gives us a measurement of curve families that is invariant under
 
 Indeed, due to conformality of $f$, we have a bijection of weight functions $f^\* : W_V \to W_U, \rho \mapsto f\*\rho$ where the pullback is defined by $f^\*\rho(z) = \rho(f(z)) \vert f'(z)\vert$ for all $z \in U$. By change of variables formula, $A_\rho (V) = A_{f^\*\rho} (U)$ and $L_\rho( f(\gamma)) = L_{f^\*\rho} (\gamma)$ for every $\gamma \in \Gamma$.
 
-> **_Proposition_** Suppose for $i=1,2$ that $\Gamma_i$ is a curve family in a domain $U$ such that each curve in $\Gamma_1$ is disjoint from curves in $\Gamma_2$, and vice versa. Denote by $\Gamma_1 * \Gamma_2$ as the family of concatenated curves $\gamma_1 * \gamma_2$. Then,
-> (1) $\lambda(\Gamma_1 \cup \Gamma_2)^{-1} \geq \lambda(\Gamma_1)^{-1} + \lambda(\Gamma_2)^{-1}$;
-> (2) $\lambda(\Gamma_1 * \Gamma_2) \geq \lambda(\Gamma_1) + \lambda(\Gamma_2)$.
+> **_Proposition_** Suppose for $i=1,2$ that $\Gamma_i$ is a curve family in a domain $U$ such that each curve in $\Gamma_1$ is disjoint from curves in $\Gamma_2$, and vice versa. Denote by $\Gamma_1 * \Gamma_2$ as the family of concatenated curves $\gamma_1 * \gamma_2$. Then, we have the following laws.
+> (1) Parallel law: $\lambda(\Gamma_1 \cup \Gamma_2)^{-1} \geq \lambda(\Gamma_1)^{-1} + \lambda(\Gamma_2)^{-1}$;
+> (2) Series Law: $\lambda(\Gamma_1 * \Gamma_2) \geq \lambda(\Gamma_1) + \lambda(\Gamma_2)$.
 
 Most of the proof rely on direct $\sup$ and $\inf$ arguments. I'd recommend looking at Ahlfors<sup>[1](#fn1)</sup> for more details.
 
@@ -81,7 +83,7 @@ In other words, these maps distort extremal lengths up to some bounded factor. I
 > (2) $f$ preserves extremal lengths,
 > (3) $f$ is 1-quasiconformal.
 
-The only non-obvious implication is (3) $\Rightarrow$ (1). This is automatically true if $f$ is $C^1$, but in general we have to be more careful. We will follow directly from Ahlfors' approach<sup>[1](#fn1)</sup>. Suppose $f$ is $1$-quasiconformal and pick any arbitrary regular quadrilateral $Q \subset U$ of some modulus $m>0$. Draw some arbitrary disjoint vertical line segments to partition $Q$ into $Q_1, Q_2, \ldots Q_k$ for some $k\in \mathbb{N}$. Let $m_i$ be the modulus of each $Q_i$, then clearly $m = \sum_i m_i$. Denote by $Q'$ and $Q'_i$ the images of $Q$ and $Q_i$ for $i = 1, 2,\ldots k$ under $f$. By the assumption, $Q'$ and $Q'_i$'s have moduli $m$ and $m_i$.
+The only non-obvious implication is (3) $\Rightarrow$ (1). This is automatically true if $f$ is $C^1$, but in general we have to be more careful. We will follow directly from Ahlfors' approach<sup>[1](#fn1)</sup> using parallel and series laws. Suppose $f$ is $1$-quasiconformal and pick any arbitrary regular quadrilateral $Q \subset U$ of some modulus $m>0$. Draw some arbitrary disjoint vertical line segments to partition $Q$ into $Q_1, Q_2, \ldots Q_k$ for some $k\in \mathbb{N}$. Let $m_i$ be the modulus of each $Q_i$, then clearly $m = \sum_i m_i$. Denote by $Q'$ and $Q'_i$ the images of $Q$ and $Q_i$ for $i = 1, 2,\ldots k$ under $f$. By the assumption, $Q'$ and $Q'_i$'s have moduli $m$ and $m_i$.
 
 By drawing some $l-1$ disjoint curves in $Q'$ joining the vertical sides, partition each $Q'_i$ into $Q'\_{i1}, Q'\_{i2}, \ldots Q'\_{il}$ in such a way that $m_i^{-1} = \sum_j m\_{ij}^{-1}$, where $m\_{ij}$ denotes the modulus of $Q'\_{ij}$. We first claim that the corresponding dividing horizontal curves in $Q$ must be straight line segments. There is a unique conformal map $g : Q' \to Q$ preserving the vertices. Since the moduli matches, $g$ sends each $Q'_i$ to $Q_i$ and $Q'\_{ij}$ to $Q\_{ij}$. As the subdivision is arbitrary, $g$ must be the inverse of $f$. Therefore, $f$ is conformal on $Q$. As $Q$ is an arbitrary rectangle in $U$, $f$ is conformal on $U$.
 
