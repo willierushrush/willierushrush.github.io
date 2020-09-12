@@ -49,7 +49,7 @@ $$
 By Cauchy-Schwarz,
 
 $$
-4\pi^2 L_\rho (\Gamma)^2 \leq \left( \int_0^{2\pi} \int_{r_1}^{r_2} \frac{1}{r} dr d\theta \right) \left( \int_0^{2\pi} \int_{r_1}^{r_2} \rho( r e^{i\theta}) r dr d\theta \right) = 2\pi \log \left( frac{r_2}{r_1} \right) A_\rho ( \mathbb{A}\_{r_1,r_2} ).
+4\pi^2 L_\rho (\Gamma)^2 \leq \left( \int_0^{2\pi} \int_{r_1}^{r_2} \frac{1}{r} dr d\theta \right) \left( \int_0^{2\pi} \int_{r_1}^{r_2} \rho( r e^{i\theta}) r dr d\theta \right) = 2\pi \log \left( \frac{r_2}{r_1} \right) A_\rho ( \mathbb{A}_{r_1,r_2} ).
 $$
 
 Upon rearrangement, we obtain an upper bound $\lambda(\Gamma) \leq \frac{1}{2\pi} \log\left(\frac{r_2}{r_1}\right)$. This upper bound is again achieved by the weight function $\rho(re^{i\theta}) = \frac{1}{r}$, so then the extremal length of $\Gamma$ is indeed $\frac{1}{2\pi} \log\left(\frac{r_2}{r_1}\right)$.
