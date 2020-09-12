@@ -41,7 +41,7 @@ $$
 By Cauchy-Schwarz,
 
 $$
-b^2 L_\rho (\Gamma)^2 \leq \left( \int\int_R dx dy \right) \left( \int\int_R \rho(x+iy)^2 dx dy\right) = ab A_\rho (R).
+b^2 L_\rho (\Gamma)^2 \leq \left( \iint_R dx dy \right) \left( \iint_R \rho(x+iy)^2 dx dy\right) = ab A_\rho (R).
 $$
 
 Upon rearrangement, we obtain an upper bound: $\lambda(\Gamma) \leq \frac{a}{b}$. The upper bound is indeed achieved by the Euclidean weight $\rho \equiv 1$ because in this case, $A_\rho(R)$ is the usual area $ab$ of the rectangle and $L_\rho (\Gamma)$ is the minimal length $a$ of curves in $\Gamma$. Therefore, the extremal length of $\Gamma$ is $\frac{a}{b}$. This quantity is more commonly known as the **modulus** $\text{mod}(R)$ of the rectangle $R$.
@@ -94,16 +94,16 @@ $$
 and let $\rho(z) = \vert f_i'(z)\vert$ if $z \in R_i$ for $i=1,2$, $0$ otherwise. Then,
 
 $$
-\int\int_R \rho^2 -1 dx dy = (m'+m'')-m = 0
+\iint_R \rho^2 -1 dx dy = (m'+m'')-m = 0
 $$
 
 and by Cauchy-Schwarz
 
 $$
-\int\int_R \rho - 1 dx dy \geq \frac{ \left( \int\int_R \rho^2 -1 dx dy \right)^2 }{ \int\int_R \rho + 1 dx dy } = 0.
+\iint_R \rho - 1 dx dy \geq \frac{ \left( \iint_R \rho^2 -1 dx dy \right)^2 }{ \iint_R \rho + 1 dx dy } = 0.
 $$
 
-Therefore, $\int\int_R (\rho-1)^2 dx dy = \int\int (\rho^2 - 1) - 2(\rho -1) dx dy \leq 0$, which immediately implies that $\rho$ must be $1$ almost everywhere in $R$. As such, $f_i$'s must be identity maps and $l$ must be the vertical line $\\{x=m'\\}$. All in all, the claim holds and (3) does imply (1).
+Therefore, $\iint_R (\rho-1)^2 dx dy = \iint (\rho^2 - 1) - 2(\rho -1) dx dy \leq 0$, which immediately implies that $\rho$ must be $1$ almost everywhere in $R$. As such, $f_i$'s must be identity maps and $l$ must be the vertical line $\\{x=m'\\}$. All in all, the claim holds and (3) does imply (1).
 
 Next time, I aim to post more about what makes quasiconformal maps interesting and what we can do with them.
 
