@@ -8,7 +8,7 @@ Office hours: Tue, 2:30-4:30pm
 [MLC](http://www.math.stonybrook.edu/mlc/center-hours.html): Thu, 3:30-4:30pm   
 
 **Current:**
-* MAT131: Calculus I, R04 & R31, Fall 2020
+* [MAT131](https://www.math.stonybrook.edu/MAT131): Calculus I, R04 & R31, Fall 2020
 
 **Instructor:**   
 * [MAT 342](/teaching/mat342-summer20): Applied Complex Analysis, Summer II 2020   
