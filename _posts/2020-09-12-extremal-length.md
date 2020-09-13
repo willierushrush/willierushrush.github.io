@@ -91,7 +91,7 @@ By drawing some $l-1$ disjoint curves in $Q'$ joining the vertical sides, partit
   <img src="/images/weyls_lemma.png" width="560" height="240" />
 </p>
 
-What remains is to show that the claim holds. This subproblem can be simplified as follows. Let $l$ be a vertical curve dividing the rectangle $R = \\{ x+iy \: \vert \: 0\leq x \leq m, 0\leq y \leq 1 \\}$ of modulus $m$ into two open quadrilaterals $R_1$ and $R_2$ of moduli $m'$ and $m"$. We need to show that if $m' + m" = m$, then $l$ is the vertical line segment $\\{x=m'\\}$. Indeed, we can find two conformal maps
+What remains is to show that the claim holds. This subproblem can be simplified as follows. Let $l$ be a vertical curve dividing the rectangle $R = \\{ x+iy \: \vert \: 0\leq x \leq m, 0\leq y \leq 1 \\}$ of modulus $m$ into two open quadrilaterals $R_1$ and $R_2$ of moduli $m'$ and $m''$. We need to show that if $m' + m'' = m$, then $l$ is the vertical line segment $\\{x=m'\\}$. Indeed, we can find two conformal maps
 
 $$
 f_1 : R_1 \to \{ x+iy \: \vert \: 0<x< m', 0 <y<1 \}, \quad f_2 : R_2 \to \{ x+iy \: \vert \: m'< x < m, 0 <y < 1 \}.
