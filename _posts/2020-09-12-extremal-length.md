@@ -78,12 +78,12 @@ $$
 
 In other words, these maps distort extremal lengths up to some bounded factor. It may not be obvious but this definition is in fact equivalent with the other definitions I have introduced in my previous [post](/posts/2020/08/quasiconformal-maps). Quasiconformal maps naturally generalise conformal maps because of the following result.
 
-> **_Weyl's Lemma_** For an orientation preserving homeomorphism $f: U \to V$, the following are equivalent:
-> (1) $f$ is conformal,  
-> (2) $f$ preserves extremal lengths,  
+> **_Weyl's Lemma_** For an orientation preserving homeomorphism $f: U \to V$, the following are equivalent:  
+> (1) $f$ is conformal;  
+> (2) $f$ preserves extremal lengths;  
 > (3) $f$ is 1-quasiconformal.  
 
-The only non-obvious implication is (3) $\Rightarrow$ (1). This is automatically true if $f$ is $C^1$, but in general we have to be more careful. We will follow directly from Ahlfors' approach<sup>[1](#fn1)</sup> using parallel and series laws. Suppose $f$ is $1$-quasiconformal and pick any arbitrary regular quadrilateral $Q \subset U$ of some modulus $m>0$. Draw some arbitrary disjoint vertical line segments to partition $Q$ into $Q_1, Q_2, \ldots Q_k$ for some $k\in \mathbb{N}$. Let $m_i$ be the modulus of each $Q_i$, then clearly $m = \sum_i m_i$. Denote by $Q'$ and $Q'_i$ the images of $Q$ and $Q_i$ for $i = 1, 2,\ldots k$ under $f$. By the assumption, $Q'$ and $Q'_i$'s have moduli $m$ and $m_i$.
+The only non-obvious implication is (3) $\Rightarrow$ (1). This is automatically true if $f$ is $C^1$, but in general we have to be more careful. We will follow directly from Ahlfors' approach<sup>[1](#fn1)</sup> using parallel and series laws. Suppose $f$ is $1$-quasiconformal and pick any arbitrary regular rectangle $Q \subset U$ of some modulus $m>0$. Draw some arbitrary disjoint vertical line segments to partition $Q$ into $Q_1, Q_2, \ldots Q_k$ for some $k\in \mathbb{N}$. Let $m_i$ be the modulus of each $Q_i$, then clearly $m = \sum_i m_i$. Denote by $Q'$ and $Q'_i$ the images of $Q$ and $Q_i$ for $i = 1, 2,\ldots k$ under $f$. By the assumption, $Q'$ and $Q'_i$'s have moduli $m$ and $m_i$.
 
 By drawing some $l-1$ disjoint curves in $Q'$ joining the vertical sides, partition each $Q'_i$ into $Q'\_{i1}, Q'\_{i2}, \ldots Q'\_{il}$ in such a way that $m_i^{-1} = \sum_j m\_{ij}^{-1}$, where $m\_{ij}$ denotes the modulus of $Q'\_{ij}$. We first claim that the corresponding dividing horizontal curves in $Q$ must be straight line segments. There is a unique conformal map $g : Q' \to Q$ preserving the vertices. Since the moduli matches, $g$ sends each $Q'_i$ to $Q_i$ and $Q'\_{ij}$ to $Q\_{ij}$. As the subdivision is arbitrary, $g$ must be the inverse of $f$. Therefore, $f$ is conformal on $Q$. As $Q$ is an arbitrary rectangle in $U$, $f$ is conformal on $U$.
 
