@@ -22,22 +22,22 @@ Extremal length gives us a measurement of curve families that is invariant under
 
 > **_Proposition:_** Let $f: U \to V$ be a biholomorphism of two domains $U, V$ in $\mathbb{C}$. For any family of rectifiable curves $\Gamma$ on $U$, if $f(\Gamma) = \\{ f\circ \gamma \\}_{\gamma \in \Gamma }$, then $\lambda( f(\Gamma) ) = \lambda( \Gamma)$.
 
-Indeed, due to conformality of $f$, we have a bijection of weight functions $f^\* : W_V \to W_U, \rho \mapsto f\*\rho$ where the pullback is defined by $f^\*\rho(z) = \rho(f(z)) \vert f'(z)\vert$ for all $z \in U$. By change of variables formula, $A_\rho (V) = A_{f^\*\rho} (U)$ and $L_\rho( f(\gamma)) = L_{f^\*\rho} (\gamma)$ for every $\gamma \in \Gamma$.
+The intuition behind the proof is fairly simple. Due to conformality of $f$, we have a bijection of weight functions $f^\* : W_V \to W_U, \rho \mapsto f^\* \rho$ where the pullback is defined by $f^\*\rho(z) = \rho(f(z)) \vert f'(z)\vert$ for all $z \in U$. By the change of variables formula, $A_\rho (V) = A_{f^\*\rho} (U)$ and $L_\rho( f(\gamma)) = L_{f^\*\rho} (\gamma)$ for every $\gamma \in \Gamma$.
 
-> **_Proposition_** Suppose for $i=1,2$ that $\Gamma_i$ is a curve family in a domain $U$ such that each curve in $\Gamma_1$ is disjoint from curves in $\Gamma_2$, and vice versa. Denote by $\Gamma_1 * \Gamma_2$ as the family of concatenated curves $\gamma_1 * \gamma_2$. Then, we have the following laws.
-> (1) Parallel law: $\lambda(\Gamma_1 \cup \Gamma_2)^{-1} \geq \lambda(\Gamma_1)^{-1} + \lambda(\Gamma_2)^{-1}$;
+> **_Proposition_** Suppose that $\Gamma_1$ and $\Gamma_2$ are curve families in a domain $U$ such that each curve in $\Gamma_1$ is disjoint from curves in $\Gamma_2$, and vice versa. Denote by $\Gamma_1 * \Gamma_2$ as the family of concatenated curves $\gamma_1 * \gamma_2$. Then, we have the following laws.  
+> (1) Parallel law: $\lambda(\Gamma_1 \cup \Gamma_2)^{-1} \geq \lambda(\Gamma_1)^{-1} + \lambda(\Gamma_2)^{-1}$;  
 > (2) Series Law: $\lambda(\Gamma_1 * \Gamma_2) \geq \lambda(\Gamma_1) + \lambda(\Gamma_2)$.
 
-Most of the proof rely on direct $\sup$ and $\inf$ arguments. I'd recommend looking at Ahlfors<sup>[1](#fn1)</sup> for more details.
+The majority of the proof relies on direct $\sup$ and $\inf$ arguments. I'd recommend looking at Ahlfors<sup>[1](#fn1)</sup> for more details.
 
 ## Some examples
 
 To get the idea of what extremal length is and how it can be computed, let's look at some easy examples.
 
-Let's have the regular rectangle $R = \\{ x+iy \: \vert \: 0\leq x \leq a, 0 \leq y \leq b \\}$ of side lengths $a>0$ and $b > 0$ and the family $\Gamma$ of rectifiable curves in $R$ joining the left vertical side with the right vertical side. Pick any arbitrary $\rho \in W_R$. Horizontal curves $\gamma_y(x) = x+iy$, $0 \leq x\leq a$ for fixed values of $y \in [0,b]$ belong to $\Gamma$. Since $L_{\rho} (\Gamma) \leq L_\rho (\gamma_y)$,
+Let's have a look at the regular rectangle $R = \\{ x+iy \: \vert \: 0\leq x \leq a, 0 \leq y \leq b \\}$ of side lengths $a>0$ and $b > 0$ and the family $\Gamma$ of rectifiable curves in $R$ joining the left vertical side with the right vertical side. Pick any arbitrary $\rho \in W_R$. Horizontal curves $\gamma_y(x) = x+iy$, $0 \leq x\leq a$, for fixed values of $y \in [0,b]$ belong in $\Gamma$. Since $L_{\rho} (\Gamma) \leq L_\rho (\gamma_y)$,
 
 $$
-b L_\rho (\Gamma) = \int_0^b L_\rho (\Gamma) dy \leq \int_0^b L_\rho (\gamma_y) dy = \int \int_R \rho(x+iy) dx dy.
+b L_\rho (\Gamma) = \int_0^b L_\rho (\Gamma) dy \leq \int_0^b L_\rho (\gamma_y) dy = \iint_R \rho(x+iy) dx dy.
 $$
 
 By Cauchy-Schwarz,
@@ -48,7 +48,11 @@ $$
 
 Upon rearrangement, we obtain an upper bound: $\lambda(\Gamma) \leq \frac{a}{b}$. The upper bound is indeed achieved by the Euclidean weight $\rho \equiv 1$ because in this case, $A_\rho(R)$ is the usual area $ab$ of the rectangle and $L_\rho (\Gamma)$ is the minimal length $a$ of curves in $\Gamma$. Therefore, the extremal length of $\Gamma$ is $\frac{a}{b}$. This quantity is more commonly known as the **modulus** $\text{mod}(R)$ of the rectangle $R$.
 
-Let's consider another example. Consider the family $\Gamma$ of rectifiable curves in the concentric annulus $\mathbb{A}\_{r_1,r_2} = \\{ r_1 \leq \vert z\vert \leq r_2 \\}$, where $0<r_1<r_2<\infty$, which join the two boundary components of $\mathbb{A}\_{r_1,r_2}$. Pick any arbitrary $\rho \in W_{\mathbb{A}\_{r_1,r_2}}$. Radial curves $\gamma_\theta(r) = re^{i\theta}$, $r_1 \leq r \leq r_2$ for fixed angles $\gamma \in [0,2\pi)$ belong to $\Gamma$. Since $L_{\rho} (\Gamma) \leq L_\rho (\gamma_\theta)$,
+<p align="center">
+  <img src="/images/rectangle_annulus.png" width="560" height="240" />
+</p>
+
+Let's look at another example. Consider the family $\Gamma$ of rectifiable curves in the concentric annulus $\mathbb{A}\_{r_1,r_2} = \\{ r_1 \leq \vert z\vert \leq r_2 \\}$, where $0<r_1<r_2<\infty$, which join the two boundary components of $\mathbb{A}\_{r_1,r_2}$. Pick any arbitrary $\rho \in W_{\mathbb{A}\_{r_1,r_2}}$. Radial curves $\gamma_\theta(r) = re^{i\theta}$, $r_1 \leq r \leq r_2$ for fixed angles $\gamma \in [0,2\pi)$ belong in $\Gamma$. Since $L_{\rho} (\Gamma) \leq L_\rho (\gamma_\theta)$,
 
 $$
 2\pi L_\rho(\Gamma) = \int_0^{2\pi} L_\rho(\Gamma) d\theta \leq \int_0^{2\pi} L_\rho(\gamma_\theta) d\theta = \int_0^{2\pi} \int_{r_1}^{r_2} \rho(re^{i\theta}) dr d\theta.
@@ -57,20 +61,16 @@ $$
 By Cauchy-Schwarz,
 
 $$
-4\pi^2 L_\rho (\Gamma)^2 \leq \left( \int_0^{2\pi} \int_{r_1}^{r_2} \frac{1}{r} dr d\theta \right) \left( \int_0^{2\pi} \int_{r_1}^{r_2} \rho( r e^{i\theta}) r dr d\theta \right) = 2\pi \log \left( \frac{r_2}{r_1} \right) A_\rho ( \mathbb{A}_{r_1,r_2} ).
+4\pi^2 L_\rho (\Gamma)^2 \leq \left( \int_0^{2\pi} \int_{r_1}^{r_2} \frac{1}{r} dr d\theta \right) \left( \int_0^{2\pi} \int_{r_1}^{r_2} \rho( r e^{i\theta})^2 r dr d\theta \right) = 2\pi \log \left( \frac{r_2}{r_1} \right) A_\rho ( \mathbb{A}_{r_1,r_2} ).
 $$
 
-Upon rearrangement, we obtain an upper bound $\lambda(\Gamma) \leq \frac{1}{2\pi} \log\left(\frac{r_2}{r_1}\right)$. This upper bound is again achieved by the weight function $\rho(re^{i\theta}) = \frac{1}{r}$, so the extremal length of $\Gamma$ is indeed $\frac{1}{2\pi} \log\left(\frac{r_2}{r_1}\right)$. This quantity is again called the **modulus** $\text{mod}(\mathbb{A}\_{r_1,r_2})$ of the regular annulus $\mathbb{A}_{r_1,r_2}$. In the case where $r_1 = 0$ and/or $r_2 = \infty$, we set the modulus to be $\infty$. Observe that we can also obtain the modulus from the conformal map $R \to \mathbb{A}\_{r_1,r_2}, z \mapsto r_1 e^{2\pi a/b}$ where the sides $a$ and $b$ of the rectangle $R$ are picked such that $\frac{r_2}{r_1} = e^{2\pi a/b}$. This conformal map should give you a hint on the equivalence between $\text{mod}(R)$ and $\text{mod}(\mathbb{A}\_{r_1,r_2})$.
+Upon rearrangement, we obtain an upper bound $\lambda(\Gamma) \leq \frac{1}{2\pi} \log\left(\frac{r_2}{r_1}\right)$. This upper bound is again achieved by the weight function $\rho(re^{i\theta}) = \frac{1}{r}$, so the extremal length of $\Gamma$ is indeed $\frac{1}{2\pi} \log\left(\frac{r_2}{r_1}\right)$. This quantity is again called the **modulus** $\text{mod}(\mathbb{A}\_{r_1,r_2})$ of the regular annulus $\mathbb{A}_{r_1,r_2}$. In the case where $r_1 = 0$ and/or $r_2 = \infty$, we set the modulus to be $\infty$. Observe that we can also obtain the modulus from the conformal map $R \to \mathbb{A}\_{r_1,r_2}, z \mapsto r_1 e^{2\pi z/b}$ where the sides $a$ and $b$ of the rectangle $R$ are picked such that $\frac{r_2}{r_1} = e^{2\pi a/b}$. This conformal map should give you a hint on the equivalence between $\text{mod}(R)$ and $\text{mod}(\mathbb{A}\_{r_1,r_2})$.
 
-<p align="center">
-  <img src="/images/rectangle_annulus.png" width="560" height="240" />
-</p>
-
-By conformal invariance, we see that the modulus of a regular rectangle or concentric is a conformal invariant. We can define the modulus of a topological annulus $\Omega$ either as the extremal length of the family of rectifiable curves in $\Omega$ joining the two boundary components, or as the modulus of a concentric annulus $\Omega'$ biholomorphic to $\Omega$. We can also define similarly the modulus of an arbitrary topological quadrilateral $Q = (Q,a_1,a_2,a_3,a_4)$, which is a Jordan disk in $\mathbb{C}$ equipped with four vertices $a_i$ for $i=1,2,3,4$ lying on the boundary $\partial Q$ and labelled cyclically in a counterclockwise manner. We additionally require that the biholomorphism sends vertices to vertices accordingly.
+By conformal invariance, we see that the modulus of a regular rectangle is a conformal invariant. We can define the modulus of a topological annulus $\Omega$ either as the extremal length of the family of rectifiable curves in $\Omega$ joining the two boundary components, or as the modulus of a concentric annulus $\Omega'$ biholomorphic to $\Omega$. We can also define similarly the modulus of an arbitrary topological quadrilateral $Q = (Q,a_1,a_2,a_3,a_4)$, which is a Jordan disk in $\mathbb{C}$ equipped with four vertices $a_i$ for $i=1,2,3,4$ lying on the boundary $\partial Q$ and labelled cyclically in a counterclockwise manner. We additionally require that the biholomorphism sends vertices to vertices accordingly.
 
 ## Weyl's Lemma
 
-We say that an orientation preserving homeomorphism $f: U \to V$ between domains $U,V$ in $\mathbb{C}$ is **$K$-quasiconformal** if there is some $K \geq 1$ such that for any family of rectifiable curves $\Gamma$ in $U$,
+We say that an orientation preserving homeomorphism $f: U \to V$ between domains $U,V$ in $\mathbb{C}$ is **$K$-quasiconformal** if there is some $K \geq 1$ such that every family of rectifiable curves $\Gamma$ in $U$ satisfies the following inequality:
 
 $$
 \frac{\lambda(\Gamma)}{K} \leq \lambda(f(\Gamma)) \leq K \lambda(\Gamma).
