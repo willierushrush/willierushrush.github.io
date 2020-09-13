@@ -88,7 +88,7 @@ The only non-obvious implication is (3) $\Rightarrow$ (1). This is automatically
 By drawing some $l-1$ disjoint curves in $Q'$ joining the vertical sides, partition each $Q'_i$ into $Q'\_{i1}, Q'\_{i2}, \ldots Q'\_{il}$ in such a way that $m_i^{-1} = \sum_j m\_{ij}^{-1}$, where $m\_{ij}$ denotes the modulus of $Q'\_{ij}$. We first claim that the corresponding dividing horizontal curves in $Q$ must be straight line segments. There is a unique conformal map $g : Q' \to Q$ preserving the vertices. Since the moduli matches, $g$ sends each $Q'_i$ to $Q_i$ and $Q'\_{ij}$ to $Q\_{ij}$. As the subdivision is arbitrary, $g$ must be the inverse of $f$. Therefore, $f$ is conformal on $Q$. As $Q$ is an arbitrary rectangle in $U$, $f$ is conformal on $U$.
 
 <p align="center">
-  <img src="/images/weyls_lemma.png" width="560" height="240" />
+  <img src="/images/weyls_lemma.png" width="600" height="240" />
 </p>
 
 What remains is to show that the claim holds. This subproblem can be simplified as follows. Let $l$ be a vertical curve dividing the rectangle $R = \\{ x+iy \: \vert \: 0\leq x \leq m, 0\leq y \leq 1 \\}$ of modulus $m$ into two open quadrilaterals $R_1$ and $R_2$ of moduli $m'$ and $m''$. We need to show that if $m' + m'' = m$, then $l$ is the vertical line segment $\\{x=m'\\}$. Indeed, we can find two conformal maps
