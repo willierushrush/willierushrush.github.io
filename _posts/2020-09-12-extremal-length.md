@@ -79,9 +79,9 @@ $$
 In other words, these maps distort extremal lengths up to some bounded factor. It may not be obvious but this definition is in fact equivalent with the other definitions I have introduced in my previous [post](/posts/2020/08/quasiconformal-maps). Quasiconformal maps naturally generalise conformal maps because of the following result.
 
 > **_Weyl's Lemma_** For an orientation preserving homeomorphism $f: U \to V$, the following are equivalent:
-> (1) $f$ is conformal,
-> (2) $f$ preserves extremal lengths,
-> (3) $f$ is 1-quasiconformal.
+> (1) $f$ is conformal,  
+> (2) $f$ preserves extremal lengths,  
+> (3) $f$ is 1-quasiconformal.  
 
 The only non-obvious implication is (3) $\Rightarrow$ (1). This is automatically true if $f$ is $C^1$, but in general we have to be more careful. We will follow directly from Ahlfors' approach<sup>[1](#fn1)</sup> using parallel and series laws. Suppose $f$ is $1$-quasiconformal and pick any arbitrary regular quadrilateral $Q \subset U$ of some modulus $m>0$. Draw some arbitrary disjoint vertical line segments to partition $Q$ into $Q_1, Q_2, \ldots Q_k$ for some $k\in \mathbb{N}$. Let $m_i$ be the modulus of each $Q_i$, then clearly $m = \sum_i m_i$. Denote by $Q'$ and $Q'_i$ the images of $Q$ and $Q_i$ for $i = 1, 2,\ldots k$ under $f$. By the assumption, $Q'$ and $Q'_i$'s have moduli $m$ and $m_i$.
 
