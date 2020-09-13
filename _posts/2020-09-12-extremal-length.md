@@ -97,7 +97,7 @@ $$
 f_1 : R_1 \to \{ x+iy \: \vert \: 0<x< m', 0 <y<1 \}, \quad f_2 : R_2 \to \{ x+iy \: \vert \: m'< x < m, 0 <y < 1 \}.
 $$
 
-and let $\rho(z) = \vert f_i'(z)\vert$ if $z \in R_i$ for $i=1,2$, $0$ otherwise. Then,
+and let $\rho(z) = \vert f_i'(z)\vert$ if $z \in R_i$ for $i=1,2$, and $0$ if otherwise. Then,
 
 $$
 \iint_R \rho^2 -1 dx dy = (m'+m'')-m = 0
