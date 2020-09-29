@@ -1,6 +1,6 @@
 ---
 title: 'Hartogs and Forelli's Separate Analyticity'
-date: 2020-09-12
+date: 2020-09-26
 permalink: /posts/2020/09/extremal-length
 tags:
   - Several Complex Variables
@@ -69,5 +69,4 @@ When $0< \lambda<1$, we see that $Q(\lambda z) = Q(\lambda)$. However, since $Q(
 ### References
 
 <a name="fn1">1</a>: L. Bers, Introduction to several complex variables, New York Univ. Press, New York, 1964.  
-<a name="fn2">2</a>: B. V. Shabat, Introduction to Complex Analysis: Part II, Functions of Several Variables. Translated from the third (1985) Russian edition
-by J S Joel. Translations of Mathematical Monographs, 110. American Mathematical Society, Providence, RI, 1992.
+<a name="fn2">2</a>: B. V. Shabat, Introduction to Complex Analysis: Part II, Functions of Several Variables. Translated from the third (1985) Russian edition by J S Joel. Translations of Mathematical Monographs, 110. American Mathematical Society, Providence, RI, 1992.  
