@@ -1,7 +1,7 @@
 ---
 title: 'Hartogs and Forelli's Separate Analyticity'
 date: 2020-09-26
-permalink: /posts/2020/09/extremal-length
+permalink: /posts/2020/09/separate-analyticity
 tags:
   - Several Complex Variables
 ---
