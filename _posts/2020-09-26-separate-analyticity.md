@@ -25,7 +25,7 @@ is continuously differentiable on every real line (thus continuously differentia
 The first step is to show that $f$ is bounded on $\mathbb{D}_r \times \mathbb{D}$ where $\mathbb{D}_r = \\{\vert z_1\vert <r\\}$ for some small radius $0<r<1$. This is known as Osgood's lemma. We can further assume that $D_1$ is centered at $0$ and on $\mathbb{D}_r \times \mathbb{D}$, $\vert f\vert  \leq 1$. By Cauchy's estimates on each variable, for any $z=(z_1,z_2),w=(w_1,w_2) \in \mathbb{D}_r \times \mathbb{D}$,
 
 \begin{align}
-\vert f(z)-f(w)\vert  &\leq \vert f(z_1,z_2) - f(w_1,z_2)\vert  + \vert f(w_1,z_2) - f(w_1,w_2)\vert  \\
+\vert f(z)-f(w)\vert  &\leq \vert f(z_1,z_2) - f(w_1,z_2)\vert  + \vert f(w_1,z_2) - f(w_1,w_2)\vert  \\  
 &\leq \frac{\vert z_1-w_1\vert }{(r-\vert z_1\vert )(r-\vert w_1\vert )} + \frac{\vert z_2-w_2\vert }{(1-\vert z_2\vert )(1-\vert w_2\vert )}.
 \end{align}
 
