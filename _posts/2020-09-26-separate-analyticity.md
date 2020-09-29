@@ -1,5 +1,5 @@
 ---
-title: 'Hartogs and Forelli's Separate Analyticity'
+title: 'Separate Analyticity'
 date: 2020-09-26
 permalink: /posts/2020/09/separate-analyticity
 tags:
