@@ -51,7 +51,7 @@ $$
 F_k(z) = \frac{1}{2\pi i} \oint_{\vert \lambda\vert =1} \frac{f(\lambda z)}{\lambda^{k+1}} d\lambda.
 $$
 
-Since $f$ is $C^\infty$ on some complex ball $\\{ \left\Vert z\right\Vert<r \\}$ for some small r>0$, then $F_k$ is $C^\infty$ (and thus bounded) on $\\{ \left\Vert z\right\Vert<r \\}$. By uniqueness of the Maclaurin series, we have that $F_k(\lambda z) = \lambda^k F_k(z)$ whenever $\vert \lambda\vert \leq 1$. The identity implies that if $w$ is close to zero, $\vert F_k(z)\vert  \leq M\vert z\vert ^k$ for some $M>0$. Therefore, the real Maclaurin series expansion of $F_k$ can be written as
+Since $f$ is $C^\infty$ on some complex ball $\\{ \left\Vert z\right\Vert<r \\}$ for some small $r>0$, then $F_k$ is $C^\infty$ (and thus bounded) on $\\{ \left\Vert z\right\Vert<r \\}$. By uniqueness of the Maclaurin series, we have that $F_k(\lambda z) = \lambda^k F_k(z)$ whenever $\vert \lambda\vert \leq 1$. The identity implies that if $w$ is close to zero, $\vert F_k(z)\vert  \leq M\vert z\vert ^k$ for some $M>0$. Therefore, the real Maclaurin series expansion of $F_k$ can be written as
 
 $$
 F_k(z) = \sum_{p+q=k} P_{p,q}(z) + \vert z\vert ^k Q(z),
