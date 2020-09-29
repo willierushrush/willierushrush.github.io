@@ -43,7 +43,7 @@ for any $0 < \rho < r$. As $f$ is holomorphic with respect to $z_2$, then so are
 
 > **_Forelli's Theorem:_** A function $f: \mathbb{B} \to \mathbb{C}$ that is $C^\infty$ near the origin $0$ and holomorphic on $\mathbb{B} \cap \mathcal{l}$ for every complex line $l$ passing through the origin is necessarily holomorphic on $\mathbb{B}$.
 
-The proof of this theorem is somewhat easier. Pick any $z \in \mathbb{B} \backslash \\{ \underline{0} \\}$. Since $f(\lambda z)$ is holomorphic in $\lambda$ for $\vert \lambda\vert  < \norm{z}^{-1}$, we have a Maclaurin series expansion $f(\lambda z) = f(0) + \sum_{k=1}^\infty F_k(z) \lambda^k$ uniformly convergent for $\vert \lambda\vert \leq 1$. If $\lambda = 1$, then we have that $f(z) = f(0) + \sum_{k=1} F_k(z)$, and the right hand side is uniformly convergent. Once we show that each $F_k$ is holomorphic and $f(z)$ is then holomorphic on $\mathbb{B}$.
+The proof of this theorem is somewhat easier. Pick any $z \in \mathbb{B} \backslash \\{ \underline{0} \\}$. Since $f(\lambda z)$ is holomorphic in $\lambda$ for $\vert \lambda\vert  < \left\Vert z\right\Vert^{-1}$, we have a Maclaurin series expansion $f(\lambda z) = f(0) + \sum_{k=1}^\infty F_k(z) \lambda^k$ uniformly convergent for $\vert \lambda\vert \leq 1$. If $\lambda = 1$, then we have that $f(z) = f(0) + \sum_{k=1} F_k(z)$, and the right hand side is uniformly convergent. Once we show that each $F_k$ is holomorphic and $f(z)$ is then holomorphic on $\mathbb{B}$.
 
 By Cauchy's integral formula, the coefficients $F_k(z)$ can be expressed as
 
@@ -51,7 +51,7 @@ $$
 F_k(z) = \frac{1}{2\pi i} \oint_{\vert \lambda\vert =1} \frac{f(\lambda z)}{\lambda^{k+1}} d\lambda.
 $$
 
-Since $f$ is $C^\infty$ on some complex ball $\\{ \norm{z}<r \\}$ for some small r>0$, then $F_k$ is $C^\infty$ (and thus bounded) on $\\{ \norm{z}<r \\}$. By uniqueness of the Maclaurin series, we have that $F_k(\lambda z) = \lambda^k F_k(z)$ whenever $\vert \lambda\vert \leq 1$. The identity implies that if $w$ is close to zero, $\vert F_k(z)\vert  \leq M\vert z\vert ^k$ for some $M>0$. Therefore, the real Maclaurin series expansion of $F_k$ can be written as
+Since $f$ is $C^\infty$ on some complex ball $\\{ \left\Vert z\right\Vert<r \\}$ for some small r>0$, then $F_k$ is $C^\infty$ (and thus bounded) on $\\{ \left\Vert z\right\Vert<r \\}$. By uniqueness of the Maclaurin series, we have that $F_k(\lambda z) = \lambda^k F_k(z)$ whenever $\vert \lambda\vert \leq 1$. The identity implies that if $w$ is close to zero, $\vert F_k(z)\vert  \leq M\vert z\vert ^k$ for some $M>0$. Therefore, the real Maclaurin series expansion of $F_k$ can be written as
 
 $$
 F_k(z) = \sum_{p+q=k} P_{p,q}(z) + \vert z\vert ^k Q(z),
