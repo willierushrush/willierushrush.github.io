@@ -40,7 +40,7 @@ for any $0 < \rho < r$. As $f$ is holomorphic with respect to $z_2$, then so are
 
 ## Forelli
 
-> **_Forelli's Theorem:_** A function $f: \mathbb{B} \to \mathbb{C}$ that is $C^\infty$ near the origin $0$ and holomorphic on $\mathbb{B} \cap \mathcal{l}$ for every complex line $l$ passing through the origin is necessarily holomorphic on $\mathbb{B}$.
+> **_Forelli's Theorem:_** A function $f: \mathbb{B} \to \mathbb{C}$ that is $C^\infty$ near the origin $0$ and holomorphic on $\mathbb{B} \cap \mathcal{l}$ for every complex line $l$ passing through the origin is necessarily holomorphic on the unit ball $\mathbb{B}$.
 
 The proof of this theorem is somewhat easier. Pick any $z \in \mathbb{B} \backslash \\{ \underline{0} \\}$. Since $f(\lambda z)$ is holomorphic in $\lambda$ for $\vert \lambda\vert  < \left\Vert z\right\Vert^{-1}$, we have a Maclaurin series expansion $f(\lambda z) = f(0) + \sum_{k=1}^\infty F_k(z) \lambda^k$ uniformly convergent for $\vert \lambda\vert \leq 1$. If $\lambda = 1$, then we have that $f(z) = f(0) + \sum_{k=1} F_k(z)$, and the right hand side is uniformly convergent. Once we show that each $F_k$ is holomorphic and $f(z)$ is then holomorphic on $\mathbb{B}$.
 
