@@ -1,13 +1,13 @@
 ---
-title: 'Riemann Mapping Theorem Fails in Higher Dimensions'
+title: 'The Unit Ball is Not Biholomorphic to the Unit Polydisk'
 date: 2020-10-17
-permalink: /posts/2020/10/riemann-mapping-theorem-fails
+permalink: /posts/2020/10/the-unit-ball-is-not-biholomorphic
 tags:
   - Several Complex Variables
   - Complex Geometry
 ---
 
-Riemann mapping theorem states that every simply connected domain on the complex plane $\mathbb{C}$ is either $\mathbb{C}$ or biholomorphic to the unit disk $\mathbb{D}$. This theorem is like a miracle and its natural generalisation to domains in higher dimensions miserably fails. I'd like to bring up a classical counterexample by Poincaré, showing that the unit ball $\mathbb{B} \subset \mathbb{C}^n$ and the unit polydisk $\mathbb{D}^n \subset \mathbb{C}^n$ for $n \geq 2$ are not biholomorphically equivalent.
+Riemann mapping theorem states that every simply connected domain on the complex plane $\mathbb{C}$ is either $\mathbb{C}$ or biholomorphic to the unit disk $\mathbb{D}$. This theorem is like a miracle and its natural generalisation to domains in higher dimensions miserably fails. In higher dimensions, simply connected domains have a much wider variety of biholomorphic invariants, such as higher cohomology groups, automorphism groups, as well as the property of being a domain of holomorphy. Without using any complicated invariants, I'd like to bring up a classical counterexample by Poincaré, showing that the unit ball $\mathbb{B} \subset \mathbb{C}^n$ and the unit polydisk $\mathbb{D}^n = \\{( \vert z_j \vert <1 \text{ for }j=1,\ldots n \\} \subset \mathbb{C}^n$ for $n \geq 2$ are not biholomorphically equivalent.
 
 > **_Theorem:_** The unit ball $\mathbb{B} \subset \mathbb{C}^n$ is not biholomorphic to the unit polydisk $\mathbb{D}^n \subset \mathbb{C}^n$ for $n \geq 2$.
 
@@ -36,9 +36,7 @@ $$
 g_a(w) = \left( \frac{z_1 - a_1}{1-\bar{a_1}z_1}, \ldots , \frac{z_n - a_n}{1-\bar{a_n}z_n} \right)
 $$
 
-will map $a$ to $0$. Since the composition $g_a \circ f : \mathbb{B} \to \mathbb{D}^n$ is a biholomorphism fixing the origin, it must be a linear map. We immediately get a contradiction because the boundary of $\mathbb{B}$, i.e. the standard $2n-1$ unit sphere, is not linearly equivalent to the boundary of the polydisk $\mathbb{D}^n$. In fact, the boundary of the polydisk $\mathbb{D}^n$ is not even a smooth manifold!
-
-Clearly, this argument can be generalised to show that the unit polydisk is not biholomorphic to many other complete Reinhardt domains as long as the boundaries are not linearly equivalent. There is another way of seeing how the Riemann mapping theorem fails in higher dimensions. There are in fact domains $D \subset \mathbb{D}^n$ which are biholomorphic to $\mathbb{C}^n$ even though not the whole $\mathbb{C}^n$. These are called Fatou-Bieberbach domains and are typically constructed from the attracting basin of a fixed point of a special type of polynomial automorphisms (Hénon maps). I will probably discuss this in detail in another post...
+will map $a$ to $0$. Since the composition $g_a \circ f : \mathbb{B} \to \mathbb{D}^n$ is a biholomorphism fixing the origin, it must be a linear map. We immediately get a contradiction because the boundary of $\mathbb{B}$, i.e. the standard $2n-1$ unit sphere, is not linearly equivalent to the boundary of the polydisk $\mathbb{D}^n$. In fact, the boundary of the polydisk $\mathbb{D}^n$ is not even a smooth manifold! Clearly, this argument can also be generalised to show that the unit polydisk is not biholomorphic to many other complete Reinhardt domains as long as the boundaries are not linearly equivalent.
 
 ### References
 
