@@ -7,9 +7,9 @@ tags:
   - Complex Geometry
 ---
 
-Riemann mapping theorem states that every simply connected domain on the complex plane $\mathbb{C}$ is either $\mathbb{C}$ or biholomorphic to the unit disk $\mathbb{D}$. This theorem is like a miracle and its natural generalisation to domains in higher dimensions miserably fails. I'd like to bring up a classical counterexample by Poincaré, showing that the unit ball $\mathbb{B} \subset \mathbb{C}^n$ is not biholomorphic to the unit polydisk $\mathbb{D}^n$ \subset \mathbb{C}^n$ for $n \geq 2$.
+Riemann mapping theorem states that every simply connected domain on the complex plane $\mathbb{C}$ is either $\mathbb{C}$ or biholomorphic to the unit disk $\mathbb{D}$. This theorem is like a miracle and its natural generalisation to domains in higher dimensions miserably fails. I'd like to bring up a classical counterexample by Poincaré, showing that the unit ball $\mathbb{B} \subset \mathbb{C}^n$ and the unit polydisk $\mathbb{D}^n \subset \mathbb{C}^n$ for $n \geq 2$ are not biholomorphically equivalent.
 
-> **_Theorem:_** Th The unit polydisk $\mathbb{D}^n$ \subset \mathbb{C}^n$ is not biholomorphic to the unit ball $\mathbb{B} \subset \mathbb{C}^n$ for $n \geq 2$.
+> **_Theorem:_** The unit ball $\mathbb{B} \subset \mathbb{C}^n$ is not biholomorphic to the unit polydisk $\mathbb{D}^n \subset \mathbb{C}^n$ for $n \geq 2$.
 
 For any domain $M \subset \mathbb{C}^n$, or any complex manifold in general, denote by $\text{Aut}(M)$ the group of automorphisms (self biholomorphisms) of $M$. When two complex manifolds $M$ and $N$ are biholomorphic, it means that there is a biholomorphism $\phi: M \to N$, i.e. a holomorphic bijection with holomorphic inverse. Any such biholomorphism $\phi$ induces a group isomorphism
 $\text{Aut}(M) \to \text{Aut}(N), f \mapsto \phi \circ f \circ \phi^{-1}$. Poincaré showed that the automorphism groups of $\mathbb{B}$ $\mathbb{D}^n$ are not isomorphic to each other.
