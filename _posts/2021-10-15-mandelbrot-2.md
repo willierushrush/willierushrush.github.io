@@ -1,6 +1,6 @@
 ---
 title: 'Mandelbrot 2'
-date: 2020-10-15
+date: 2021-10-15
 permalink: /posts/2020/08/mandelbrot-2/
 tags:
   - Complex analysis

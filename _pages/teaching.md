@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-Office hours: Tue, 2:30-4:30pm   
+Office hours: Wed, 1:30-3:30pm   
 [MLC](http://www.math.stonybrook.edu/mlc/center-hours.html): Thu, 3:30-4:30pm   
 
 **Current:**
