@@ -1,6 +1,6 @@
 ---
 title: 'Riemann Mapping Theorem Fails in Higher Dimensions'
-date: 2020-09-26
+date: 2020-10-17
 permalink: /posts/2020/10/riemann-mapping-theorem-fails
 tags:
   - Several Complex Variables
