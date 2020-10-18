@@ -20,7 +20,7 @@ I will not directly follow Poincaré's idea, but rather adopt a more general app
 
 > **_Theorem:_** Every biholomorphism $f = (f_1,\ldots f_n): M \to N$ between two bounded complete Reinhardt domains $M$ and $N$ in $\mathbb{C}^n$ is a linear map if $f(0)=0$.
 
-Indeed, let $f: M to N$ be such a biholomorphism fixing $0$. Define $f_\theta := e^{-i\theta} f(e^{i\theta} z)$. Let $f(z) = Lz + z^{T} Q z + \ldots$ be the series development of $f$ on $M$ about the origin. Here, $L$ is the complex Jacobian matrix of $f$ at $0$. The corresponding series for $f_\theta$ is $f_\theta(z) = Lz + e^{i\theta}z^T Q z + \ldots$; observe that every term aside from the linear one contains a non-zero multiple of $e^{i\theta}$. By taking the arithmetic mean over $\theta$, we obtain:
+Indeed, let $f: M \to N$ be such a biholomorphism fixing $0$. Define $f_\theta := e^{-i\theta} f(e^{i\theta} z)$. Let $f(z) = Lz + z^{T} Q z + \ldots$ be the series development of $f$ on $M$ about the origin. Here, $L$ is the complex Jacobian matrix of $f$ at $0$. The corresponding series for $f_\theta$ is $f_\theta(z) = Lz + e^{i\theta}z^T Q z + \ldots$; observe that every term aside from the linear one contains a non-zero multiple of $e^{i\theta}$. By taking the arithmetic mean over $\theta$, we obtain:
 
 $$
 Lz = \frac{1}{2\pi} \int_0^{2\pi} f_\theta (z) d\theta.
@@ -30,7 +30,7 @@ As $N$ is complete Reinhardt, the linear map $L$ maps $M$ into $N$. We can apply
 
 ## Why Riemann mapping theorem fails
 
-We can first apply the theorem above to our favorite complete Reinhardt domains $\mathbb{B}$ and $\mathbb{D}^n$. Assume that a biholomorphism $f: \mathbb{B} \to \mathbb{D}^n$ exists. Let $a = (a_1,\ldots a_n) = f(0)$, then the map $g_a \in \text{Aut}(\mathbb{D}^n)$ given
+We can first apply the theorem above to our favorite complete Reinhardt domains $\mathbb{B}$ and $\mathbb{D}^n$. Assume that a biholomorphism $f: \mathbb{B} \to \mathbb{D}^n$ exists. Let $a = (a_1,\ldots a_n) = f(0)$, then the map $g_a \in \text{Aut}(\mathbb{D}^n)$ given by
 
 $$
 g_a(w) = \left( \frac{z_1 - a_1}{1-\bar{a_1}z_1}, \ldots , \frac{z_n - a_n}{1-\bar{a_n}z_n} \right)
