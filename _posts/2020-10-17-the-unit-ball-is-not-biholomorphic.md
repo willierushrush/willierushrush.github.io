@@ -12,7 +12,7 @@ Riemann mapping theorem states that every simply connected domain on the complex
 > **_Theorem:_** The unit ball $\mathbb{B} \subset \mathbb{C}^n$ is not biholomorphic to the unit polydisk $\mathbb{D}^n \subset \mathbb{C}^n$ for $n \geq 2$.
 
 For any domain $M \subset \mathbb{C}^n$, or any complex manifold in general, denote by $\text{Aut}(M)$ the group of automorphisms (self biholomorphisms) of $M$. When two complex manifolds $M$ and $N$ are biholomorphic, it means that there is a biholomorphism $\phi: M \to N$, i.e. a holomorphic bijection with holomorphic inverse. Any such biholomorphism $\phi$ induces a group isomorphism
-$\text{Aut}(M) \to \text{Aut}(N), f \mapsto \phi \circ f \circ \phi^{-1}$. Poincaré showed that the automorphism groups of $\mathbb{B}$ $\mathbb{D}^n$ are not isomorphic to each other. The book by Shabat<sup>[2](#fn2)</sup> explains that $\text{Aut}(\mathbb{B})$ is a Lie group of real dimension $\frac{n^2-n}{2}$ whereas $\text{Aut}(\mathbb{D}^n)$ has dimension $3n$.
+$\text{Aut}(M) \to \text{Aut}(N), f \mapsto \phi \circ f \circ \phi^{-1}$. Poincaré showed that the automorphism groups of $\mathbb{B}$ $\mathbb{D}^n$ are not isomorphic to each other. The book by Shabat<sup>[2](#fn2)</sup> explains that $\text{Aut}(\mathbb{B})$ is a Lie group of real dimension $n^2-n$ whereas $\text{Aut}(\mathbb{D}^n)$ has dimension $3n$.
 
 ## Cartan's theorem
 
