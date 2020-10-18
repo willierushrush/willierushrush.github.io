@@ -12,7 +12,7 @@ Riemann mapping theorem states that every simply connected domain on the complex
 > **_Theorem:_** The unit ball $\mathbb{B} \subset \mathbb{C}^n$ is not biholomorphic to the unit polydisk $\mathbb{D}^n \subset \mathbb{C}^n$ for $n \geq 2$.
 
 For any domain $M \subset \mathbb{C}^n$, or any complex manifold in general, denote by $\text{Aut}(M)$ the group of automorphisms (self biholomorphisms) of $M$. When two complex manifolds $M$ and $N$ are biholomorphic, it means that there is a biholomorphism $\phi: M \to N$, i.e. a holomorphic bijection with holomorphic inverse. Any such biholomorphism $\phi$ induces a group isomorphism
-$\text{Aut}(M) \to \text{Aut}(N), f \mapsto \phi \circ f \circ \phi^{-1}$. Poincaré showed that the automorphism groups of $\mathbb{B}$ $\mathbb{D}^n$ are not isomorphic to each other.
+$\text{Aut}(M) \to \text{Aut}(N), f \mapsto \phi \circ f \circ \phi^{-1}$. Poincaré showed that the automorphism groups of $\mathbb{B}$ $\mathbb{D}^n$ are not isomorphic to each other. The book by Shabat<sup>[2](#fn2)</sup> explains that $\text{Aut}(\mathbb{B})$ is a Lie group of real dimension $\frac{n^2-n}{2}$ whereas $\text{Aut}(\mathbb{D}^n)$ has dimension $3n$.
 
 ## Cartan's theorem
 
@@ -40,6 +40,5 @@ will map $a$ to $0$. Since the composition $g_a \circ f : \mathbb{B} \to \mathbb
 
 ### References
 
-<a name="fn1">1</a>: L. Bers, Introduction to several complex variables, New York Univ. Press, New York, 1964.  
-Huybrects  
-Korevaar Wiegernick?  
+<a name="fn1">1</a>: D. Huybrechts. Complex Geometry. Springer-Verlag Berlin Heidelberg, 2005.   
+<a name="fn1">2</a>: B. V. Shabat. Introduction to Complex Analysis. Part II: Functions of Several Variables, Translated from the third (1985) Russian edition by J S Joel. Translations of Mathematical Monographs, 110. American Mathematical Society, Providence, RI, 1992.
