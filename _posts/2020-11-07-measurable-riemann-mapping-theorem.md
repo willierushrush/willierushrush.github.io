@@ -17,21 +17,27 @@ Here, I would assume that you are already familiar with quasiconformal maps and 
 Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \hat{\mathbb{C}}$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
 
 Uniqueness of the solution follows from directly [Weyl's lemma](/posts/2020/09/extremal-length). When $\phi$ and $\psi$ are two solutions, then it is not difficult to show that $(\phi \circ \psi^{-1})_{ \bar{z} } = 0$ almost everywhere on $\psi(U)$, implying that $\phi \circ \psi^{-1}$ is a conformal isomorphism. The classical proof of the existence of solution relies on the analysis of the Cauchy transform
+
 $$
 C f(w) = (\frac{1}{\pi w}) * f(w) = -\frac{1}{\pi} \iint_{\mathbb{C}} \frac{ f(z) }{ z-w } dx dy,
 $$
+
 and the Beurling transform
+
 $$
 S f = (-\frac{1}{\pi w^2}) * f(w) = \text{p.v.} \frac{1}{\pi} \iint_{\mathbb{C}} \frac{ f(z) }{ (z-w)^2 } dx dy.
 $$
+
 The Cauchy transform $C$ is a convolution operator with the fundamental solution $\frac{1}{\pi z}$ of the $\frac{\partial}{\partial z}$ differential operator. When $f$ is is compactly supported and continuously differentiable, we have the identities $(C f)_{\bar{z}} = f$ and $S f = (C f)_z$.
 
 I'll sketch the proof in the case where $\mu$ is a continuously differentiable and compactly supported map on $U$ such that $\lVert \mu \rVert_{\infty} < 1$. Define the function $g = S\mu + S\mu S\mu + S\mu S\mu S\mu + \ldots$. This function is well-defined and is in $L^p$ for $p>2$ sufficiently close to $2$ once we show that the operator $f \mapsto S(\mu f)$ is a contraction in $L^p$. This map satisfies the equation $g = S(\mu g) + S\mu$.
 
 Define $ \phi(z) = z + C(\mu g + \mu)(z)$. Clearly, $\phi$ is continuously differentiable satisfying the equation $\phi_{\bar{z}}=\mu \phi_{z}$ because the partial derivatives of $\phi$ are
+
 $$
 \phi_{\bar{z}} = \mu g + \mu, \qquad \phi_{z} = 1 + S(\mu g) + S\mu = 1 + g.
 $$
+
 The Cauchy transform is clearly holomorphic, i.e. if $f$ depends holomorphically on $\lambda$, then so is $Cf$. This gives holomorphic dependence of $\phi$ on $\mu$. It suffices to show that the solution $\phi$ is in fact a homeomorphism. I would personally recommend checking out the book by Ahlfors<sup>[1](#fn1)</sup>, chapter 5, or the book by Astala, Iwaniec, and Martin<sup>[2](#fn2)</sup>, chapter 5, for more details.
 
 ## Complex Structures
