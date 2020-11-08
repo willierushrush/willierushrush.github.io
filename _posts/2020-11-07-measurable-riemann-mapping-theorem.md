@@ -16,7 +16,7 @@ Here, I would assume that you are already familiar with quasiconformal maps and 
 
 Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \hat{\mathbb{C}}$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
 
-Uniqueness of the solution follows from directly [Weyl's lemma](/posts/2020/09/extremal-length). When $\phi$ and $\psi$ are two solutions, then it is not difficult to show that $(\phi \mathbb{C}irc \psi^{-1})_{\bar{z}} = 0$ almost everywhere on $\psi(U)$, implying that $\phi \circ \psi^{-1}$ is a conformal isomorphism. The classical proof of the existence of solution relies on the analysis of the Cauchy transform
+Uniqueness of the solution follows from directly [Weyl's lemma](/posts/2020/09/extremal-length). When $\phi$ and $\psi$ are two solutions, then it is not difficult to show that $(\phi \circ \psi^{-1})_{ \bar{z} } = 0$ almost everywhere on $\psi(U)$, implying that $\phi \circ \psi^{-1}$ is a conformal isomorphism. The classical proof of the existence of solution relies on the analysis of the Cauchy transform
 $$
 C f(w) = (\frac{1}{\pi w}) * f(w) = -\frac{1}{\pi} \iint_{\mathbb{C}} \frac{ f(z) }{ z-w } dx dy,
 $$
