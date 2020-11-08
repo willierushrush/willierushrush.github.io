@@ -12,7 +12,7 @@ Here, I would assume that you are already familiar with quasiconformal maps and 
 
 ## Measurable Riemann Mapping theorem
 
-> **_Theorem:_** For any function $\mu : U \to \mathbb{C}$ on $\D$ with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $D$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
+> **_Theorem:_** For any function $\mu : U \to \mathbb{C}$ on $\mathbb{D}$ with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $D$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
 
 Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \hat{\mathbb{C}}$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
 
@@ -30,15 +30,15 @@ I'll sketch the proof in the case where $\mu$ is a continuously differentiable a
 
 Define $ \phi(z) = z + C(\mu g + \mu)(z)$. Clearly, $\phi$ is continuously differentiable satisfying the equation $\phi_{\bar{z}}=\mu \phi_{z}$ because the partial derivatives of $\phi$ are
 $$
-\phi_{\bar{z}} = \mug + \mu, \qquad \phi_{z} = 1 + S(\mu g) + S\mu = 1 + g.
+\phi_{\bar{z}} = \mu g + \mu, \qquad \phi_{z} = 1 + S(\mu g) + S\mu = 1 + g.
 $$
 The Cauchy transform is clearly holomorphic, i.e. if $f$ depends holomorphically on $\lambda$, then so is $Cf$. This gives holomorphic dependence of $\phi$ on $\mu$. It suffices to show that the solution $\phi$ is in fact a homeomorphism. I would personally recommend checking out the book by Ahlfors<sup>[1](#fn1)</sup>, chapter 5, or the book by Astala, Iwaniec, and Martin<sup>[2](#fn2)</sup>, chapter 5, for more details.
 
 ## Complex Structures
 
-The same theorem also holds for any arbitrary Riemann surface $X$. Suppose the complex structure of $X$ is governed by a holomorphic atlas $\mathcal{H} = \{h_j : U_j \to \D\}$ for some open cover $\{U_j\}$ of $X$. We can define a **Beltrami form** $\mu$ on $X$ to be one where locally on each chart $\mu$ can be expressed as a measurable $(-1,1)$-form $\mu_i(z) \frac{d\bar{z}}{dz}$ satisfying $\lVert \mu_i \rVert_{\infty} < 1$.
+The same theorem also holds for any arbitrary Riemann surface $X$. Suppose the complex structure of $X$ is governed by a holomorphic atlas $\mathcal{H} = \{h_j : U_j \to \mathbb{D}\}$ for some open cover $\{U_j\}$ of $X$. We can define a **Beltrami form** $\mu$ on $X$ to be one where locally on each chart $\mu$ can be expressed as a measurable $(-1,1)$-form $\mu_i(z) \frac{d\bar{z}}{dz}$ satisfying $\lVert \mu_i \rVert_{\infty} < 1$.
 
-On each chart, we have a solution $\phi_i : U_i \to \D$ of the Beltrami equation for $\mu$ on $U_i$, i.e. $\phi_i \circ \h_i^{-1}$ are quasiconformal self maps of $\D$ with dilatation $\mu_i(z) \frac{d\bar{z}}{dz}$. Whenever $U_i \cap U_j$ is non-empty, $\phi_j \circ \phi_{i}^{-1} : \phi_i(U_i\cap U_j) \to \phi_j(U_i \cap U_j)$ is a conformal isomorphism as it must have zero complex dilatation almost everywhere. Therefore, $\{\phi_i\}$ glues together to form a holomorphic atlas $\mathcal{P}$ for $X$, inducing another complex structure for $X$. The identity map on $X$ induces a quasiconformal map $(X,\mathcal{H}) \to (X,\mathcal{P})$ integrating the Beltrami form $\mu$.
+On each chart, we have a solution $\phi_i : U_i \to \mathbb{D}$ of the Beltrami equation for $\mu$ on $U_i$, i.e. $\phi_i \circ h_i^{-1}$ are quasiconformal self maps of $\mathbb{D}$ with dilatation $\mu_i(z) \frac{d\bar{z}}{dz}$. Whenever $U_i \cap U_j$ is non-empty, $\phi_j \circ \phi_{i}^{-1} : \phi_i(U_i\cap U_j) \to \phi_j(U_i \cap U_j)$ is a conformal isomorphism as it must have zero complex dilatation almost everywhere. Therefore, $\{\phi_i\}$ glues together to form a holomorphic atlas $\mathcal{P}$ for $X$, inducing another complex structure for $X$. The identity map on $X$ induces a quasiconformal map $(X,\mathcal{H}) \to (X,\mathcal{P})$ integrating the Beltrami form $\mu$.
 
 > **_Theorem:_** For every Beltrami form $\mu$ on a Riemann surface $X$, there is a Riemann surface $Y$ and a quasiconformal map $\phi : X \to Y$ integrating \mu$. Moreover, $\Phi$ is unique up to post-composition with conformal isomorphisms and it depends holomorphically on $\mu$.
 
