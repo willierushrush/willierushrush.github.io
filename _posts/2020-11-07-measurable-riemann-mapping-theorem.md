@@ -12,17 +12,17 @@ Here, I would assume that you are already familiar with quasiconformal maps and 
 
 ## Measurable Riemann Mapping theorem
 
-> **_Theorem:_** For any function $\mu : U \to \C$ on $\D$ with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $D$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
+> **_Theorem:_** For any function $\mu : U \to \mathbb{C}$ on $\D$ with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $D$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
 
 Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \hat{\mathbb{C}}$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
 
-Uniqueness of the solution follows from directly [Weyl's lemma](/posts/2020/09/extremal-length). When $\phi$ and $\psi$ are two solutions, then it is not difficult to show that $(\phi \circ \psi^{-1})_{\bar{z}} = 0$ almost everywhere on $\psi(U)$, implying that $\phi \circ \psi^{-1}$ is a conformal isomorphism. The classical proof of the existence of solution relies on the analysis of the Cauchy transform
+Uniqueness of the solution follows from directly [Weyl's lemma](/posts/2020/09/extremal-length). When $\phi$ and $\psi$ are two solutions, then it is not difficult to show that $(\phi \mathbb{C}irc \psi^{-1})_{\bar{z}} = 0$ almost everywhere on $\psi(U)$, implying that $\phi \circ \psi^{-1}$ is a conformal isomorphism. The classical proof of the existence of solution relies on the analysis of the Cauchy transform
 $$
-C f(w) = (\frac{1}{\pi w}) * f(w) = -\frac{1}{\pi} \iint_{\C} \frac{ f(z) }{ z-w } dx dy,
+C f(w) = (\frac{1}{\pi w}) * f(w) = -\frac{1}{\pi} \iint_{\mathbb{C}} \frac{ f(z) }{ z-w } dx dy,
 $$
 and the Beurling transform
 $$
-S f = (-\frac{1}{\pi w^2}) * f(w) = \text{p.v.} \frac{1}{\pi} \iint_{\C} \frac{ f(z) }{ (z-w)^2 } dx dy.
+S f = (-\frac{1}{\pi w^2}) * f(w) = \text{p.v.} \frac{1}{\pi} \iint_{\mathbb{C}} \frac{ f(z) }{ (z-w)^2 } dx dy.
 $$
 The Cauchy transform $C$ is a convolution operator with the fundamental solution $\frac{1}{\pi z}$ of the $\frac{\partial}{\partial z}$ differential operator. When $f$ is is compactly supported and continuously differentiable, we have the identities $(C f)_{\bar{z}} = f$ and $S f = (C f)_z$.
 
