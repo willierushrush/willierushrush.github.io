@@ -26,7 +26,7 @@ S f = (-\frac{1}{\pi w^2}) * f(w) = \text{p.v.} \frac{1}{\pi} \iint_{\mathbb{C}}
 $$
 The Cauchy transform $C$ is a convolution operator with the fundamental solution $\frac{1}{\pi z}$ of the $\frac{\partial}{\partial z}$ differential operator. When $f$ is is compactly supported and continuously differentiable, we have the identities $(C f)_{\bar{z}} = f$ and $S f = (C f)_z$.
 
-I'll sketch the proof in the case where $\mu$ is a continuously differentiable and compactly supported map on $U$ such that $lVert \mu \rVert_{\infty} < 1$. Define the function $g = S\mu + S\mu S\mu + S\mu S\mu S\mu + \ldots$. This function is well-defined and is in $L^p$ for $p>2$ sufficiently close to $2$ once we show that the operator $f \mapsto S(\mu f)$ is a contraction in $L^p$. This map satisfies the equation $g = S(\mu g) + S\mu$.
+I'll sketch the proof in the case where $\mu$ is a continuously differentiable and compactly supported map on $U$ such that $\lVert \mu \rVert_{\infty} < 1$. Define the function $g = S\mu + S\mu S\mu + S\mu S\mu S\mu + \ldots$. This function is well-defined and is in $L^p$ for $p>2$ sufficiently close to $2$ once we show that the operator $f \mapsto S(\mu f)$ is a contraction in $L^p$. This map satisfies the equation $g = S(\mu g) + S\mu$.
 
 Define $ \phi(z) = z + C(\mu g + \mu)(z)$. Clearly, $\phi$ is continuously differentiable satisfying the equation $\phi_{\bar{z}}=\mu \phi_{z}$ because the partial derivatives of $\phi$ are
 $$
