@@ -56,9 +56,9 @@ $$
 
 which immediately implies the inequality $\vert q_n \theta - p_n \vert < \vert q_{n-1} \theta - p_{n-1} \vert$. By induction, it is sufficient to show the theorem under the additional assumption that $q_{n-1} < q \leq q_n$, $\text{hcf}(p,q)=1$, and $\frac{p}{q} \neq \frac{p_n}{q_n}$.
 
-If $q = q_n$, then since $\vert q_n\theta - \frac{p_n} \vert < \frac{1}{q_{n+1}} < \frac{1}{2} $,
+If $q = q_n$, then since $\vert q_n\theta - p_n \vert < \frac{1}{q_{n+1}} < \frac{1}{2} $,
 
-$$ \vert q\theta - p \vert \geq \vert p - p_n \vert - \vert q_n\theta - p_n \vert \geq 1 - \frac{1}{2} = \frac{1}{2} > \vert q_n\theta - p_n \vert.
+$$ \vert q\theta - p \vert \geq \vert p - p_n \vert - \vert q_n\theta - p_n \vert > 1 - \frac{1}{2} = \frac{1}{2} > \vert q_n\theta - p_n \vert.
 $$
 
 Suppose $q_{n-1} < q < q_n$. By property 1, the simultaneous equations
@@ -67,7 +67,13 @@ $$
 a p_n + b p_{n-1} = p, \qquad a q_n + b q_{n-1} = q
 $$
 
-have a unique non-zero integral solution $a = (-1)^{n-1} (pq_{n-1} - q p_{n-1})$ and $b = (-1)^n ( p q_n - q p_n)$. Since $ q_{n-1} < a q_n + b q_{n-1} <q_n$, $a$ and $b$ must have opposite signs, so $a(q_n \theta - p_n)$ and $b(q_{n-1} \theta - p_{n-1})$ have the same sign. Therefore, we have our desired inequality:
+have a unique non-zero integral solution
+
+$$
+a = (-1)^{n-1} (pq_{n-1} - q p_{n-1}), \qquad b = (-1)^n ( p q_n - q p_n).
+$$
+
+Since $ q_{n-1} < a q_n + b q_{n-1} <q_n$, $a$ and $b$ must have opposite signs, so $a(q_n \theta - p_n)$ and $b(q_{n-1} \theta - p_{n-1})$ have the same sign. Therefore, we have our desired inequality:
 
 $$
 \vert q\theta - p \vert = \vert a(q_n \theta - p_n) + b(q_{n-1} \theta - p_{n-1}) \vert \geq \vert q_{n-1} \theta - p_{n-1} \vert > \vert q_{n} \theta - p_{n}.
