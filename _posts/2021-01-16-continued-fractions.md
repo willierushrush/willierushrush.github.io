@@ -1,26 +1,26 @@
 ---
-title: 'Continued Fractions and Irrational Rotations'
+title: 'Continued Fractions'
 date: 2021-01-16
-permalink: /posts/2021/01/infinite-continued-fractions
+permalink: /posts/2021/01/continued-fractions
 tags:
   - Number Theory
 ---
 
 Irrational numbers are typically defined upon constructing the set $\mathbb{R}$ of real numbers from the set $\mathbb{Q}$ of rational numbers via either Cauchy sequences or Dedekind cuts. Decimal expansion has been used as the standard way of representing and approximating irrational numbers. However, it turns out that the best way to approximate irrational numbers is through continued fractions.
 
-### Continued Fractions
+## Continued Fractions
 
-A continued fraction expansion of a real number $\theta$ is of the form:
+A **continued fraction** expansion of a real number $\theta$ is of the form:
 
 $$
 [a_0;a_1,a_2,\ldots] = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \ldots}}}.
 $$
 
 for some positive integers $a_0, a_1, \ldots$. We can obtain the continued fraction expression for any $\theta \in \mathbb{R}$ through the following algorithm.
-* Set $a_0 = \floor{\theta}$, the highest integer less or equal to $\theta$, and $b_0 = \{\theta\} := \theta - a_0$, the fractional part of $\theta$;
-* Inductively, for all $n \in \mathbb{N}$, $a_n = \floor{\frac{1}{b_{n-1}}$ and $b_n = {\frac{1}{b_{n-1}}.
+* Set $a_0 = \lfloor \theta \rfloor$, the highest integer less or equal to $\theta$, and $b_0 = \{\theta\} := \theta - a_0$, the fractional part of $\theta$;
+* Inductively, for all $n \in \mathbb{N}$, $a_n = \bigl\lfloor \frac{1}{b_{n-1} \bigr\rfloor$ and $b_n = {\frac{1}{b_{n-1}}$.
 
-If we ever obtain $b_k = 0$ for some $k \in \N$, then $\theta$ has a finite continued fraction expansion $[a_0; a_1, \ldots a_k]$. By the Euclidean algorithm, this happens precisely when $\theta$ is rational. In the rational case, the expansion is not unique because of the following identity:
+If we ever obtain $b_k = 0$ for some $k \in \mathbb{N}$, then $\theta$ has a finite continued fraction expansion $[a_0; a_1, \ldots a_k]$. By the Euclidean algorithm, this happens precisely when $\theta$ is rational. In the rational case, the expansion is not unique because of the following identity:
 
 $$
 [a_0; a_1 \ldots a_k+1] = [a_0; a_1 \ldots a_k,1].
@@ -38,7 +38,7 @@ with initial values $q_{-1} = 0, p_{-1} = q_{0} = 1, p_0 = a_0$.
 > 1. $\frac{p_{n+1}}{q_{n+1}} = \frac{p_n}{q_n} + \frac{(-1)^n}{q_n q_{n+1}}$;
 > 2. $ \theta = a_0 + \sum_{n=0}^\infty \frac{(-1)^n}{q_n q_{n+1}}$.
 
-Property 1 again follows from induction. (and it immediately implies that $p_n$ and $q_n$ are always coprime!) Property 2 follows directly from the first. Observe that $ \{ \frac{p_n}{q_n} \}\_{n \text{odd}}$ must be a decreasing sequence of rational numbers greater than $\theta$, whereas $ \{ \frac{p_n}{q_n} \}_{n \text{even}}$ must be an increasing sequence of rational numbers smaller than $\theta$:
+Property 1 again follows from induction. (and it immediately implies that $p_n$ and $q_n$ are always coprime!) Property 2 follows directly from the first. Observe that $\frac{p_n}{q_n}$ for odd $n$ must be a decreasing sequence of rational numbers greater than $\theta$, whereas $\frac{p_n}{q_n}$ for even $n$ must be an increasing sequence of rational numbers smaller than $\theta$:
 
 $$
 \frac{p_0}{q_0} < \frac{p_2}{q_2} < \frac{p_4}{q_4} < \ldots < \theta < \ldots < \frac{p_5}{q_5} < \frac{p_3}{q_3} < \frac{p_1}{q_1}.
@@ -51,7 +51,7 @@ It turns out that the rational numbers $\frac{p_n}{q_n}$ are best rational appro
 By triangle inequality, property 2 also yields the following estimate
 
 $$
-\frac{1}{q_n(q_n(q_n+q_{n+1}))} < \vert \theta - \frac{p_n}{q_n} \vert < \frac{1}{q_n q_{n+1}},
+\frac{1}{q_n(q_n+q_{n+1})} < \Big\vert \theta - \frac{p_n}{q_n} \Big\vert < \frac{1}{q_n q_{n+1}},
 $$
 
 which immediately implies the inequality $\vert q_n \theta - p_n \vert < \vert q_{n-1} \theta - p_{n-1} \vert$. By induction, it is sufficient to show the theorem under the additional assumption that $q_{n-1} < q \leq q_n$, $\text{hcf}(p,q)=1$, and $\frac{p}{q} \neq \frac{p_n}{q_n}$.
@@ -73,7 +73,7 @@ $$
 \vert q\theta - p \vert = \vert a(q_n \theta - p_n) + b(q_{n-1} \theta - p_{n-1}) \vert \geq \vert q_{n-1} \theta - p_{n-1} \vert > \vert q_{n} \theta - p_{n}.
 $$
 
-### Preperiodic Continued Fractions
+## Preperiodic Continued Fractions
 
 An infinite continued fraction $\theta = [a_0; a_1, a_2, \ldots]$ is **preperiodic** if there are some $N,s \in \mathbb{N}$ such that $a_{n} = a_{n+s}$ whenever $n \geq N$. The minimum of such $s$ is called the **period** and the minimum of such $N$ is called the **preperiod**. Real numbers with preperiodic decimal expansion are precisely rational numbers, but the decimal expansion of irrationals follows no clear pattern. Analogously, we have the following theorem by Lagrange.
 
