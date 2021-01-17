@@ -26,7 +26,7 @@ $$
 [a_0; a_1 \ldots a_k+1] = [a_0; a_1 \ldots a_k,1].
 $$
 
-Irrational numbers have infinite continued fractions uniquely determined by the algorithm. A natural question would be whether or not such an infinite expression converges. If so, at what rate? We begin by an obvious way of approximating $\theta =[a_0;a_1,a_2,\ldots]$ by the rational numbers $\frac{p_n}{q_n} = [a_0; a_1, \ldots a_n]$. By straightforward induction, $p_n$ and $q_n$ is determined by the following recurrence relation:
+Every irrational number has an infinite continued fraction expansion uniquely determined by the algorithm. An obvious way of approximating $\theta =[a_0;a_1,a_2,\ldots]$ is by truncating the expansion to obtain rational numbers $\frac{p_n}{q_n} = [a_0; a_1, \ldots a_n]$ where $p_n$ and $q_n$ are coprime integers and $q_n$ is always positive. By straightforward induction, $p_n$ and $q_n$ are determined by the following recurrence relation:
 
 $$
 p_n = a_n p_{n-1} + p_{n-2}, \qquad q_n = a_n q_{n-1} + q_{n-2},
@@ -38,7 +38,7 @@ with initial values $q_{-1} = 0, p_{-1} = q_{0} = 1, p_0 = a_0$.
 > 1. $\frac{p_{n+1}}{q_{n+1}} = \frac{p_n}{q_n} + \frac{(-1)^n}{q_n q_{n+1}}$;
 > 2. $ \theta = a_0 + \sum_{n=0}^\infty \frac{(-1)^n}{q_n q_{n+1}}$.
 
-Property 1 again follows from induction. (and it immediately implies that $p_n$ and $q_n$ are always coprime!) Property 2 follows directly from the first. Observe that $\frac{p_n}{q_n}$ for odd $n$ must be a decreasing sequence of rational numbers greater than $\theta$, whereas $\frac{p_n}{q_n}$ for even $n$ must be an increasing sequence of rational numbers smaller than $\theta$:
+Property 1 again follows from induction. Property 2 follows directly from the first. Observe that $\frac{p_n}{q_n}$ for odd $n$ must be a decreasing sequence of rational numbers greater than $\theta$, whereas $\frac{p_n}{q_n}$ for even $n$ must be an increasing sequence of rational numbers smaller than $\theta$:
 
 $$
 \frac{p_0}{q_0} < \frac{p_2}{q_2} < \frac{p_4}{q_4} < \ldots < \theta < \ldots < \frac{p_5}{q_5} < \frac{p_3}{q_3} < \frac{p_1}{q_1}.
