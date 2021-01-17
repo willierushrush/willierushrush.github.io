@@ -76,7 +76,7 @@ $$
 Since $ q_{n-1} < a q_n + b q_{n-1} <q_n$, $a$ and $b$ must have opposite signs, so $a(q_n \theta - p_n)$ and $b(q_{n-1} \theta - p_{n-1})$ have the same sign. Therefore, we have our desired inequality:
 
 $$
-\vert q\theta - p \vert = \vert a(q_n \theta - p_n) + b(q_{n-1} \theta - p_{n-1}) \vert \geq \vert q_{n-1} \theta - p_{n-1} \vert > \vert q_{n} \theta - p_{n}.
+\vert q\theta - p \vert = \vert a(q_n \theta - p_n) + b(q_{n-1} \theta - p_{n-1}) \vert \geq \vert q_{n-1} \theta - p_{n-1} \vert > \vert q_{n} \theta - p_{n} \vert.
 $$
 
 ## Preperiodic Continued Fractions
