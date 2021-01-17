@@ -18,7 +18,7 @@ $$
 
 for some positive integers $a_0, a_1, \ldots$. We can obtain the continued fraction expression for any $\theta \in \mathbb{R}$ through the following algorithm.
 * Set $a_0 = \lfloor \theta \rfloor$, the highest integer less or equal to $\theta$, and $b_0 = \{\theta\} := \theta - a_0$, the fractional part of $\theta$;
-* Inductively, for all $n \in \mathbb{N}$, $a_n = \lfloor \frac{1}{b_{n-1} \rfloor$ and $b_n = {\frac{1}{b_{n-1}}$.
+* Inductively, for all $n \in \mathbb{N}$, $a_n = \lfloor \frac{1}{b_{n-1}} \rfloor$ and $b_n = \{\frac{1}{b_{n-1}\}$.
 
 If we ever obtain $b_k = 0$ for some $k \in \mathbb{N}$, then $\theta$ has a finite continued fraction expansion $[a_0; a_1, \ldots a_k]$. By the Euclidean algorithm, this happens precisely when $\theta$ is rational. In the rational case, the expansion is not unique because of the following identity:
 
