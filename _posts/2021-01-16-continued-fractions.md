@@ -133,11 +133,12 @@ $$
 
 By looking at the first coordinate of the equation above, we see that the fractional parts $\vert q_n \theta - p_n \vert$ converge to zero at a fixed rate.
 
-> **_Proposition:_** Let $\theta$ have preperiodic continued fraction expansion $[a_0;a_1,a_2,\ldots]$ of period $s$ and preperiod $N$. Let $\theta_n = \frac{p_n}{q_n}$ be the $n$-th convergent of $\theta$ and let $r = \prod_{k=1}^s \theta_k$. For all $n \geq N$, $\vert q_{n+s} \theta - p_{n+s} \vert = r \vert q_n \theta - p_n \vert$.
+> **_Proposition:_** Let $\theta = [a_0;a_1,a_2,\ldots]$ be preperiodic of period $s$ and preperiod $N$. Let $\theta_n = \frac{p_n}{q_n}$ be the $n$-th convergent of $\theta$ and let $r = \prod_{k=1}^s \theta_k$. For all $n \geq N$, $\vert q_{n+s} \theta - p_{n+s} \vert = r \vert q_n \theta - p_n \vert$.
 
 In particular, when the period is $s=1$, the fractional parts $\vert q_n \theta - p_n \vert $ eventually form a geometric sequence.
 
 ### References
 
 <a name="fn1">1</a>: G. H. Hardy and E. M. Wright. An Introduction to the Theory of Numbers. Oxford University Press, 1979.  
+
 ---
