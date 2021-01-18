@@ -18,7 +18,7 @@ $$
 
 for some positive integers $a_0, a_1, \ldots$. We can obtain the continued fraction expression for any $\theta \in \mathbb{R}$ through the following algorithm.
 * Set $a_0 = \lfloor \theta \rfloor$, the highest integer less or equal to $\theta$, and $b_0 = \{\theta\} := \theta - a_0$, the fractional part of $\theta$;
-* Inductively, for all $n \in \mathbb{N}$, $a_n = \lfloor \frac{1}{b_{n-1}} \rfloor$ and $b_n = \{\frac{1}{b_{n-1}\}$.
+* Inductively, for all $n \in \mathbb{N}$, $a_n = \lfloor \frac{1}{b_{n-1}} \rfloor$ and $b_n = \{ \frac{1}{b_{n-1}} \}$.
 
 If we ever obtain $b_k = 0$ for some $k \in \mathbb{N}$, then $\theta$ has a finite continued fraction expansion $[a_0; a_1, \ldots a_k]$. By the Euclidean algorithm, this happens precisely when $\theta$ is rational. In the rational case, the expansion is not unique because of the following identity:
 
@@ -32,13 +32,31 @@ $$
 p_n = a_n p_{n-1} + p_{n-2}, \qquad q_n = a_n q_{n-1} + q_{n-2},
 $$
 
-with initial values $q_{-1} = 0, p_{-1} = q_{0} = 1, p_0 = a_0$.
+with initial values $q_{-1} = 0, p_{-1} = q_{0} = 1, p_0 = a_0$. Let's assume without any harm that $a_0=0$. The recurrence relation be rewritten in terms of matrices:
+
+$$
+\begin{pmatrix}
+a_n & -1\\
+-1 & 0
+\end{pmatrix} \ldots
+\begin{pmatrix}
+a_1 & -1\\
+-1 & 0
+\end{pmatrix}
+=
+\begin{pmatrix}
+q_n & -p_n\\
+-q_{n-1} & p_{n-1}
+\end{pmatrix}.
+$$
+
+Let's call the matrix above by $A_n$.
 
 > **_Proposition:_** The rational numbers $\frac{p_n}{q_n}$ satisfy the following properties:
 > 1. $\frac{p_{n+1}}{q_{n+1}} = \frac{p_n}{q_n} + \frac{(-1)^n}{q_n q_{n+1}}$;
 > 2. $ \theta = a_0 + \sum_{n=0}^\infty \frac{(-1)^n}{q_n q_{n+1}}$.
 
-Property 1 again follows from induction. Property 2 follows directly from the first. Observe that $\frac{p_n}{q_n}$ for odd $n$ must be a decreasing sequence of rational numbers greater than $\theta$, whereas $\frac{p_n}{q_n}$ for even $n$ must be an increasing sequence of rational numbers smaller than $\theta$:
+Property 1 again follows from computing the determinant of $A_n$. Property 2 follows directly from the first. Observe that $\frac{p_n}{q_n}$ for odd $n$ must be a decreasing sequence of rational numbers greater than $\theta$, whereas $\frac{p_n}{q_n}$ for even $n$ must be an increasing sequence of rational numbers smaller than $\theta$:
 
 $$
 \frac{p_0}{q_0} < \frac{p_2}{q_2} < \frac{p_4}{q_4} < \ldots < \theta < \ldots < \frac{p_5}{q_5} < \frac{p_3}{q_3} < \frac{p_1}{q_1}.
@@ -94,24 +112,7 @@ In comparison, the continued fraction expansion of the following irrationals are
 * $e = [2;1,2,1,1,4,1,1,6,1,1,8,1,1,10,\ldots]$
 * $\pi = [3;7,15,1,292,1,1,2, \ldots]$
 
-Let's assume for now that $a_0 = 0$. By induction, we can show from the basic properties of the $n$-th convergents $\theta_n = \frac{p_n}{q_n}$ of $\theta$ that the matrix
-
-$$
-A_n =
-  \begin{pmatrix}
-  a_n & -1\\
-  -1 & 0
-  \end{pmatrix} \ldots \begin{pmatrix}
-  a_1 & -1\\
-  -1 & 0
-  \end{pmatrix} =
-  \begin{pmatrix}
-  q_n & -p_n\\
-  -q_{n-1} & p_{n-1}
-  \end{pmatrix}
-$$
-
-satisfies the following equation:
+Let's assume again that $a_0 = 0$. By induction, we can show from the basic properties of the $n$-th convergents $\theta_n = \frac{p_n}{q_n}$ of $\theta$ that the matrix $A_n$ satisfies the following equation:
 
 $$
 A_n \begin{pmatrix}
