@@ -112,7 +112,7 @@ In comparison, the continued fraction expansion of the following irrationals are
 * $e = [2;1,2,1,1,4,1,1,6,1,1,8,1,1,10,\ldots]$
 * $\pi = [3;7,15,1,292,1,1,2, \ldots]$
 
-Let's assume again that $a_0 = 0$. By induction, we can show from the basic properties of the $n$-th convergents $\theta_n = \frac{p_n}{q_n}$ of $\theta$ that the matrix $A_n$ satisfies the following equation:
+Let's assume again that $a_0 = 0$. By induction, we can show that the matrix $A_n$ and the numbers $\theta_n = [0;a_n,a_{n+1},\ldots]$ satisfy the following equation:
 
 $$
 A_n \begin{pmatrix}
@@ -140,7 +140,7 @@ $$
 
 By looking at the first coordinate of the equation above, we see that the fractional parts $\vert q_n \theta - p_n \vert$ converge to zero at a fixed rate.
 
-> **_Proposition:_** Let $\theta = [a_0;a_1,a_2,\ldots]$ be preperiodic of period $s$ and preperiod $N$. Let $\frac{p_n}{q_n}$ be the $n$-th convergent of $\theta$ and let $r = \prod_{k=1}^s \frac{p_k}{q_k}$. For all $n \geq N$, $\vert q_{n+s} \theta - p_{n+s} \vert = r \vert q_n \theta - p_n \vert$.
+> **_Proposition:_** Let $\theta = [a_0;a_1,a_2,\ldots]$ be preperiodic of period $s$ and preperiod $N$. Let $\frac{p_n}{q_n}$ be the $n$-th convergent of $\theta$ and let $r = \prod_{k=1}^s \theta_k$ where $\theta_n = [0;a_n,a_{n+1},\ldots]$. For all $n \geq N$, $\vert q_{n+s} \theta - p_{n+s} \vert = r \vert q_n \theta - p_n \vert$.
 
 In particular, when the period is $s=1$, the fractional parts $\vert q_n \theta - p_n \vert $ eventually form a geometric sequence.
 
