@@ -125,22 +125,15 @@ A_n \begin{pmatrix}
 \end{pmatrix}.
 $$
 
-Suppose the continued fraction expansion of $\theta$ is preperiodic with period $s$ and preperiod $N$. When $n \geq N$,
+In the first coordinate, we have the identity
 
 $$
-A_{n+s} \begin{pmatrix}
-\theta\\
-1
-\end{pmatrix} =
-(-1)^s \theta_1 \ldots \theta_s A_{n} \begin{pmatrix}
-\theta\\
-1
-\end{pmatrix}.
+q_n \theta - p_n = (-1)^n \theta_1 \ldots \theta_{n+1}.
 $$
 
-By looking at the first coordinate of the equation above, we see that the fractional parts $\vert q_n \theta - p_n \vert$ converge to zero at a fixed rate.
+Suppose the continued fraction expansion of $\theta$ is preperiodic with period $s$ and preperiod $N$. When $n \geq N$, $\theta_n = \theta_{n+s}$. As such, the fractional parts $\vert q_n \theta - p_n \vert$ would converge to zero at a fixed rate.
 
-> **_Proposition:_** Let $\theta = [a_0;a_1,a_2,\ldots]$ be preperiodic of period $s$ and preperiod $N$. Let $\frac{p_n}{q_n}$ be the $n$-th convergent of $\theta$ and let $r = \prod_{k=1}^s \theta_k$ where $\theta_n = [0;a_n,a_{n+1},\ldots]$. For all $n \geq N$, $\vert q_{n+s} \theta - p_{n+s} \vert = r \vert q_n \theta - p_n \vert$.
+> **_Proposition:_** Let $\theta = [a_0;a_1,a_2,\ldots]$ be preperiodic of period $s$ and preperiod $N$. Let $\frac{p_n}{q_n}$ be the $n$-th convergent of $\theta$ and let $r = \prod_{k=N+1}^{N+s} \theta_k$ where $\theta_n = [0;a_n,a_{n+1},\ldots]$. For all $n \geq N$, $\vert q_{n+s} \theta - p_{n+s} \vert = r \vert q_n \theta - p_n \vert$.
 
 In particular, when the period is $s=1$, the fractional parts $\vert q_n \theta - p_n \vert $ eventually form a geometric sequence.
 
