@@ -19,7 +19,7 @@ $$
 
 Basic covering space theory tells us that when $f$ is non-constant, it must be a branched covering of some finite degree $d$. Structure of the map $f$ is completely known.
 
-> **_Proposition:_** Every non-constant holomorphic self map $f: \mathbb{T} \to \mathbb{T}$ of a complex torus $\mathbb{T}$ is
+> **_Theorem:_** Every non-constant holomorphic self map $f: \mathbb{T} \to \mathbb{T}$ of a complex torus $\mathbb{T}$ is
 * an affine map of the form $f(z)=\alpha z + c (\text{mod }\Lambda)$,
 * a covering map of degree $\vert \alpha \vert^2$.
 
