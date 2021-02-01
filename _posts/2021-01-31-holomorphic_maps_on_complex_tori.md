@@ -20,7 +20,7 @@ $$
 Basic covering space theory tells us that when $f$ is non-constant, it must be a branched covering of some finite degree $d$. Structure of the map $f$ is completely known.
 
 > **_Proposition:_** Every non-constant holomorphic self map $f: \mathbb{T} \to \mathbb{T}$ of a complex torus $\mathbb{T}$ is
-* an affine map of the form $f(z)=\alpha z + c \text{( mod }\Lambda)$,
+* an affine map of the form $f(z)=\alpha z + c (\text{mod }\Lambda)$,
 * a covering map of degree $\vert \alpha \vert^2$.
 
 As $\Lambda$ is discrete, there must be unique constants $\alpha$ and $\beta$ in $\Lambda$ such that $\tilde{f}(z+a) - \tilde{f}(z) \equiv \alpha$ and $\tilde{f}(z+b) - \tilde{f}(z) \equiv \beta$. Let's look at the function $\tilde{g}(z):=\tilde{f}(z)-\alpha z$. It is surely $a$-periodic and for all $z \in \mathbb{C}$,
