@@ -38,7 +38,7 @@ $$
 Let's prove the proposition. First, for any $z \in \mathbb{C}$ and any lattice point $w \in \Lambda$ such that $\vert w \vert > 2 \vert z \vert$, we have the inequality $\vert w \vert \leq 2 \vert z-w \vert$ and therefore
 
 $$
-\big\vert \frac{1}{(z+w)^2} - \frac{1}{w^2} \big\vert = \big\vert \frac{z(2w-z)}{w^2(z-w)^2} \big\vert \leq 6 \big\vert \frac{z}{w^2} \big\vert.
+\Big\vert \frac{1}{(z+w)^2} - \frac{1}{w^2} \Big\vert = \Big\vert \frac{z(2w-z)}{w^2(z-w)^2} \Big\vert \leq 6 \Big\vert \frac{z}{w^2} \Big\vert.
 $$
 
 Convergence of $\wp(z)$ then follows from the inequality above and the fact that $\sum_{w \in \Lambda \backslash \{0\}} \frac{1}{\vert w \vert^3}$ converges.
