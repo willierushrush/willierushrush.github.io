@@ -41,7 +41,7 @@ $$
 \Big\vert \frac{1}{(z+w)^2} - \frac{1}{w^2} \Big\vert = \Big\vert \frac{z(2w-z)}{w^2(z-w)^2} \Big\vert \leq 6 \Big\vert \frac{z}{w^2} \Big\vert.
 $$
 
-Convergence of $\wp(z)$ then follows from the inequality above and the fact that $\sum_{w \in \Lambda \backslash \{0\}} \frac{1}{\vert w \vert^3}$ converges.
+Convergence of $\wp(z)$ then follows from the inequality above and the fact that the sum $\sum_{w \in \Lambda \backslash \{0\}} \frac{1}{\vert w \vert^3}$ converges.
 
 Let $w_1$ and $w_2$ be the periods of $\Lambda$. Clearly, the derivative $\wp'(z) = - 2 \sum_{w \in \Lambda} (z-w)^{-3}$ satisfies $\wp'(z+w_j) - \wp'(z) = 0$ for any $z$ and any $j \in \{1,2\}$. Then, for each $j$, $\wp(z+w_j)-\wp(z)$ is a constant map of some constant value $c_j$. Taking $z = -\frac{w_i}{2}$, we see that $c_j = 0$ and $\wp$ must be $w_j$-periodic for each $j$. Therefore, $\wp$ is a well-defined map on $\mathbb{T} = \mathbb{C} / \Lambda$. Both $\wp$ and $\pi$ have the same principal parts on $\Lambda$. The difference $\wp - \pi$ must be constantly zero, thus proving that $\pi \equiv \wp$.
 
