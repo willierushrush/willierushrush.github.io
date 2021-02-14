@@ -8,7 +8,7 @@ tags:
 
 For any rational map $f(z)$ on the Riemann sphere $\hat{\mathbb{C}}$ onto itself, can its Julia set $J(f)$ be the whole Riemann sphere? When it is the case, the Fatou set $F(f)$ is empty and it tells us that $f$ is chaotic throughout the whole $\hat{\mathbb{C}}$. The answer is yes. In this post, I will discuss one standard way of constructing such rational maps, often called Lattès maps.
 
-Recall from my previous [post](/posts/2021/01/holomorphic_maps_on_complex_tori/) that the Julia set $J(g)$ of any holomorphic self map $g(z) = \alpha z$ of a complex torus $\mathbb{T} = \mathbb{C} \backslash \Lambda$ which fixes the lattice $\Lambda$ is the whole torus $\mathbb{T}$ whenever $\vert \alpha \vert > 1$. The idea is to use such a map $g$ and transfer it from the torus $\mathbb{T}$ to the Riemann sphere $\hat{\mathbb{C}}$. How do we exactly do this transfer?
+Recall from my previous [post](/posts/2021/01/holomorphic_maps_on_complex_tori/) that the Julia set $J(g)$ of any holomorphic self map $g(z) = \alpha z$ of a complex torus $\mathbb{T} = \mathbb{C} / \Lambda$ which fixes the lattice $\Lambda$ is the whole torus $\mathbb{T}$ whenever $\vert \alpha \vert > 1$. The idea is to use such a map $g$ and transfer it from the torus $\mathbb{T}$ to the Riemann sphere $\hat{\mathbb{C}}$. How do we exactly perform this transfer?
 
 ## Construction of Lattès maps
 
@@ -43,7 +43,7 @@ $$
 
 Convergence of $\wp(z)$ then follows from the inequality above and the fact that $\sum_{w \in \Lambda \backslash \{0\}} \frac{1}{\vert w \vert^3}$ converges.
 
-Let $w_1$ and $w_2$ be the periods of $\Lambda$. Clearly, the derivative $\wp'(z) = - 2 \sum_{w \in \Lambda} (z-w)^{-3}$ satisfies $\wp'(z+w_i) - \wp'(z) = 0$ for any $z$ and any $i \in \{1,2\}$. Then, for each $i$, $\wp(z+w_i)-\wp(z)$ is a constant map of some constant value $c_i$. Taking $z = -\frac{w_i}{2}$, we see that $c_i = 0$ and $\wp$ must be $w_i$-periodic for each $i$. Therefore, $\wp$ is a well-defined map on $\mathbb{T} = \mathbb{C} \backslash \Lambda$. Both $\wp$ and $\pi$ have the same principal parts on $\Lambda$. The difference $\wp - \pi$ must be constantly zero, thus proving that $\pi \equiv \wp$.
+Let $w_1$ and $w_2$ be the periods of $\Lambda$. Clearly, the derivative $\wp'(z) = - 2 \sum_{w \in \Lambda} (z-w)^{-3}$ satisfies $\wp'(z+w_i) - \wp'(z) = 0$ for any $z$ and any $i \in \{1,2\}$. Then, for each $i$, $\wp(z+w_i)-\wp(z)$ is a constant map of some constant value $c_i$. Taking $z = -\frac{w_i}{2}$, we see that $c_i = 0$ and $\wp$ must be $w_i$-periodic for each $i$. Therefore, $\wp$ is a well-defined map on $\mathbb{T} = \mathbb{C} / \Lambda$. Both $\wp$ and $\pi$ have the same principal parts on $\Lambda$. The difference $\wp - \pi$ must be constantly zero, thus proving that $\pi \equiv \wp$.
 
 The study of Weierstrass elliptic functions is interesting in its own right. I'd happily recommend looking at more details from Ahlfors' book<sup>[1](#fn1)</sup>.
 
