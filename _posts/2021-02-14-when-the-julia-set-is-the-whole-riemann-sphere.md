@@ -6,19 +6,21 @@ tags:
   - Holomorphic dynamics
 ---
 
-For any rational map $f(z)$ on the Riemann sphere $\RS$ onto itself, can its Julia set $J(f)$ be the whole Riemann sphere? When it is the case, the Fatou set $F(f)$ is empty and it tells us that $f$ is chaotic throughout the whole $\RS$. The answer is yes. In this post, I will discuss one standard way of constructing such rational maps, often called Lattès maps.
+For any rational map $f(z)$ on the Riemann sphere $\hat{\mathbb{C}}$ onto itself, can its Julia set $J(f)$ be the whole Riemann sphere? When it is the case, the Fatou set $F(f)$ is empty and it tells us that $f$ is chaotic throughout the whole $\hat{\mathbb{C}}$. The answer is yes. In this post, I will discuss one standard way of constructing such rational maps, often called Lattès maps.
 
-Recall from my previous [post](/posts/2021/01/holomorphic_maps_on_complex_tori/) that the Julia set $J(g)$ of any holomorphic self map $g(z) = \alpha z$ of a complex torus $\mathbb{T} = \C \backslash \Lambda$ which fixes the lattice $\Lambda$ is the whole torus $\mathbb{T}$ whenever $\vert \alpha \vert > 1$. The idea is to use such a map $g$ and transfer it from the torus $\mathbb{T}$ to the Riemann sphere $\RS$. How do we exactly do this transfer?
+Recall from my previous [post](/posts/2021/01/holomorphic_maps_on_complex_tori/) that the Julia set $J(g)$ of any holomorphic self map $g(z) = \alpha z$ of a complex torus $\mathbb{T} = \mathbb{C} \backslash \Lambda$ which fixes the lattice $\Lambda$ is the whole torus $\mathbb{T}$ whenever $\vert \alpha \vert > 1$. The idea is to use such a map $g$ and transfer it from the torus $\mathbb{T}$ to the Riemann sphere $\hat{\mathbb{C}}$. How do we exactly do this transfer?
 
 ## Construction of Lattès maps
 
-The map $z \mapsto -z$ is a well-defined involution from $\mathbb{T}$ onto itself. Topologically, this action appears to flip the donut. (See the diagram below!) The fundamental domain of this action is half the donut and by gluing the corresponding edges, we obtain a topological sphere. As the sphere admits a unique complex structure, the quotient of $\mathbb{T}$ under this involution is the Riemann sphere $\RS$.
+The map $z \mapsto -z$ is a well-defined involution from $\mathbb{T}$ onto itself. Topologically, this action appears to flip the donut. (See the diagram below!) The fundamental domain of this action is half the donut and by gluing the corresponding edges, we obtain a topological sphere. As the sphere admits a unique complex structure, the quotient of $\mathbb{T}$ under this involution is the Riemann sphere $\hat{\mathbb{C}}$.
 
-[insert diagram]
+<p align="center">
+  <img src="/images/iteratedpreimages01.gif" width="320" height="240" /> <img src="/images/flipping_donut.png" width="320" height="240" />
+</p>
 
-What remains is to construct a rational map $f$ from $g$. Let $\pi : \mathbb{T} \to \RS$ be the holomorphic quotient map induced by the involution. Since $g$ is a linear map, it commutes with $z \mapsto -z$ and the map $g$ descends to a unique rational map $f$ such that $f\circ \pi = \pi \circ g$. (In dynamical systems, $\pi$ is called a semi-conjugacy between $f$ and $g$.) Now, the action of $f$ on $\RS$ very much resembles the dynamics of $g$ on $\mathbb{T}$. In particular, as repelling periodic points of $g$ are dense in $\mathbb{T}$, then so are the repelling periodic points of $f$ in $\RS$. Therefore, $J(f) = \RS$.
+What remains is to construct a rational map $f$ from $g$. Let $\pi : \mathbb{T} \to \hat{\mathbb{C}}$ be the holomorphic quotient map induced by the involution. Since $g$ is a linear map, it commutes with $z \mapsto -z$ and the map $g$ descends to a unique rational map $f$ such that $f\circ \pi = \pi \circ g$. (In dynamical systems, $\pi$ is called a semi-conjugacy between $f$ and $g$.) Now, the action of $f$ on $\hat{\mathbb{C}}$ very much resembles the dynamics of $g$ on $\mathbb{T}$. In particular, as repelling periodic points of $g$ are dense in $\mathbb{T}$, then so are the repelling periodic points of $f$ in $\hat{\mathbb{C}}$. Therefore, $J(f) = \hat{\mathbb{C}}$.
 
-A rational map $f$ obtained from such a construction above is called a **Lattès map**. Some explicit examples of Lattès maps can be easily computed. In Milnor's book<sup>[3](#fn3)</sup> $\S 7$, he showed by elementary computation that the rational maps $f(z) = \frac{i}{2}(z + \frac{1}{z})$ is a degree $2$ Lattès maps. He did this using the simplest lattice $\Lambda$ possible, which is the set of Gaussian integers $\mathbb{Z}[i]$, and the linear map $g(z)=(1+i)z$. I do have to point out that there are other examples<sup>[4](#fn4)</sup> of non-Lattès rational maps $f$ with $J(f)=\RS$; all critical points of such rational maps are eventually mapped to a repelling periodic orbit. 
+A rational map $f$ obtained from such a construction above is called a **Lattès map**. Some explicit examples of Lattès maps can be easily computed. In Milnor's book<sup>[3](#fn3)</sup> $\S 7$, he showed by elementary computation that the rational maps $f(z) = \frac{i}{2}(z + \frac{1}{z})$ is a degree $2$ Lattès maps. He did this using the simplest lattice $\Lambda$ possible, which is the set of Gaussian integers $\mathbb{Z}[i]$, and the linear map $g(z)=(1+i)z$. I do have to point out that there are other examples<sup>[4](#fn4)</sup> of non-Lattès rational maps $f$ with $J(f)=\hat{\mathbb{C}}$; all critical points of such rational maps are eventually mapped to a repelling periodic orbit.
 
 ## Weierstrass $\wp$-function
 As an analyst, one may be rather unsatisfied by the way I construct $\pi$ above. We can fix this as follows. First, observe from our construction of $\pi$ that $\pi$ must be an even function. Let $a$ and $b$ be the periods of $\Lambda$, i.e. complex numbers generating the lattice $\Lambda$. As the involution fixes $0$, $\frac{w_1}{2}$, $\frac{w_2}{2}$ and ${w_1+w_2}{2}$ (mod $\Lambda$), $\pi$ is a double covering map branched at these four points. Let's assume that the branch point $0$ is a pole, i.e. $\pi(0)=\infty$, and that the Laurent series about $0$ is of the form
@@ -27,13 +29,13 @@ $$
 \pi(z) = \frac{1}{z^2} + \sum_{n>0 \text{ even}} a_n z^n.
 $$
 
-> **_Proposition:_** The map $\pi$ coincides with the Weierstrass's $\wp$-function $\wp : \T \to \RS$,
+> **_Proposition:_** The map $\pi$ coincides with the Weierstrass's $\wp$-function $\wp : \mathbb{T} \to \hat{\mathbb{C}}$,
 
 $$
 wp(z) = \frac{1}{z^2} + \bigsum_{w \in \Lambda \backslash \{0\}} \left\( \frac{1}{(z-w)^2} - \frac{1}{w^2} \right\).
 $$
 
-Let's prove the proposition. First, for any $z \in \C$ and any lattice point $w \in \Lambda$ such that $\vert w \vert > 2 \vert z \vert$, we have the inequality $\vert w \vert \leq 2 \vert z-w \vert$ and therefore
+Let's prove the proposition. First, for any $z \in \mathbb{C}$ and any lattice point $w \in \Lambda$ such that $\vert w \vert > 2 \vert z \vert$, we have the inequality $\vert w \vert \leq 2 \vert z-w \vert$ and therefore
 
 $$
 \big\vert \frac{1}{(z+w)^2} - \frac{1}{w^2} \big\vert = \big\vert \frac{z(2w-z)}{w^2(z-w)^2} \big\vert \leq 6 \big\vert \frac{z}{w^2} \big\vert.
