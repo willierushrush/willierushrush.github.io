@@ -1,6 +1,6 @@
 ---
 title: 'Lattès Maps and Weierstrass Elliptic Functions'
-date: 2021-01-31
+date: 2021-02-14
 permalink: /posts/2021/01/when-the-julia-set-is-the-whole-riemann-sphere/
 tags:
   - Holomorphic dynamics
@@ -32,7 +32,7 @@ $$
 > **_Proposition:_** The map $\pi$ coincides with the Weierstrass's $\wp$-function $\wp : \mathbb{T} \to \hat{\mathbb{C}}$,
 
 $$
-wp(z) = \frac{1}{z^2} + \bigsum_{w \in \Lambda \backslash \{0\}} \left\( \frac{1}{(z-w)^2} - \frac{1}{w^2} \right\).
+\wp(z) = \frac{1}{z^2} + \sum_{w \in \Lambda \backslash \{0\}} \left\( \frac{1}{(z-w)^2} - \frac{1}{w^2} \right\).
 $$
 
 Let's prove the proposition. First, for any $z \in \mathbb{C}$ and any lattice point $w \in \Lambda$ such that $\vert w \vert > 2 \vert z \vert$, we have the inequality $\vert w \vert \leq 2 \vert z-w \vert$ and therefore
