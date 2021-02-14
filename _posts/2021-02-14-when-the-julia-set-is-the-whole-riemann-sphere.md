@@ -15,7 +15,7 @@ Recall from my previous [post](/posts/2021/01/holomorphic_maps_on_complex_tori/)
 The map $z \mapsto -z$ is a well-defined involution from $\mathbb{T}$ onto itself. Topologically, this action appears to flip the donut. (See the diagram below!) The fundamental domain of this action is half the donut and by gluing the corresponding edges, we obtain a topological sphere. As the sphere admits a unique complex structure, the quotient of $\mathbb{T}$ under this involution is the Riemann sphere $\hat{\mathbb{C}}$.
 
 <p align="center">
-  <img src="/images/iteratedpreimages01.gif" width="320" height="240" /> <img src="/images/flipping_donut.png" width="320" height="240" />
+  <img src="/images/flipping_donut.png" width="450" height="300" />
 </p>
 
 What remains is to construct a rational map $f$ from $g$. Let $\pi : \mathbb{T} \to \hat{\mathbb{C}}$ be the holomorphic quotient map induced by the involution. Since $g$ is a linear map, it commutes with $z \mapsto -z$ and the map $g$ descends to a unique rational map $f$ such that $f\circ \pi = \pi \circ g$. (In dynamical systems, $\pi$ is called a semi-conjugacy between $f$ and $g$.) Now, the action of $f$ on $\hat{\mathbb{C}}$ very much resembles the dynamics of $g$ on $\mathbb{T}$. In particular, as repelling periodic points of $g$ are dense in $\mathbb{T}$, then so are the repelling periodic points of $f$ in $\hat{\mathbb{C}}$. Therefore, $J(f) = \hat{\mathbb{C}}$.
