@@ -43,7 +43,7 @@ $$
 
 Convergence of $\wp(z)$ then follows from the inequality above and the fact that $\sum_{w \in \Lambda \backslash \{0\}} \frac{1}{\vert w \vert^3}$ converges.
 
-Let $w_1$ and $w_2$ be the periods of $\Lambda$. Clearly, the derivative $\wp'(z) = - 2 \sum_{w \in \Lambda} (z-w)^{-3}$ satisfies $\wp'(z+w_i) - \wp'(z) = 0$ for any $z$ and any $i \in \{1,2\}$. Then, for each $i$, $\wp(z+w_i)-\wp(z)$ is a constant map of some constant value $c_i$. Taking $z = -\frac{w_i}{2}$, we see that $c_i = 0$ and $\wp$ must be $w_i$-periodic for each $i$. Therefore, $\wp$ is a well-defined map on $\mathbb{T} = \C \backslash \Lambda$. Both $\wp$ and $\pi$ have the same principal parts on $\Lambda$. The difference $\wp - \pi$ must be constantly zero, thus proving that $\pi \equiv \wp$.
+Let $w_1$ and $w_2$ be the periods of $\Lambda$. Clearly, the derivative $\wp'(z) = - 2 \sum_{w \in \Lambda} (z-w)^{-3}$ satisfies $\wp'(z+w_i) - \wp'(z) = 0$ for any $z$ and any $i \in \{1,2\}$. Then, for each $i$, $\wp(z+w_i)-\wp(z)$ is a constant map of some constant value $c_i$. Taking $z = -\frac{w_i}{2}$, we see that $c_i = 0$ and $\wp$ must be $w_i$-periodic for each $i$. Therefore, $\wp$ is a well-defined map on $\mathbb{T} = \mathbb{C} \backslash \Lambda$. Both $\wp$ and $\pi$ have the same principal parts on $\Lambda$. The difference $\wp - \pi$ must be constantly zero, thus proving that $\pi \equiv \wp$.
 
 The study of Weierstrass elliptic functions is interesting in its own right. I'd happily recommend looking at more details from Ahlfors' book<sup>[1](#fn1)</sup>.
 
