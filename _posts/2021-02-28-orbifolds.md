@@ -9,7 +9,7 @@ tags:
 
 Earlier today, I gave a [talk](https://www.youtube.com/watch?v=AuHZgJ_k9os&t=4s) about orbifolds in SBU's graduate student math seminar and I was thinking it'd be a good time for me to write about them too. Orbifolds are a rather natural generalisation of manifolds especially if you are dealing with a lot of quotient spaces. Let's have a look at what they really are and what we can do with them.
 
-Roughly speaking, an **orbifold** $O$ is a Hausdorff second countable topological space that is locally homeomorphic to $\mathbb{R}^n/\Gamma$ for some finite group $\Gamma$. In other words, $O$ admits an open covering $\{U_i\}$ and a collection of homeomorphisms $\phi_i : U_i \to V_i / \Gamma_i$ for some open set $V_i \subset \mathbb{R}^n$ and finite group $\Gamma_i$ acting on $V_i$. These local homeomorphisms must also satisfy certain gluing conditions. (Such conditions are rather lengthy and I will gladly recommend you to refer to Thurston's notes chapter 13<sup>[1](#fn1)</sup> on this.) We say that $O$ is a smooth orbifold if the local finite groups (and the local gluing maps) are acting smoothly, and a Riemannian orbifold if there are Riemannian metrics on the local charts invariant under the finite group action and if the finite groups (and the local gluing maps) are acting isometrically
+Roughly speaking, an **orbifold** $O$ is a Hausdorff second countable topological space that is locally homeomorphic to $\mathbb{R}^n/\Gamma$ for some finite group $\Gamma$. In other words, $O$ admits an open covering $\\\{U_i\\\}$ and a collection of homeomorphisms $\phi_i : U_i \to V_i / \Gamma_i$ for some open set $V_i \subset \mathbb{R}^n$ and finite group $\Gamma_i$ acting on $V_i$. These local homeomorphisms must also satisfy certain gluing conditions. (Such conditions are rather lengthy and I will gladly recommend you to refer to Thurston's notes chapter 13<sup>[1](#fn1)</sup> on this.) We say that $O$ is a smooth orbifold if the local finite groups (and the local gluing maps) are acting smoothly, and a Riemannian orbifold if there are Riemannian metrics on the local charts invariant under the finite group action and if the finite groups (and the local gluing maps) are acting isometrically
 
 One of the main reasons for studying orbifolds is the following.
 
@@ -21,14 +21,14 @@ We call the corresponding finite group $\Gamma_x$ at $x$ such that $O$ is locall
 * If $G$ acts smoothly, freely and properly discontinuously on a smooth manifold $M$, then $M/G$ is a smooth manifold.
 * The quotient $\mathbb{R}^2/C_n$ of the Euclidean plane by the group of rotations $C_n$ of order $n$ is a smooth orbifold. Topologically, this orbifold is an infinite cone with exactly one singularity, which we will call a cone point of order $n$.
 * The quotient $\mathbb{R}^n/D_{2n}$ of the Euclidean plane by the dihedral group $D_{2n}$ is also a smooth orbifold. This orbifold is homeomorphic to a closed infinite sector and the singularities are the two boundary edges, which we will call mirror boundary lines (they are coming from the axes of reflections), and the unique point at which the two mirror lines meet, which we will call a corner reflector of order $n$.
-* The quotient $\mathbb{T}^2/\text{Sym}_2$ of the 2-torus $\mathbb{T}^2 = S^1 \times S^1$ by the symmetric group $\text{Sym}_2 = \{ Id, (x,y) \mapsto (y,x)\}$ is a smooth orbifold. Topologically, it is a Mobius strip with mirror boundary.  
+* The quotient $\mathbb{T}^2/\text{Sym}_2$ of the 2-torus $\mathbb{T}^2 = S^1 \times S^1$ by the symmetric group $\text{Sym}_2 = \\\{ Id, (x,y) \mapsto (y,x)\\\}$ is a smooth orbifold. Topologically, it is a Mobius strip with mirror boundary.  
 * The quotient $\mathbb{H}^2/Mod$ of the upper half plane $\mathbb{H}^2$ by the modular group
 
 $$
-Mod = \{ \frac{az+b}{cz+d} \:\vert\: \left( \begin{array}{cc}
+Mod = \left\{ \frac{az+b}{cz+d} \: : \: \left( \begin{array}{cc}
       a & b \\
       c & d
-    \end{array} \right) \in SL(2,\mathbb{Z}) \}
+    \end{array} \right) \in SL(2,\mathbb{Z}) \right\}
 $$
 
 is a smooth orbifold. This is the space of all complex structures on a 2-torus; it is homeomorphic to an open disk and the only singularities are two cone points of order $2$ and $3$ (arising from the point $i$ fixed by the hyperbolic rotation $-\frac{1}{z}$ of order $2$ and the point $e^{\pi i/3}$ fixed by the hyperbolic rotation $-\frac{1}{z+1}$ of order $3$).
