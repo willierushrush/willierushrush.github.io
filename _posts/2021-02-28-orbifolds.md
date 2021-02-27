@@ -25,10 +25,10 @@ We call the corresponding finite group $\Gamma_x$ at $x$ such that $O$ is locall
 * The quotient $\mathbb{H}^2/Mod$ of the upper half plane $\mathbb{H}^2$ by the modular group
 
 $$
-Mod = \{ \frac{az+b}{cz+d} \:\vert\: \big(\begin{bmatrix}
-          a & b\\
-          c & d
-\end{bmatrix}\big)\in SL(2,\mathbb{Z}) \}
+Mod = \{ \frac{az+b}{cz+d} \:\vert\: \left( \begin{array}{cc}
+      a & b \\
+      c & d
+    \end{array} \right) \in SL(2,\mathbb{Z}) \}
 $$
 
 is a smooth orbifold. This is the space of all complex structures on a 2-torus; it is homeomorphic to an open disk and the only singularities are two cone points of order $2$ and $3$ (arising from the point $i$ fixed by the hyperbolic rotation $-\frac{1}{z}$ of order $2$ and the point $e^{\pi i/3}$ fixed by the hyperbolic rotation $-\frac{1}{z+1}$ of order $3$).
