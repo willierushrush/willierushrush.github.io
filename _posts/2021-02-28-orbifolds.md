@@ -23,15 +23,13 @@ We call the corresponding finite group $\Gamma_x$ at $x$ such that $O$ is locall
 * The quotient $\mathbb{R}^n/D_{2n}$ of the Euclidean plane by the dihedral group $D_{2n}$ is also a smooth orbifold. This orbifold is homeomorphic to a closed infinite sector and the singularities are the two boundary edges, which we will call mirror boundary lines (they are coming from the axes of reflections), and the unique point at which the two mirror lines meet, which we will call a corner reflector of order $n$.
 * The quotient $\mathbb{T}^2/\text{Sym}_2$ of the 2-torus $\mathbb{T}^2 = S^1 \times S^1$ by the symmetric group $\text{Sym}_2 = \\\{ Id, (x,y) \mapsto (y,x)\\\}$ is a smooth orbifold. Topologically, it is a Mobius strip with mirror boundary.  
 * The quotient $\mathbb{H}^2/Mod$ of the upper half plane $\mathbb{H}^2$ by the modular group
-
 $$
 Mod = \left\{ \frac{az+b}{cz+d} \: : \: \left( \begin{array}{cc}
       a & b \\
       c & d
     \end{array} \right) \in SL(2,\mathbb{Z}) \right\}
 $$
-
-| is a smooth orbifold. This is the space of all complex structures on a 2-torus; it is homeomorphic to an open disk and the only singularities are two cone points of order $2$ and $3$ (arising from the point $i$ fixed by the hyperbolic rotation $-\frac{1}{z}$ of order $2$ and the point $e^{\pi i/3}$ fixed by the hyperbolic rotation $-\frac{1}{z+1}$ of order $3$).
+is a smooth orbifold. This is the space of all complex structures on a 2-torus; it is homeomorphic to an open disk and the only singularities are two cone points of order $2$ and $3$ (arising from the point $i$ fixed by the hyperbolic rotation $-\frac{1}{z}$ of order $2$ and the point $e^{\pi i/3}$ fixed by the hyperbolic rotation $-\frac{1}{z+1}$ of order $3$).
 
 Given an orbifold $O$ of dimension $n$, the isotropy group at any point $x \in O$ is an arbitrary finite group acting on a open subset of $\mathbb{R}^n$. We can in fact assume without loss of generality that each isotropy group is a subgroup of the orthogonal group $O(n)$ acting on $\mathbb{R}^n$.
 
