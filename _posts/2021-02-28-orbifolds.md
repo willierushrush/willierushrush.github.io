@@ -9,7 +9,7 @@ tags:
 
 Earlier today, I gave a [talk](https://www.youtube.com/watch?v=AuHZgJ_k9os&t=4s) about orbifolds in SBU's graduate student math seminar and I was thinking it'd be a good time for me to write about them too. Orbifolds are a rather natural generalisation of manifolds especially if you are dealing with a lot of quotient spaces. Let's have a look at what they really are and what we can do with them.
 
-Roughly speaking, an **orbifold** $O$ is a Hausdorff second countable topological space that is locally homeomorphic to $\mathbb{R}^n/\Gamma$ for some finite group $\Gamma$. In other words, $O$ admits an open covering $\\\{U_i\\\}$ and a collection of homeomorphisms $\phi_i : U_i \to V_i / \Gamma_i$ for some open set $V_i \subset \mathbb{R}^n$ and finite group $\Gamma_i$ acting on $V_i$. These local homeomorphisms must also satisfy certain gluing conditions. (Such conditions are rather lengthy and I will gladly recommend you to refer to Thurston's notes chapter 13<sup>[1](#fn1)</sup> on this.) We say that $O$ is a smooth orbifold if the local finite groups (and the local gluing maps) are acting smoothly, and a Riemannian orbifold if there are Riemannian metrics on the local charts invariant under the finite group action and if the finite groups (and the local gluing maps) are acting isometrically
+Roughly speaking, an **orbifold** $O$ is a Hausdorff second countable topological space that is locally homeomorphic to $\mathbb{R}^n/\Gamma$ for some finite group $\Gamma$. In other words, $O$ admits an open covering $\\\{U_i\\\}$ and a collection of homeomorphisms $\phi_i : U_i \to V_i / \Gamma_i$ for some open set $V_i \subset \mathbb{R}^n$ and finite group $\Gamma_i$ acting on $V_i$. These local homeomorphisms must also satisfy certain gluing conditions. (Such conditions are rather lengthy and I will gladly recommend you to refer to Thurston's notes chapter 13<sup>[1](#fn1)</sup> on this.) We say that $O$ is a smooth orbifold if the local finite groups (and the local gluing maps) are acting smoothly, and a Riemannian orbifold if there are Riemannian metrics on the local charts invariant under the finite group action and if the finite groups (and the local gluing maps) are acting isometrically.
 
 One of the main reasons for studying orbifolds is the following.
 
@@ -29,7 +29,7 @@ Mod = \left\{ \frac{az+b}{cz+d} \: : \: \left( \begin{array}{cc}
       c & d
     \end{array} \right) \in SL(2,\mathbb{Z}) \right\}
 $$
-is a smooth orbifold. This is the space of all complex structures on a 2-torus; it is homeomorphic to an open disk and the only singularities are two cone points of order $2$ and $3$ (arising from the point $i$ fixed by the hyperbolic rotation $-\frac{1}{z}$ of order $2$ and the point $e^{\pi i/3}$ fixed by the hyperbolic rotation $-\frac{1}{z+1}$ of order $3$).
+is a smooth orbifold. This is the space of all complex structures on a 2-torus; it is homeomorphic to an open disk (or the sphere punctured at $\infty$) and the only singularities are two cone points of order $2$ and $3$ (arising from the point $i$ fixed by the hyperbolic rotation $-\frac{1}{z}$ of order $2$ and the point $e^{\pi i/3}$ fixed by the hyperbolic rotation $-\frac{1}{z+1}$ of order $3$).
 
 Given an orbifold $O$ of dimension $n$, the isotropy group at any point $x \in O$ is an arbitrary finite group acting on a open subset of $\mathbb{R}^n$. We can in fact assume without loss of generality that each isotropy group is a subgroup of the orthogonal group $O(n)$ acting on $\mathbb{R}^n$.
 
