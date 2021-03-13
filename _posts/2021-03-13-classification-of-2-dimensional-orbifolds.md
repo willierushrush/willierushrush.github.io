@@ -7,7 +7,7 @@ tags:
   - Topology
 ---
 
-Now that we know orbifolds (see this [post](/posts/2021/02/orbifolds)), we would like to make an attempt to classify the geometries of all 2 dimensional orbifolds. I would like to start off with the theory of covering spaces of orbifolds and then make a classification statement according to the universal cover of these spaces, similar to the uniformisation theorem and the classical classification of surfaces.
+Now that we know orbifolds (see this [post](/posts/2021/02/orbifolds)), we would like to make an attempt to classify the geometries of all 2 dimensional connected orbifolds. I would like to start off with the theory of covering spaces of orbifolds and then make a classification statement according to the universal cover of these spaces, similar to the uniformisation theorem and the classical classification of surfaces.
 
 ## Covering Space Theory
 
@@ -21,7 +21,7 @@ An orbifold covering map $f: \tilde{O} \to O$ is a **universal orbifold covering
 
 ## Euler Characteristic
 
-Let's assume that $O$ is a compact 2-D orbifold (possibly with boundary). Recall (from [here](/posts/2021/02/orbifolds)) that every singularity of $O$ must be either a cone point, a corner reflector, or a mirror boundary. Endow $O$ with a finite CW complex structure such that every singular point and mirror boundary is a cell, so that each cell $c$ has a well-defined isotropy group $\Gamma(c)$. The **orbifold Euler characteristic** of $O$ is defined to be
+Let's assume that $O$ is a compact 2-D orbifold (possibly with topological boundary). Recall (from [here](/posts/2021/02/orbifolds)) that every singularity of $O$ must be either a cone point, a corner reflector, or a mirror boundary. Endow $O$ with a finite CW complex structure such that every singular point and mirror boundary is a cell, so that each cell $c$ has a well-defined isotropy group $\Gamma(c)$. The **orbifold Euler characteristic** of $O$ is defined to be
 
 $$
 \chi(O) = \sum_{\text{cell} c} \frac{(-1)^{\text{dim(c)}}}{\vert \Gamma(c) \vert}.
@@ -45,11 +45,35 @@ $$
 
 We then sum the corresponding equation above over every cell on $P$ (given some reasonably fine CW complex on P) in order to get the Riemann-Hurwitz formula.
 
-Let's consider the following example. The triangle group $\Delta(2,3,5)$ is the group of icosahedral symmetries of the sphere $S^2$. This is the group of symmetries of the regular soccer ball. The orbifold $O = S^2 / \Delta(2,3,5)$ is essentially a spherical triangle with interior angles $\frac{\pi}{2}$, $\frac{\pi}{3}$, and $\frac{\pi}{5}$ at the vertices, which are corner reflectors of order $2$, $3$, and $5$ respectively. Obtain the double $P$ of $O$ by gluing two copies of $O$ along corresponding mirror boundaries. The orbifold $P$ is also isomorphic to $S^2 / \Gamma$ where $\Gamma$ is the subgroup of all orientation preserving symmetries in $\Delta(2,3,5)$. The projection map $P \to O$ is an orbifold double covering map. In fact, $\chi(O) = \frac{1}{60}$ whereas $\chi(P) = \frac{1}{30}$.
+Let's look at the following example. The triangle group $\Delta(2,3,5)$ is the group of icosahedral symmetries of the sphere $S^2$. This is the group of symmetries of the regular soccer ball. The orbifold $O = S^2 / \Delta(2,3,5)$ is essentially a spherical triangle with interior angles $\frac{\pi}{2}$, $\frac{\pi}{3}$, and $\frac{\pi}{5}$ at the vertices, which are corner reflectors of order $2$, $3$, and $5$ respectively. Obtain the double $P$ of $O$ by gluing two copies of $O$ along corresponding mirror boundaries. The orbifold $P$ is also isomorphic to $S^2 / \Gamma$ where $\Gamma$ is the subgroup of all orientation preserving symmetries in $\Delta(2,3,5)$. $P$ is a topological sphere with $3$ cone points of orders $2$, $3$, and $5$. The projection map $P \to O$ is an orbifold double covering map. We can easily verify that the Riemann-Hurwitz formula holds: $\chi(O) = \frac{1}{60}$ whereas $\chi(P) = \frac{1}{30}$.
 
 <p align="center">
   <img src="/images/trianglegroup235.jpeg" width="555" height="270" />
 </p>
+
+## Classification
+
+Every compact surface is homeomorphic to either the sphere $S^2$, the 2-torus $\mathbb{T}^2$, the real projective plane $\mathbb{R}\mathbb{P}^2$ or the connected sum of multiple copies of $\mathbb{T}^2$ and/or $\mathbb{R}\mathbb{P}^2$. Any surface $S$ admits a geometric structure coming from its universal cover (elliptic if $\chi_{CW}<0$ and covered by $S^2$, parabolic if $\chi_{CW}=0$ and covered by $\mathbb{R}^2$ and hyperbolic if $\chi_{CW}<0$ and covered by $\mathbb{H}^2$). Similarly, we can endow any good compact 2-D orbifold $O$ with elliptic / parabolic / hyperbolic structure by endowing it with the Riemannian orbifold structure coming from its universal cover $\tilde{O} \in \\\{ S^2, \mathbb{R}^2, \mathbb{H}^2\\\}$.
+
+|    Type   |         Topology         |                                     Singularities                                    |
+|:---------:|:------------------------:|:------------------------------------------------------------------------------------:|
+|    Bad    |           $S^2$          | $(m;)$, $(m_1, m_2;)$ [$m_1 < m_2$]                                                  |
+|    Bad    |      $\mathbb{D}^2$      | $(;n)$, $(;n_1,n_2)$ [$n_1 < n_2$]                                                   |
+|  Elliptic |           $S^2$          | $( ;)$, $(m,m;)$, $(2,2,m;)$, $(2,3,k;)$ [$3\leq k \leq 5$]                          |
+|  Elliptic |           $D^2$          | $(;)$, $(n;)$, $(3;2)$, $(2,n)$, $(;,n,n)$, $(;2,2,n)$, $(2,3,k)$ [$3\leq k \leq 5$] |
+|  Elliptic |         $\R\PP^2$        | $(;)$, $(m;)$                                                                        |
+| Parabolic |           $S^2$          | $(3,3,3;)$, $(2,4,4;)$, $(2,3,6;)$, $(2,2,2,2;)$                                     |
+| Parabolic |      $\mathbb{D}^2$      | $(3;3)$, $(2;4)$, $(2;2,2)$, $(;3,3,3)$, $(;2,4,4)$, $(;2,3,6)$, $(;2,2,2,2)$        |
+| Parabolic | $\mathbb{R}\nathbb{P}^2$ | $(2,2)$                                                                              |
+| Parabolic |      $\mathbb{T}^2$      | $(;)$                                                                                |
+| Parabolic |            $K$           | $(;)$                                                                                |
+
+To classify all 2-D compact Riemannian orbifolds, the following considerations must be made:
+1. By the classification of surfaces, if a $2-D$ compact orbifold $O$ is non-hyperbolic and has no boundary, $O$ must topologically be $S^2$, $\mathbb{T}^2$, $\mathbb{R}\mathbb{P}^2$, or the Klein bottle $K$.
+2. If $O$ has mirror boundaries, then we can instead consider the double $P$ obtained by gluing two copies of $O$ along all/some corresponding mirror boundaries. (If all are considered, $P$ is compact.) The corner reflectors in $O$ correspond to cone points in $P$.
+3. More and worse singularities contribute to lower orbifold Euler characteristic. Therefore, the non-hyperbolic ones must not have too many singularities.
+4. If $O$ is elliptic, it is finitely covered by $S^2$ and Riemann-Hurwitz formula provide restrictions to the possible value of $\chi(O)$. If $O$ is parabolic, then the equation $\chi(O) = 0$ already gives a natural restriction.
+
 
 ### References
 
