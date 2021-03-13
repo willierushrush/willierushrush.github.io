@@ -61,10 +61,10 @@ Every compact surface is homeomorphic to either the sphere $S^2$, the 2-torus $\
 |    Bad    |      $\mathbb{D}^2$      | $(;n)$, $(;n_1,n_2)$ [$n_1 < n_2$]                                                   |
 |  Elliptic |           $S^2$          | $( ;)$, $(m,m;)$, $(2,2,m;)$, $(2,3,k;)$ [$3\leq k \leq 5$]                          |
 |  Elliptic |           $D^2$          | $(;)$, $(n;)$, $(3;2)$, $(2,n)$, $(;,n,n)$, $(;2,2,n)$, $(2,3,k)$ [$3\leq k \leq 5$] |
-|  Elliptic |         $\R\PP^2$        | $(;)$, $(m;)$                                                                        |
+|  Elliptic | $\mathbb{R}\mathbb{P}^2  | $(;)$, $(m;)$                                                                        |
 | Parabolic |           $S^2$          | $(3,3,3;)$, $(2,4,4;)$, $(2,3,6;)$, $(2,2,2,2;)$                                     |
 | Parabolic |      $\mathbb{D}^2$      | $(3;3)$, $(2;4)$, $(2;2,2)$, $(;3,3,3)$, $(;2,4,4)$, $(;2,3,6)$, $(;2,2,2,2)$        |
-| Parabolic | $\mathbb{R}\nathbb{P}^2$ | $(2,2)$                                                                              |
+| Parabolic | $\mathbb{R}\mathbb{P}^2$ | $(2,2)$                                                                              |
 | Parabolic |      $\mathbb{T}^2$      | $(;)$                                                                                |
 | Parabolic |            $K$           | $(;)$                                                                                |
 
