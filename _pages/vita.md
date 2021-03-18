@@ -10,7 +10,7 @@ redirect_from:
 ## Education
 * Ph.D in Pure Mathematics, Stony Brook University, 2019-?
 * MSci Mathematics, Imperial College London, 2015-2019
-  * Thesis: Quadratic-Like Renormalisation
+  * Thesis: Quadratic-Like Renormalisation in Holomorphic Dynamics
   * Advisor: Davoud Cheraghi
 
 ## Awards
