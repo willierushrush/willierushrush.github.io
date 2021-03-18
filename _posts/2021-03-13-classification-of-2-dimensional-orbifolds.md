@@ -56,7 +56,7 @@ Let's look at the following example. The triangle group $\Delta(2,3,5)$ is the g
 Every compact surface is homeomorphic to either the sphere $S^2$, the 2-torus $\mathbb{T}^2$, the real projective plane $\mathbb{R}\mathbb{P}^2$ or the connected sum of multiple copies of $\mathbb{T}^2$ and/or $\mathbb{R}\mathbb{P}^2$. Any surface $S$ admits a geometric structure coming from its universal cover (elliptic if $\chi_{CW}<0$ and covered by $S^2$, parabolic if $\chi_{CW}=0$ and covered by $\mathbb{R}^2$ and hyperbolic if $\chi_{CW}<0$ and covered by $\mathbb{H}^2$). Similarly, we can endow any good compact 2-D orbifold $O$ with elliptic / parabolic / hyperbolic structure by endowing it with the Riemannian orbifold structure coming from its universal cover $\tilde{O} \in \\\{ S^2, \mathbb{R}^2, \mathbb{H}^2\\\}$.
 
 To classify all 2-D compact Riemannian orbifolds, the following considerations must be made:
-1. By the classification of surfaces, if a $2-D$ compact orbifold $O$ is non-hyperbolic and has no boundary, $O$ must topologically be $S^2$, $\mathbb{T}^2$, $\mathbb{R}\mathbb{P}^2$, or the Klein bottle $K$; if $O$ non-hyperbolic with mirror boundary, then $O$ must be either a closed disk $D^2$, a closed annulus $A$, or a closed Mobius strip $M$.
+1. By the classification of surfaces, if a 2-D compact orbifold $O$ is non-hyperbolic and has no boundary, $O$ must topologically be $S^2$, $\mathbb{T}^2$, $\mathbb{R}\mathbb{P}^2$, or the Klein bottle $K$; if $O$ non-hyperbolic with mirror boundary, then $O$ must be either a closed disk $D^2$, a closed annulus $A$, or a closed Mobius strip $M$.
 2. If $O$ has mirror boundaries, then we can instead consider the double $P$ obtained by gluing two copies of $O$ along all corresponding mirror boundaries. (If all are considered, $P$ is compact.) Any corner reflector in $O$ corresponds to a cone point in $P$ of the same order.
 3. More and worse singularities contribute to lower orbifold Euler characteristic. Therefore, the non-hyperbolic ones must not have too many singularities.
 4. If $O$ is elliptic, it is finitely covered by $S^2$ and Riemann-Hurwitz formula provide restrictions to the possible value of $\chi(O)$. If $O$ is parabolic, then the equation $\chi(O) = 0$ already gives a natural restriction.
@@ -69,7 +69,7 @@ Let's encode the singularities of $O$ by a string of numbers called signature. I
 |    Bad    |           $D^2$          | $(;n)$, $(;n_1,n_2)$ [$n_1 < n_2$]                                                     |
 |  Elliptic |           $S^2$          | $()$, $(m,m)$, $(2,2,m)$, $(2,3,k)$ [$3\leq k \leq 5$]                                 |
 |  Elliptic |           $D^2$          | $(;)$, $(n;)$, $(3;2)$, $(2;n)$, $(;n,n)$, $(;2,2,n)$, $(;2,3,k)$ [$3\leq k \leq 5$]   |
-|  Elliptic | $\mathbb{R}\mathbb{P}^2  | $(;)$, $(m;)$                                                                          |
+|  Elliptic | $\mathbb{R}\mathbb{P}^2$ | $(;)$, $(m;)$                                                                          |
 | Parabolic |           $S^2$          | $(3,3,3;)$, $(2,4,4;)$, $(2,3,6;)$, $(2,2,2,2;)$                                       |
 | Parabolic |           $D^2$          | $(4;2)$, $(3;3)$, $(2,2;)$, $(2;2,2)$, $(;3,3,3)$, $(;2,4,4)$, $(;2,3,6)$, $(;2,2,2,2)$|
 | Parabolic | $\mathbb{R}\mathbb{P}^2$ | $(2,2;)$                                                                               |
