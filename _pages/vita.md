@@ -8,9 +8,10 @@ redirect_from:
 ---
 
 ## Education
-* Ph.D in Pure Mathematics, Stony Brook University, <div style="text-align: right"> 2019-? </div>
+* Ph.D in Pure Mathematics, Stony Brook University, 2019-?
 * MSci Mathematics, Imperial College London, 2015-2019
-  * Thesis:
+  * Thesis: Quadratic-Like Renormalisation
+  * Advisor: Davoud Cheraghi
 
 ## Awards
   * IBM Prize for Excellence in Pure Mathematics, 2019
