@@ -1,7 +1,7 @@
 ---
 title: 'The fundamentals of topological dynamics'
 date: 2021-03-27
-permalink: /posts/2021/03/the-fundamentals-of-topological-dynamics.md
+permalink: /posts/2021/03/the-fundamentals-of-topological-dynamics
 tags:
   - Dynamical Systems
 ---
