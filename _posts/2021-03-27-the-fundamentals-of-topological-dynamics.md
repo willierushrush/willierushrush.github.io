@@ -31,7 +31,7 @@ Minimality can be equivalently described by the nonexistence of non-empty $f$-in
 The intersection assumption follows immediately from transitivity. Suppose $x$ has a dense orbit. For any non-empty open subsets $U$ and $V$ of $X$, $f^k(x) \in U$ and $f^l(x) \in V$ for some positive integers $k<l$. Therefore, the intersection $f^{l-k}(U) \cap V$ contains $f^l(x)$ and is therefore non-empty. The converse direction requires the additional topological assumption on the space $X$ stated in the proposition. Suppose the intersection assumption holds and let $\\\{U_i\\\}_{i \in \mathbb{N}}$ be a countable base of open subsets of $X$ with compact closure. The point $x$ having a dense orbit can be obtained by the following inductive process. (I am following the book of Katok and Hasselblatt<sup>[2](#fn2)</sup> for this proof.)
 * Pick an integer $N_1 > 0$ such that $f^{N_1}(U_1) \cap U_2 \neq \emptyset$, and a non-empty open subset $V_1$ of $U_1 \subset f^{-N_1}(U_2)$.
 * Given positive integers $N_1, \ldots N_{k-1}$ and non-empty open subsets $V_i \subset U_i$ for $i=1,\ldots k-1$, pick an integer $N_{k}>0$ such that $f^{N_{k}}(V_{k-1}) \cap U_{k+1} \neq \emptyset$, and a non-empty open subset $V_{k}$ of $V_{k-1} \subset f^{-N_{k}}(U_{k+1})$.
-* By induction, we have a nest of compact sets $... \subset \overline{V_3} \subset \overline{V_2} \subset \overline{V_1}$.
+By induction, we have a nest of compact sets $... \subset \overline{V_3} \subset \overline{V_2} \subset \overline{V_1}$.
 By Cantor's intersection theorem, this nest has a non-empty intersection and therefore contains some point $x$. This point has a dense orbit since $f^{N_{k-1}}(x) \in U_k$ for all $k$.
 
 Here are some basic examples:
