@@ -45,7 +45,7 @@ A continuous map $f: X\to X$ is **topologically conjugate** to another continuou
 
 Some examples of conjugacy are the following.
 1. Any translation $x+v$ on $\mathbb{R}^n$ by any vector $v \in \mathbb{R}^n\backslash\\\{0\\\}$ is conjugate to the translation $x+e_1$ on $\mathbb{R}^n$ where $e_1=(1,0,\ldots 0)$.
-2. Any complex quadratic map $pz^2+qz+r$ on $\mathbb{C}$ is conjugate by an affine map $az+b$ to a monic quadratic map of the form $z^2+c$.
+2. Any complex quadratic map $pz^2+qz+r$ is conjugate by an affine map $az+b$ to a monic quadratic map of the form $z^2+c$.
 
 ### References
 
