@@ -13,9 +13,9 @@ For every $x\in X$,
 2. the **forward orbit** of $x$ under $f$ is the set of forwarad iterates of $x$, that is, $O_f^+(x) = \{f^n(x)\}_{n\geq 0}$;
 3. the **$\omega$-limit set** of $x$ is the set of accumulation points of the forward orbit of $x$, that is, $\omega(x) = \cap_{n\geq 1} \overline{O_f^+(f^n(x))}$.
 
-By definition, the $\omega$-limit set is forward invariant, that is, $f(\omega(x)) \subset \omega(x)$. An orbit $O_f^+(x)$ is a finite set if and only if $x$ is a periodic point. When $x$ is periodic, the $\omega$-limit set $\omega(x)$ coincides with the periodic orbit $O_f^+(x)$. Other properties of high dynamical interest aside from periodicity include the following:
+By definition, the $\omega$-limit set is forward invariant: $f(\omega(x)) \subset \omega(x)$. An orbit $O_f^+(x)$ is a finite set if and only if $x$ is a periodic point. When $x$ is periodic, the $\omega$-limit set $\omega(x)$ coincides with the periodic orbit $O_f^+(x)$. Other properties of high dynamical interest aside from periodicity include the following:
 4. $x$ is **recurrent** if $x \in \omega(x)$.
-5. $x$ is **wandering** if there's an open neighborhood $U$ of $x$ and some $N \in \mathbb{N}$ such that for all $n\geq N$, $f^n(U) \cap U = \emptyset$.
+5. $x$ is **wandering** if there's an open neighborhood $U$ of $x$ such that for all $n\in \mathbb{N}$, $f^n(U) \cap U = \emptyset$.
 
 You can think of recurrence as a generalisation of periodicity since recurrent points are those which admits a subsequence of iterates located arbitrarily close to the original point. The set $R$ of recurrent points somewhat encode the complexity of a dynamical system. The set of wandering points is called the **wandering set** $W$; it is open since the definition of wandering points is an open one. The complement $NW:= X\backslash W$ is called the **non-wandering set**, and it is closed. By definition, $\overline{R} \subset NW$.
 
