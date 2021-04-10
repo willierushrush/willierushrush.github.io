@@ -6,7 +6,7 @@ tags:
   - Complex Analysis
 ---
 
-The famous Koebe one-quarter theorem gives a sharp bound on the size of the image of univalent functions locally. The standard proof of this theorem which can be found in most complex analysis books (e.g. Rudin<sup>[1](#fn1)</sup> chapter 14) relies on the area theorem and s rather unnatural conformal change of variables. I found a rather interesting proof which relies on covering spaces and conformal moduli. This can be found in the book of Hubbard<sup>[2](#fn2)</sup>.
+The famous Koebe one-quarter theorem gives a sharp bound on the size of the image of univalent functions locally. The standard proof of this theorem which can be found in most complex analysis books (e.g. Rudin<sup>[1](#fn1)</sup> chapter 14) relies on the area theorem and s rather unnatural conformal change of variables. I found another proof of the theorem from the book of Hubbard<sup>[2](#fn2)</sup> which is, in my opinion, more fascinating and geometric, relying on covering spaces and conformal moduli. This can be found .
 
 Let's denote the open disk centered at $a \in \mathbb{C}$ of radius $r>0$ by $\mathbb{D}(a,r)$. The unit disk will be especially denoted by $\mathbb{D}$. We'd also denote the round annulus $\\\{ r < \vert z \vert < R \\\}$ as $\mathbb{A}(r,R)$.
 
