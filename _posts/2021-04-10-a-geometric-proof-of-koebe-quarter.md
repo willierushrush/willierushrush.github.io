@@ -1,6 +1,6 @@
 ---
 title: 'A geometric proof of Koebe 1/4 theorem'
-date: 2021-03-27
+date: 2021-04-10
 permalink: /posts/2021/04/a-geometric-proof-of-koebe-quarter
 tags:
   - Complex Analysis
