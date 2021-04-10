@@ -8,7 +8,7 @@ tags:
 
 The famous Koebe one-quarter theorem gives a sharp bound on the size of the image of univalent functions locally. The standard proof of this theorem which can be found in most complex analysis books (e.g. Rudin<sup>[1](#fn1)</sup> chapter 14) relies on the area theorem and s rather unnatural conformal change of variables. I found a rather interesting proof which relies on covering spaces and conformal moduli. This can be found in the book of Hubbard<sup>[2](#fn2)</sup>.
 
-Let's denote the open disk centered at $a \in \mathbb{C}$ of radius $r>0$ by $\mathbb{D}(a,r)$. The unit disk will be especially denoted by $\mathbb{D}$. We'd also denote the round annulus $\\\{ r < \vert z \vert R \\\}$ as $\mathbb{A}(r,R)$.
+Let's denote the open disk centered at $a \in \mathbb{C}$ of radius $r>0$ by $\mathbb{D}(a,r)$. The unit disk will be especially denoted by $\mathbb{D}$. We'd also denote the round annulus $\\\{ r < \vert z \vert < R \\\}$ as $\mathbb{A}(r,R)$.
 
 > **_Koebe 1/4 Theorem:_** Let $f: \mathbb{D} \to \mathbb{C}$ be a univalent map. If $f(0)=0$ and $\vert f'(0)\vert =1$, then the image $f(\mathbb{D})$ contains the disk $\mathbb{D}(0,1/4)$.
 
@@ -25,7 +25,7 @@ Since the image $g(\mathbb{D})$ contains no critical values of $K$, we can lift 
 By Taylor series about $0$, we can deduce that for any $\epsilon >0$, for sufficiently small $r>0$, $g_0(\mathbb{D}(0,r))$ contains the disk $\mathbb{D}(0, r(1-\epsilon)\vert g'(0) \vert)$. Since $g_\infty = 1/g_0$, $g_\infty(\mathbb{D}(0,r))$ also contains the domain $\\\{ \vert z \vert > \frac{1}r(1-\epsilon)\vert g'(0)} \vert \\\}$. In overall, we can conclude that the (disjoint) annuli $A_j(\rho) := g_j(\mathbb{A}(r, 1))$, $j \in \\\{0,\infty\\\}$ are contained in the bigger annulus
 
 $$
-A := \mathbb{A}(r(1-\epsilon)\vert g'(0) \vert), \frac{1}{r(1-\epsilon)\vert g'(0) \vert}).
+A := \mathbb{A} \left( r(1-\epsilon)\vert g'(0) \vert, \frac{1}{r(1-\epsilon)\vert g'(0) \vert}\right).
 $$
 
 At this point, we'd like to the family of curves joining the inner and outer boundary components of each of the annuli $A$, $A_0$ and $A_\infty$. (Look back at this [post](/posts/2020/09/extremal-length) for the theory of extremal lengths.) We calculate the moduli of each of these annuli:
@@ -44,7 +44,7 @@ Upon simplification, we obtain the inequality $\vert g'(0) \vert \leq \frac{1}{1
 
 ### References
 
-<a name="fn1">1</a>: W. Rudin. Real and Complex Analysis. McGraw-Hill, Series in Higher Mathematics, 3rd edition, 1987.
+<a name="fn1">1</a>: W. Rudin. Real and Complex Analysis. McGraw-Hill, Series in Higher Mathematics, 3rd edition, 1987.  
 <a name="fn2">2</a>: J. H. Hubbard. Teichmüller Theory and Applications to Geometry, Topology, and Dynamics. Vol. 1. Matrix Editions, Ithaca, NY, 2nd edition, 2006.  
 
 ------
