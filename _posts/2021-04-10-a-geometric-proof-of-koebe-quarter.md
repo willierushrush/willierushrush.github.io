@@ -32,7 +32,7 @@ $$
 \text{mod}(A_0) = \text{mod}(A_\infty) = \frac{1}{2\pi} \log\frac{1}{r}, \quad \text{mod}(A) = \frac{1}{2\pi} \log\frac{1}{r^2(1-\epsilon)^2\vert g'(0) \vert^2}.
 $$
 
-By the series law, for the theory of extremal lengths), we have the inequality $\text{mod}(A_0) + \text{mod}(A_\infty) \leq \text{mod}(A)$ which then gives us:
+By the series law, we have the inequality $\text{mod}(A_0) + \text{mod}(A_\infty) \leq \text{mod}(A)$ which then gives us:
 
 $$
 \frac{2}{2\pi} \log\frac{1}{r} \leq \frac{1}{2\pi} \log\frac{1}{r^2(1-\epsilon)^2\vert g'(0) \vert^2}.
