@@ -1,9 +1,9 @@
 ---
-title: 'Extremal Length'
+title: 'Extremal length'
 date: 2020-09-12
 permalink: /posts/2020/09/extremal-length
 tags:
-  - Complex Analysis
+  - Complex analysis
 ---
 
 Extremal length measures the size of curve families in a way that is invariant under conformal mappings. The extremal length also gives a way to define quasiconformal maps, i.e. orientation preserving homoeomorphisms which distort angles locally up to some bounded constant, and equivalently, distort extremal lengths up to some bounded constant. In this post, I aim to discuss the basic concepts of extremal length.

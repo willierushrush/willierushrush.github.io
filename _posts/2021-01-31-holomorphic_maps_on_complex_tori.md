@@ -1,9 +1,9 @@
 ---
-title: 'Holomorphic Maps on Complex Tori'
+title: 'Holomorphic maps on complex tori'
 date: 2021-01-31
 permalink: /posts/2021/01/holomorphic_maps_on_complex_tori/
 tags:
-  - Complex Analysis
+  - Complex analysis
   - Holomorphic dynamics
 ---
 

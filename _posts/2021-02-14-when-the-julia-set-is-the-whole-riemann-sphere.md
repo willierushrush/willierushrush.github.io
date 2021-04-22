@@ -1,5 +1,5 @@
 ---
-title: 'Lattès Maps and Weierstrass Elliptic Functions'
+title: 'Lattès maps and Weierstrass elliptic functions'
 date: 2021-02-14
 permalink: /posts/2021/01/when-the-julia-set-is-the-whole-riemann-sphere/
 tags:

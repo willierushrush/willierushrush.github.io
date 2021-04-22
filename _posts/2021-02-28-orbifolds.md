@@ -3,7 +3,7 @@ title: 'Orbifolds'
 date: 2021-02-26
 permalink: /posts/2021/02/orbifolds
 tags:
-  - Riemannian Geometry
+  - Riemannian geometry
   - Topology
 ---
 

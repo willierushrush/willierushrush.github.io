@@ -1,9 +1,9 @@
 ---
-title: 'Measurable Riemann Mapping Theorem'
+title: 'Measurable Riemann mapping theorem'
 date: 2020-11-07
 permalink: /posts/2020/11/mrmt
 tags:
-  - Complex Analysis
+  - Complex analysis
 ---
 
 The measurable Riemann mapping theorem by Ahlfors & Bers remains one of the most fundamental results in the theory of quasiconformal maps. It states that there is a biholomorphic correspondence between quasiconformal maps (modulo post-composition with conformal isomorphisms) and their complex dilatations. I aim to discuss the theorem firstly on the unit disk and then on general Riemann surfaces.

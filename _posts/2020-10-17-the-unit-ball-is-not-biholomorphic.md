@@ -1,10 +1,10 @@
 ---
-title: 'The Unit Ball is Not Biholomorphic to the Unit Polydisk'
+title: 'The unit ball is not biholomorphic to the unit polydisk'
 date: 2020-10-17
 permalink: /posts/2020/10/the-unit-ball-is-not-biholomorphic
 tags:
-  - Several Complex Variables
-  - Complex Geometry
+  - Several complex variables
+  - Complex geometry
 ---
 
 Riemann mapping theorem states that every simply connected domain on the complex plane $\mathbb{C}$ is either $\mathbb{C}$ or biholomorphic to the unit disk $\mathbb{D}$. This theorem is like a miracle and its natural generalisation to domains in higher dimensions miserably fails. In higher dimensions, simply connected domains have a much richer variety of biholomorphic invariants, such as higher cohomology groups and automorphism groups. Without using any complicated invariants, I'd like to bring up a classical counterexample by Poincaré, showing that the unit ball $\mathbb{B} \subset \mathbb{C}^n$ and the unit polydisk $\mathbb{D}^n = \\{ \vert z_j \vert <1 \text{ for }j=1,\ldots n \\} \subset \mathbb{C}^n$ for $n \geq 2$ are not biholomorphically equivalent.

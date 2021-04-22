@@ -3,7 +3,7 @@ title: 'A geometric proof of Koebe 1/4 theorem'
 date: 2021-04-10
 permalink: /posts/2021/04/a-geometric-proof-of-koebe-quarter
 tags:
-  - Complex Analysis
+  - Complex analysis
 ---
 
 The famous Koebe one-quarter theorem gives a sharp bound on the size of the image of univalent functions locally. The standard proof of this theorem which can be found in most complex analysis books (e.g. Rudin<sup>[1](#fn1)</sup> chapter 14) relies on the area theorem and a rather unnatural conformal change of variables. I found another proof of the theorem from the book of Hubbard<sup>[2](#fn2)</sup> which is, in my opinion, more fascinating and geometric, relying on covering spaces and conformal moduli.

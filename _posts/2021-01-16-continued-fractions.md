@@ -1,9 +1,9 @@
 ---
-title: 'Continued Fractions'
+title: 'Continued fractions'
 date: 2021-01-16
 permalink: /posts/2021/01/continued-fractions
 tags:
-  - Number Theory
+  - Number theory
 ---
 
 Irrational numbers are typically defined upon constructing the set $\mathbb{R}$ of real numbers from the set $\mathbb{Q}$ of rational numbers via either Cauchy sequences or Dedekind cuts. Decimal expansion has been used as the standard way of representing and approximating irrational numbers. However, it turns out that the best way to approximate irrational numbers is through continued fractions.

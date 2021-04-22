@@ -1,9 +1,9 @@
 ---
-title: 'Classification of 2-D Orbifolds'
+title: 'Classification of 2-D orbifolds'
 date: 2021-03-13
 permalink: /posts/2021/02/classification-of-2-d-orbifolds
 tags:
-  - Riemannian Geometry
+  - Riemannian geometry
   - Topology
 ---
 

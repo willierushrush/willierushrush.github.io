@@ -1,9 +1,9 @@
 ---
-title: 'Thoughts on My Oral Exam'
+title: 'Thoughts on my oral exam'
 date: 2020-12-07
 permalink: /posts/2020/12/orals
 tags:
-  - Graduate Student Life
+  - Graduate student life
 ---
 
 In Stony Brook's maths department, before embarking on any serious research, a graduate student must complete an oral qualifying examination. I took mine in December 1st 2020. I was assessed on Holomorphic Dynamics (major topic) and Several Complex Variables (minor topic) by Dzmitry (Dima) Dudko, my major advisor, Eric Bedford, my minor advisor, and Mikhail (Misha) Lyubich. Here are my thoughts on how it went and some tips on how you can ace your orals.

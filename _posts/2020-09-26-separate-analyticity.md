@@ -1,9 +1,9 @@
 ---
-title: 'Separate Analyticity'
+title: 'Separate analyticity'
 date: 2020-09-26
 permalink: /posts/2020/09/separate-analyticity
 tags:
-  - Several Complex Variables
+  - Several complex variables
 ---
 
 In several complex variables, a function $f: D \to \mathbb{C}$ on an open subset $D \subset \mathbb{C}^n$ is holomorphic if it is separately holomorphic on each variable. A theorem by Hartogs says that this is equivalent to $f$ having a local power series representation in $z = (z_1,\ldots z_n)$ at every point in $D$, i.e. the usual definition of analyticity. A similar result by Forelli states that holomorphicity about a point $a \in \mathbb{C}$ is also satisfied if the function is $c^\infty$ near $a$ and is holomorphic on every one-dimensional complex disk centered at $a$. To me, both are equally interesting results on their own!

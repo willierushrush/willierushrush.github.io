@@ -3,7 +3,7 @@ title: 'The fundamentals of topological dynamics'
 date: 2021-03-27
 permalink: /posts/2021/03/the-fundamentals-of-topological-dynamics
 tags:
-  - Dynamical Systems
+  - Dynamical systems
 ---
 
 A discrete topological dynamical system is a continuous self map $f: X \to X$ on a topological space $X$. The main interest in topological dynamics is to observe how different values of $x$ behave under iteration $f^n(x)$ for $n\geq 0$ without any further regularity assumptions on $f$ and $X$. In this post, I aim to summarise the very basic definitions and propositions in topological dynamics.

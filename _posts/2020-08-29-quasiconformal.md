@@ -3,7 +3,7 @@ title: 'Quasiconformal maps'
 date: 2020-08-29
 permalink: /posts/2020/08/quasiconformal-maps
 tags:
-  - Complex Analysis
+  - Complex analysis
 ---
 
 Conformal mappings are often too rigid for us to use. We know that Riemann mappings, for example, are unique up to conformal automorphisms of the unit disk -- the set of which forms a topological group homeomorphic to $S^1 \times \mathbb{D}$. In complex analysis, we often need maps which are more flexible and in many cases, what we are looking for are quasiconformal maps. While conformal maps preserve angle locally, quasiconformal maps distort angles locally up to some factor.
