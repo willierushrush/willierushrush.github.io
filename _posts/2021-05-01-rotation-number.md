@@ -44,11 +44,12 @@ $$
 
 Let's slowly unwind the theorem starting from case 1. Suppose $f$ has a periodic point $x$ of period $q$, then for any lift $F$ of $f$, $F^q(x)-x$ must be some non-negative integer $p$ less than $q$. As such, $\tau(f)=\frac{p}{q}$.
 
-The converse is not as immediate. Suppose $\tau(f) = \frac{p}{q}$ for some co-prime non-negative integers $p$ and $q$. By definition of the rotation number, we can show that $\tau(f^q) \equiv q\tau(f) \equiv 0 (\text{mod} 1)$ so we may as well assume that $\tau(f)=0$. If, for a contradiction, $f$ does not have any fixed points, then by compactness of $S^1$ and periodicity of $F$, $\delta := \min{ F(x)-x : x \in \mathbb{R}}$ is strictly positive. Therefore, we obtain a contradiction:
+The converse is not as immediate. Suppose $\tau(f) = \frac{p}{q}$ for some co-prime non-negative integers $p$ and $q$. By definition of the rotation number, we can show that $\tau(f^q) \equiv q\tau(f) \equiv 0 (\text{mod} 1)$ so we may as well assume that $\tau(f)=0$. If, for a contradiction, $f$ does not have any fixed points, then by compactness of $S^1$ and periodicity of $F$, $\delta := \min{ F(x)-x : x \in \mathbb{R}}$ is strictly positive. Therefore, we have a contradiction:
 
 $$
-\tau(f) = \lim_{n \to \infty} \frac{F^n(x) - x}{n} & \geq \lim_{n \to \infty} \frac{n\tau}{n} = \delta > 0.
+\tau(f) = \lim_{n \to \infty} \frac{F^n(x) - x}{n} \geq \lim_{n \to \infty} \frac{n\tau}{n} = \delta > 0.
 $$
+
 
 
 ### References
