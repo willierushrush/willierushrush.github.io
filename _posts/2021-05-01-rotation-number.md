@@ -35,20 +35,29 @@ $$
 \end{align}
 $$
 
-## Poincaré's classification
+Rotation number gives a complete picture of the dynamics of circle homeomorphisms.
 
-> **_Theorem_** Let $f$ be a circle homeomorphism. Exactly one of the following holds.
-1. $\tau(f) \in \mathbb{Q}$ and $f$ has a periodic point;
-2. $\tau(f) \not\in \mathbb{Q}$ and $f$ is conjugate to the irrational rotation $x+\tau(f)$;
-3. $\tau(f) \not\in \mathbb{Q}$ but there is an invariant Cantor set.
+> **_Poincaré's classification_** Let $f$ be a circle homeomorphism. Exactly one of the following holds.
+1. $\tau(f) \in \mathbb{Q}$, $f$ has a periodic point, and the $omega$-limit set of every point is a periodic orbit;
+2. $\tau(f) \not\in \mathbb{Q}$ and $f$ is either conjugate to the irrational rotation $x+\tau(f)$ or has an invariant Cantor set.
 
-Let's slowly unwind the theorem starting from case 1. Suppose $f$ has a periodic point $x$ of period $q$, then for any lift $F$ of $f$, $F^q(x)-x$ must be some non-negative integer $p$ less than $q$. As such, $\tau(f)=\frac{p}{q}$.
+## Rational rotation number
 
-The converse is not as immediate. Suppose $\tau(f) = \frac{p}{q}$ for some co-prime non-negative integers $p$ and $q$. By definition of the rotation number, we can show that $\tau(f^q) \equiv q\tau(f) \equiv 0 (\text{mod} 1)$ so we may as well assume that $\tau(f)=0$. If, for a contradiction, $f$ does not have any fixed points, then by compactness of $S^1$ and periodicity of $F$, $\delta := \min{ F(x)-x : x \in \mathbb{R}}$ is strictly positive. Therefore, we have a contradiction:
+Suppose $f$ has a periodic point $x$ of period $q$, then for any lift $F$ of $f$, $F^q(x)-x$ must be some non-negative integer $p$, which must be less than $q$ since $\vert F(z)-z \vert < 1 for any $z$. As such, $\tau(f)=\frac{p}{q}$.
+
+The converse is not as straightforward. Suppose $\tau(f) = \frac{p}{q}$ for some co-prime non-negative integers $p$ and $q$. By definition of the rotation number, we can show that $\tau(f^q) \equiv q\tau(f) \equiv 0 (\text{mod} 1)$ so we may as well assume that $\tau(f)=0$. If, for a contradiction, $f$ does not have any fixed points, then by compactness of $S^1$ and periodicity of $F$, $\delta := \min{ F(x)-x : x \in \mathbb{R}}$ is strictly positive. Therefore, we have a contradiction:
 
 $$
 \tau(f) = \lim_{n \to \infty} \frac{F^n(x) - x}{n} \geq \lim_{n \to \infty} \frac{n\tau}{n} = \delta > 0.
 $$
+
+In fact, we can show more: any other periodic point must have the same period $q$. Indeed, suppose $y$ is a periodic point of period $s$. Let $r = F^s(y)-y$ so then $r = kp$ and $s = kq$ for some positive integer $k$. For a contradiction, if $F^q(y)-p>y$ for some lift $F$, then by periodicity and monotonicity of $F$,
+
+$$
+F^{2q}(y)-2p = F^q (F^q(y)-p) -p > F^q(y)-y > y
+$$
+
+which inductively implies $F^{kq}(y)-kp > y$, a contradiction. Similarly, we can show that $F^q(y)-p>y$ is impossible. Hence, $y$ must have period $q$.
 
 
 
