@@ -38,7 +38,7 @@ $$
 Rotation number gives a complete picture of the dynamics of circle homeomorphisms.
 
 > **_Poincaré's classification_** Let $f$ be a circle homeomorphism. Exactly one of the following holds.
-1. $\tau(f) \in \mathbb{Q}$, $f$ has a periodic point, and the $omega$-limit set of every point is a periodic orbit;
+1. $\tau(f) \in \mathbb{Q}$, $f$ has a periodic point, and the $\omega$-limit set of every point is a periodic orbit;
 2. $\tau(f) \not\in \mathbb{Q}$ and $f$ is either conjugate to the irrational rotation $x+\tau(f)$ or has an invariant Cantor set.
 
 ## Rational rotation number
