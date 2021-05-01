@@ -24,13 +24,30 @@ The rotation number is invariant under topological [conjugacy](/posts/2021/03/th
 
 > **_Proposition:_** If two circle homeomorphism $f$ and $g$ are topologically conjugate, then $\tau(f) = \tau(g)$.
 
-Indeed, let $g=h\circ f \circ h^{-1}$ for some circle homeomorphism $h$. Let $F$, $G$, and $H$ be the unique lifts of $f$, $g$, and $h$ via $\pi$ such that $G = H \circ F \circ H^{-1}$ and $F(0)$ and $H(0)$ lie in $[0,1)$. We can make use of the periodicity of $H$, i.e. $H(x+1)=H(x)$, to show that $\vert H(x)-x \vert <2$ and $\vert H^{-1}(x)-x \vert 2$ for all $x \in \mathbb{R}$, and $\vert F^n(x) - F^n(y) \vert < 3$ if $\vert x - y \vert < 3$. Therefore,
+Indeed, let $g=h\circ f \circ h^{-1}$ for some circle homeomorphism $h$. Let $F$, $G$, and $H$ be the unique lifts of $f$, $g$, and $h$ via $\pi$ such that $G = H \circ F \circ H^{-1}$ and $F(0)$ and $H(0)$ lie in $[0,1)$. We can make use of the periodicity of $H$, i.e. $H(x+1)=H(x)$, to show that $\vert H(x)-x \vert <2$ and $\vert H^{-1}(x)-x \vert 2$ for all $x \in \mathbb{R}$. Similarly, by periodicity of $F$, $\vert F^n(x) - F^n(y) \vert < 3$ whenever $\vert x - y \vert < 3$. Therefore,
 
 $$
 \begin{align}
-\tau(f) - \tau(g) & = \lim_{n \to \infty} \frac{G^n(x) - F^n(x)}{n} = \lim_{n \to \infty} \frac{H^{-1}F^n H(x) - F^n(x)}{n} \\
-& = \lim_{n \to \infty} \frac{[H^{-1}F^n H(x) - F^nH(x)] + [F^nH(x) - F^n(x)]}{n} < \lim_{n \to \infty}  \frac{2+3}{n} = 0.
+\tau(f) - \tau(g) & = \lim_{n \to \infty} \frac{G^n(x) - F^n(x)}{n}
+& = \lim_{n \to \infty} \frac{H^{-1}F^n H(x) - F^n(x)}{n} \\
+& = \lim_{n \to \infty} \frac{[H^{-1}F^n H(x) - F^nH(x)] + [F^nH(x) - F^n(x)]}{n}
+& \leq \lim_{n \to \infty}  \frac{2+3}{n} = 0.
 \end{align}
+$$
+
+## Poincaré's classification
+
+> **_Theorem_** Let $f$ be a circle homeomorphism. Exactly one of the following holds.
+1. $\tau(f) \in \mathbb{Q}$ and $f$ has a periodic point;
+2. $\tau(f) \not\in \mathbb{Q}$ and $f$ is conjugate to the irrational rotation $x+\tau(f)$;
+3. $\tau(f) \not\in \mathbb{Q}$ but there is an invariant Cantor set.
+
+Let's slowly unwind the theorem starting from case 1. Suppose $f$ has a periodic point $x$ of period $q$, then for any lift $F$ of $f$, $F^q(x)-x$ must be some non-negative integer $p$ less than $q$. As such, $\tau(f)=\frac{p}{q}$.
+
+The converse is not as immediate. Suppose $\tau(f) = \frac{p}{q}$ for some co-prime non-negative integers $p$ and $q$. By definition of the rotation number, we can show that $\tau(f^q) \equiv q\tau(f) \equiv 0 (\text{mod} 1)$ so we may as well assume that $\tau(f)=0$. If, for a contradiction, $f$ does not have any fixed points, then by compactness of $S^1$ and periodicity of $F$, $\delta := \min{ F(x)-x : x \in \mathbb{R}}$ is strictly positive. Therefore, we obtain a contradiction:
+
+$$
+\tau(f) = & = \lim_{n \to \infty} \frac{F^n(x) - x}{n} & \geq \lim_{n \to \infty} \frac{n\tau}{n} = \delta > 0.
 $$
 
 ### References
