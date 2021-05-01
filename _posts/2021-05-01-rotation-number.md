@@ -29,7 +29,8 @@ Indeed, let $g=h\circ f \circ h^{-1}$ for some circle homeomorphism $h$. Let $F$
 $$
 \begin{align}
 \tau(f) - \tau(g) & = \lim_{n \to \infty} \frac{G^n(x) - F^n(x)}{n} = \lim_{n \to \infty} \frac{H^{-1}F^n H(x) - F^n(x)}{n} \\
-& = \lim_{n \to \infty} \frac{[H^{-1}F^n H(x) - F^nH(x)] + [F^nH(x) - F^n(x)]}{n} < \lim_{n \to \infty}  \frac{2+3}{n} = 0. 
+& = \lim_{n \to \infty} \frac{[H^{-1}F^n H(x) - F^nH(x)] + [F^nH(x) - F^n(x)]}{n} < \lim_{n \to \infty}  \frac{2+3}{n} = 0.
+\end{align}
 $$
 
 ### References
