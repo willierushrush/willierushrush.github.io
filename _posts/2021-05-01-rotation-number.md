@@ -6,7 +6,7 @@ tags:
   - Dynamical systems
 ---
 
-Circle rotations provide easy and simple examples of low-dimensional dynamical systems. A natural generalisation to rotations is circle homeomorphisms. In this post, we will delve into an important invariant of circle homeomorphisms, namely the rotation number, and Poincaré's classification of circle homeomorphisms.
+Circle rotations provide easy and simple examples of low-dimensional dynamical systems. A natural generalisation to rotations is circle homeomorphisms. In this post, we will delve into an important invariant of circle homeomorphisms, namely the rotation number, and discuss the dynamics of circle homeomorphisms of rational rotation number.
 
 A circle homeomorphism is a homeomorphism $f$ of the circle $S^1$ onto itself. Two models of the circle can be used, namely $\\\{ z \in \mathbb{C} : \vert z \vert = 1 \\\}$ and $\mathbb{R}\backslash \mathbb{Z}$. We will use the latter since it naturally provides us with the quotient map $\pi: \mathbb{R} \to S^1, x \mapsto x + \mathbb{Z}$. We will assume that every circle homeomorphism we are dealing with here preserves the orientation; if otherwise, the second iterate will always be orientation preserving anyway.
 
@@ -41,6 +41,8 @@ Rotation number gives a complete picture of the dynamics of circle homeomorphism
 1. $\tau(f) \in \mathbb{Q}$, $f$ has a periodic point, and the $\omega$-limit set of every point is a periodic orbit;
 2. $\tau(f) \not\in \mathbb{Q}$ and $f$ is either conjugate to the irrational rotation $x+\tau(f)$ or has an invariant Cantor set.
 
+Proving the whole statement requires rigorous and technical combinatorics. In this post, I will only focus on the rational case.
+
 ## Rational rotation number
 
 Suppose $f$ has a periodic point $x$ of period $q$, then for any lift $F$ of $f$, $F^q(x)-x$ must be some non-negative integer $p$, which must be less than $q$ since $\vert F(z)-z \vert < 1$ for any $z$. As such, $\tau(f)=\frac{p}{q}$.
@@ -59,7 +61,11 @@ $$
 
 which inductively implies $F^{kq}(y)-kp > y$, a contradiction. Similarly, we can show that $F^q(y)-p>y$ is impossible. Hence, $y$ must have period $q$.
 
+Let's have a look at the behaviour of a typical orbit of a point under $f$ when $\tau(f) = \frac{p}{q}$ is rational. The set $P$ of periodic points of $f$ is closed in $S^1$. Pick any non-periodic point $x \in S^1\backslash P$ and let $I=(a,b)$ be the connected component of $S^1\backslash P$ containing $x$. Since the endpoints $a$ and $b$ of $I$ are periodic points of the same period $q$, the interval $I$ is also invariant under $f^q$, i.e. $f^q(I) = I$. We then have the following two possibilities:
+* If $f^q(x)>x$, then $\\\{f^{nq}(x)\\\}_{n \in \mathbb{N}}$ must be a strictly increasing sequence and it converges to the periodic point $b$;
+* Else, $f^q(x)<x$ and as a consequence, $\\\{f^{nq}(x)\\\}_{n \in \mathbb{N}}$ must be a strictly decreasing sequence converging to the periodic point $a$.
 
+In both situations, the orbit of $x$ must be asymptotic to a periodic orbit.
 
 ### References
 
