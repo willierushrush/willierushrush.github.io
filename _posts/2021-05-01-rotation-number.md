@@ -24,7 +24,7 @@ The rotation number is invariant under topological [conjugacy](/posts/2021/03/th
 
 > **_Proposition:_** If two circle homeomorphism $f$ and $g$ are topologically conjugate, then $\tau(f) = \tau(g)$.
 
-Indeed, let $g=h\circ f \circ h^{-1}$ for some circle homeomorphism $h$. Let $F$, $G$, and $H$ be the unique lifts of $f$, $g$, and $h$ via $\pi$ such that $G = H \circ F \circ H^{-1}$ and $F(0)$ and $H(0)$ lie in $[0,1)$. We can make use of the periodicity of $H$, i.e. $H(x+1)=H(x)+1$, to show that $\vert H(x)-x \vert <2$ and $\vert H^{-1}(x)-x \vert <2$ for all $x \in \mathbb{R}$. Similarly, by periodicity of $F$, $\vert F^n(x) - F^n(y) \vert < 3$ whenever $\vert x - y \vert < 3$. Therefore,
+Indeed, let $g=h\circ f \circ h^{-1}$ for some circle homeomorphism $h$. Let $F$, $G$, and $H$ be the unique lifts of $f$, $g$, and $h$ via $\pi$ such that $G = H \circ F \circ H^{-1}$ and $F(0)$ and $H(0)$ lie in $[0,1)$. We can make use of the periodicity of $H$, i.e. $H(x+1)=H(x)+1$, to show that $\vert H(x)-x \vert <2$ and $\vert H^{-1}(x)-x \vert <2$ for all $x \in \mathbb{R}$. Similarly, by periodicity of $F$, $\vert F^n(x) - F^n(y) \vert < 3$ whenever $\vert x - y \vert < 2$. Therefore,
 
 $$
 \begin{align}
