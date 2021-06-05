@@ -1,7 +1,7 @@
 ---
-title: 'Mandelbrot 1'
+title: 'The Mandelbrot Set'
 date: 2020-07-01
-permalink: /posts/2020/07/mandelbrot-1/
+permalink: /posts/2020/07/mandelbrot-set/
 tags:
   - Holomorphic dynamics
   - Dynamical systems
@@ -35,7 +35,7 @@ The second part of the proposition is actually a consequence of the following th
 
 > **_Dichotomy Theorem:_** For any arbitrary $c \in \mathbb{C}$, either $K(f_c)$ contains $0$ and is connected, or $K(f_c)$ does not contain $0$ and is homeomorphic to the Cantor set.
 
-Refer to my previous [post](/posts/2020/06/fatou_and_julia/) on the definition of the filled Julia set $K(f)$ of a polynomial $f$. The underlying reason behind the theorem is that $0$ is the unique finite critical point of the quadratic map $f_c$. What can you tell about the preimage of a domain under $f_c$ based on whether the domain contains the critical point or not? I will discuss this on a separate post in the future as it probably gets rather lengthy.
+Refer to my previous [post](/posts/2020/06/fatou_and_julia/) on the definition of the filled Julia set $K(f)$ of a polynomial $f$. The underlying reason behind the theorem is that $0$ is the unique finite critical point of the quadratic map $f_c$. What can you tell about the preimage of a domain under $f_c$ based on whether the domain contains the critical point or not? This is already discussed in another [post](/posts/2020/08/dichotomy/) I made.
 
 ## Escape Time Algorithm
 
