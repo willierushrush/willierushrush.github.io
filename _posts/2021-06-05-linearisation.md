@@ -36,7 +36,7 @@ $$
 where $c_{n,k}$ is a degree $k$ homogeneous polynomial in which each term is of the form $\lambda^{d_1} a_2^{d_2} \ldots a_{k-1}^{d_{k-1}}$ where $\sum_{m=1} m d_m = n$.
 
 To show that $h(x)$ converges on some neighbourhood $J$ of $0$, we need to obtain an upper bound $M>0$ for all $\vert b_n \vert$ 's and apply Abel's theorem. Suppose $\vert b_k \vert < M$ for all $k<n$.  
-1. By the root test and by replacing $f(x)$ with $f(\epsilon x)/\epsilon$ for some $0<\epsilon<1$ if necessary, we can assume that there is some $\vert \lambda\vert leq \tau < 1$ such that $ \vert a_l \vert \leq $\vert \tau \vert^l$ for all $l \geq 2$. Therefore, every monomial that appears in each polynomial $c_k$ is bounded by $\tau^n$.
+1. By the root test and by replacing $f(x)$ with $f(\epsilon x)/\epsilon$ for some $0<\epsilon<1$ if necessary, we can assume that there is some $\vert \lambda \vert \leq \tau < 1$ such that $ \vert a_m \vert \leq $\vert \tau \vert^m$ for all $m \geq 2$. Therefore, every monomial that appears in each polynomial $c_k$ is bounded by $\tau^n$.
 2. The numerator in the expression for $b_n$ above consists of $2^{n-1}-1$ monomials (counting multiplicity) and $a_n$ is the only monomial which does not contain any $b_l$ for any $l$. Therefore,
 
 $$
