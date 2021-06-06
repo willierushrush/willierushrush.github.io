@@ -45,7 +45,7 @@ $$
 \vert \lambda^{-n-1} f^{n+1}(z) - \lambda^{-n} f^n(z) \vert \leq C \vert\lambda\vert^{-1} r^2 \vert c^2 \lambda^{-1} \vert^n.
 $$
 
-Since the right hand side converges to $0$ as $n\to \infty$, the inequality above gives uniform convergence of the sequence of holomorphic functions $\lambda^{-n} f^n(z)$. Therefore, the limit $h(z)$ is a well defined holomorphic map near $0$. Since $\lambda^{-n} (f^n)'(0) = 1$ for all $n$, $h'(0)= 1$ too, which then implies that $h$ is a conformal isomorphism locally near $0$.
+Since $\vert c^2 \lambda^{-1} \vert^n\to 0$ as $n\to \infty$, the inequality above gives uniform convergence of the sequence of holomorphic functions $\lambda^{-n} f^n(z)$. Therefore, the limit $h(z)$ is a well defined holomorphic map near $0$. Since $\lambda^{-n} (f^n)'(0) = 1$ for all $n$, $h'(0)= 1$ too, which then implies that $h$ is a conformal isomorphism locally near $0$.
 
 ## Uniqueness
 
