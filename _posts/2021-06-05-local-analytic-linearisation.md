@@ -17,7 +17,7 @@ A stronger version of this theorem is its complex version:
 
 > **_Theorem:_** Let $f$ be a holomorphic map on a neighbourhood $U \subset \mathbb{C}$ of $0$ such that $f(0)=0$ and $f'(0)=\lambda$ where $\vert \lambda \vert \neq 0,1$. There is a conformal isomorphism $h : V \to W$ for some neighbourhoods $V$ and $W$ of $0$ such that $h \circ f (z) = \lambda h(z)$ for all $z \in V$. Moreover, $h$ is unique up to multiplication by a non-zero constant.
 
-In this version, it is clear that the theorem cannot hold for $\lambda = e^{2\pi i p/q}$ for some integers $p$ and $q$ since otherwise the $q^{th}$ iterate $f^q$ would be the identity but the only holomorphic map near $0$ satisfying $f^q(z)=z$ is the rotation map $z \mapsto \lambda z$. When $\lambda = e^{2\pi i \theta}$ for some irrational number $\theta$, linearisability is possible and it depends on the continued fraction expansion of $\theta$. This is a much more complicated story (hint: KAM theory) and we will not delve into it here.
+In this version, it is clear that the theorem cannot hold for $\lambda = e^{2\pi i p/q}$ for some integers $p$ and $q$ since otherwise the $q^{th}$ iterate $f^q$ would be the identity but the only holomorphic map near $0$ satisfying $f^q(z)=z$ is the rotation map $z \mapsto \lambda z$. When $\lambda = e^{2\pi i \theta}$ for some irrational number $\theta$, linearisability is possible and it depends on the continued fraction expansion of $\theta$. This is a much more complicated story (hint: KAM theory) and we will not delve into it here. (Refer to Milnor's book<sup>[2](#fn2)</sup> \S 11 for more details.)
 
 ## Existence
 
