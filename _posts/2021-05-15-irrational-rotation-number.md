@@ -12,9 +12,9 @@ This post is a continuation of the previous [post](/posts/2021/05/rotation-numbe
 
 The following lemma is crucial.
 
-> **_Lemma:** If $\tau(f) \not\in \mathbb{Q}$, then the forward orbit $\\\{ f^i(I) \\\}_{i \in \mathbb{N}}$ of any non-degenerate closed interval $I$ of the form $[f^m(x), f^n(x)]$ for some $x \in S^1$ and $m,n \mathbb{Z}$ is a covering of $S^1$.
+> **_Lemma:_** If $\tau(f) \not\in \mathbb{Q}$, then the forward orbit $\\\{ f^i(I) \\\}_{ i \in \mathbb{N} }$ of any non-degenerate closed interval $I$ of the form $[f^m(x), f^n(x)]$ for some $x \in S^1$ and $m,n \mathbb{Z}$ is a covering of $S^1$.
 
-Indeed, suppose $S^1$ is not covered by the forward orbit of $I$ and assume $m>n$. Then, for every $i \in \mathbb{N}$, $f^{i(m-n)}(I)$ and $f^{(i+1)(m-n)}(I)$ share a common endpoint but have disjoint interiors. The sequence of intervals $\\\{ f^{i(m-n)}(I) \\\}_{ i \in \mathbb{N}}$ must eventually accumulate at $z:= \lim_{i \to \infty} f^{i(m-n)(x)}$. However, this will imply that $z$ must be $m-n$ periodic, which contradicts irrationality of $\tau(f)$.
+Indeed, suppose $S^1$ is not covered by the forward orbit of $I$ and assume $m>n$. Then, for every $i \in \mathbb{N}$, $f^{i(m-n)}(I)$ and $f^{(i+1)(m-n)}(I)$ share a common endpoint but have disjoint interiors. The sequence of intervals $\\\{ f^{i(m-n)}(I) \\\}\_{ i \in \mathbb{N}}$ must eventually accumulate at $z:= \lim_{i \to \infty} f^{i(m-n)(x)}$. However, this will imply that $z$ must be $m-n$ periodic, which contradicts irrationality of $\tau(f)$.
 
 Pick any two points $x$ and $y$ on $S^1$ having two distinct orbits. Let $z \in \omega(x)$, so there is some sequence $m_i \to infty$ such that $f^{n_i}(x) \to z$. Applying the lemma to each interval $[f^{n_i}(x), f^{n_{i+1}(x)]$, we have a sequence $n_i \to \infty$ such that each $f^{n_i}(y)$ lies in this interval. This forces the sequence $f^{n_i}(y)$ to converge to $z$. In particular, $z \in \omega(y)$. Therefore, we always have $\omega(x)=\omega(y)$.
 
