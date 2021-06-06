@@ -22,7 +22,7 @@ Let's denote the invariant set $\omega(x)$ by $C$. As $S^1$ is compact, so is $C
 
 Recall that any compact perfect metrisable space is a Cantor set if it is totally disconnected. Therefore, we need to show that $C$ must be either the whole $S^1$ or totally disconnected. Suppose $C$ is not totally disconnected, so it contains some open interval $I$. Then, $I$ must contain some closed interval $I'$ of the form $[f^m(x), f^n(x)]$ for some $x \in S^1$ and $m,n \mathbb{Z}$. By invariance of $E$, the forward orbit of $I'$ must be contained in $E$, but due to the lemma, $E$ must then be the whole $S^1$.
 
-## Constructing the (semi)conjugacy
+## Constructing the (semi-)conjugacy
 
 We wish to define a surjective continuous self map $h$ on $S^1$ such that $h\circ f = h + \tau(f)$ on $S^1$. This kind of map is often called semiconjugacy. It is a conjugacy if additionally $h$ is injective.
 
