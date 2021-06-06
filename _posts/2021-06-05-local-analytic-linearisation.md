@@ -59,7 +59,7 @@ This implies that $g(z) = A h(z)$.
 
 ## Finding $h$
 
-Let $f(z) = \lambda z + \sum_{n\geq 2} a_n z^n$ be the MacLaurin series for $f$. We can find the coefficients $b_n$ (by brute force) such that $h(z) = z + \sum_{n\geq 2} b_n z^n$ is a conformal conjugacy for $f$ and $z \mapsto \lambda z$. The functional equation can be rewritten as:
+Let $f(z) = \lambda z + \sum_{n\geq 2} a_n z^n$ be the MacLaurin series for $f$. We can find the coefficients $b_n$ (by brute force) such that $h(z) = z + \sum_{n\geq 2} b_n z^n$ is a conformal conjugacy for $f$ and $z \mapsto \lambda z$. The functional equation $h \circ f (z) = \lambda h(z)$ can be rewritten as:
 
 $$
 \left( \lambda x + \sum_{n \geq 2} a_n z^n \right) + \sum_{m\geq 2} b_m \left( \lambda x + \sum_{n \geq 2} a_n z^n \right)^m = \lambda z + \sum_{n \geq 2} \lambda b_n z^n.
