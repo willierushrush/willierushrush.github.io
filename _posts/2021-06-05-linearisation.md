@@ -11,14 +11,14 @@ Given a dynamical system $f: X \to X$ with a fixed point $x \in X$, what can we 
 
 ## Real case
 
-> **_Theorem:_** Let $f$ be a real analytic map on $I=[-\delta,\delta]$ such that $f(0)=0$ and $f'(0) = \lambda \not \in \\\{0, \pm 1 \\\}$. There is an real analytic diffeomorphism $h : J \subset I \to K$ for some neighbourhoods $J$ and $K$ of $0$ such that $h\circ f (x) = \lambda h(x)$ for all $x \in J$. Moreover, $h$ is unique up to scalar multiplication by a non-zero real number.
+> **_Theorem:_** Let $f$ be a real analytic map on an interval neighbourhood $I$ of $0$ such that $f(0)=0$ and $f'(0) = \lambda \not \in \\\{0, \pm 1 \\\}$. There is an real analytic diffeomorphism $h : J \subset I \to K$ for some neighbourhoods $J$ and $K$ of $0$ such that $h\circ f (x) = \lambda h(x)$ for all $x \in J$. Moreover, $h$ is unique up to scalar multiplication by a non-zero real number.
 
 There is a reason why we exclude the values $0$ and $\pm 1$. If the theorem holds for value $0$ or $1$, then $h\circ f \circ h^{-1}$ is either the zero map or the identity map and clearly the only possible $f$ that can satisfy this is either the zero map or the constant map. For $-1$, we consider the second iterate $f^2$ which leads us back to the $1$ case.
 
 It turns out we can find $h$ by brute force. Let $f(x) = \lambda x + \sum_{n\geq 2} a_n x^n$ be the MacLaurin series for $f$. We shall find coefficients $b_n$ such that $h(x) = \sum_{n\geq 1} b_n x^n$ is the desired diffeomorphism. At this point, observe that if $h(x)$ is the solution to the functional equation $h \circ f(x) = \lambda h(x)$, then $\tau h(x)$ is also another solution for any $\tau \neq 0$. As such, we can assume that $b_1 = 1$. The functional equation can be rewritten as:
 
 $$
-\left( \lambda x + \sum_{n \geq 2}^\infty a_n x^n \right) + \sum_{m\geq 2} b_m \left( \lambda x + \sum_{n \geq 2}^\infty a_n x^n \right)^m = \lambda x + \sum_{n \geq 2} \lambda b_n x^n.
+\left( \lambda x + \sum_{n \geq 2} a_n x^n \right) + \sum_{m\geq 2} b_m \left( \lambda x + \sum_{n \geq 2} a_n x^n \right)^m = \lambda x + \sum_{n \geq 2} \lambda b_n x^n.
 $$
 
 We can determine the coefficients $b_n$ inductively by comparing the coefficients of $x^n$. The first few $b_n$'s are as follows:
