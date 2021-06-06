@@ -12,7 +12,7 @@ This post is a continuation of the previous [post](/posts/2021/05/rotation-numbe
 
 The following lemma is crucial.
 
-> **_Lemma:_** If $\tau(f) \not\in \mathbb{Q}$, then the forward orbit $\\\{ f^i(I) \\\}_{ i \in \mathbb{N} }$ of any non-degenerate closed interval $I$ of the form $[f^m(x), f^n(x)]$ for some $x \in S^1$ and $m,n \mathbb{Z}$ is a covering of $S^1$.
+> **_Lemma:_** If $\tau(f) \not\in \mathbb{Q}$, then the forward orbit $\\\{ f^i(I) \\\}_{ i \in \mathbb{N} }$ of any non-degenerate closed interval $I$ of the form $[f^m(x), f^n(x)]$ for some $x \in S^1$ and $m,n \in \mathbb{Z}$ is a covering of $S^1$.
 
 Indeed, suppose $S^1$ is not covered by the forward orbit of $I$ and assume $m>n$. Then, for every $i \in \mathbb{N}$, $f^{i(m-n)}(I)$ and $f^{(i+1)(m-n)}(I)$ share a common endpoint but have disjoint interiors. The sequence of intervals $\\\{ f^{i(m-n)}(I) \\\}\_{ i \in \mathbb{N}}$ must eventually accumulate at $z:= \lim_{i \to \infty} f^{i(m-n)(x)}$. However, this will imply that $z$ must be $m-n$ periodic, which contradicts irrationality of $\tau(f)$.
 
