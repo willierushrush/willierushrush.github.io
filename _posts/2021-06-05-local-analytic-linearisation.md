@@ -36,10 +36,10 @@ $$
 If $z \in \mathbb{D}_r$, then
 
 $$
-\vert f^{n+1}(z) - f^n(z) \vert \leq C \vert f^n(z) \vert^2 \leq C c^{2n} \vert z \vert \leq C c^{2n} r^2.
+\vert f^{n+1}(z) - f^n(z) \vert \leq C \vert f^n(z) \vert^2 \leq C c^{2n} \vert z \vert^2 \leq C c^{2n} r^2.
 $$
 
-Dividing by $\vert \lambda \vert^{n+1}$ yields
+Dividing both sides by $\vert \lambda \vert^{n+1}$ yields
 
 $$
 \vert \lambda^{-n-1} f^{n+1}(z) - \lambda^{-n} f^n(z) \vert \leq C \vert\lambda\vert^{-1} r^2 \vert c^2 \lambda^{-1} \vert^n.
@@ -49,10 +49,10 @@ The inequality above gives uniform convergence of the sequence of holomorphic fu
 
 ## Uniqueness
 
-Suppose $g$ and $h$ are two such solutions. Since $f(z) = g^{-1}(\lambda g(z)) h^{-1}(\lambda h(z))$, then on a neighbourhood of $0$, $gh^{-1}$ commutes with the linear map $z \mapsto \lambda z$. Therefore, if $A = (gh^{-1})'(0)$, for any $z$ near $0$,
+Suppose $g$ and $h$ are two such solutions. Since $f(z) = g^{-1}(\lambda g(z)) =  h^{-1}(\lambda h(z))$, then on a neighbourhood of $0$, $gh^{-1}$ commutes with the linear map $z \mapsto \lambda z$. Therefore, if $A = (gh^{-1})'(0)$, for any $z$ near $0$,
 
 $$
-A = \lim_{n \to \infty} \frac{gh^{-1}(\lambda^{n} z)}{\lambda^{n}z} =  \lim_{n \to \infty} \lambda^{n} \frac{gh^{-1}}{\lambda^{n}z} = \frac{gh^{-1}(z)}{z}.
+A = \lim_{n \to \infty} \frac{gh^{-1}(\lambda^{n} z)}{\lambda^{n}z} =  \lim_{n \to \infty} \frac{\lambda^{n} gh^{-1}(z)}{\lambda^{n}z} = \frac{gh^{-1}(z)}{z}.
 $$
 
 This implies that $g(z) = A h(z)$.
@@ -79,11 +79,7 @@ $$
 
 where $c_{n,k}$ is a degree $k$ homogeneous polynomial in which each term is of the form $\lambda^{d_1} a_2^{d_2} \ldots a_{k-1}^{d_{k-1}}$ where $\sum_{m=1}^{k-1} m d_m = n$.
 
-As an example, if $f(z) = \frac{z+z^2}{2}$, then the conjugacy $h(z)$ near $0$ has the MacLaurin series development
-
-$$
-h(z) = z + 2z^2 + \frac{8}{3}z^3 + \frac{24}{7}z^4 + \ldots.
-$$
+As an example, if $f(z) = \frac{z+z^2}{2}$, then the conjugacy $h(z)$ near $0$ has the MacLaurin series development $h(z) = z + 2z^2 + \frac{8}{3}z^3 + \frac{24}{7}z^4 + \ldots.$
 
 An alternative proof for the theorem can be made by showing that $\lambda z + \sum_{n \geq 2} \lambda b_n z^n$ converges on some neighbourhood of $0$ by obtaining an upper bound $M>0$ for all $\vert b_n \vert$ 's and applying Abel's theorem. This is done in the book<sup>[1](#fn1)</sup> of Katok and Hasselblatt, Chapter 2.
 
