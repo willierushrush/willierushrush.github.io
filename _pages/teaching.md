@@ -4,8 +4,8 @@ title: Teaching
 permalink: /teaching/
 ---
 
-[Office hours](https://stonybrook.zoom.us/j/5646113117): Wed, 12-1, 4-5pm   
-[MLC](http://www.math.stonybrook.edu/mlc/center-hours.html): Mon, 1:30-2:30pm   
+[Office hours](https://stonybrook.zoom.us/j/5646113117): Fri, 2-3pm   
+[MLC](http://www.math.stonybrook.edu/mlc/center-hours.html): Mon, 1-3pm   
 
 **Instructor:**   
 * [MAT 342](/teaching/mat342-summer20): Applied Complex Analysis. Summer II 2020   
