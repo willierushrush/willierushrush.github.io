@@ -12,7 +12,7 @@ permalink: /teaching/
 * [MAT 342](/teaching/mat342-summer20): Applied Complex Analysis. Summer II 2020   
 
 **Recitation:**
-* [MAT 132](https://www.math.stonybrook.edu/MAT132): Calculus II. R02, R03, R21. Spring 2021 (CURRENT)
+* [MAT 132](https://www.math.stonybrook.edu/MAT132): Calculus II. R02, R03, R21. Spring 2021
 * [MAT 131](https://www.math.stonybrook.edu/MAT131): Calculus I. Fall 2020
 
 **Grader:**   
