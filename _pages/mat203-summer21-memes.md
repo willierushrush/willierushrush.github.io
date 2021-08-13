@@ -10,30 +10,37 @@ Congratulations on completing Calculus III. You are now capable of appreciating 
   <img src="/images/mat203/easiest.jpg" width="450"/>
 </p>   
 
+
 <p align="center">
   <img src="/images/mat203/area.jpg" width="450"/>
 </p>   
+
 
 <p align="center">
   <img src="/images/mat203/fubini.jpg" width="450"/>
 </p>   
 
+
 <p align="center">
   <img src="/images/mat203/greens.jpg" width="450"/>
 </p>   
+
 
 <p align="center">
   <img src="/images/mat203/headache.jpg" width="450"/>
 </p>   
 
+
 <p align="center">
   <img src="/images/mat203/saddle.png" width="450"/>
 </p>   
+
 
 <p align="center">
   <img src="/images/mat203/sphere.jpg" width="450"/>
 </p>   
 
+   
 <p align="center">
   <img src="/images/mat203/spherical.png" width="450"/>
 </p>
