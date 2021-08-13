@@ -9,7 +9,9 @@ Congratulations on completing Calculus III. You are now capable of appreciating 
 <p align="center">
   <img src="/images/mat203/easiest.jpg" width="500"/>
 </p>   
-\n
+<br />
+<br />
+
 
 <p align="center">
   <img src="/images/mat203/area.jpg" width="500"/>
@@ -46,7 +48,7 @@ Congratulations on completing Calculus III. You are now capable of appreciating 
 </p>   
 
 
-   
+
 <p align="center">
   <img src="/images/mat203/spherical.png" width="500"/>
 </p>
