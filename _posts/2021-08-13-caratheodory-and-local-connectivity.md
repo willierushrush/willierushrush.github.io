@@ -1,6 +1,6 @@
 ---
 title: 'Carathéodory and Local Connectivity'
-date: 2020-08-13
+date: 2021-08-13
 permalink: /posts/2020/08/caratheodory_topology/
 tags:
   - Complex analysis
