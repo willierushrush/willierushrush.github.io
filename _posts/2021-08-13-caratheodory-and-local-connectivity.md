@@ -33,12 +33,12 @@ Carathéodory introduced the theory of prime ends to study the boundary behaviou
 
 A **crosscut** $C$ of $U$ is an embedded closed arc $[0,1] \to \bar{U}$ such that the intersection $C \cap \partial U$ consists of exactly the two endpoints of $C$. A crosscut of U always divides $U$ into two, one of which will be called a **crosscut neighborhood** $N$ of $C$.
 
-An infinite sequence of crosscut neighbhorhoods $\\\{N_n ]]\}\_{n\geq 0 }$ of $\\\{ C_n \\\}_{n\geq 0}$ is a **chain** if
+An infinite sequence of crosscut neighbhorhoods $\\\{ N_n \}\_{n\geq 0 }$ of $\\\{ C_n \\\}_{n\geq 0}$ is a **chain** if
 * for all $n\geq 0$, $N\_{n+1}$ \subset N_n$;
 * in spherical metric, $\text{diam} \bar{C_i} \to 0$ as $i\to \infty$;
 * the crosscuts $C_n$ are all pairwise disjoint.
 
-The **impression** of a chain $\\\{N_n ]]\}\_{n\in \mathbb{N} }$ is $I = \cap_{n \geq 0} \bar{N_n}$. By Cantor's intersection theorem, the impression $I$ is always a non-empty compact connected set. For example, if $U$ is the bounded domain with boundary $\partial U$ being the union of the comb space we mentioned before and the boundary of $[0,1] \times [0,2]$ as shown below, and if we have a chain induced by the crosscuts are the red line segments show below, then the impression is the left side $\\\{0\\\} \times [0,2]$.
+The **impression** of a chain $\\\{N_n \}\_{n\in \mathbb{N} }$ is $I = \cap_{n \geq 0} \bar{N_n}$. By Cantor's intersection theorem, the impression $I$ is always a non-empty compact connected set. For example, if $U$ is the bounded domain with boundary $\partial U$ being the union of the comb space we mentioned before and the boundary of $[0,1] \times [0,2]$ as shown below, and if we have a chain induced by the crosscuts are the red line segments show below, then the impression is the left side $\\\{0\\\} \times [0,2]$.
 
 <p align="center">
   <img src="/images/combdomain.png" width="250" height="250" /> <img src="/images/crosscuts.png" width="250" height="250" />
