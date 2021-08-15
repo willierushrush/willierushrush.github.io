@@ -29,7 +29,7 @@ Examples of locally connected compact sets include Jordan arcs and Jordan curves
 
 ## Crosscuts
 
-Carathéodory introduced the theory of prime ends to study the boundary behaviour of conformal maps. Here, I will attempt to give a brief summary based on the books of Milnor<sup>[1](#fn1)</sup> and Pommerenke<sup>[2](#fn1)</sup>.
+Carathéodory introduced the theory of prime ends to study the boundary behaviour of conformal maps. Here, I will attempt to give a brief summary based on the books of Milnor<sup>[1](#fn1)</sup> and Pommerenke<sup>[2](#fn2)</sup>.
 
 A **crosscut** $C$ of $U$ is an embedded closed arc $[0,1] \to \bar{U}$ such that the intersection $C \cap \partial U$ consists of exactly the two endpoints of $C$. A crosscut of U always divides $U$ into two, one of which will be called a **crosscut neighborhood** $N$ of $C$.
 
@@ -58,7 +58,7 @@ must be locally connected as well.
 It remains to show that 4. implies 1. We will show that the impression of every chain in $U$ must be a singleton. Pick any chain $\\\{ N_n\\\}$ with crosscuts $\\\{ C_n \\\}$. Pick $\epsilon >0$ and let $\delta = \delta(\epsilon) >0$ be from the definition of local connectivity of $\hat{\mathbb{C}} \backslash U$. When $\text{diam} (C_n) \leq \delta$, the endpoints of $C_n$ are $\leq \delta$ apart and therefore contained in a connected subset $X_n$ of $\hat{\mathbb{C}} \backslash U$ of diameter $< \epsilon$. The union $C_n \cup X_n$ bounds a region containing the neighborhood $N_n$. As $\epsilon + \delta$ can be arbitrarily small and as $\text{diam} (\bar{N_n}) \leq \text{diam} (C_n \cup X_n) \leq \epsilon + \delta$, the impression $\cap \bar{N_n}$ must be a singleton.
 
 ### References
-<a name="fn3">1</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   
+<a name="fn1">1</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   
 <a name="fn2">2</a>: C. Pommerenke. Boundary Behaviour of Conformal Maps. Springer-Verlag, Berlin Heidelberg, 1992.
 
 ------
