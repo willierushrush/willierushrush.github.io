@@ -1,7 +1,7 @@
 ---
-title: 'Carathéodory and Local Connectivity'
+title: 'Continuous Extension of Riemann Mappings and Local Connectivity'
 date: 2021-08-13
-permalink: /posts/2020/08/caratheodory_topology/
+permalink: /posts/2020/08/continuous-extension-of-riemann-mappings-and-local-connectivity/
 tags:
   - Complex analysis
   - Topology
