@@ -7,19 +7,19 @@ tags:
   - Topology
 ---
 
-Given a conformal isomorphism $f: \mathbb{D} \to U$ from the unit disk $\mathbb{D}$ to a simply connected domain $U$ embedded in the Riemann sphere $\hat{\mathbb{C}}$, one may ask whether or not $f$ can be continuously extended to the boundary of $U$. The answer depends solely on the topology of the domain $U$.
+Given a conformal isomorphism $f: \mathbb{D} \to U$ from the unit disk $\mathbb{D}$ to a simply connected domain $U$ embedded in the Riemann sphere $\mathbb{P}^1$, one may ask whether or not $f$ can be continuously extended to the boundary of $U$. The answer depends solely on the topology of the domain $U$.
 
 The main theorem I would like to highlight in this post is the following.
 
 > **_Carathéodory-Torhorst Theorem:_** Let $f$ be a Riemann mapping $f: \mathbb{D} \to U$. The following statements are equivalent.
 1. $f$ extends continuously to a map from $\bar{\mathbb{D}}$ onto $\bar{U}$;
-2. $\partial U$ is a closed curve, i.e. the image of a continuous map $\partial \mathbb{D} \to \hat{\mathbb{C}}$;
+2. $\partial U$ is a closed curve, i.e. the image of a continuous map $\partial \mathbb{D} \to \mathbb{P}^1$;
 3. $\partial U$ is locally connected;
-4. $\mathbb{C}\backslash U$ is locally connected.
+4. $\mathbb{P}^1\backslash U$ is locally connected.
 
 ## Local connectivity
 
-There are many different ways to define local connectivity of a space $X$. We say that a Hausdorff space $X$ is locally connected if every point $x \in X$ admits an arbitrarily small connected neighborhoods. When $X$ is a compact metric space (e.g. a compact subset of $\hat{\mathbb{C}}$), we can also say that $X$ is locally connected if for all $\epsilon >0$, there is some $\delta = \delta(\epsilon) >0$ such that every pair of points $x$ and $y$ in $X$ which satisfy $d(x,y) < \delta$ admits a connected subset $K \subset X$ containing $x$ and $y$ of diameter $< \epsilon$.
+There are many different ways to define local connectivity of a space $X$. We say that a Hausdorff space $X$ is locally connected if every point $x \in X$ admits an arbitrarily small connected neighborhoods. When $X$ is a compact metric space (e.g. a compact subset of $\mathbb{P}^1$), we can also say that $X$ is locally connected if for all $\epsilon >0$, there is some $\delta = \delta(\epsilon) >0$ such that every pair of points $x$ and $y$ in $X$ which satisfy $d(x,y) < \delta$ admits a connected subset $K \subset X$ containing $x$ and $y$ of diameter $< \epsilon$.
 
 Examples of locally connected compact sets include Jordan arcs and Jordan curves. (Yes... Koch snowflake is included.) An example of a connected set that is not locally connected coming from standard undergraduate classes in topology would be the closure of the topologist's sine curve $\\\{ (x,\sin(1/x) ) \: \vert \: x>0 \\\} \cup \\\{0 \\\} \times [-1,1]$. The closure of $[0,1] \times \\\{ 0\\\} \cup \bigcup_{n\geq 1} \\\{\frac{1}{n} \\\} \times [0,1]$ is not locally connected at any point on the vertical segment $\\\{0\\\} \times [0,1]$. The latter is called the comb space, and it is illustrated in the figure below.
 
@@ -52,10 +52,10 @@ How would this all help us in extending $f$ to the boundary? The impression $I$ 
 
 Suppose $f$ does extend continuously to the boundary. Clearly, $\partial U$ is a closed curve because $f$ induces a continuous surjection from $\partial \mathbb{D} \to \partial U$. Since closed curves are always locally connected, 2. also immediately implies 3.
 
-Suppose $\partial U$ is locally connected. If a point $x$ lies in the interior of $\hat{\mathbb{C}} \backslash U$, it is immediate that $x$ will always have arbitrarily small connected open neighborhoods. Hence, let's pick a point $x$ on $\partial U$ and check that $\hat{\mathbb{C}} \backslash U$ is locally connected at $x$. Pick any small open neighborhood $V \subset \hat{\mathbb{C}}$ of $x$. By local connectivity of $\partial U$, there is an open connected subset $K$ of $V \cap \partial U$ containing $x$. There is an open disk $D \subset V$ such that $x \in D \cap \partial U \subset K$. Therefore, $K \cup (D \cap U)$ is a connected neighborhood of $x$. This shows that $\hat{\mathbb{C}} \backslash U$
+Suppose $\partial U$ is locally connected. If a point $x$ lies in the interior of $\mathbb{P}^1 \backslash U$, it is immediate that $x$ will always have arbitrarily small connected open neighborhoods. Hence, let's pick a point $x$ on $\partial U$ and check that $\mathbb{P}^1 \backslash U$ is locally connected at $x$. Pick any small open neighborhood $V \subset \mathbb{P}^1$ of $x$. By local connectivity of $\partial U$, there is an open connected subset $K$ of $V \cap \partial U$ containing $x$. There is an open disk $D \subset V$ such that $x \in D \cap \partial U \subset K$. Therefore, $K \cup (D \cap U)$ is a connected neighborhood of $x$. This shows that $\mathbb{P}^1 \backslash U$
 must be locally connected as well.
 
-It remains to show that 4. implies 1. We will show that the impression of every chain in $U$ must be a singleton. Pick any chain $\\\{ N_n\\\}$ with crosscuts $\\\{ C_n \\\}$. Pick $\epsilon >0$ and let $\delta = \delta(\epsilon) >0$ be from the definition of local connectivity of $\hat{\mathbb{C}} \backslash U$. When $\text{diam} (C_n) \leq \delta$, the endpoints of $C_n$ are $\leq \delta$ apart and therefore contained in a connected subset $X_n$ of $\hat{\mathbb{C}} \backslash U$ of diameter $< \epsilon$. The union $C_n \cup X_n$ bounds a region containing the neighborhood $N_n$. As $\epsilon + \delta$ can be arbitrarily small and as $\text{diam} (\bar{N_n}) \leq \text{diam} (C_n \cup X_n) \leq \epsilon + \delta$, the impression $\cap \bar{N_n}$ must be a singleton.
+It remains to show that 4. implies 1. We will show that the impression of every chain in $U$ must be a singleton. Pick any chain $\\\{ N_n\\\}$ with crosscuts $\\\{ C_n \\\}$. Pick $\epsilon >0$ and let $\delta = \delta(\epsilon) >0$ be from the definition of local connectivity of $\mathbb{P}^1 \backslash U$. When $\text{diam} (C_n) \leq \delta$, the endpoints of $C_n$ are $\leq \delta$ apart and therefore contained in a connected subset $X_n$ of $\mathbb{P}^1 \backslash U$ of diameter $< \epsilon$. The union $C_n \cup X_n$ bounds a region containing the neighborhood $N_n$. As $\epsilon + \delta$ can be arbitrarily small and as $\text{diam} (\bar{N_n}) \leq \text{diam} (C_n \cup X_n) \leq \epsilon + \delta$, the impression $\cap \bar{N_n}$ must be a singleton.
 
 ### References
 <a name="fn1">1</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   

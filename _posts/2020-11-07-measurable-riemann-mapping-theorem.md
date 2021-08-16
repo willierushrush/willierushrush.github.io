@@ -14,7 +14,7 @@ Here, I would assume that you are already familiar with quasiconformal maps and 
 
 > **_Theorem:_** For any function $\mu : U \to \mathbb{C}$ on $\mathbb{D}$ with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $D$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
 
-Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \hat{\mathbb{C}}$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
+Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \mathbb{P}^1$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
 
 Uniqueness of the solution follows from directly [Weyl's lemma](/posts/2020/09/extremal-length). When $\phi$ and $\psi$ are two solutions, then it is not difficult to show that $(\phi \circ \psi^{-1})_{ \bar{z} } = 0$ almost everywhere on $\psi(U)$, implying that $\phi \circ \psi^{-1}$ is a conformal isomorphism. The classical proof of the existence of solution relies on the analysis of the Cauchy transform
 
@@ -48,7 +48,7 @@ On each chart, we have a solution $\phi_i : U_i \to \mathbb{D}$ of the Beltrami 
 
 > **_Theorem:_** For every Beltrami form $\mu$ on a Riemann surface $X$, there is a Riemann surface $Y$ and a quasiconformal map $\phi : X \to Y$ integrating $\mu$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and it depends holomorphically on $\mu$.
 
-When $X = (X, \mathcal{H})$ is the Riemann sphere $\hat{\mathbb{C}}$, uniformisation theorem guarantees that the sphere $S^2$ admits only one complex structure. Therefore, there is a biholomorphism $\psi : (S^2, \mathcal{P}) \to \hat{\mathbb{C}}$. As $\psi \circ \phi_i^{-1}$ is conformal on each $\phi_i(U_i)$, $\phi$ is a quasiconformal self map of $\hat{\mathbb{C}}$. A common choice of normalisation in this case is one where the solution $\Phi$ fixes $0$, $1$ and $\infty$.
+When $X = (X, \mathcal{H})$ is the Riemann sphere $\mathbb{P}^1$, uniformisation theorem guarantees that the sphere $S^2$ admits only one complex structure. Therefore, there is a biholomorphism $\psi : (S^2, \mathcal{P}) \to \mathbb{P}^1$. As $\psi \circ \phi_i^{-1}$ is conformal on each $\phi_i(U_i)$, $\phi$ is a quasiconformal self map of $\mathbb{P}^1$. A common choice of normalisation in this case is one where the solution $\Phi$ fixes $0$, $1$ and $\infty$.
 
 The measurable Riemann mapping theorem has plenty of applications in the field of holomorphic dynamics. It allows us dynamicists to really make use of the flexibility of quasiconformal maps and deform holomorphic functions in a pretty nice way. Branner and Fagella made an entire book<sup>[3](#fn3)</sup> on such applications, and I will cover some of these in future posts.
 
