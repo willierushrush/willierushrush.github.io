@@ -1,7 +1,7 @@
 ---
 title: 'Harmonic Measure and the 2-D Dirichlet Problem'
 date: 2021-08-27
-permalink: /posts/2020/08/dirichlet-problem/
+permalink: /posts/2021/08/dirichlet-problem/
 tags:
   - Complex analysis
 ---
