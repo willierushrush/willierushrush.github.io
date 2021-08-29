@@ -57,6 +57,14 @@ must be locally connected as well.
 
 It remains to show that 4. implies 1. We will show that the impression of every chain in $U$ must be a singleton. Pick any chain $\\\{ N_n\\\}$ with crosscuts $\\\{ C_n \\\}$. Pick $\epsilon >0$ and let $\delta = \delta(\epsilon) >0$ be from the definition of local connectivity of $\mathbb{P}^1 \backslash U$. When $\text{diam} (C_n) \leq \delta$, the endpoints of $C_n$ are $\leq \delta$ apart and therefore contained in a connected subset $X_n$ of $\mathbb{P}^1 \backslash U$ of diameter $< \epsilon$. The union $C_n \cup X_n$ bounds a region containing the neighborhood $N_n$. As $\epsilon + \delta$ can be arbitrarily small and as $\text{diam} (\bar{N_n}) \leq \text{diam} (C_n \cup X_n) \leq \epsilon + \delta$, the impression $\cap \bar{N_n}$ must be a singleton.
 
+## Jordan Domains
+
+When our domain $U$ is a Jordan domain, we can say more about the behaviour of $f$ on the boundary.
+
+> **_Carathéodory Theorem:_** Let $f$ be a Riemann mapping $f: \mathbb{D} \to U$. Then, $f$ extends continuously to a homeomorphism from $\bar{\mathbb{D}}$ onto $\bar{U}$ if and only if $U$ is a Jordan domain.
+
+Following Carathéodory-Torhorst theorem, we only need to check that the continuous extension $f: \partial \mathbb{D} \to \partial U$ is a homeomorphism when $U$ is a Jordan domain. Actually, by topological reasons, it is sufficient to check that $f$ is injective on $\partial \mathbb{D}$. When $f(a)=f(b)=z_0$ for some pair of points $a \neq b$ on $\partial \mathbb{D}$, the image $f(L)$ of the hyperbolic geodesic $L$ in $\mathbb{D}$ with endpoints $a$ and $b$ is a curve in $ U$ which starts and ends at $z_0$. The closure $\overline{f(L)}$ is a Jordan curve bounding a region $V$ and $V$ must contain $f([a,b])$ where $[a,b]$ denotes an arc in $\partial \mathbb{D}$ with endpoints $a$ and $b$. Since $U$ is a Jordan curve, $f([a,b])$ has to be the singleton $\\\{ z_0 \\\}$. We can then apply the Schwarz reflection principle to show that $f$ must be constant. This is a contradiction, and therefore $f$ must be injective on the boundary.
+
 ### References
 <a name="fn1">1</a>: J. Milnor. Dynamics in One Complex Variable. Princeton University Press, third edition, 2006.   
 <a name="fn2">2</a>: C. Pommerenke. Boundary Behaviour of Conformal Maps. Springer-Verlag, Berlin Heidelberg, 1992.
