@@ -12,7 +12,7 @@ The Dirichlet problem is one of the classical problems in the field of PDEs and 
 
 Recall that a function $u : U \to \mathbb{R}$ is **harmonic** on a domain $U \subset \mathbb{C}$ if it is twice differentiable and $\Delta u = u_{xx} + u_{yy} = 0$ on $U$. Equivalently, $u$ is harmonic if it is locally integrable and it satisfies the mean value property, i.e. for every closed disk $\overline{\mathbb{D}(a,r)} \subset U$ centered at $a \in U$ of some radius $r>0$,
 $$
-u(a) = \frac{1}{2\pi} \int_0^{2\pi} u(a+re^{2\pi i t}) dt.
+u(a) = \frac{1}{2\pi} \int_0^{2\pi} u(a+re^{ i t}) dt.
 $$
 
 The **harmonic measure** $\omega_U(z,E)$ of a subset $E \subset \partial U$ at a point $z \in U$ on a domain $U$ is defined to be the probability that Brownian motion starting from $z$ would first hit the boundary $\partial U$ at a point on $E$. We are often only interested in $E$ being Borel for obvious reasons.
