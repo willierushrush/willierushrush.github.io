@@ -34,10 +34,10 @@ where $P_{z_0}(z) = \frac{1- \vert z_0 \vert ^2}{2\pi \vert z_0-z \vert^2}$ is c
 
 From the explicit integral formula above, we can list a few important properties of harmonic measure below. The third property can also be viewed in the point of view of probability.
 1. $\omega_{\mathbb{D}} (z_0, \cdot)$ is an absolutely continuous measure with respect to the Euclidean measure on the unit circle.
-2. For any Borel set $E \subset \partial \mathbb{D}$, $\mathbb{D} \to [0,1], z_0 \mapsto \omega_{\mathbb{D}}(z_0,E)$ is a harmonic function.
+2. For any Borel set $E \subset \partial \mathbb{D}$, the mapping $\mathbb{D} \to [0,1], z_0 \mapsto \omega_{\mathbb{D}}(z_0,E)$ is a harmonic function.
 3. As $z_0$ converges to a point on the interior of $E$, $\omega_{\mathbb{D}}(z_0,E) \to 1$. As $z_0$ converges to a point on $\partial\mathbb{D} \backslash \bar{E}$, $\omega_{\mathbb{D}}(z_0,E) \to 0$.
 
-On an arbitrary Jordan domain $U$ and a basepoint $z_0 \in U$, pick any Riemann mapping $g : U \to \mathbb{D}$; we know that $g$ always extends continuously to a homeomorphism $\partial \mathbb{D} \to \partial U$ by Carathéodory's extension theorem. (Details can be found [here](/posts/2020/08/continuous-extension-of-riemann-mappings-and-local-connectivity/).) The harmonic measure of a Borel subset $E \subset \partial U$ at $z_0$ on $U$ is
+On an arbitrary Jordan domain $U$ and a basepoint $z_0 \in U$, pick any Riemann mapping $g : U \to \mathbb{D}$; we know that $g$ always extends continuously to a homeomorphism $\partial \mathbb{D} \to \partial U$ by Carathéodory's extension theorem. (See my previous [post](/posts/2020/08/continuous-extension-of-riemann-mappings-and-local-connectivity/).) The harmonic measure of a Borel subset $E \subset \partial U$ at $z_0$ on $U$ is
 
 $$
 \omega_{U} (z_0, E) = \omega_{\mathbb{D}} (g(z_0), g(E)) = \int_{g(E)} P_{g(z_0)}(z) \vert dz\vert.
@@ -59,7 +59,7 @@ $$
 
 If $f = \chi_E$ is the characteristic function of a Borel subset $E\subset \partial \mathbb{D}$, the Poisson integral above coincides with the harmonic measure at $z_0$ of $E$, which is harmonic in $z_0$, and extends to $\chi_E$ almost everywhere on the boundary.
 
-Since $f$ can be approximated by simple functions, for any positive integer $n$ there is a simple function $f_n(z) = \sum_{j=1}^m c_j \chi_{I_j} (z)$ on $\partial \mathbb{D}$ for some positive integer $m$, constants $c_j$ and disjoint open arcs $I_j \subset \partial \mathbb{D}$, such that $\norm{ f_n - f }\_{\infty} < \frac{1}{n}$. Each $f_n$ induces a harmonic function $u_n(z_0) = \sum_{j=1}^m c_j \omega_{\mathbb{D}}(z_0, I_j)$ which coincides with $f_n$ everywhere except at the endpoints of $I_j$'s.
+Since $f$ can be approximated by simple functions, for any positive integer $n$ there is a simple function $f_n(z) = \sum_{j=1}^m c_j \chi_{I_j} (z)$ on $\partial \mathbb{D}$ for some positive integer $m$, constants $c_j$ and disjoint open arcs $I_j \subset \partial \mathbb{D}$, such that $\| f_n - f \|\_{\infty} < \frac{1}{n}$. Each $f_n$ induces a harmonic function $u_n(z_0) = \sum_{j=1}^m c_j \omega_{\mathbb{D}}(z_0, I_j)$ which coincides with $f_n$ everywhere except at the endpoints of $I_j$'s.
 
 What happens at the endpoints? Let's assume without loss of generality that the union of closure of $I_j$'s is the whole circle. An endpoint $w$ is sandwiched between some pair of arcs $I_j$ and $I_k$. Any limit of $u_n(z_0)$ as $z_0\to w$ should lie in between $c_j$ and $c_k$ by a modified version of the maximum principle (called the Lindelöf principle). Since $\vert f(w) -c_j \vert < \frac{1}{n}$ and $\vert f(w) - c_k \vert < \frac{1}{n}$, we obtain
 
