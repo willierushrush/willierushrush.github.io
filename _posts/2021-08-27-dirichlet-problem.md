@@ -21,16 +21,16 @@ The **harmonic measure** $\omega_U(z,E)$ of a subset $E \subset \partial U$ at a
 The simplest example of harmonic measure arises when $U$ is the unit disk $\mathbb{D}$ and the basepoint is picked at $z=0$. By symmetry, the harmonic measure $\omega_{\mathbb{D}}(0,E)$ coincides with the uniform probability measure on the circle, which is
 
 $$
-\omega_{\mathbb{D}}(0,E) = \frac{1}{2\pi} \int_E |dz|.
+\omega_{\mathbb{D}}(0,E) = \frac{1}{2\pi} \int_E \vert dz \vert .
 $$
 
 Brownian motion is conformal, so then armonic measure should be invariant under conformal transformations. For any point $z_0 \in \mathbb{D}$, the map $\phi(z) = \frac{z-z_0}{1-\bar{z_0} z}$ is the unique conformal automorphism of $\mathbb{D}$ such that $\phi(z_0) =0$ and $\phi'(0) >0$. By conformal invariance, the harmonic measure of $E \subset \partial \mathbb{D}$ at $z_0$ is
 
 $$
-\omega_{\mathbb{D}}(z_0,E) = \omega_{\mathbb{D}}(0, \phi(E)) = \frac{1}{2\pi} \int_E |\phi'(z)| |dz| = \int_E P_{z_0}(z) |dz|.
+\omega_{\mathbb{D}}(z_0,E) = \omega_{\mathbb{D}}(0, \phi(E)) = \frac{1}{2\pi} \int_E \vert \phi'(z) \vert \: \vert dz\vert = \int_E P_{z_0}(z) \vert dz \vert.
 $$
 
-where $P_{z_0}(z) = \frac{1- |z_0|^2}{2\pi|z_0-z|^2}$ is called the **Poisson kernel** at $z_0$ for $\mathbb{D}$. In fact, it is not difficult to check that the Poisson kernel is harmonic in $z_0$.
+where $P_{z_0}(z) = \frac{1- \vert z_0 \vert ^2}{2\pi \vert z_0-z \vert^2}$ is called the **Poisson kernel** at $z_0$ for $\mathbb{D}$. In fact, it is not difficult to check that the Poisson kernel is harmonic in $z_0$.
 
 From the explicit integral formula above, we can list a few important properties of harmonic measure below. The third property can also be viewed in the point of view of probability.
 1. $\omega_{\mathbb{D}} (z_0, \cdot)$ is an absolutely continuous measure with respect to the Euclidean measure on the unit circle.
@@ -40,7 +40,7 @@ From the explicit integral formula above, we can list a few important properties
 On an arbitrary Jordan domain $U$ and a basepoint $z_0 \in U$, pick any Riemann mapping $g : U \to \mathbb{D}$; we know that $g$ always extends continuously to a homeomorphism $\partial \mathbb{D} \to \partial U$ by Carathéodory's extension theorem. (Details can be found [here](/posts/2020/08/continuous-extension-of-riemann-mappings-and-local-connectivity/).) The harmonic measure of a Borel subset $E \subset \partial U$ at $z_0$ on $U$ is
 
 $$
-\omega_{U} (z_0, E) = \omega_{\mathbb{D}} (g(z_0), g(E)) = \int_{g(E)} P_{g(z_0)}(z) |dz|.
+\omega_{U} (z_0, E) = \omega_{\mathbb{D}} (g(z_0), g(E)) = \int_{g(E)} P_{g(z_0)}(z) \vert dz\vert.
 $$
 
 By conformal invariance, the three properties above also hold for $\omega_{U} (z_0, E)$.
@@ -54,7 +54,7 @@ The classical two-dimensional Dirichlet problem is often formulated as follows. 
 For $U = \mathbb{D}$, it is well known that the solution is the Poisson integral of $f$, namely
 
 $$
-u(z_0) = \int_{\partial\mathbb{D}} P_{z_0}(z) f(z) |dz|.
+u(z_0) = \int_{\partial\mathbb{D}} P_{z_0}(z) f(z) \vert dz\vert.
 $$
 
 If $f = \chi_E$ is the characteristic function of a Borel subset $E\subset \partial \mathbb{D}$, the Poisson integral above coincides with the harmonic measure at $z_0$ of $E$, which is harmonic in $z_0$, and extends to $\chi_E$ almost everywhere on the boundary.
