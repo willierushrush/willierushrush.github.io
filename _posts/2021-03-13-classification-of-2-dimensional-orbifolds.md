@@ -24,7 +24,7 @@ An orbifold covering map $f: \tilde{O} \to O$ is a **universal orbifold covering
 Let's assume that $O$ is a compact 2-D orbifold (possibly with topological boundary). Recall (from [here](/posts/2021/02/orbifolds)) that every singularity of $O$ must be either a cone point, a corner reflector, or a mirror boundary. Endow $O$ with a finite CW complex structure such that every singular point and mirror boundary is a cell, so that each cell $c$ has a well-defined isotropy group $\Gamma(c)$. The **orbifold Euler characteristic** of $O$ is defined to be
 
 $$
-\chi(O) = \sum_{\text{cell} c} \frac{(-1)^{\text{dim(c)}}}{\vert \Gamma(c) \vert}.
+\chi(O) = \sum_{\text{cell } c} \frac{(-1)^{\text{dim(c)}}}{\vert \Gamma(c) \vert}.
 $$
 
 The quantity $\chi(O)$ is independent of the choice of the CW complex. The definition above can be generalised to higher dimensional compact orbifolds with boundary. When $O$ has $p$ cone points of order $m_1, \ldots m_p$ and $q$ corner reflectors of order $n_1, \ldots n_q$, we can rewrite the Euler characteristic as
