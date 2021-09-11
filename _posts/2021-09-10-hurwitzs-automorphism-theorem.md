@@ -1,6 +1,6 @@
 ---
-title: 'Hurwitz's Automorphism Theorem'
-date: 2021-09-11
+title: 'Hurwitz's automorphism theorem'
+date: 2021-09-10
 permalink: /posts/2021/09/hurwitzs-automorphism-theorem
 tags:
   - Riemann Surfaces

@@ -1,5 +1,5 @@
 ---
-title: 'Local Analytic Linearisation'
+title: 'Local analytic linearisation'
 date: 2021-06-05
 permalink: /posts/2021/06/local-analytic-linearisation
 tags:

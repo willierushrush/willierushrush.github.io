@@ -1,5 +1,5 @@
 ---
-title: 'Irrational Rotation number'
+title: 'Irrational rotation number'
 date: 2021-05-15
 permalink: /posts/2021/05/irrational-rotation-number
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 'Harmonic Measure and the 2-D Dirichlet Problem'
+title: 'Harmonic measure and the 2-D Dirichlet problem'
 date: 2021-08-27
 permalink: /posts/2021/08/dirichlet-problem/
 tags:
