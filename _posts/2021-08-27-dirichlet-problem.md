@@ -81,7 +81,7 @@ u(x) = \int_{\partial U} f(y) d\omega_U(x,y).
 $$
 
 ### References
-<a name="fn1">1</a>: J. Garnett, D. Marshall. Harmonic Measure. Cambridge University Press, 2005.
+<a name="fn1">1</a>: J. Garnett, D. Marshall. Harmonic Measure. Cambridge University Press, 2005.   
 <a name="fn2">2</a>: W. Rudin. Real and Complex Analysis. McGraw-Hill, Series in Higher Mathematics, 3rd edition, 1987.
 
 ------
