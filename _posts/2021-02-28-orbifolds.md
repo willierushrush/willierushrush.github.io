@@ -1,6 +1,6 @@
 ---
 title: 'Orbifolds'
-date: 2021-02-26
+date: 2021-02-28
 permalink: /posts/2021/02/orbifolds
 tags:
   - Riemannian geometry
