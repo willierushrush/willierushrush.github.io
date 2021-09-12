@@ -27,19 +27,19 @@ It takes some computational work, but we can show that when $N(\Gamma)$ is non-d
 
 Therefore, we now know that $\text{Aut}(X)$ is discrete. Once we know that $\text{Aut}(X)$ is discrete, it is easy to upgrade it to finiteness. Any discrete subset of a compact space is finite. Since $X$ is compact, the orbit of $\text{Aut}(X)$ acting on any point $x \in X$ is finite.
 
-There are other ways to prove finiteness. One that works in higher dimensional compact hyperbolic Riemannian manifolds is what is often called Bochner-Yano theorem<sup>[2](#fn2)</sup> in differential geometry.
+There are other ways to prove finiteness. Another way that works in higher dimensional compact hyperbolic Riemannian manifolds is what is often called Bochner-Yano theorem<sup>[2](#fn2)</sup> in differential geometry.
 
 ## Upper Bound
 
-We will proceed in a straightforward manner using the language of orbifolds. (See [this](/posts/2021/02/orbifolds), or [this](/posts/2021/02/classification-of-2-d-orbifolds), or the [talk](https://www.youtube.com/watch?v=AuHZgJ_k9os&t=4s) I gave a while ago.) By finiteness, the quotient $Y = X / \text{Aut}(X)$ is a compact 2-D hyperbolic Riemannian orbifold. Let $d:=\vert \text{Aut}(X) \vert$, then the quotient map $q: X \mapsto Y$ is a degree $d$ orbifold covering map satisfying the Riemann-Hurwitz formula
+We will proceed in a straightforward manner using the language of orbifolds. (See [this](/posts/2021/02/orbifolds), or [this](/posts/2021/02/classification-of-2-d-orbifolds), or the [talk](https://www.youtube.com/watch?v=AuHZgJ_k9os&t=4s) I gave a while ago.) By finiteness, the quotient $Y = X / \text{Aut}(X)$ is a compact 2-D hyperbolic Riemannian orbifold. The quotient map $q: X \mapsto Y$ is an orbifold covering map of degree $\vert \text{Aut}(X) \vert$ satisfying the Riemann-Hurwitz formula
 
 $$
-d \chi(Y) = \chi(X) = 2-2g.
+\vert \text{Aut}(X) \vert \chi(Y) = \chi(X) = 2-2g.
 $$
 
 The upper bound $84(g-1)$ can be obtained once we show that the Euler characteristic of $Y$ is bounded above by $-\frac{1}{42}$.
 
-he orbifold $Y$ does not admit any corner reflectors because $Y$ is compact. Suppose $Y$ has genus $h$ and $N$ cone points of order $m_1, m_2, \ldots m_N \geq 2$. The Euler characteristic of $Y$ is equal to
+The orbifold $Y$ does not admit any corner reflectors because $Y$ is compact. Suppose $Y$ has genus $h$ and $N$ cone points of order $m_1, m_2, \ldots m_N \geq 2$. The Euler characteristic of $Y$ is equal to
 
 $$
 \chi(Y) = 2-2h - \sum_{j=1}^N (1-\frac{1}{m_j}).
@@ -51,7 +51,7 @@ Our goal now is to find the values of $h$, $N$ and $m_j$'s such that $\chi(Y)$ i
 - If $N=3$, then we can again perform a simple case-by-case analysis on the orders $m_1, m_2, m_3$ and we should easily find that the highest possible $\chi(Y)$ would be when $Y$ has signature $(2,3,7;)$ with Euler characteristic $\chi(Y) = 2- \frac{1}{2} - \frac{2}{3}-\frac{6}{7} = -\frac{1}{42}$.
 - If $N \leq 2$, then by the classification of 2-D orbifolds, $Y$ is either bad or elliptic.
 
-Therefore, $\chi(Y) \leq -\frac{1}{42}$. When this upper bound is attained, the orbifold $Y$ is a topological sphere and has signature $(2,3,7)$. In fact, we can endow $Y$ with the unique complex structure $\mathbb{P}^1$ such that the projection $q: X\to \mathbb{P}^1$ is a holomorphic branched covering map with critical values of multiplicity $2$, $3$, and $7$ respectively.
+Therefore, $\chi(Y) \leq -\frac{1}{42}$. When this upper bound is attained, the orbifold $Y$ is a topological sphere and has signature $(2,3,7)$. In fact, we can endow $Y$ with the unique complex structure $\mathbb{P}^1$ such that the projection $q: X\to \mathbb{P}^1$ is a holomorphic branched covering map with three critical values of multiplicity $2$, $3$, and $7$ respectively.
 
 We say that $X$ is a **Hurwitz surface** if $\text{Aut}(X)$ is a group of order $84(g-1)$. I have to emphasise that we have not actually shown that the upper bound is sharp, so a priori we do not know if Hurwitz surfaces actually exist. In fact, it does not exist for genus $2$, and it has been found that a Hurwitz surface always has genus $3$ or higher.
 
