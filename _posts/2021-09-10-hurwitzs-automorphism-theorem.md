@@ -1,5 +1,5 @@
 ---
-title: 'Hurwitz\'s automorphism theorem'
+title: 'Hurwitz automorphism theorem'
 date: 2021-09-10
 permalink: /posts/2021/09/hurwitzs-automorphism-theorem
 tags:
