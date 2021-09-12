@@ -1,5 +1,5 @@
 ---
-title: 'The Mandelbrot Set'
+title: 'The Mandelbrot set'
 date: 2020-07-01
 permalink: /posts/2020/07/mandelbrot-set/
 tags:
