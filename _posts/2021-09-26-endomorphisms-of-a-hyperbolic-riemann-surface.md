@@ -22,7 +22,7 @@ What makes a hyperbolic Riemann surface special is that we are blessed with the 
 The first case corresponds to the possibility that all points diverge away to infinity. Indeed, suppose there is a point $x \in X$ such that it diverges away to infinity. More precisely, $\lim_{n\to \infty} d(f^n(x), C) = \infty$ for any compact set $C \subset X$. For any compact set $K \subset X$, let $\hat{K}$ be an even larger compact set containing $K$ and $x$. Then,
 
 $$
-\lim_{n\to \infty} d(f^n(K), C) \geq \lim_{n\to \infty} d(f^n(x), C) + \text{diam}(K) = \infty,
+\lim_{n\to \infty} d(f^n(K), C) \geq \lim_{n\to \infty} d(f^n(x), C) - \text{diam}(K) = \infty,
 $$
 
 which leads us to 1. As such, we can now assume that there is some non-empty compact set $K$ such that the orbit $f^n(x)$ of some $x$ returns to $K$ infinitely often at times $n_1, n_2, \ldots$. In this case, we say that $f$ is recurrent.
@@ -36,7 +36,13 @@ Suppose $f$ is a covering map. We'll proceed by looking at $X$ as the quotient $
 
 All the four cases are realised when $X$ is simply connected. The unit translation $z \mapsto z+1$ on the upper half plane $\mathbb{H}$ belongs to case 1. Maps of the form $z\mapsto \lambda z^d$ on the unit disk $\mathbb{D}$ for any positive integer $d$ and non-zero $\lambda \in \mathbb{D}$ are in case 2.
 
-When $X$ is compact, then every non-constant endomorphism $f : X \to X$ is an automorphism. Indeed, when non-constant, $f$ is a branched covering of some degree $d\geq 1$ and by the Riemann-Hurwitz formula, $\chi(X) = d \chi(X) - \sum(e_p - 1)$ where $X \to \mathbb{N}, p \mapsto e_p$ indicates the multiplicity at each point $p$ ($e_p\geq 2$ iff $p$ is a critical point). The only instance in which the formula to be consistent is when $e_p=1$ everywhere and $d=1$, that is, $f$ is a conformal automorphism of $X$. By finiteness of $\text{Aut}(X)$, $f$ is always of finite order.
+When $X$ is compact, then every non-constant endomorphism $f : X \to X$ is an automorphism. Indeed, when non-constant, $f$ is a branched covering of some degree $d\geq 1$ and by the Riemann-Hurwitz formula,
+
+$$
+\chi(X) = d \chi(X) - \sum(e_p - 1)
+$$
+
+where $X \to \mathbb{N}, p \mapsto e_p$ indicates the multiplicity at each point $p$ ($e_p\geq 2$ iff $p$ is a critical point). The only instance in which the formula to be consistent is when $e_p=1$ everywhere and $d=1$, that is, $f$ is a conformal automorphism of $X$. By finiteness of $\text{Aut}(X)$, $f$ is always of finite order.
 
 ### References
 <a name="fn1">1</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.   
