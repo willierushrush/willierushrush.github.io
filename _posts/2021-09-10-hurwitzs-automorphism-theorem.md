@@ -25,7 +25,9 @@ Since $\Gamma$ acts freely, every non-trivial element $\gamma$ can't have fixed 
 
 It takes some computational work, but we can show that when $N(\Gamma)$ is non-discrete, $\Gamma$ must be "elementary" and therefore cyclic. (A more comprehensive study of Fuchsian groups can be found in the book of Beardon<sup>[1](#fn1)</sup>.) However, in the two cases above, the corresponding Riemann surface $X = \mathbb{H} / \Gamma$ is not compact, which leads to a contradiction.
 
-Therefore, we now know that $\text{Aut}(X)$ is discrete. Once we know that $\text{Aut}(X)$ is discrete, it is easy to upgrade it to finiteness. Any discrete subset of a compact space is finite. Since $X$ is compact, the orbit of $\text{Aut}(X)$ acting on any point $x \in X$ is finite.
+A slightly different approach is the following. The normaliser is contained in the semigroup $\text{End}(\Gamma) = \\\{ g \in \Gamma \vert g\Gamma g^{-1} \subset \Gamma \\\}$. Suppose $\text{End}(\Gamma)$ is not discrete. We then have a sequence of distinct elements $g_n in \text{End}(\Gamma)$ converging to some g_{\infty} \in \text{End}(\Gamma)$. Note that $(g_n^{-1} \circ g_\infty)^{-1} \Gamma (g_n^{-1} \circ g_\infty)$ is a subset of $g_\infty^{-1} \Gamma g_\infty$. Since $g_\infty^{-1} \Gamma g_\infty$ is discrete and $g_n^{-1} \circ g_\infty \to Id$, then for sufficiently large $n$, $g_n^{-1} \circ g_\infty$ would commute with every element in $\Gamma$, which implies that every non-trivial element in $\Gamma$ must have the same fixed point in $\bar{\mathbb{D}}$ and must be of the same type. This is only possible when $\Gamma$ is abelian, so $\text{End}(\Gamma)$ is discrete.
+
+We now know that $\text{Aut}(X)$ is discrete. Once we know that $\text{Aut}(X)$ is discrete, it is easy to upgrade it to finiteness. Any discrete subset of a compact space is finite. Since $X$ is compact, the orbit of $\text{Aut}(X)$ acting on any point $x \in X$ is finite.
 
 There are other ways to prove finiteness. Another way that works in higher dimensional compact hyperbolic Riemannian manifolds is what is often called Bochner-Yano theorem<sup>[2](#fn2)</sup> in differential geometry.
 
