@@ -42,7 +42,7 @@ $$
 \chi(X) = d \chi(X) - \sum(e_p - 1)
 $$
 
-where $X \to \mathbb{N}, p \mapsto e_p$ indicates the multiplicity at each point $p$ ($e_p\geq 2$ iff $p$ is a critical point). The only instance in which the formula is consistent is when $e_p=1$ everywhere and $d=1$, that is, $f$ is a conformal automorphism of $X$. By finiteness of $\text{Aut}(X)$, $f$ is always of finite order.
+where $\chi(X)$ is the Euler characteristic and $X \to \mathbb{N}, p \mapsto e_p$ indicates the multiplicity at each point $p$ ($e_p\geq 2$ iff $p$ is a critical point). Since $\chi(X) < 0$, the only instance in which the formula is consistent is when $e_p=1$ everywhere and $d=1$, that is, $f$ is a conformal automorphism of $X$. By finiteness of $\text{Aut}(X)$, $f$ is always of finite order.
 
 ### References
 <a name="fn1">1</a>: J. Milnor. Dynamics in one complex variable. Princeton University Press, third edition, 2006.   
