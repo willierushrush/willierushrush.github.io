@@ -33,7 +33,7 @@ Every immersion $f: M \to (N,h)$ from a smooth manifold $M$ to a Riemannian mani
 
 ## Conformal metrics
 
-When $M$ is a Riemann surface, we say that a Riemannian metric $g$ on $M$ is **conformal** if on each local chart, $g$ can be written as $\rho(z)^2 \lvert dz \rvert$ (alternatively, $\rho(z)^2 (dx^2 + dy^2)$ or $\rho(z)^2 dz d\bar{z}$) for some smooth positive function $\rho(z)$. The corresponding matrix $g_{ij}$ will be precisely $\rho(z)^2 I_2$ where $I_2$ is the $2 \times 2$ identity matrix. It is common to use the notation $\rho(z) \lvert dz \rvert$ to refer to $g$. We are still able to argue by partition of unity that every Riemann surface admits a conformal metric.
+When $M$ is a Riemann surface, we say that a Riemannian metric $g$ on $M$ is **conformal** if on each local chart, $g$ can be written as $\rho(z)^2 \lvert dz \rvert^2$ (alternatively, $\rho(z)^2 (dx^2 + dy^2)$ or $\rho(z)^2 dz d\bar{z}$) for some smooth positive function $\rho(z)$. The corresponding matrix $g_{ij}$ will be precisely $\rho(z)^2 I_2$ where $I_2$ is the $2 \times 2$ identity matrix. It is common to use the notation $\rho(z) \lvert dz \rvert$ to refer to $g$. We are still able to argue by partition of unity that every Riemann surface admits a conformal metric.
 
 The conformal metric $\rho(z) \lvert dz \rvert$ gives rise to a geometry on $M$. As the name suggests, on each local chart, angles with respect to $\rho(z) \lvert dz \rvert$ are the same as angles with respect to the flat metric $\lvert dz \rvert$ because they only differ by a positive factor of $\lambda^2$. The $\rho$-length of a curve $\gamma : [a,b] \to M$ is
 
