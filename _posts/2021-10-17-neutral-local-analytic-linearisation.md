@@ -25,7 +25,7 @@ We say that an open Jordan domain $P$ is an **attracting petal** for $f$ if $f^{
 
 > **_Leau-Fatou Flower Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$ such that $f^q(z) = z + a z^{m+1} + \ldots$ for some $n \in \mathbb{N}$ and $b \neq 0$. Then,
 1. $n$ is a mutiple of $q$, i.e. $n=kq$ for some integer $k$.
-2. There are precisely $n$ disjoint maximal attracting petals $\{ P_i \}\_{i=1,\ldots n}$ in $U$ each making an angle of $\frac{2\pi}{n}$ at $0$ such that $f$ permutes the petals with rotation number $\frac{p}{q}$, that is, if the indices $i$ are cyclically labeled mod n, then $f(P_i) \subset P_{i+kp}$.
+2. There are precisely $n$ disjoint maximal attracting petals $\\\{ P_i \\\}\_{i=1,\ldots n}$ in $U$ each making an angle of $\frac{2\pi}{n}$ at $0$ such that $f$ permutes the petals with rotation number $\frac{p}{q}$, that is, if the indices $i$ are cyclically labeled mod n, then $f(P_i) \subset P_{i+kp}$.
 
 As an example, you can check that $f(z)= -z+z^6$ must have $m=10$ attracting petals and $f$ interchanges each pair of opposite petals. Even though $f$ is not linearisable at $0$, the action of $f$ on the petals act like translations under certain coordinates.
 
@@ -35,11 +35,11 @@ Note that the attracting behaviour of $0$ does not extend beyond the petals. Out
 
 ## Irrational case
 
-Now, suppose $\theta$ is irrational. The problem of analytic linearisation becomes an arithmetic problem which is best described using the best rational approximations $\\\{frac{p_n}{q_n} \\\}_{n \in \mathbb{N}}$ of $\theta$. Have a look at this [post](/posts/2021/01/continued-fractions) for more details.
+Now, suppose $\theta$ is irrational. The problem of analytic linearisation becomes an arithmetic problem which is best described using the best rational approximations $\\\{\frac{p_n}{q_n} \\\}_{n \in \mathbb{N}}$ of $\theta$. Have a look at this [post](/posts/2021/01/continued-fractions) for more details.
 
-> **_Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$. Then, $f$ is linearisable at $0$ if and only if $\theta$ is a Brjuno number, that is, the best rational approximations $\{frac{p_n}{q_n} \}_{n \in \mathbb{N}}$ of $\theta$ induces a convergent infinite sum: $ \sum_{n=1}^\infty \frac{\log q_n}{q_n} < \infty$.
+> **_Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$. Then, $f$ is linearisable at $0$ if and only if $\theta$ is a Brjuno number, that is, the best rational approximations $\{\frac{p_n}{q_n} \}\_{n \in \mathbb{N}}$ of $\theta$ induces a convergent infinite sum: $ \sum_{n=1}^\infty \frac{\log q_n}{q_n} < \infty$.
 
-Siegel first showed that linearisability holds when $\theta$ is a **Diophantine number**, i.e. there is some $c>0$ and d>0$ such that for any non-zero integers $p$ and $q$, $\vert p - \theta q \vert > c q^{-d}$. The proof of Siegel's result is accessible in Katok's book<sup>[1](#fn1)</sup> and it relies on the "KAM method" after Kolmogorov, Arnol'd, and Moser. Brjuno later extended Siegel's result for Brjuno numbers, and this condition is proved to be necessary by Yoccoz.
+Siegel first showed that linearisability holds when $\theta$ is a **Diophantine number**, i.e. there is some $c>0$ and $d>0$ such that for any non-zero integers $p$ and $q$, $\vert p - \theta q \vert > c q^{-d}$. The proof of Siegel's result is accessible in Katok's book<sup>[1](#fn1)</sup> and it relies on the "KAM method" after Kolmogorov, Arnol'd, and Moser. Brjuno later extended Siegel's result for Brjuno numbers, and this condition is proved to be necessary by Yoccoz.
 
 Some examples of Diophantine numbers include irrationals of bounded type, i.e. the continued fraction expansion $[0;a_1, a_2, \ldots]$ satisfies $\sup_i a_i < \infty$. These include the golden ratio and all quadratic irrationals.
 
