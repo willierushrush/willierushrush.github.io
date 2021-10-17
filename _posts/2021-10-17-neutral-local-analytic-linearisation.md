@@ -37,7 +37,7 @@ Note that the attracting behaviour of $0$ does not extend beyond the petals. Out
 
 Now, suppose $\theta$ is irrational. The problem of analytic linearisation becomes an arithmetic problem which is best described using the best rational approximations $\\\{\frac{p_n}{q_n} \\\}_{n \in \mathbb{N}}$ of $\theta$. Have a look at this [post](/posts/2021/01/continued-fractions) for more details.
 
-> **_Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$. Then, $f$ is linearisable at $0$ if and only if $\theta$ is a Brjuno number, that is, the best rational approximations $\{\frac{p_n}{q_n} \}\_{n \in \mathbb{N}}$ of $\theta$ induces a convergent infinite sum: $ \sum_{n=1}^\infty \frac{\log q_n}{q_n} < \infty$.
+> **_Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$. Then, $f$ is linearisable at $0$ if and only if $\theta$ is a Brjuno number, that is, the best rational approximations $\\\{\frac{p_n}{q_n} \\\}\_{n \in \mathbb{N}}$ of $\theta$ induces a convergent infinite sum: $ \sum_{n=1}^\infty \frac{\log q_n}{q_n} < \infty$.
 
 Siegel first showed that linearisability holds when $\theta$ is a **Diophantine number**, i.e. there is some $c>0$ and $d>0$ such that for any non-zero integers $p$ and $q$, $\vert p - \theta q \vert > c q^{-d}$. The proof of Siegel's result is accessible in Katok's book<sup>[1](#fn1)</sup> and it relies on the "KAM method" after Kolmogorov, Arnol'd, and Moser. Brjuno later extended Siegel's result for Brjuno numbers, and this condition is proved to be necessary by Yoccoz.
 
