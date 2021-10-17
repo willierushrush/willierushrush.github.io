@@ -11,7 +11,7 @@ Given a dynamical system $f: X \to X$ with a fixed point $x \in X$, what can we 
 
 For convenience, let's simplify the objects we are dealing with to a map of the form $f(z) = \lambda z + O(z^2)$ where $f$ is well defined and holomorphic on a neighbourhood $U$ of the fixed point $0$ with multiplier $f'(0)= \lambda = e^{2 \pi i \theta}$ for some angle $\theta \in [0,1)$. We say that $f$ is analytically linearisable at $0$ if there is some conformal change of coordinates $h: V \to h(V)$ on a neighbourhood $V \subset U$ of $0$ such that $h(f(z)) = \lambda h(z)$ for all $z \in V$.
 
-The answer to the linearisability problem lies on the nature of the angle $\theta$.
+The answer to the linearisability problem lies in the nature of the angle $\theta$.
 
 ## Parabolic case
 
@@ -25,7 +25,7 @@ We say that an open Jordan domain $P$ is an **attracting petal** for $f$ if $f^{
 
 > **_Leau-Fatou Flower Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$ such that $f^q(z) = z + a z^{m+1} + \ldots$ for some $n \in \mathbb{N}$ and $b \neq 0$. Then,
 1. $n$ is a mutiple of $q$, i.e. $n=kq$ for some integer $k$.
-2. There are precisely $n$ disjoint maximal attracting petals $\\\{ P_i \\\}_{i=1,\ldots n}$ in $U$ each making an angle of $\frac{2\pi}{n}$ at $0$ such that $f$ permutes the petals with rotation number $\frac{p}{q}$, that is, if the indices $i$ are cyclically labeled mod n, then $f(P_i) \subset P_{i+kp}$.
+2. There are precisely $n$ disjoint maximal attracting petals $\{ P_i \}_{i=1,\ldots n}$ in $U$ each making an angle of $\frac{2\pi}{n}$ at $0$ such that $f$ permutes the petals with rotation number $\frac{p}{q}$, that is, if the indices $i$ are cyclically labeled mod n, then $f(P_i) \subset P_{i+kp}$.
 
 As an example, you can check that $f(z)= -z+z^6$ must have $m=10$ attracting petals and $f$ interchanges each pair of opposite petals. Even though $f$ is not linearisable at $0$, the action of $f$ on the petals act like translations under certain coordinates.
 
