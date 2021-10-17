@@ -13,7 +13,7 @@ For convenience, let's simplify the objects we are dealing with to a map of the 
 
 The answer to the linearisability problem lies in the nature of the angle $\theta$.
 
-## Parabolic case
+## Rational case
 
 Suppose $\theta$ is rational of the form $\frac{p}{q}$ where $\text{hcf}(p,q)=1$. The linear map $z \mapsto \lambda z$ has finite order $q$ and on a neighbourhood of $0$, the $q$-th iterate $f^q$ coincides with the identity map. It is a straightforward exercise on power series to check that $f$ has to be the rotation $f(z) = \lambda z$. In other words, non-linear germs with rational $\theta$ are not linearisable.
 
