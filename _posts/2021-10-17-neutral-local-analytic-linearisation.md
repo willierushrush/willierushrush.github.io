@@ -17,10 +17,8 @@ The answer to the linearisability problem lies in the nature of the angle $\thet
 
 Suppose $\theta$ is rational of the form $\frac{p}{q}$ where $\text{hcf}(p,q)=1$. The linear map $z \mapsto \lambda z$ has finite order $q$ and on a neighbourhood of $0$, the $q$-th iterate $f^q$ coincides with the identity map. It is a straightforward exercise on power series to check that $f$ has to be the rotation $f(z) = \lambda z$. In other words, non-linear germs with rational $\theta$ are not linearisable.
 
-There is, however, a different way to describe the local behaviour of $f$ near $0$. The iterate $f^q$ is of the form $f^q(z) = z + a z^{m+1} + \ldots$ where $b \neq 0$ and higher order terms are omitted. The corresponding iterates are of the form
-\[
-f^{nq}(z) = z + na z^{n+1} + \ldots.
-\]
+There is, however, a different way to describe the local behaviour of $f$ near $0$. The iterate $f^q$ is of the form $f^q(z) = z + a z^{m+1} + \ldots$ where $b \neq 0$ and higher order terms are omitted. The corresponding iterates are of the form $f^{nq}(z) = z + na z^{n+1} + \ldots$.
+
 We say that an open Jordan domain $P$ is an **attracting petal** for $f$ if $f^{q}$ maps $P$ univalently into $P$ itself, $0$ is on the boundary of $P$ and $\partial P \cap \partial f^q(P) = \\\{0 \\\}$. Every point $z$ on a petal has the same dynamics: $f^{qn}(z) \to 0$ as $n\to \infty$. If $P$ is a petal, then $f^q(P)$ is a sub-petal lying inside $P$. Given a petal $P'$, there is a maximal petal $P$ containing $P'$ lying in $U$.
 
 > **_Leau-Fatou Flower Theorem:_** Let $f(z) = e^{2\pi i \theta} z + \ldots$ be a non-linear holomorphic map on a neighborhood $U$ of $0$ such that $f^q(z) = z + a z^{m+1} + \ldots$ for some $n \in \mathbb{N}$ and $b \neq 0$. Then,
