@@ -36,6 +36,12 @@ You may notice that this very much follows from the classification on hyperbolic
 - Baker domains do not exist when $X =\mathbb{P}^1$. This is because $f$ would always be a rational map of the form $p(z)/q(z)$ for some polynomials $p$ and $q$ and essential singularities do not exist. When $X$ is elliptic (isomorphic to the plane $\mathbb{C}$ or the punctured plane $\mathbb{C}\backslash \\\{0\\\}$), the points $0$ and $\infty$ are possible essential singularities and Baker domains may exist.
 - When $f$ is an entire function on $\mathbb{C}$, every bounded Fatou component $U$ is simply connected. Indeed, by the maximum principle, $f$ would map the union $V$ of $U$ and the bounded component of the complement of $U$ into itself, but since $V$ is hyperbolic as a Riemann surface, Montel's theorem tells us that the whole $U$ had to lie in the Fatou set. In particular, entire functions never have any Herman ring.
 
+Below is an example of periodic Fatou components. The quadratic $f(z)=z^2 -0.12+0.75i$ admits an attracting periodic cycle lying inside a periodic cycle of attracting basins marked by the arrows. Other colored Fatou components are preimages of this periodic cycle of Fatou components. The white region outside is in fact a fixed attracting basin of $\infty$ in which points diverge to $\infty$ under iterations.
+
+<p align="center">
+  <img src="/images/douadyrabbit.jpg" width="500" height="390" />
+</p>
+
 ## Wandering Domains
 
 If not pre-periodic, $U$ is called **wandering**. This is when $f^m(U)$ and $f^n(U)$ are always disjoint for all distinct positive integers $m$ and $n$. One of the most celebrated results in one-dimensional holomorphic dynamics is the following.
