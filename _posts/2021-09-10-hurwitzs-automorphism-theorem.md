@@ -3,7 +3,7 @@ title: 'Hurwitz automorphism theorem'
 date: 2021-09-10
 permalink: /posts/2021/09/hurwitzs-automorphism-theorem
 tags:
-  - Riemann Surfaces
+  - Riemann surfaces
 ---
 
 I recently discovered that the number of conformal automorphisms of a compact genus $g\geq 2$ Riemann surface is finite and it has an upper bound of $84(g-1)$. This is known as the Hurwitz's Automorphism Theorem. There are a number of ways to prove this theorem, but we shall do so using the language of orbifolds. The standard approach is to see that the automorphism group $\text{Aut}(X)$ is finite by showing that it is discrete. Then, we can apply the Riemann-Hurwitz formula to count and obtain the upper bound.

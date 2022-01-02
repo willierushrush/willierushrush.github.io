@@ -1,12 +1,12 @@
 ---
 title: 'Topological Entropy'
 date: 2022-01-02
-permalink: /posts/2022/01/topological-entropy
+permalink: /posts/2022/01/topological-entropy/
 tags:
-  - Dynamical Systems
+  - Dynamical systems
 ---
 
-The word entropy refers to a measure of chaos or uncertainty of a system. In the field of dynamical systems, (topological) entropy is perhaps the most important topological invariant which measures the exponential growth of 'distinct' orbits (the 'complexity') of a dynamical system. In this post, we will discuss some of the basic properties and examples of topological entropy.
+The word entropy refers to a measure of chaos or uncertainty of a system. In the field of dynamical systems, topological entropy is perhaps the most important topological invariant which measures the exponential growth of 'distinct' orbits (the 'complexity') of a dynamical system. In this post, we will discuss some of the basic properties and examples of topological entropy.
 
 Let $f: X \to X$ be a continuous self map on a compact metric space $(X,d)$. For every positive integer $n$, we keep track of the first $n$ iterates and define a new metric
 

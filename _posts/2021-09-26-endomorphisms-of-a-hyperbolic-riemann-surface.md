@@ -3,8 +3,8 @@ title: 'Classifying endomorphisms of a hyperbolic Riemann surface'
 date: 2021-09-26
 permalink: /posts/2021/09/endomorphisms-of-a-hyperbolic-riemann-surface
 tags:
-  - Holomorphic Dynamics
-  - Riemann Surfaces
+  - Holomorphic dynamics
+  - Riemann surfaces
 ---
 
 We saw in the previous post that the group of automorphisms of a compact Riemann surface $X$ is always finite and can be bounded in terms of its genus. Throwing away the bijective assumption, it turns out that in most situations the group of endomorphisms is still very rigid. We shall classify all holomorphic endomorphisms of hyperbolic Riemann surfaces, which are not necessarily compact, according to their dynamics.
