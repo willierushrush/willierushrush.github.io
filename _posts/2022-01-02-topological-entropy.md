@@ -13,7 +13,7 @@ Let $f: X \to X$ be a continuous self map on a compact metric space $(X,d)$. For
 For any $\epsilon>0$, we say that a subset $E \subset X$ is $(n,\epsilon)$-spanning if every point in $X$ is within $\epsilon$ distance from a point in $E$ in the $d_{f,n}$ metric. Denote by $S_d(f,n,\epsilon)$ the smallest cardinality of a $(n,\epsilon)$-spanning set of $(X,d)$; this quantity represents the smallest number of initial points in $X$ whose finite orbits up to time $n$ $\epsilon$-approximate all possible orbits up to time $n$. The **topological entropy** $h_{top}(f)$ of $f$ is defined to be the asymptotic exponential growth rate of $S_d(f,n,\epsilon)$:
 
 $$
-h_{top}(f) = \lim_{\epsilon \to 0} \limsup_{n\to \infty} \frac{\log S_d(f,n,\epsilon)}{n}.
+h_{top}(f) = \lim_{\epsilon \to 0} \limsup_{n\to \infty} \frac{1}{n}\log S_d(f,n,\epsilon).
 $$
 
 This is just one common way of defining $h_{top}(f)$. Another similar way is to look at the asymptotic growth rate of the minimum cardinality of a $(n,\epsilon)$-separating set, which is a subset in which any two distinct points $x$ and $y$ must satisfy $d_{f,n}(x,y)>\epsilon$; this gives the same quantity $h_{top}(f)$. There is also another approach that utilises coverings similar to the definition of a measure-theoretic entropy; one advantage is that it directly shows independence of the metric $d$, but unfortunately the covering method is difficult to compute. I personally recommend looking at the book<sup>[2](#fn2)</sup> of Katok and Hasselblatt for more details.
@@ -46,7 +46,7 @@ $$
 
 In particular, when $f$ is continuously differentiable, the Lipschitz constant is equal to $L(f) = \sup_{x \in X} \| D f_x \|$ where $\| D f_x \|$ is the operator norm of the linear map $Df_x : T_x X \to T_{f(x)} X$ for each point $x \in X$.
 
-The topological entropy of a Lipschitz continuous self map $f$ of a compact $D-dimensional manifold $X$ satisfies: $h_{top}(f) \leq \max\\\{ 0, D L_f \\\}$. This upper bound can actually be generalised to arbitrary compact metric spaces where $D$ is the upper box/Minkowski dimension of $X$, defined as
+The topological entropy of a Lipschitz continuous self map $f$ of a compact $D$-dimensional manifold $X$ satisfies: $h_{top}(f) \leq \max\\\{ 0, D L_f \\\}$. This upper bound can actually be generalised to arbitrary compact metric spaces where $D$ is the upper box/Minkowski dimension of $X$, defined as
 
 $$
 D := \limsup_{\epsilon \to 0} \frac{\log N(\epsilon)}{\log(1/\epsilon)}
@@ -54,11 +54,11 @@ $$
 
 where $N(\epsilon)$ is the minimal number of balls of radius $\epsilon>0$ needed to cover $(X,d)$. This estimate follows from the inequality $S_d(f,n,\epsilon) \leq N(\max\\\{1,L(f)\\\}^{-n}\epsilon)$, which comes from the observation that every $d$-ball of radius $\max\\\{1,L(f)\\\}^{-n}\epsilon$ is contained in the $d_{f,n}$-ball of the same center and of radius $\epsilon$.
 
-4. Suppose $f$ is a smooth self map on a compact $D$-dimensional manifold $X$. Denote by $\rho(f_*)$ the spectral radius (the absolute value of the largest eigenvalue) of the induced linear endomorphisms $f_{*,i}$ on the homology groups $H_i(X,\mathbb{R})$ for $i=0,1 \ldots D$. The spectral radius $\rho(f_\*)$ is a topological invariant which encodes the homological growth rate induced by $f$. A result by Yomdin<sup>[3](#fn3)</sup> states that we can obtain a lower bound of the topological entropy depending on the spectral radius as follows.
+4. Suppose $f$ is a smooth self map on a compact $D$-dimensional manifold $X$. Denote by $\rho(f_\*)$ the spectral radius (the absolute value of the largest eigenvalue) of the induced linear endomorphisms $f_{*,i}$ on the homology groups $H_i(X,\mathbb{R})$ for $i=0,1 \ldots D$. The spectral radius $\rho(f_\*)$ is a topological invariant which encodes the homological growth rate induced by $f$. A result by Yomdin<sup>[3](#fn3)</sup> states that we can obtain a lower bound of the topological entropy depending on the spectral radius as follows.
 
 > **_Theorem:_** For any smooth map $f:X \to X$ on a compact manifold $X$, $h_{top}(f) \geq \log \rho(f_*)$.
 
-A more easily digestible implication of Yomdin's inequality is the following. When $X$ is orientable, the top homology group $H_D(X,\mathbb{R})$ is one-dimensional) and if $\omega$ is a generator of $H_D(X,\mathbb{R}), then $f_*(\omega) = \text{deg}(f) \omega$ where $\text{deg}(f) \in \mathbb{Z}$ is the topological degree of $f$. Then, Yomdin's inequality implies that $h_{top}(f) \geq \log \vert \text{deg}(f) \vert$.
+A more easily digestible implication of Yomdin's inequality is the following. When $X$ is orientable, the top homology group $H_D(X,\mathbb{R})$ is one-dimensional) and if $\omega$ is a generator of $H_D(X,\mathbb{R})$, then $f_*(\omega) = \text{deg}(f) \omega$ where $\text{deg}(f) \in \mathbb{Z}$ is the topological degree of $f$. Then, Yomdin's inequality implies that $h_{top}(f) \geq \log \vert \text{deg}(f) \vert$.
 
 5. There are instances in which the bound in Yomdin's inequality is attained. Gromov<sup>[1](#fn1)</sup> proved that $\log \rho(f_*)$ is an upper bound for topological entropy when $f$ is a holomorphic map on a compact Kähler manifold $X$.
 
