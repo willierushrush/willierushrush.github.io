@@ -52,6 +52,6 @@ You may think that property 10 seems to be the most obscure one. Let me give you
 ### References
 
 <a name="fn1">1</a>: L. Ahlfors. Lectures on Quasiconformal Mappings. Van Nostrand, 1966.  
-<a name="fn2">2</a>: F. W. Gehring. Characterizations of Quasidisks. Banach Center Publications, Vol 48. 1999   
+<a name="fn2">2</a>: F. W. Gehring. Characterizations of Quasidisks. Banach Center Publications, Vol 48, 1999.   
 <a name="fn3">3</a>: O. Lehto. Univalent functions and Teichmüller spaces, Springer-Verlag, 1987.
 ------
