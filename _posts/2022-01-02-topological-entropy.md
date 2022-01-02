@@ -1,7 +1,7 @@
 ---
 title: 'Topological Entropy'
 date: 2022-01-02
-permalink: /posts/2021/01/topological-entropy
+permalink: /posts/2022/01/topological-entropy
 tags:
   - Dynamical Systems
 ---
