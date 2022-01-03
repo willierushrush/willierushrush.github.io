@@ -34,33 +34,35 @@ This follows rather directly from the independence of $d$ as follows. Let $p: Y 
 
 ## Some examples and estimates
 
+Let's start with some easy examples.
+
 1. Any isometry $f$ of a compact metric space $(X,d)$ has zero entropy. This is because the induced metric $d_{f,n}$ coincide with $d$ for all $n$ and thus the quantity $S_d(f,n,\epsilon)$ is independent of $n$.
 
-2. The degree $m$ covering map $E_m(x)=mx$ (mod $1$) on the unit circle $S^1 = \mathbb{R}/\mathbb{Z}$ has topological entropy $h_{top}(E_m) = \log m$. Indeed, you can confirm by a rather straightforward calculation that $\\\{ jm^{-n-k} \: : \: j \in \mathbb{Z} \\\} \subset S^1$ is a minimal $(n,m^{-k})$-spanning subset of $(S^1,d)$, equipped with the Euclidean metric $d$ induced by $\mathbb{R}$, for $E_m$. This implies that $S_d(E_m,n,m^{-k}) = m^{n+k}$.
+2. The degree $m$ covering map $E_m(x)=mx$ (mod $1$) on the unit circle $S^1 = \mathbb{R}/\mathbb{Z}$ has topological entropy $h_{top}(E_m) = \log m$. Indeed, you can confirm by a rather straightforward calculation that $\\\{ jm^{-n-k} \vert j =0, 1, \ldots m^{n+k}-1 \\\} \subset S^1$ is a minimal $(n,m^{-k})$-spanning subset of $(S^1,d)$, equipped with the Euclidean metric $d$ induced by $\mathbb{R}$, for $E_m$. This implies that $S_d(E_m,n,m^{-k}) = m^{n+k}$.
 
-3. Recall that the Lipschitz constant $L_f$ of a Lipschitz continuous self map $f$ on a compact metric space $(X,d)$ is defined to be
+The definition(s) of topological entropy can be quite difficult to handle for rather chaotic dynamical systems. Often, we can only obtain crude estimates upon assuming further regularity of the map $f$ and the space $X$.
+
+Recall that the Lipschitz constant $L_f$ of a Lipschitz continuous self map $f$ on a compact metric space $(X,d)$ is defined to be
 
 $$
 L(f) := \sup_{x\neq y} \frac{d(f(x),f(y))}{d(x,y)}.
 $$
 
-In particular, when $f$ is continuously differentiable, the Lipschitz constant is equal to $L(f) = \sup_{x \in X} \| D f_x \|$ where $\| D f_x \|$ is the operator norm of the linear map $Df_x : T_x X \to T_{f(x)} X$ for each point $x \in X$.
-
-The topological entropy of a Lipschitz continuous self map $f$ of a compact $D$-dimensional manifold $X$ satisfies: $h_{top}(f) \leq \max\\\{ 0, D L_f \\\}$. This upper bound can actually be generalised to arbitrary compact metric spaces where $D$ is the upper box/Minkowski dimension of $X$, defined as
+In particular, when $f$ is continuously differentiable, the Lipschitz constant is equal to $L(f) = \sup_{x \in X} \| D f_x \|$ where $\| D f_x \|$ is the operator norm of the linear map $Df_x : T_x X \to T_{f(x)} X$ for each point $x \in X$. The topological entropy of a Lipschitz continuous self map $f$ of a compact $D$-dimensional manifold $X$ satisfies:
 
 $$
-D := \limsup_{\epsilon \to 0} \frac{\log N(\epsilon)}{\log(1/\epsilon)}
+h_{top}(f) \leq \max\\\{ 0, D L_f \\\}.
 $$
 
-where $N(\epsilon)$ is the minimal number of balls of radius $\epsilon>0$ needed to cover $(X,d)$. This estimate follows from the inequality $S_d(f,n,\epsilon) \leq N(\max\\\{1,L(f)\\\}^{-n}\epsilon)$, which comes from the observation that every $d$-ball of radius $\max\\\{1,L(f)\\\}^{-n}\epsilon$ is contained in the $d_{f,n}$-ball of the same center and of radius $\epsilon$.
+This upper bound can actually be generalised to arbitrary compact metric spaces where $D$ is the upper box/Minkowski dimension of $X$, defined by $D := \limsup_{\epsilon \to 0} \frac{\log N(\epsilon)}{\log(1/\epsilon)}$, where $N(\epsilon)$ is the minimal number of balls of radius $\epsilon>0$ needed to cover $(X,d)$. This estimate follows from the inequality $S_d(f,n,\epsilon) \leq N(\max\\\{1,L(f)\\\}^{-n}\epsilon)$, which comes from the observation that every $d$-ball of radius $\max\\\{1,L(f)\\\}^{-n}\epsilon$ is contained in the $d_{f,n}$-ball of the same center and of radius $\epsilon$.
 
-4. Suppose $f$ is a smooth self map on a compact $D$-dimensional manifold $X$. Denote by $\rho(f_\*)$ the spectral radius (the absolute value of the largest eigenvalue) of the induced linear endomorphisms $f_{*,i}$ on the homology groups $H_i(X,\mathbb{R})$ for $i=0,1 \ldots D$. The spectral radius $\rho(f_\*)$ is a topological invariant which encodes the homological growth rate induced by $f$. A result by Yomdin<sup>[3](#fn3)</sup> states that we can obtain a lower bound of the topological entropy depending on the spectral radius as follows.
+Suppose $f$ is a smooth self map on a compact $D$-dimensional manifold $X$. Manifolds of arbitrarily high dimension can support very complicated dynamics. One of main ways for dynamicists to tackle them is to firstly look at the induced maps $f_{*,i}$ on the homology groups $H_i(X,\mathbb{R})$ for $i=0,1 \ldots D$. The induced maps $f_{\*,i}$ are much easier to study because they are topologically invariant linear maps on vector spaces. Denote by $\rho(f_\*)$ the spectral radius (the absolute value of the largest eigenvalue). The spectral radius $\rho(f_\*)$ is a topological invariant which encodes the homological growth rate induced by $f$. A result by Yomdin<sup>[3](#fn3)</sup> states that we can obtain a lower bound of the topological entropy depending on the spectral radius as follows.
 
 > **_Theorem:_** For any smooth map $f:X \to X$ on a compact manifold $X$, $h_{top}(f) \geq \log \rho(f_*)$.
 
-A more easily digestible implication of Yomdin's inequality is the following. When $X$ is orientable, the top homology group $H_D(X,\mathbb{R})$ is one-dimensional) and if $\omega$ is a generator of $H_D(X,\mathbb{R})$, then $f_*(\omega) = \text{deg}(f) \omega$ where $\text{deg}(f) \in \mathbb{Z}$ is the topological degree of $f$. Then, Yomdin's inequality implies that $h_{top}(f) \geq \log \vert \text{deg}(f) \vert$.
+Here's a more easily digestible implication of Yomdin's inequality. When $X$ is orientable, the top homology group $H_D(X,\mathbb{R})$ is one-dimensional) and if $\omega$ is a generator of $H_D(X,\mathbb{R})$, then $f_*(\omega) = \text{deg}(f) \omega$ where $\text{deg}(f) \in \mathbb{Z}$ is the topological degree of $f$. Then, Yomdin's inequality implies that $h_{top}(f) \geq \log \vert \text{deg}(f) \vert$.
 
-5. There are instances in which the bound in Yomdin's inequality is attained. Gromov<sup>[1](#fn1)</sup> proved that $\log \rho(f_*)$ is an upper bound for topological entropy when $f$ is a holomorphic map on a compact Kähler manifold $X$.
+There are instances in which the bound in Yomdin's inequality is attained. Gromov<sup>[1](#fn1)</sup> proved that $\log \rho(f_*)$ is an upper bound for topological entropy when $f$ is a holomorphic map on a compact Kähler manifold $X$.
 
 > **_Gromov-Yomdin Theorem:_** For any holomorphic map $f:X \to X$ on a compact Kähler manifold $X$, $h_{top}(f) = \log \rho(f_*)$.
 
