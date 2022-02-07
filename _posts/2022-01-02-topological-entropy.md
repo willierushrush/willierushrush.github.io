@@ -30,7 +30,7 @@ As the name suggests, topological entropy is a topological invariant.
 
 > **_Proposition:_** The topological entropy of $f: X\to X$ is independent of the metric $d$.
 
-This follows rather directly from the independence of $d$ as follows. Let $p: Y \to X$ be a homeomorphism. Endow $Y$ with the pullback metric $p^{\*}d$ so that $p: (Y, p^{\*}d) \to (X, d)$ becomes an isometry. Then, the entropy of $g := p^{-1} \circ f \circ p$ coincides with that of $f$ on $(X,d)$.
+This follows rather directly from the independence of $d$ as follows. Let $p: Y \to X$ be a homeomorphism. Endow $Y$ with the pullback metric $p^{*}d$ so that $p: (Y, p^{\*}d) \to (X, d)$ becomes an isometry. Then, the entropy of $g := p^{-1} \circ f \circ p$ coincides with that of $f$ on $(X,d)$.
 
 ## Some examples and estimates
 
