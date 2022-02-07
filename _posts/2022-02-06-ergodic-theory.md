@@ -44,7 +44,7 @@ Any irrational rotation $R_\theta (x) = x + \theta$ of angle $\theta \not\in\mat
 
 Ok, let's try to be more precise. Suppose $A$ is a $R_\theta$-invariant measurable subset of $S^1$. Pick any small $\epsilon >0$ and any continuous map $h : S^1 \to \mathbb{R}$ that $\epsilon$-approximates the indicator function $\chi_A$ of $A$, that is, $ \vert h - \chi_A \vert_{1} = \int_{S^1} \vert h - \chi_A \vert dx < \epsilon $.
 
-Because $A$ is invariant under $R_\theta$, we also have that for any $n \in \mathbb{N}$, $\vert h(x+n\theta) - \chi_A(x) \vert_1 < \epsilon$ and thus $\| h(x+n\theta) - h(x) \|_1 < 2\epsilon $. By the density of $\{n\theta\}_{n\in \mathbb{N}}$ on $S^1$, we have the $\| h(x+y) - h(x)\|_1 < 2 \epsilon$ for any point $y \in S^1$. It then follows that $\| f - \int\_{S^1} f(t) dt \|_1 \leq 2\epsilon$ and
+Because $A$ is invariant under $R_\theta$, we also have that for any $n \in \mathbb{N}$, $\vert \vert h(x+n\theta) - \chi_A(x) \vert \vert_1 < \epsilon$ and thus $\vert \vert h(x+n\theta) - h(x) \vert \vert_1 < 2\epsilon $. By the density of $\{n\theta\}_{n\in \mathbb{N}}$ on $S^1$, we have the $\vert \vert h(x+y) - h(x)\vert \vert_1 < 2 \epsilon$ for any point $y \in S^1$. It then follows that $\vert \vert f - \int\_{S^1} f(t) dt \vert \vert_1 \leq 2\epsilon$ and
 
 $$
 \| \chi_A - \mu(A) \|_1 \leq \| \chi_A - f \|_1 + \| f - \int_{S^1} f(t) dt \|_1 + \| \int_{S^1} f(t) dt - \mu(B) \|_1 \leq 4 \epsilon.
