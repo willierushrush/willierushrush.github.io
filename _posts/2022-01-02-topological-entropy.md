@@ -51,7 +51,7 @@ $$
 In particular, when $f$ is continuously differentiable, the Lipschitz constant is equal to $L(f) = \sup_{x \in X} \| D f_x \|$ where $\| D f_x \|$ is the operator norm of the linear map $Df_x : T_x X \to T_{f(x)} X$ for each point $x \in X$. The topological entropy of a Lipschitz continuous self map $f$ of a compact $D$-dimensional manifold $X$ satisfies:
 
 $$
-h_{top}(f) \leq \max\\\{ 0, D L_f \\\}.
+h_{top}(f) \leq \max\{ 0, D L_f \}.
 $$
 
 This upper bound can actually be generalised to arbitrary compact metric spaces where $D$ is the upper box/Minkowski dimension of $X$, defined by $D := \limsup_{\epsilon \to 0} \frac{\log N(\epsilon)}{\log(1/\epsilon)}$, where $N(\epsilon)$ is the minimal number of balls of radius $\epsilon>0$ needed to cover $(X,d)$. This estimate follows from the inequality $S_d(f,n,\epsilon) \leq N(\max\\\{1,L(f)\\\}^{-n}\epsilon)$, which comes from the observation that every $d$-ball of radius $\max\\\{1,L(f)\\\}^{-n}\epsilon$ is contained in the $d_{f,n}$-ball of the same center and of radius $\epsilon$.
