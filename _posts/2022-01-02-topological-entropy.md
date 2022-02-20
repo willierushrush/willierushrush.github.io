@@ -60,7 +60,7 @@ Suppose $f$ is a smooth self map on a compact $m$-dimensional manifold $X$. Mani
 
 > **_Theorem:_** For any smooth map $f:X \to X$ on a compact manifold $X$, $h_{top}(f) \geq \log \rho(f_*)$.
 
-Here's a more easily digestible implication of Yomdin's inequality. When $X$ is orientable, the top homology group $H_m(X,\mathbb{R})$ is one-dimensional) and if $\omega$ is a generator of $H_m(X,\mathbb{R})$, then $f_*(\omega) = \text{deg}(f) \omega$ where $\text{deg}(f) \in \mathbb{Z}$ is the topological degree of $f$. Then, Yomdin's inequality implies that $h_{top}(f) \geq \log \vert \text{deg}(f) \vert$.
+Here's a more easily digestible implication of Yomdin's inequality. When $X$ is orientable, the top homology group $H_m(X,\mathbb{R})$ is one-dimensional and if $\omega$ is a generator of $H_m(X,\mathbb{R})$, then $f_*(\omega) = \text{deg}(f) \cdot \omega$ where $\text{deg}(f) \in \mathbb{Z}$ is the topological degree of $f$. Then, Yomdin's inequality implies that $h_{top}(f) \geq \log \vert \text{deg}(f) \vert$.
 
 There are instances in which the bound in Yomdin's inequality is attained. Gromov<sup>[1](#fn1)</sup> proved that $\log \rho(f_*)$ is an upper bound for topological entropy when $f$ is a holomorphic map on a compact Kähler manifold $X$.
 
