@@ -11,7 +11,7 @@ In simple terms, an iterated function system (IFS) is a set of contractions of a
 
 Let $(X,d)$ be a complete metric space and let $Y \subset X$ be a non-empty closed subset. A function $f:Y \to X$ is a **contraction** if there is some ratio $r<1$ such that $d(f(a),f(b)) \leq r\cdot d(a,b)$ for all $a,b \in Y$. It is a straightforward exercise to show that contractions are always continuous. Also, global contractions are always dynamically simple as they are governed by one of the most popular fixed-point theorems out there.
 
-> **_Banach Fixed-Point Theorem:_** Given any contraction $f:X \to X$, $f$ has a unique fixed point $x^*$ and for any $x \in X$, $f^n(x) \to x^*$.
+> **_Banach Fixed-Point Theorem:_** Given any contraction $f:X \to X$, $f$ has a unique fixed point $z$ and for any $x \in X$, $f^n(x) \to z$.
 
 The proof is an elementary exercise in analysis: you can show that given any starting point $x$, the forward orbit $f^n(x)$ is a Cauchy sequence and therefore converges to a limit, which turns out to be the unique fixed point of $f$.
 
