@@ -20,7 +20,7 @@ An **iterated function system** is a finite collection of contractions $\\\{ f_i
 Let $\mathcal{C}$ denote the set of all non-empty compact subsets of $Y$. The metric $d$ induces the Hausdorff metric $D$ on $\mathcal{C}$ defined by
 
 $$
-D(A,B) := \inf \{ \epsilon \geq 0 \: | \: B \subset A_\epsilon \text{ and } A \subset B_\epsilon \}
+D(A,B) := \inf \{ \epsilon \geq 0 \: : \: B \subset A_\epsilon \text{ and } A \subset B_\epsilon \}
 $$
 
 where $A_\epsilon: = \\\{ x \in X | d(x,a) \leq \epsilon \text{ for some } a \in A \}$ is the closed $\epsilon$-neighborhood of $A$ (and similarly $B_\epsilon$). It is known that when $(X,d)$ is a complete metric space, $(\mathcal{C},D)$ is also a complete metric space.
@@ -28,7 +28,7 @@ where $A_\epsilon: = \\\{ x \in X | d(x,a) \leq \epsilon \text{ for some } a \in
 The **Hutchinson operator** $F: \mathcal{C} \to \mathcal{C}$ defined by $F(A) = \cup\_{i=1}^N f_i(A)$ is a contraction with respect to the Hausdorff metric because for any $A,B \in \mathcal{C}$,
 
 $$
-D(F(A),F(B)) = D( \cup\_{i=1}^N f_i(A), \cup\_{i=1}^N f_i(B) ) \leq \max_{i=1,\ldots N} D( f_i(A), f_i(B)) \leq (\max_{i=1\ldots N} r_i) \cdot D(A,B).
+D(F(A),F(B)) \leq \max_{i=1,\ldots N} D( f_i(A), f_i(B)) \leq (\max_{i=1\ldots N} r_i) \cdot D(A,B).
 $$
 
 Attractors of $\{f_i\}$ are simply fixed points of the Hutchinson operator. Therefore, we can adapt the Banach fixed-point theorem and obtain:
@@ -57,13 +57,13 @@ The standard example you will find in almost all textbooks in fractal geometry i
 
 Here's a cool way to draw a tree out of an IFS. We pick the IFS $\\\{f_i\\\}\_{i=1,\ldots 6\}$ consisting of six affine contractions $f_i$ of the plane that map the square $[-0.5,0.5]\times [0,1]$ to each of the following six rectangles below. The gray ones correspond to $\\\{f_i\\\}\_{i=3,4,5,6}$.
 <p align="center">
-  <img src="/images/ifs-tree-setup01.png" width="320" height="320" />
+  <img src="/images/ifs-tree-setup01.png" width="360" height="360" />
 </p>
 
 Let's plant a square seed $S=[-0.1,0.1] \times [0, 0.2]$. Here's a gif of illustrating the first twelve iterates of $S$ under the Hutchinson operators corresponding to $\\\{f_i \\\}\_{1\leq i \leq 6}$ (in brown) and $\\\{f_i\\\}\_{3\leq i \leq 6}$ (in green).
 
 <p align="center">
-  <img src="/images/iteratedpreimages01.gif" width="320" height="320" />
+  <img src="/images/ifstree.gif" width="360" height="360" />
 </p>
 
 ### References
