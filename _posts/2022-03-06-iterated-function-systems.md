@@ -41,7 +41,7 @@ Not only does this tell us that the attractor is unique, but it also tells us ho
 
 Given an IFS, we know how to obtain the corresponding attractor. What about the converse? If I pick my favorite compact fractal set, can I find an IFS whose attractor is close to my chosen set? The answer is yes!
 
-> **_The Collage Theorem:_** Given any non-empty compact subset $A$ of a complete metric space $(X,d)$ and any IFS $\{f_i}_{i=1,\ldots N}$ with attractor $Z$ and maximum contraction factor of $0<r<1, we have
+> **_The Collage Theorem:_** Given any non-empty compact subset $A$ of a complete metric space $(X,d)$ and any IFS $\{f_i}_{i=1,\ldots N}$ with attractor $Z$ and maximum contraction factor of $0<r<1$, we have
 
 $$
 D(A,Z) \leq \frac{1}{1-r} D(A, \cup_{i=1}^N f_i(A)).
