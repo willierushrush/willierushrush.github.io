@@ -17,7 +17,7 @@ Let $(X,d)$ be a complete metric space and let $Y \subset X$ be a non-empty clos
 
 The proof is an elementary exercise in analysis: you can show that given any starting point $x$, the forward orbit $f^n(x)$ is a Cauchy sequence and therefore converges to a limit, which turns out to be the unique fixed point of $f$.
 
-An **iterated function system** is a finite collection of contractions $\\\{ f_i: Y \to X \\\}_{i=1,\ldots N}$. A non-empty compact subset $Z \subset Y$ is called an **attractor** of the IFS $\{f_i\}$ if $Z = \cup\_{i=1}^N f_i(Z)$.
+An **iterated function system** is a finite collection of contractions $\\\{ f_i: Y \to X \\\}_{i=1,\ldots N}$. A non-empty compact subset $Z \subset X$ is called an **attractor** of the IFS $\{f_i\}$ if $Z = \cup\_{i=1}^N f_i(Z)$.
 
 Let $\mathcal{C}$ denote the set of all non-empty compact subsets of $Y$. The metric $d$ induces the Hausdorff metric $D$ on $\mathcal{C}$ defined by
 
