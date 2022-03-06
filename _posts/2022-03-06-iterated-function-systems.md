@@ -33,7 +33,7 @@ $$
 
 Attractors of $\{f_i\}$ are simply fixed points of the Hutchinson operator. Therefore, we can adapt the Banach fixed-point theorem and obtain:
 
-> **_Hutchinson's Theorem:_** Every IFS $\{ f_i: Y\to X \}_{i=1,\ldots N}$ on a closed set $Y \subset X$ admits a unique attractor $Z$. Moreover, for any $A \in \mathcal{C}$, $F^n(A) \to Z$ in $\mathcal{C}$.
+> **_Hutchinson's Theorem:_** Every IFS $\\\{ f_i: Y\to X \\\}_{i=1,\ldots N}$ on a closed set $Y \subset X$ admits a unique attractor $Z$. Moreover, for any $A \in \mathcal{C}$, $F^n(A) \to Z$ in $\mathcal{C}$.
 
 Not only does this tell us that the attractor is unique, but it also tells us how to get the attractor as the limit of $F^n(A)$ for any non-empty compact subset $A$. Yes, $A$ can be picked to be either the whole $Y$ or even a singleton in $Y$, and it still works!
 
@@ -41,7 +41,7 @@ Not only does this tell us that the attractor is unique, but it also tells us ho
 
 Given an IFS, we know how to obtain the corresponding attractor. What about the converse? If I pick my favorite compact fractal set, can I find an IFS whose attractor is close to my chosen set? The answer is yes!
 
-> **_The Collage Theorem:_** Given any non-empty compact subset $A$ of a complete metric space $(X,d)$ and any IFS $\{f_i}_{i=1,\ldots N}$ with attractor $Z$ and maximum contraction factor of $0<r<1$, we have
+> **_The Collage Theorem:_** Given any non-empty compact subset $A$ of a complete metric space $(X,d)$ and any IFS $\\\{f_i\\\}_{i=1,\ldots N}$ with attractor $Z$ and maximum contraction factor of $0<r<1$, we have
 
 $$
 D(A,Z) \leq \frac{1}{1-r} D(A, \cup_{i=1}^N f_i(A)).
@@ -53,7 +53,7 @@ How is this useful? Given a compact set $A$, we can search for an IFS $\{f_i\}$ 
 
 ## Some examples
 
-The standard example you will find in almost all textbooks in fractal geometry is the middle third Cantor set. The generating IFS can be picked to consist of two contractions $f_1(x) = \frac{x}{3}$ and $f_2(x) = \frac{x+2}{3}$ of the real line $\mathbb{R}$.
+The standard example you will find in almost all textbooks in fractal geometry is the middle third Cantor set. The generating IFS can be picked to consist of two contractions $f_1(x) = \frac{x}{3}$ and $f_2(x) = \frac{x+2}{3}$ of the unit interval $[0,1]$.
 
 Here's a cool way to draw a tree out of an IFS. We pick the IFS $\\\{f_i\\\}\_{i=1,\ldots 6\}$ consisting of six affine contractions $f_i$ of the plane that map the square $[-0.5,0.5]\times [0,1]$ to each of the following six parallelograms below. The gray ones correspond to $\\\{f_i\\\}\_{i=3,4,5,6}$.
 <p align="center">
