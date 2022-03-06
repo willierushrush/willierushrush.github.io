@@ -11,13 +11,13 @@ In simple terms, an iterated function system (IFS) is a set of contractions of a
 
 ## Contractions
 
-Let $(X,d)$ be a complete metric space and let $Y \subset X$ be a non-empty closed subset. A function $f:Y \to X$ is a **contraction** if there is some ratio $r<1$ such that $d(f(a),f(b)) \leq r\cdot d(a,b)$ for all $a,b \in Y$. It is a straightforward exercise to show that contractions are always continuous. Also, global contractions are always dynamically simple as they are governed by one of the most popular fixed-point theorems out there.
+Let $(X,d)$ be a complete metric space and let $Y \subset X$ be a non-empty closed subset. A function $f:Y \to Y$ is a **contraction** if there is some ratio $r<1$ such that $d(f(a),f(b)) \leq r\cdot d(a,b)$ for all $a,b \in Y$. It is a straightforward exercise to show that contractions are always continuous. Also, global contractions are always dynamically simple as they are governed by one of the most popular fixed-point theorems out there.
 
 > **_Banach Fixed-Point Theorem:_** Given any contraction $f:X \to X$, $f$ has a unique fixed point $z$ and for any $x \in X$, $f^n(x) \to z$.
 
 The proof is an elementary exercise in analysis: you can show that given any starting point $x$, the forward orbit $f^n(x)$ is a Cauchy sequence and therefore converges to a limit, which turns out to be the unique fixed point of $f$.
 
-An **iterated function system** is a finite collection of contractions $\\\{ f_i: Y \to X \\\}_{i=1,\ldots N}$. A non-empty compact subset $Z \subset X$ is called an **attractor** of the IFS $\{f_i\}$ if $Z = \cup\_{i=1}^N f_i(Z)$.
+An **iterated function system** is a finite collection of contractions $\\\{ f_i: Y \to Y \\\}_{i=1,\ldots N}$. A non-empty compact subset $Z \subset Y$ is called an **attractor** of the IFS $\{f_i\}$ if $Z = \cup\_{i=1}^N f_i(Z)$.
 
 Let $\mathcal{C}$ denote the set of all non-empty compact subsets of $Y$. The metric $d$ induces the Hausdorff metric $D$ on $\mathcal{C}$ defined by
 
@@ -43,7 +43,7 @@ Not only does this tell us that the attractor is unique, but it also tells us ho
 
 Given an IFS, we know how to obtain the corresponding attractor. What about the converse? If I pick my favorite compact fractal set, can I find an IFS whose attractor is close to my chosen set? The answer is yes!
 
-> **_The Collage Theorem:_** Given any non-empty compact subset $A$ of a complete metric space $(X,d)$ and any IFS $\\\{f_i\\\}_{i=1,\ldots N}$ with attractor $Z$ and maximum contraction factor of $0<r<1$, we have
+> **_The Collage Theorem:_** Given any non-empty compact subset $A$ of $Y$ and any IFS $\\\{f_i\\\}_{i=1,\ldots N}$ on $Y$ with attractor $Z$ and maximum contraction factor of $0<r<1$, we have
 
 $$
 D(A,Z) \leq \frac{1}{1-r} D(A, \cup_{i=1}^N f_i(A)).
