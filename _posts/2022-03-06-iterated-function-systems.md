@@ -60,7 +60,7 @@ Here's a cool way to draw a tree out of an IFS. We pick the IFS $\\\{f_i\\\}\_{i
   <img src="/images/ifs-tree-setup01.png" width="400" height="420" />
 </p>
 
-Let's plant a square seed $S=[-0.1,0.1] \times [0, 0.2]$. Here's a gif of illustrating the first twelve iterates of $S$ under the Hutchinson operators corresponding to $\\\{f_i \\\}\_{1\leq i \leq 6}$ (in brown) and $\\\{f_i\\\}\_{3\leq i \leq 6}$ (in green).
+Let's plant a square seed $S=[-0.1,0.1] \times [0, 0.2]$. Here's a gif of illustrating the first twelve iterates of $S$ under the Hutchinson operators corresponding to $\\\{f_i \\\}\_{1\leq i \leq 6}$ (in brown) and $\\\{f_i\\\}\_{3\leq i \leq 6}$ (in green). What do you see? :)
 
 <p align="center">
   <img src="/images/ifstree.gif" width="400" height="400" />
