@@ -57,13 +57,13 @@ The standard example you will find in almost all textbooks in fractal geometry i
 
 Here's a cool way to draw a tree out of an IFS. We pick the IFS $\\\{f_i\\\}\_{i=1,\ldots 6\}$ consisting of six affine contractions $f_i$ of the plane that map the square $[-0.5,0.5]\times [0,1]$ to each of the following six rectangles below. The gray ones correspond to $\\\{f_i\\\}\_{i=3,4,5,6}$.
 <p align="center">
-  <img src="/images/ifs-tree-setup01.png" width="360" height="360" />
+  <img src="/images/ifs-tree-setup01.png" width="400" height="400" />
 </p>
 
 Let's plant a square seed $S=[-0.1,0.1] \times [0, 0.2]$. Here's a gif of illustrating the first twelve iterates of $S$ under the Hutchinson operators corresponding to $\\\{f_i \\\}\_{1\leq i \leq 6}$ (in brown) and $\\\{f_i\\\}\_{3\leq i \leq 6}$ (in green).
 
 <p align="center">
-  <img src="/images/ifstree.gif" width="360" height="360" />
+  <img src="/images/ifstree.gif" width="400" height="400" />
 </p>
 
 ### References
