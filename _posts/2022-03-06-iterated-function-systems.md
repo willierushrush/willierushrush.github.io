@@ -23,7 +23,7 @@ $$
 D(A,B) := \inf \{ \epsilon \geq 0 \: : \: B \subset A_\epsilon \text{ and } A \subset B_\epsilon \}
 $$
 
-where $A_\epsilon: = \\\{ x \in X \: :\: d(x,a) \leq \epsilon \text{ for some } a \in A \}$ is the closed $\epsilon$-neighborhood of $A$ (and similarly $B_\epsilon$). It is known that when $(X,d)$ is a complete metric space, $(\mathcal{C},D)$ is also a complete metric space.
+where $A_\epsilon$ is the closed $\epsilon$-neighborhood of $A$ (and similarly $B_\epsilon$). It is known that when $(X,d)$ is a complete metric space, $(\mathcal{C},D)$ is also a complete metric space.
 
 The **Hutchinson operator** $F: \mathcal{C} \to \mathcal{C}$ defined by $F(A) = \cup\_{i=1}^N f_i(A)$ is a contraction with respect to the Hausdorff metric because for any $A,B \in \mathcal{C}$,
 
