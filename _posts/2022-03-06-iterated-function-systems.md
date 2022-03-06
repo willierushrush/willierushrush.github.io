@@ -23,7 +23,7 @@ $$
 D(A,B) := \inf \{ \epsilon \geq 0 \: : \: B \subset A_\epsilon \text{ and } A \subset B_\epsilon \}
 $$
 
-where $A_\epsilon: = \\\{ x \in X | d(x,a) \leq \epsilon \text{ for some } a \in A \}$ is the closed $\epsilon$-neighborhood of $A$ (and similarly $B_\epsilon$). It is known that when $(X,d)$ is a complete metric space, $(\mathcal{C},D)$ is also a complete metric space.
+where $A_\epsilon: = \\\{ x \in X \: :\: d(x,a) \leq \epsilon \text{ for some } a \in A \}$ is the closed $\epsilon$-neighborhood of $A$ (and similarly $B_\epsilon$). It is known that when $(X,d)$ is a complete metric space, $(\mathcal{C},D)$ is also a complete metric space.
 
 The **Hutchinson operator** $F: \mathcal{C} \to \mathcal{C}$ defined by $F(A) = \cup\_{i=1}^N f_i(A)$ is a contraction with respect to the Hausdorff metric because for any $A,B \in \mathcal{C}$,
 
@@ -55,9 +55,9 @@ How is this useful? Given a compact set $A$, we can search for an IFS $\{f_i\}$ 
 
 The standard example you will find in almost all textbooks in fractal geometry is the middle third Cantor set. The generating IFS can be picked to consist of two contractions $f_1(x) = \frac{x}{3}$ and $f_2(x) = \frac{x+2}{3}$ of the real line $\mathbb{R}$.
 
-Here's a cool way to draw a tree out of an IFS. We pick the IFS $\\\{f_i\\\}\_{i=1,\ldots 6\}$ consisting of six affine contractions $f_i$ of the plane that map the square $[-0.5,0.5]\times [0,1]$ to each of the following six rectangles below. The gray ones correspond to $\\\{f_i\\\}\_{i=3,4,5,6}$.
+Here's a cool way to draw a tree out of an IFS. We pick the IFS $\\\{f_i\\\}\_{i=1,\ldots 6\}$ consisting of six affine contractions $f_i$ of the plane that map the square $[-0.5,0.5]\times [0,1]$ to each of the following six parallelograms below. The gray ones correspond to $\\\{f_i\\\}\_{i=3,4,5,6}$.
 <p align="center">
-  <img src="/images/ifs-tree-setup01.png" width="400" height="400" />
+  <img src="/images/ifs-tree-setup01.png" width="400" height="420" />
 </p>
 
 Let's plant a square seed $S=[-0.1,0.1] \times [0, 0.2]$. Here's a gif of illustrating the first twelve iterates of $S$ under the Hutchinson operators corresponding to $\\\{f_i \\\}\_{1\leq i \leq 6}$ (in brown) and $\\\{f_i\\\}\_{3\leq i \leq 6}$ (in green).
