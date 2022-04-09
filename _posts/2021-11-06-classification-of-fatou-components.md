@@ -17,7 +17,7 @@ The local behaviour of $f$ often gives us a great deal of information on $F(f)$ 
 
 Let's assume that $f$ is not an automorphism. In this case, it turns out that repelling periodic points always exist and the Julia set $J(f)$ is always non-empty. Let's also assume that $J(f)$ is not the whole $X$ (this always happens if $X$ is a complex torus; see [here](/posts/2021/01/holomorphic_maps_on_complex_tori/)), so then the Fatou set $F(f)$ is a non-empty proper subset of $X$.
 
-## Classification of Periodic Components
+## Classification of periodic components
 
 Suppose $U$ is a connected component of $F(f)$. $U$ is called **pre-periodic** if there are some $m, p \in \mathbb{N}$ such that $f^m(U) = f^{m+p}(U)$. The minimum possible $n$ is called the period of $U$ and the minimum possible $m$ is called the pre-period of $U$. Roughly speaking, after $m$ iterates, $f^m (U), f^{m+1}(U), \ldots f^{m+p-1}(U)$ form periodic cycle of period $n$.
 
@@ -42,7 +42,7 @@ Below is an example of periodic Fatou components. The quadratic $f(z)=z^2 -0.12+
   <img src="/images/douadyrabbit.jpg" width="500" height="390" />
 </p>
 
-## Wandering Domains
+## Wandering domains
 
 If not pre-periodic, $U$ is called **wandering**. This is when $f^m(U)$ and $f^n(U)$ are always disjoint for all distinct positive integers $m$ and $n$. One of the most celebrated results in one-dimensional holomorphic dynamics is the following.
 
