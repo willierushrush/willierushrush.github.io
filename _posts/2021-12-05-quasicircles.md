@@ -1,5 +1,5 @@
 ---
-title: '10 Equivalent Ways of Defining Quasicircles'
+title: '10 equivalent ways of defining quasicircles'
 date: 2021-12-05
 permalink: /posts/2021/12/quasicircles
 tags:

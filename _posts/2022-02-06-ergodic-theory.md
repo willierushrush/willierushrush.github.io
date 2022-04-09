@@ -1,5 +1,5 @@
 ---
-title: '6 Equivalent Ways of Defining Ergodicity'
+title: '6 equivalent ways of defining ergodicity'
 date: 2022-02-06
 permalink: /posts/2022/02/ergodicity/
 tags:

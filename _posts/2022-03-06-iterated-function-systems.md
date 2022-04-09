@@ -1,5 +1,5 @@
 ---
-title: 'Iterated Function Systems'
+title: 'Iterated function systems'
 date: 2022-03-06
 permalink: /posts/2022/03/ifs/
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 'Topological Entropy'
+title: 'Topological entropy'
 date: 2022-01-02
 permalink: /posts/2022/01/topological-entropy/
 tags:
