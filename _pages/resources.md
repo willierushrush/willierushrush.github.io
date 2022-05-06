@@ -6,6 +6,7 @@ permalink: /resources/
 
 ## Papers
   * A Priori Bounds for Bounded Type Herman Rings, in preparation (available upon request)
+  * Combinatorial Rigidity of Bounded Type Herman Quasicircles, in preparation
 
 ## Master's Project
   * Quadratic-Like Renormalisation in Holomorphic Dynamics, [pdf](/files/masters-thesis.pdf)
