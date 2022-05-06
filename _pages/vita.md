@@ -22,7 +22,8 @@ My full CV can be found [here](/files/wrl-cv.pdf).
   * G-Research Prize, 2017
   * President's Undergraduate Scholarship, 2015-2019
 
-## Talks
+## Some Talks
+  * (Dynamics of) Quadratic Polynomials, Graduate Student Seminar, Stony Brook University, Dec 2021
   * What Is... An Orbifold?, Graduate Student Seminar, Stony Brook University, Feb 2021, [slides](/files/orbifolds-talk.pdf), [video](https://youtu.be/AuHZgJ_k9os)
   * Brushing the Hairs of Transcendental Entire Functions, Graduate Student Seminar, Stony Brook University, Oct 2019, [slides](/files/brushing-the-hairs-talk.pdf)
   * Quasiconformal Deformations and Sullivan's No Wandering Domains, IMA's Tomorrow's Mathematicians Today, University of Greenwich, Feb 2019, [slides](/files/qc-deformations-talk.pdf)
