@@ -1,9 +1,9 @@
 ---
-title: 'Lower Bound on Entropy'
+title: 'Lower bound on entropy'
 date: 2022-05-09
 permalink: /posts/2022/05/lower-bound-on-entropy/
 tags:
-  - Dynamical Systems
+  - Dynamical systems
 ---
 
 In dynamical systems, the entropy $h_{top}(f)$ of a continuous map $f : X \to X$ on a compact space $X$ is a way to measure the complexity of $f$. Computing the exact value of entropy often requires $f$ to be highly regular (e.g. holomorphic). In the case where $X$ is a smooth orientable manifold and $f$ is continuously differentiable ($C^1$), a theorem by Misiurewicz and Przytycki gives a lower bound for $h_{top}(f)$.
