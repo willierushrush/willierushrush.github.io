@@ -8,7 +8,7 @@
 # Site Settings
 
 locale                   : "en-US"
-title                    : "WRL"
+title                    : "home"
 title_separator          : "-"
 name                     : &name "Will"
 description              : All things me and maths
