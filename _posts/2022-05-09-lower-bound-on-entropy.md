@@ -20,7 +20,7 @@ $$
 
 where $N_d(f,n,\delta)$ is the maximum cardinality of an $(n,\delta)$-separated set. Refer to this [post](/posts/2022/01/topological-entropy/) for more details.
 
-Misiurewicz and Przytycki published an important 2-page paper on a lower bound of $h_{top}(f)$.
+Misiurewicz and Przytycki published an important 2-page paper<sup>[3](#fn3)</sup> on a lower bound of $h_{top}(f)$.
 
 > **_Theorem:_** Every $C^1$ map $f: X \to X$ on a smooth compact orientable manifold satisfies $h_{top}(f) \geq \text{log}\vert \text{deg}(f) \vert$.
 
