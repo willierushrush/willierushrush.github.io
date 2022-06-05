@@ -4,7 +4,7 @@ date: 2022-03-06
 permalink: /posts/2022/03/ifs/
 tags:
   - Dynamical systems
-  - Measure Theory
+  - Measure theory
 ---
 
 In simple terms, an iterated function system (IFS) is a set of contractions of a metric space. Each IFS admits a unique set invariant under iterations of these contractions, called the attractor of the IFS. IFS provides a robust method of generating fractals, and conversely the Collage Theorem states that any set can always be approxiated by the attractor of some IFS. In this post, I will describe the elementary theory of IFS and how it works.
