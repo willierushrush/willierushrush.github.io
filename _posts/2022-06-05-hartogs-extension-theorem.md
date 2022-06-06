@@ -1,5 +1,5 @@
 ---
-title: 'Hartogs Extension Theorem'
+title: 'Hartogs extension theorem'
 date: 2022-06-5
 permalink: /posts/2022/06/hartogs-extension-theorem
 tags:
@@ -7,19 +7,19 @@ tags:
   - Complex geometry
 ---
 
-Hartogs extension theorem is one of the few fundamental results in analytic continuation that distinguishes the study of several complex variables and that of one complex variable.
+Hartogs extension theorem is one of the few fundamental results in analytic continuation that distinguishes the study of several complex variables and that of one complex variable. While holomorphic functions in one variable can have poles and isolated singularities, the set of singularities of a holomorphic function in several complex variables cannot be isolated and must satisfy some topological conditions.
 
-> **_Theorem:_** Let $D$ be a domain (non-empty connected open set) in $\mathbb{C}^n$ for $n\geq 2$ and let $K$ be a compact subset of $D$ such that $D\backslash K$ is connected. Then, every holomorphic function $f: D\backslash K \to \mathbb{C}$ extends uniquely to a holomorphic function on $D$.
+> **_Hartogs Extension Theorem:_** Let $D$ be a domain (non-empty connected open set) in $\mathbb{C}^n$ for $n\geq 2$ and let $K$ be a compact subset of $D$ such that $D\backslash K$ is connected. Then, every holomorphic function $f: D\backslash K \to \mathbb{C}$ extends uniquely to a holomorphic function on $D$.
 
 Hartogs extension theorem immediately tells us that in several complex variables, holomorphic functions cannot have isolated non-removable singularities! I would like to emphasise that this extension theorem is special for dimensions $2$ or higher. In one dimension, we can construct straightforward counterexamples, such as $\frac{1}{z}$ or general holomorphic functions with isolated singularities. Another immediate consequence is the following.
 
-> **_Corollary:_** For any holomorphic function $f: U \subset \mathbb{C}^n \to \mathbb{C}$, the zero set $Z(f)=\{ z \in U \: : \: f(z)=0\}$ cannot be compactly contained in $U$.
+> **_Corollary:_** For any holomorphic function $f: U \subset \mathbb{C}^n \to \mathbb{C}$, the zero set $Z(f)=\\\{ z \in U : f(z)=0\\\}$ cannot be compactly contained in $U$.
 
 Why is this so? Given such $f$, the function $1/f$ is a well-defined holomorphic function on $U \backslash Z(f)$. If $Z(f)$ were to be compactly contained in $U$, then there is a compact set $K$ containing $Z(f)$ such that $U \backslash K$ is connected. By Hartogs extension theorem, $1/f$ must extend holomorphically to the whole domain $U$, which is impossible!
 
 ## A very elementary proof
 
-There are many ways to prove the extension theorem. The standard approach uses the d-bar Poincaré lemma, also known as the Dolbeault-Grothendieck lemma. Before going into that, let's look at a more elementary case where our domain is the 2-dimensional unit polydisk $\mathbb{D}(0,1) = \\\{ (z_1,z_2) \in \mathbb{C}^2 \: : \: \vert z_1\vert < 1, \vert z_2 \vert <1 \\\}$ and $K$ is a smaller closed polydisk $K = \{ (z_1,z_2) \in \mathbb{C}^2 \: : \: \vert z_1\vert \leq \epsilon, \vert z_2 \vert \leq \epsilon \\\}$ for some any $0<\epsilon<1$. (See Huybrechts<sup>[2](#fn2)</sup> Prop 1.1.4)
+There are many ways to prove the extension theorem. The standard approach uses the d-bar Poincaré lemma, also known as the Dolbeault-Grothendieck lemma. Before going into that, let's look at a more elementary case where our domain is the 2-dimensional unit polydisk $D = \\\{ (z_1,z_2) \in \mathbb{C}^2 : \vert z_1\vert < 1, \vert z_2 \vert <1 \\\}$ and $K$ is a smaller closed polydisk $K = \\\{ (z_1,z_2) \in \mathbb{C}^2 : \vert z_1\vert \leq \epsilon, \vert z_2 \vert \leq \epsilon \\\}$ for some any $0<\epsilon<1$. (See Huybrechts<sup>[2](#fn2)</sup> Prop 1.1.4)
 
 Any holomorphic function $f$ on $D\backslash K$ has a Laurent series representation
 
@@ -42,7 +42,7 @@ cf & \text{ on } D\backslash K, \\
 \end{cases}
 $$
 
-This new function $g: D \to \mathcc{C}$ is a smooth extension for $f$ restricted to $D \backslash K_{2\epsilon}$. Then, $\bar{\partial} g$ extends to a global smooth $(0,1)$-form on $\mathbb{C}^n$ that has compact support because it vanishes outside of $K_{2\epsilon}$. Obviously, $\bar{\partial} g$ is also $\bar{\partial}$-closed since $\bar{\partial} \bar{\partial} g \equiv 0$. We can then apply the following lemma.
+This new function $g: D \to \mathbb{C}$ is a smooth extension for $f$ restricted to $D \backslash K_{2\epsilon}$. Then, $\bar{\partial} g$ extends to a global smooth $(0,1)$-form on $\mathbb{C}^n$ that has compact support because it vanishes outside of $K_{2\epsilon}$. Obviously, $\bar{\partial} g$ is also $\bar{\partial}$-closed since $\bar{\partial} \bar{\partial} g \equiv 0$. We can then apply the following lemma.
 
 > **_Dolbeault–Grothendieck lemma:_** Given a smooth $(0,1)$-form $w$ on $\mathbb{C}^n$ that is $\bar{\partial}$-closed and has compact support, then $w$ is $\bar{\partial}$-closed: there exists a smooth solution $u$ to the equation $\bar{\partial} u = w$, unique up to additive constant.
 
@@ -51,5 +51,5 @@ With this lemma, there exists a unique smooth, compactly supported function $u :
 ### References
 
 <a name="fn1">1</a>: L. Hörmander. An Introduction to Complex Analysis in Several Variables. Van Nostrand Reinhold Company, New York, 1966.      
-<a name="fn1">2</a>: D. Huybrechts. Complex Geometry. Springer-Verlag Berlin Heidelberg, 2005.
+<a name="fn1">2</a>: D. Huybrechts. Complex Geometry. Springer-Verlag Berlin Heidelberg, 2005.   
 ------
