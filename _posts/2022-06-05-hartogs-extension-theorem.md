@@ -1,6 +1,6 @@
 ---
 title: 'Hartogs extension theorem'
-date: 2022-06-5
+date: 2022-06-05
 permalink: /posts/2022/06/hartogs-extension-theorem
 tags:
   - Several complex variables
