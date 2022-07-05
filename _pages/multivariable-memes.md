@@ -1,10 +1,10 @@
 ---
 layout: single
-title: MAT 203 Summer 2021
-permalink: /teaching/mat203-summer21-memes
+title: Multivariable Calculus
+permalink: /teaching/multivariable-memes
 ---
 
-Congratulations on completing Calculus III. You are now capable of appreciating the following set of curated memes.
+Congratulations on completing Calculus III! You should now be able to appreciate the following set of memes.
 
 <p align="center">
   <img src="/images/mat203/easiest.jpg" width="500"/>
