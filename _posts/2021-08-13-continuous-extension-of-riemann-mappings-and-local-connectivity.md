@@ -34,7 +34,7 @@ Carathéodory introduced the theory of prime ends to study the boundary behaviou
 A **crosscut** $C$ of $U$ is an embedded closed arc $[0,1] \to \bar{U}$ such that the intersection $C \cap \partial U$ consists of exactly the two endpoints of $C$. A crosscut of U always divides $U$ into two, one of which will be called a **crosscut neighborhood** $N$ of $C$.
 
 An infinite sequence of crosscut neighbhorhoods $\\\{ N_n \\\}\_{n\geq 0 }$ of $\\\{ C_n \\\}_{n\geq 0}$ is a **chain** if
-* for all $n\geq 0$, $N\_{n+1}$ \subset N_n$;
+* for all $n\geq 0$, $N\_{n+1} \subset N\_n$;
 * in spherical metric, $\text{diam} \bar{C_i} \to 0$ as $i\to \infty$;
 * the crosscuts $C_n$ are all pairwise disjoint.
 
