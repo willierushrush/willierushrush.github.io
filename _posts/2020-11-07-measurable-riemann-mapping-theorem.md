@@ -12,7 +12,7 @@ Here, I would assume that you are already familiar with quasiconformal maps and 
 
 ## Measurable Riemann Mapping theorem
 
-> **_Theorem:_** For any function $\mu : U \to \mathbb{C}$ on $\mathbb{D}$ with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $D$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
+> **_Theorem:_** For any function $\mu : U \to \mathbb{C}$ on with bounded essential supremum norm $\lVert \mu \rVert_{\infty} < 1$, there is a quasiconformal map $\phi$ on $U$ satisfying the Beltrami equation $\phi_{\bar{z}}=\mu \phi_{z}$ for almost all $z \in U$. Moreover, $\phi$ is unique up to post-composition with conformal isomorphisms and $\phi$ depends holomorphically on $\mu$.
 
 Uniqueness guarantees a canonical choice of normalisation of the solution. For example, when $U = \mathbb{P}^1$, we can guarantee a unique solution $\phi$ fixing $0$, $1$ and $\infty$. Holomorphic dependence of the solution can be interpreted as follows. Whenever $\mu=\mu_\lambda$ is a holomorphic function in $\lambda$, the normalised solution $\phi = \phi_{\lambda}$ is holomorphic in $\lambda$.
 
