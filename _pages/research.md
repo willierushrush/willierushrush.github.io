@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 ---
 
-Nowadays, I am keeping myself busy thinking of renormalization theory in holomorphic dynamics.
+Lately, I have been keeping myself busy thinking of renormalization theory in holomorphic dynamics.
 
 ## Papers
   * _A priori bounds_ and degeneration for Herman rings with bounded type rotation number, [arXiv](https://arxiv.org/abs/2302.07794)   
