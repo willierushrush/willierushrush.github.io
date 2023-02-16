@@ -3,7 +3,7 @@ layout: single
 title: Teaching
 permalink: /teaching/
 ---
-Office hours: TuTh, 2.30-3.30pm at Math Tower 5-125B, SBU
+Office hours: Mondays 12-1pm and Wednesdays 4-5pm at Math Tower 2-113, SBU
 
 **As a lecturer:**
 * [MAT 125](https://www.math.stonybrook.edu/MAT125): Calculus A. Fall 2022
