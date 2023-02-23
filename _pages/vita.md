@@ -27,6 +27,3 @@ My full CV can be found [here](/files/wrl-cv.pdf).
   * A Priori Bounds and Degeneration of Herman Rings. [On Geometric Complexity of Julia Sets IV](https://www.impan.pl/en/activities/banach-center/conferences/22-juliasets4), Banach Center, IMPAN, Aug 2022. [slides](https://www.impan.pl/konferencje/bcc/2022/22-juliasets4/slides/lim.pdf), [video](https://www.youtube.com/watch?v=c-gUa7KJucY)
   * (Dynamics of) Quadratic Polynomials. Graduate Student Seminar, Stony Brook University, Dec 2021
   * What Is... An Orbifold? Graduate Student Seminar, Stony Brook University, Feb 2021. [slides](/files/orbifolds-talk.pdf), [video](https://youtu.be/AuHZgJ_k9os)
-  * Brushing the Hairs of Transcendental Entire Functions. Graduate Student Seminar, Stony Brook University, Oct 2019. [slides](/files/brushing-the-hairs-talk.pdf)
-  * Quasiconformal Deformations and Sullivan's No Wandering Domains. IMA's Tomorrow's Mathematicians Today, University of Greenwich, Feb 2019.
-  * A Conjecture on Quasiconformal Maps. Undergraduate Colloquium, Imperial College London, Mar 2018.
