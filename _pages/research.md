@@ -9,9 +9,9 @@ Lately, I have been keeping myself busy thinking of renormalization theory in co
 ## Papers
   * A priori bounds and degeneration of Herman rings with bounded type rotation number,   
   [arXiv:2302.07794](https://arxiv.org/abs/2302.07794)   
-  * Rigidity of bounded type rotational dynamics for rational maps,   
+  * Rigidity of bounded type rotation quasicircles in holomorphic dynamics,   
   manuscript available upon request  
-  * Renormalization of critical quasicircle maps I: rigidity and universality,   
+  * Hyperbolicity of renormaliation of unicritical Herman quasicircles,   
   in preparation
 
 ## Others
