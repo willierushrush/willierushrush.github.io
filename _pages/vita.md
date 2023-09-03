@@ -7,13 +7,12 @@ redirect_from:
   - /resume
 ---
 
-My full CV can be found [here](/files/wrl-cv.pdf).
+My full CV can be found [here](/files/WRL-CV.pdf).
 
 ## Education
 * Ph.D in Pure Mathematics, Stony Brook University, 2019-?
   * Advisor: [Dzmitry Dudko](http://www.math.stonybrook.edu/~ddudko/)
 * MSci Mathematics, Imperial College London, 2015-2019
-  * Thesis: Quadratic-Like Renormalisation in Holomorphic Dynamics
   * Advisor: [Davoud Cheraghi](https://www.ma.imperial.ac.uk/~dcheragh/)
 
 ## Awards
