@@ -11,7 +11,7 @@ Lately, I have been keeping myself busy thinking of renormalization theory in co
   [arXiv:2302.07794](https://arxiv.org/abs/2302.07794)    
   * Rigidity of J-rotational rational maps and critical quasicircle maps,   
   [arXiv:2308.07217](https://arxiv.org/abs/2308.07217)    
-  * Hyperbolicity of renormalization of unicritical Herman quasicircles,   
+  * Hyperbolicity of renormalization of critical quasicircle maps,   
   in preparation   
 
 ## Others
