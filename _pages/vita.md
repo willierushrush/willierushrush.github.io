@@ -22,6 +22,7 @@ My full CV can be found [here](/files/WRL-CV.pdf).
   * President's Undergraduate Scholarship, 2015-2019
 
 ## Recent Talks
+  * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)
   * Introduction to Renormalization Theory. Graduate Student Seminar, Stony Brook University, Sept 2023.
   * From Herman Rings to Herman Curves. Complex Analysis and Dynamics Seminar, CUNY, Mar 2023. [slides](/files/slides-23-03-CUNY.pdf)
   * A Priori Bounds and Degeneration of Herman Rings. Dynamics Seminar, Stony Brook University, Nov 2022.
