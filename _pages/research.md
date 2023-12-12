@@ -15,6 +15,7 @@ Lately, I have been keeping myself busy thinking of renormalization theory in co
   in preparation   
 
 ## Others
+  * Slides for lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
   * Critical quasicircle maps: realization and rigidity. Poster presented in the 'Inaugural CNAM-Fields Nonlinear Days: Renormalization and Friends' conference at the Fields Institute. [pdf](/files/poster-Critical_quasicircle_maps.pdf)   
   * From Herman rings to Herman curves. Poster presented in the 'Complex Dynamics in the Tropics' Conference at IMPA. [pdf](https://impa.br/wp-content/uploads/2022/11/Poster-Willie-Rush-Lim-nova-versao-poster-rio-2160-3840.pdf)    
   * Quadratic-like renormalisation in holomorphic dynamics. Master's Thesis. [pdf](/files/masters-thesis.pdf)    
