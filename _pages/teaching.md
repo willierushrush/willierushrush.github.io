@@ -3,7 +3,7 @@ layout: single
 title: Teaching
 permalink: /teaching/
 ---
-Office hours: Wednesdays 5-6pm at Math Tower 3-104, SBU
+I'm not teaching this semester!
 
 **As a lecturer:**
 * [MAT 125](https://www.math.stonybrook.edu/MAT125): Calculus A. Fall 2022
