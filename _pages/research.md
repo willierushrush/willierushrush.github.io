@@ -19,10 +19,10 @@ Lately, I have been keeping myself busy thinking of renormalization theory in co
   * Holomorphic dynamics and several complex variables: a brief summary in preparation for orals. [pdf](/files/orals-summary.pdf)    
 
 ## Recent Talks
-    * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)
-    * Introduction to Renormalization Theory. Graduate Student Seminar, Stony Brook University, Sept 2023.
-    * From Herman Rings to Herman Curves. Complex Analysis and Dynamics Seminar, CUNY, Mar 2023. [slides](/files/slides-23-03-CUNY.pdf)
-    * A Priori Bounds and Degeneration of Herman Rings. Dynamics Seminar, Stony Brook University, Nov 2022.
-    * A Priori Bounds and Degeneration of Herman Rings. [On Geometric Complexity of Julia Sets IV](https://www.impan.pl/en/activities/banach-center/conferences/22-juliasets4), Banach Center, IMPAN, Aug 2022. [slides](https://www.impan.pl/konferencje/bcc/2022/22-juliasets4/slides/lim.pdf), [video](https://www.youtube.com/watch?v=c-gUa7KJucY)
-    * (Dynamics of) Quadratic Polynomials. Graduate Student Seminar, Stony Brook University, Dec 2021
-    * What Is... An Orbifold? Graduate Student Seminar, Stony Brook University, Feb 2021. [slides](/files/orbifolds-talk.pdf), [video](https://youtu.be/AuHZgJ_k9os)
+  * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)
+  * Introduction to Renormalization Theory. Graduate Student Seminar, Stony Brook University, Sept 2023.
+  * From Herman Rings to Herman Curves. Complex Analysis and Dynamics Seminar, CUNY, Mar 2023. [slides](/files/slides-23-03-CUNY.pdf)
+  * A Priori Bounds and Degeneration of Herman Rings. Dynamics Seminar, Stony Brook University, Nov 2022.
+  * A Priori Bounds and Degeneration of Herman Rings. [On Geometric Complexity of Julia Sets IV](https://www.impan.pl/en/activities/banach-center/conferences/22-juliasets4), Banach Center, IMPAN, Aug 2022. [slides](https://www.impan.pl/konferencje/bcc/2022/22-juliasets4/slides/lim.pdf), [video](https://www.youtube.com/watch?v=c-gUa7KJucY)
+  * (Dynamics of) Quadratic Polynomials. Graduate Student Seminar, Stony Brook University, Dec 2021
+  * What Is... An Orbifold? Graduate Student Seminar, Stony Brook University, Feb 2021. [slides](/files/orbifolds-talk.pdf), [video](https://youtu.be/AuHZgJ_k9os)
