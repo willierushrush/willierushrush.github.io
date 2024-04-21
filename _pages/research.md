@@ -19,6 +19,7 @@ Lately, I have been keeping myself busy thinking of renormalization theory in co
   * Holomorphic dynamics and several complex variables: a brief summary in preparation for orals. [pdf](/files/orals-summary.pdf)    
 
 ## Recent Talks
+  * Rigidity for Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)
   * Critical Quasicircle Maps. Workshop on Dynamical Systems and Related Topics, UMD, April 2024. [slides](/files/slides-24-04-cqc.pdf)
   * Degeneration of Herman rings. Geometry & Topology Seminar, Brown University, Jan 2024. [slides](/files/slides-24-01-degeneration.pdf)
   * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)
