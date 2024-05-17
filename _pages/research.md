@@ -8,8 +8,8 @@ Lately, I have been keeping myself busy thinking of renormalization theory in co
 
 ## Papers
   * A priori bounds and degeneration of Herman rings with bounded type rotation number, 58pp. [arXiv:2302.07794](https://arxiv.org/abs/2302.07794)    
-  * Rigidity of J-rotational rational maps and critical quasicircle maps, 58 pp. [arXiv:2308.07217](https://arxiv.org/abs/2308.07217)    
-  * Hyperbolicity of renormalization of critical quasicircle maps, in preparation.   
+  * Rigidity of J-rotational rational maps and critical quasicircle maps, 58pp. [arXiv:2308.07217](https://arxiv.org/abs/2308.07217)    
+  * Hyperbolicity of renormalization of critical quasicircle maps, 86pp. [arxiv:2405.09008](https://arxiv.org/abs/2405.09008)    
 
 ## Others
   * Slides for lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
