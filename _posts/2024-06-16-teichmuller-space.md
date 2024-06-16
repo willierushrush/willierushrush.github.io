@@ -67,7 +67,7 @@ Beltrami forms encode how the complex structure of $X$ can be deformed. Given a 
 
 Now, every $\mu \in \mathcal{B}_1(X)$ can be lifted to a Beltrami form $\hat{\mu}$ on the upper half plane $\mathbb{H}$ by the universal covering, and we can extend $\hat{\mu}$ to the lower half plane $-\mathbb{H}$ such that it satisfies the equation $\mu(\bar{z}) = \overline{\mu(z)}$. As the measurable Riemann mapping theorem is applied, we obtain a quasiconformal map $F^{\mu}: \mathbb{C} \to \mathbb{C}$ which can be normalized to fix $0$ and $1$. By symmetry, $F^{\mu}$ preserves the upper and lower half planes respectively. Since $\hat{\mu}$ is constructed by lifting, it is equivariant with respect to the Fuchsian group $\Gamma$ and so $\Gamma^{\mu} := \{ F^\mu \circ \gamma \circ (F^\mu)^{-1} \: : \: \gamma \in \Gamma\}$ is again a Fuchsian group. The quotient $\mathbb{H}/\Gamma^{\mu}$ is precisely the Riemann surface $X^{\mu}$!
 
-Let's say that two Beltrami forms $\mu_1$ and $\mu_2$ in $\mathcal{B}_1(X)$ are equivalent ($\mu_1 \sim \mu_2$) if the corresponding quasiconformal maps $F^{\mu_1}$ and $F^{\mu_2}$ agree on the real line: $F^{\mu_1}|\_{\mathbb{R}} \equiv F^{\mu_2}|\_{\mathbb{R}}$.
+Let's say that two Beltrami forms $\mu_1$ and $\mu_2$ in $\mathcal{B}_1(X)$ are equivalent ($\mu_1 \sim \mu_2$) if the corresponding quasiconformal maps $F^{\mu_1}$ and $F^{\mu_2}$ agree on the real line: $F^{\mu_1}\|\_{\mathbb{R}} \equiv F^{\mu_2}\|\_{\mathbb{R}}$.
 
 > **_Definition 5_** The Teichmüller space of $X$ is the quotient space
 $$
