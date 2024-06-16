@@ -45,10 +45,13 @@ $$
 $$
 
 With this definition, one can easily work out the dimension of $\text{Teich}(S)$ (assuming that we already know it is a real manifold). As $\mathcal{R}^{df}(S)$ is an open subspace of $\mathcal{R}(S)$, let us first consider the dimension of $\mathcal{R}(S)$. The fundamental group $\pi_1$ naturally has $2g$ generators $\gamma_1$, $\gamma_2$, $\ldots$, $\gamma_{2g}$ and one relation:
+
 $$
 [\gamma_1, \gamma_2] [\gamma_3, \gamma_4] \ldots [\gamma_{2g-1}, \gamma_{2g}] = 1.
 $$
+
 Each $\rho \in \mathcal{R}(S)$ is determined by the elements $\rho(\gamma_i)$ for $1\leq i \leq 2g$, although based on the relation, $\rho(\gamma_{2g})$ can be written in terms of $\rho(\gamma_i)$'s for $1\leq i \leq 2g-1$. For each $i \in \{1,\ldots,2g-1\}$, each $\rho(\gamma_i)$ is an element of $\text{PSL}(2,\mathbb{R})$, which is a Lie group with real dimension $3$. Since we are counting conjugacy classes under the action of $\text{PSL}(2,\mathbb{R})$, this further cuts down the dimension by $3$. In total, $\text{Teich}(S)$ has real dimension
+
 $$
 \text{dim}(\text{Teich}(S)) = 3 (2g-1) - 3 = 6g - 6.
 $$
