@@ -7,17 +7,17 @@ tags:
   - Complex analysis
 ---
 
-(It's summer 2024 and I haven't been writing anything meaningful in this blog in the last two years. I would like to think that graduate school and research in general has been keeping me busy for a while... but now that my graduate school era is over, there is no more excuse!) I have been thinking about Teichmüller spaces. What exactly are they? How are they relevant? Why should I care about it? Well, there are many questions you can pose, but let me just try to answer the first one here.
+(It's summer 2024 and I haven't been writing anything meaningful in this blog in the last two years. I would like to think that graduate school and research in general has been keeping me busy for a while... but now that my graduate school era is over, there is no more excuse!) I have been thinking about Teichmüller spaces. What exactly are they? How are they relevant? Why should I care about it? Well, there are many questions you can ask, but let me just try to answer the first one here.
 
-Let me provide a little background. Every surface $S$ (let's say smooth oriented $2$-dimensional manifold) admits a complex structure. One can say that this follows from Newlander-Nirenberg theorem and the vanishing of the Nijenhuis tensor. Alternatively, you can pick a Riemannian metric $g$ on $S$ and show that $S$ admits isothermal coordinates, i.e. choice of local coordinates $(x,y)$ such that $g$ locally looks like $\phi(x,y) (dx^2+dy^2)$ for some smooth function $\phi$. In isothermal coordinates, transition functions are conformal (locally angle-preserving), hence it induces a conformal structure, which is the same as a complex structure on $S$. It is natural to ask what the space of complex structures of $S$ looks like. This gives rise to the notion of the moduli space of Rieman surfaces. Often, studying the moduli space amounts to studying its universal cover, which is isomorphic to the Teichmüller space $\text{Teich}(S)$ of $S$. The existence of a natural complex structure and the richness of metric structures and compactifications of $\text{Teich}(S)$ is at the heart of Teichmüller theory.
+Let me provide a little background. Every surface $S$ (let's say smooth oriented $2$-dimensional manifold) admits a complex structure. One can say that this follows from Newlander-Nirenberg theorem and the vanishing of the Nijenhuis tensor. Alternatively, you can pick a Riemannian metric $g$ on $S$ and show that $S$ admits isothermal coordinates, i.e. choice of local coordinates $(x,y)$ such that $g$ locally looks like $\phi(x,y) (dx^2+dy^2)$ for some smooth function $\phi$. In isothermal coordinates, transition functions are conformal (locally angle-preserving), hence it induces a conformal structure, which is the same as a complex structure on $S$. It is natural to ask what the space of complex structures on $S$ looks like. This gives rise to the notion of moduli space of a Riemann surfaces. Often, studying the moduli space amounts to studying its universal cover, which is isomorphic to the Teichmüller space $\text{Teich}(S)$ of $S$. The existence of a natural complex structure and the richness of metric structures and compactifications of $\text{Teich}(S)$ are at the heart of Teichmüller theory.
 
-In this post, we will discuss five different yet equivalent ways of defining the Teichmüller space $Teich(S)$ of a surface $S$. We will assume that $S$ is a genus $g \geq 2$ compact surface. (By the uniformization theorem, the moduli space of a non-hyperbolic Riemann surface is easy to describe. The notion of $Teich(S)$ when $S$ is non-compact, e.g. has punctures and boundary, can be generalized fairly easily, although there are a few technical subtleties...) Any homeomorphisms between surfaces are assumed to preserve orientation.
+In this post, we will discuss five different yet equivalent ways of defining the Teichmüller space $\text{Teich}(S)$ of a surface $S$. We will assume that $S$ is a genus $g \geq 2$ compact surface. (By the uniformization theorem, the moduli space of a non-hyperbolic Riemann surface is easy to describe. The notion of $\text{Teich}(S)$ when $S$ is non-compact, e.g. has punctures and boundary, can be generalized fairly easily, although there are a few technical subtleties...) Any homeomorphisms between surfaces are assumed to preserve orientation.
 
 ## Via complex structures
 
 Complex structures on $S$ can be formulated as follows. Denote by $\text{Cplx}(S)$ the set of pairs $(Y,f)$ such that $Y$ is a Riemann surface and $f:S \to Y$ is a diffeomorphism.  Each element of $\text{Cplx}(S)$ is often called a marking. We then consider the equivalence relation $\sim$ on $\text{Cplx}(S)$ where $(Y,f) \sim (Z,g)$ if and only if $g \circ f^{-1}$ is homotopic to a biholomorphism $X \to Y$. (Here, homotopy can be replaced with isotopy. This is something very special in two dimensions!)
 
-> **_Definition 1_** The Teichmüller space of $S$ is the set of homotopy classes of marked complex structures on $S$:
+> **_Definition 1:_** The Teichmüller space of $S$ is the set of homotopy classes of marked complex structures on $S$:
 $$
 \text{Teich}(S) = \text{Cplx}(S)/\sim.
 $$
@@ -28,20 +28,29 @@ The uniformization theorem states that given any genus $g$ compact Riemann surfa
 
 Let $\text{Hyp}(S)$ denote the set of pairs $(f,Y)$ such that $Y$ is a compact surface equipped with a hyperbolic metric of constant curvature $-1$ and $f:S \to Y$ is a diffeomorphism. We write $(f,Y) \sim (g,Z)$ if $g \circ f^{-1}:Y \to Z$ is homotopic to an isometry $Y \to Z$.
 
-> **_Definition 2_** The Teichmüller space of $S$ is the set of homotopy classes of marked hyperbolic structures on $S$:
+> **_Definition 2:_** The Teichmüller space of $S$ is the set of homotopy classes of marked hyperbolic structures on $S$:
 $$
 \text{Teich}(S) = \text{Hyp}(S)/\sim.
 $$
 
 ## Via representation theory
 
-Let $\pi_1$ denote the fundamental group of $S$. One can consider the representation variety $\mathcal{R}(S) = \text{Hom}(\pi_1, \text{PSL}(2,\mathbb{R}))$ consisting of group homomorphisms $\rho : \pi_1 \to \text{PSL}(2,\mathbb{R})$. In practice, we only consider the subspace $\mathcal{R}^{df}(S)$ consisting of representations $\rho$ which are injective (faithful) and have a discrete image, so that $\rho(\pi_1)$ is a Fuchsian group. Then, each $rho$ in $\mathcal{R}^{df}(S)$ gives rise to a compact Riemann surface $\mathbb{Hq}/\rho(\pi_1)$.
+Let $\pi_1$ denote the fundamental group of $S$. One can consider the representation variety $\mathcal{R}(S) = \text{Hom}(\pi_1, \text{PSL}(2,\mathbb{R}))$ consisting of group homomorphisms $\rho : \pi_1 \to \text{PSL}(2,\mathbb{R})$. In practice, we only consider the subspace $\mathcal{R}^{df}(S)$ consisting of representations $\rho$ which are injective (faithful) and have a discrete image, so that $\rho(\pi_1)$ is a Fuchsian group. Then, each $\rho$ in $\mathcal{R}^{df}(S)$ gives rise to a compact Riemann surface $\mathbb{H}/\rho(\pi_1)$.
 
 The group $\text{PSL}(2,\mathbb{R})$ acts on $\mathcal{R}^{df}(S)$ by conjugation: $(h * \rho)(\gamma) = h \rho(\gamma) h^{-1}$. Of course, given any $\rho \in \mathcal{R}^{df}(S)$ and any $h \in \text{PSL}(2,\mathbb{R})$, the Riemann surfaces induced by $\rho$ and $h*\rho$ are isomorphic.
 
-> **_Definition 3_** The Teichmüller space of $S$ is the conjugacy classes of $\mathcal{R}^{df}(S)$:
+> **_Definition 3:_** The Teichmüller space of $S$ is the conjugacy classes of $\mathcal{R}^{df}(S)$:
 $$
-\text{Teich}(S) = \text{Hyp}(S)/\text{PSL}(2,\mathbb{R}).
+\text{Teich}(S) = \mathcal{R}^{df}(S)/\text{PSL}(2,\mathbb{R}).
+$$
+
+With this definition, one can easily work out the dimension of $\text{Teich}(S)$ (assuming that we already know it is a real manifold). As $\mathcal{R}^{df}(S)$ is an open subspace of $\mathcal{R}(S)$, let us first consider the dimension of $\mathcal{R}(S)$. The fundamental group $\pi_1$ naturally has $2g$ generators $\gamma_1$, $\gamma_2$, $\ldots, $\gamma_{2g}$ and one relation:
+$$
+[\gamma_1, \gamma_2] [\gamma_3, \gamma_4] \ldots [\gamma_{2g-1}, \gamma_{2g}] = 1.
+$$
+Each $\rho \in \mathcal{R}(S)$ is determined by the elements $\rho(\gamma_i)$ for $1\leq i \leq 2g$, although based on the relation, $\rho(\gamma_{2g})$ can be written in terms of $\rho(\gamma_i)$'s for $1\leq i \leq 2g-1$. For each $i \in \{1,\ldots,2g-1\}$, each $\rho(\gamma_i)$ is an element of $\text{PSL}(2,\mathbb{R})$, which is a Lie group with real dimension $3$. Since we are counting conjugacy classes under the action of $\text{PSL}(2,\mathbb{R})$, this further cuts down the dimension by $3$. In total, $\text{Teich}(S)$ has real dimension
+$$
+\text{dim}(\text{Teich}(S)) = 3 (2g-1) - 3 = 6g - 6. 
 $$
 
 ## Via quasiconformal deformations
@@ -52,7 +61,7 @@ To make sense of deformations of Riemann surfaces, we often deal with maps which
 
 Let's define the deformation space $\text{Def}(X)$ of $X$ to be the equivalence classes of pairs $(f,Y)$ where $f: X \to Y$ is a quasiconformal map between Riemann surfaces and any two pairs $(f,Y)$ and $(g,Z)$ are equivalent when $g\circ f^{-1} : Y \to Z$ is a conformal isomorphism. Then, consider $\text{QC}_0(X)$, the space of self quasiconformal maps $h: X \to X$ of $X$ which are isotopic to the identity map; it is in fact a group and it acts on $\text{Def}(X)$ by: $h * (f,Y) = (f \circ h^{-1}, Y)$.
 
-> **_Definition 4_** The Teichmüller space of $X$ is quotient space
+> **_Definition 4:_** The Teichmüller space of $X$ is quotient space
 $$
 \text{Teich}(X) = \text{Def}(X)/\text{QC}_0(X).
 $$
@@ -69,7 +78,7 @@ Now, every $\mu \in \mathcal{B}_1(X)$ can be lifted to a Beltrami form $\hat{\mu
 
 Let's say that two Beltrami forms $\mu_1$ and $\mu_2$ in $\mathcal{B}_1(X)$ are equivalent ($\mu_1 \sim \mu_2$) if the corresponding quasiconformal maps $F^{\mu_1}$ and $F^{\mu_2}$ agree on the real line: $F^{\mu_1}\|\_{\mathbb{R}} \equiv F^{\mu_2}\|\_{\mathbb{R}}$.
 
-> **_Definition 5_** The Teichmüller space of $X$ is the quotient space
+> **_Definition 5:_** The Teichmüller space of $X$ is the quotient space
 $$
 \text{Teich}(X) = \mathcal{B}_1(X)/\sim.
 $$
