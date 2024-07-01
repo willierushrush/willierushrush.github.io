@@ -83,12 +83,12 @@ analytics:
 author:
   name             : "Willie Rush Lim"
   avatar           : "bio-1.png"
-  bio              : "PhD Candidate"
-  location         : "Long Island, NY"
-  employer         : "Stony Brook University"
+  bio              :
+  location         : "Queens, NY"
+  employer         : "Brown University"
   pubmed           :
   googlescholar    :
-  email            : willie.lim@stonybrook.edu
+  email            : willie_rush_lim@brown.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -104,7 +104,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            :
+  orcid            : "https://orcid.org/0000-0003-4413-1961"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -194,7 +194,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: true
       share: true
