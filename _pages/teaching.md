@@ -3,7 +3,12 @@ layout: single
 title: Teaching
 permalink: /teaching/
 ---
-I'm not teaching this semester!
+
+Office hours: Tu 4-6pm at Kassar 305
+
+I'm currently teaching MATH0200 S03 Multivariable Calculus.
+
+In Stony Brook, I've taught the following courses in the past:
 
 **As a lecturer:**
 * [MAT 125](https://www.math.stonybrook.edu/MAT125): Calculus A. Fall 2022
