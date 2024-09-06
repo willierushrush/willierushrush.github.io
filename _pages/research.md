@@ -8,9 +8,9 @@ My current research is complex dynamics, mostly in one variable.
 
 ## Papers
 <ol reversed>
-  <li> Hyperbolicity of renormalization of critical quasicircle maps, 86pp. [arxiv:2405.09008](https://arxiv.org/abs/2405.09008) </li>
-  <li> Rigidity of J-rotational rational maps and critical quasicircle maps, 58pp. [arXiv:2308.07217](https://arxiv.org/abs/2308.07217) </li>
-  <li> A priori bounds and degeneration of Herman rings with bounded type rotation number, 58pp. [arXiv:2302.07794](https://arxiv.org/abs/2302.07794) </li>
+  <li> Hyperbolicity of renormalization of critical quasicircle maps, 86pp. <a href="https://arxiv.org/abs/2405.09008">arxiv:2405.09008</a> </li>
+  <li> Rigidity of J-rotational rational maps and critical quasicircle maps, 58pp. <a href="https://arxiv.org/abs/2308.07217">arXiv:2308.07217</a> </li>
+  <li> A priori bounds and degeneration of Herman rings with bounded type rotation number, 58pp. <a href="https://arxiv.org/abs/2302.07794">arXiv:2302.07794</a> </li>
 </ol>
 
 ## Others
