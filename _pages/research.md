@@ -19,9 +19,8 @@ My current research is complex dynamics, mostly in one variable.
   * Critical quasicircle maps: realization and rigidity. Poster presented in the 'Inaugural CNAM-Fields Nonlinear Days: Renormalization and Friends' conference at the Fields Institute. [pdf](/files/poster-Critical_quasicircle_maps.pdf)   
   * From Herman rings to Herman curves. Poster presented in the 'Complex Dynamics in the Tropics' Conference at IMPA. [pdf](https://impa.br/wp-content/uploads/2022/11/Poster-Willie-Rush-Lim-nova-versao-poster-rio-2160-3840.pdf)    
   * Master's Thesis. [pdf](/files/masters-thesis.pdf)    
-  * Holomorphic dynamics and several complex variables: a brief summary in preparation for orals. [pdf](/files/orals-summary.pdf)    
 
-## A few recent Talks
+## A few recent talks
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)
   * Critical Quasicircle Maps. Workshop on Dynamical Systems and Related Topics, UMD, April 2024. [slides](/files/slides-24-04-cqc.pdf)
   * Degeneration of Herman rings. Geometry & Topology Seminar, Brown University, Jan 2024. [slides](/files/slides-24-01-degeneration.pdf)
