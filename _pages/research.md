@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 ---
 
-My current research is complex dynamics, mostly in one variable.
+My current research is complex dynamics, mostly in one variable. (Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynamics) for an accessible introduction to the field.)
 
 ## Papers
 <ol reversed>
