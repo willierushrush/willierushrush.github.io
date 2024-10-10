@@ -8,7 +8,7 @@ My current research is complex dynamics, mostly in one variable. (Watch this [ta
 
 ## Papers
 <ol reversed>
-  <li> Hyperbolicity of renormalization of critical quasicircle maps, 86pp. <a href="https://arxiv.org/abs/2405.09008">arxiv:2405.09008</a> </li>
+  <li> Hyperbolicity of renormalization of critical quasicircle maps, 88pp. <a href="https://arxiv.org/abs/2405.09008">arxiv:2405.09008</a> </li>
   <li> Rigidity of J-rotational rational maps and critical quasicircle maps, 58pp. <a href="https://arxiv.org/abs/2308.07217">arXiv:2308.07217</a> </li>
   <li> A priori bounds and degeneration of Herman rings with bounded type rotation number, 58pp. <a href="https://arxiv.org/abs/2302.07794">arXiv:2302.07794</a> </li>
 </ol>
@@ -21,10 +21,10 @@ My current research is complex dynamics, mostly in one variable. (Watch this [ta
   * Master's Thesis. [pdf](/files/masters-thesis.pdf)    
 
 ## A few recent talks
+  * Critical Quasicircle Maps. Dynamical Systems Seminar, Boston Univesity, Oct 2024. [slides](/files/slides-24-10-cqc.pdf)
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)
   * Critical Quasicircle Maps. Workshop on Dynamical Systems and Related Topics, UMD, April 2024. [slides](/files/slides-24-04-cqc.pdf)
   * Degeneration of Herman rings. Geometry & Topology Seminar, Brown University, Jan 2024. [slides](/files/slides-24-01-degeneration.pdf)
   * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)
   * From Herman Rings to Herman Curves. Complex Analysis and Dynamics Seminar, CUNY, Mar 2023. [slides](/files/slides-23-03-CUNY.pdf)
   * A Priori Bounds and Degeneration of Herman Rings. [On Geometric Complexity of Julia Sets IV](https://www.impan.pl/en/activities/banach-center/conferences/22-juliasets4), Banach Center, IMPAN, Aug 2022. [video](https://www.youtube.com/watch?v=c-gUa7KJucY)
-  * What Is... An Orbifold? Graduate Student Seminar, Stony Brook University, Feb 2021. [video](https://youtu.be/AuHZgJ_k9os)
