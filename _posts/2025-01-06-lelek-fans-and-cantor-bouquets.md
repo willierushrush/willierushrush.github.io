@@ -42,7 +42,12 @@ There has been quite a number of studies on how Cantor bouquets arises naturally
 The simplest example is $f_\lambda(z) = \lambda e^z$ for $\lambda \in (0, e^{-1})$. It has the following nice features:
 - There is a unique point $w=w(\lambda) \in (0,1)$ such that $f_\lambda(w) = w$. (This follows e.g. from Mean Value Theorem.) Moreover, $w$ is an attracting fixed point because $\lvert f_\lambda'(w) \rvert = w <1$.   
 - The map $f_\lambda$ sends the left half plane $H = \\\{ \text{Re}(z)< \log \lambda^{-1} \\\}$ to the unit disk $\mathbb{D} = \\\{ \lvert z \rvert <1 \\\}$, which is contained in $H$. By Schwarz Lemma, for every point $z$ in $H$, the forward iterates $f^n_{\lambda}(z)$ converge to $w$ as $n \to \infty$.
-- The full preimage $f_{\lambda}^{-1}(H)$ of $H$ is a disjoint union of unbounded simply connected domains $D_n$, $n \in \mathbb{Z}$, where $D_n = \\\{ \lvert \text{Im}z - 2 \pi n \rvert < \frac{\pi}{2}, \text{Re}z > \log(\lambda^{-1} \sec(\text{Im}z) \log \lambda^{-1}) \\\}$. So each $D_n$ is obtained by translating $D_0$ by $2 \pi i n$.
+- The full preimage $f_{\lambda}^{-1}(H)$ of $H$ is a disjoint union of unbounded simply connected domains $D_n$, $n \in \mathbb{Z}$, where
+$$
+D_n = \\\{ x+iy : \lvert y - 2 \pi n \rvert < \frac{\pi}{2}, e^x \cos(y) > \lambda^{-1} \log \lambda^{-1} \\\}.
+$$
+So each $D_n$ is obtained by translating $D_0$ by $2 \pi i n$.
+
 Can you guess what happens to $f_{\lambda}^{-k}(H)$ as $k \to \infty$? See the gif below. The limiting set is what we call the Julia set of $f_{\lambda}$:
 $$
 J(f_\lambda) = \bigcap_{k \geq 1} f_{\lambda}^{-k}(H).
@@ -64,9 +69,9 @@ Actually, there's nothing really special about $f_\lambda$. In general, the theo
 - disjoint type: there is a bounded open disk $D$ with $\overline{f(D)} \subset D$ such that the smallest closed set $S$ such that $f: \mathbb{C}\backslash f^{-1}(S) \to \mathbb{C} \backslash S$ is a covering map is contained in $D$.   
 See this excellent survey by Sixsmith<sup>[7](#fn7)</sup>.
 
-This particular example of Cantor bouquets is also bizarre in the measure-theoretic viewpoint. Here's a theorem by Karpi\'nska<sup>[5](#fn5),[6](#fn6)</sup>.
+This particular example of Cantor bouquets is also bizarre in the measure-theoretic viewpoint. Here's a theorem by Karpińska<sup>[5](#fn5),[6](#fn6)</sup>.
 
-> **_Karpi\'nska's Paradox:_** For $\lambda \in (0,e^{-1})$, the endpoints in $J(f_\lambda)$ has Hausdorff dimension two, but $J(f_\lambda)$ minus its endpoints has Hausdorff dimension one.
+> **_Karpińska's Paradox:_** For $\lambda \in (0,e^{-1})$, the endpoints in $J(f_\lambda)$ has Hausdorff dimension two, but $J(f_\lambda)$ minus its endpoints has Hausdorff dimension one.
 
 
 ### References
@@ -75,8 +80,8 @@ This particular example of Cantor bouquets is also bizarre in the measure-theore
 <a name="fn2">2</a>: W. D. Bula and L. G. Oversteegen, A characterization of smooth Cantor bouquets. Proceedings of the American Mathematical Society, Vol. 108, No. 2, 529–534, 1990.
 <a name="fn3">3</a>: W. J. Charatonik, The Lelek fan is unique. Houston Journal of Mathematics, Vol. 1, 27-34, 1989.   
 <a name="fn4">4</a>: A. Lelek, On plane dendroids and their end points in the classical sense. Fundamenta Mathematicae, Vol. 49, 301-319, 1961.   
-<a name="fn5">5</a>: B. Karpi\'nska, Area and Hausdorff dimension of the set of accessible points of the Julia sets of $\lambda e^z$ and $\lambda \sin z$. Fundamenta Mathematicae, Vol. 159, no. 3, 269–287, 1999.   
-<a name="fn6">6</a>: B. Karpi\'nska, Hausdorff dimension of the hairs without the endpoints for $\lambda \text{exp} z$. Comptes rendus de l'Académie des Sciences Paris, S\'er. I Math., Vol. 328, no. 11, 1039–1044, 1999.   
+<a name="fn5">5</a>: B. Karpińska, Area and Hausdorff dimension of the set of accessible points of the Julia sets of $\lambda e^z$ and $\lambda \sin z$. Fundamenta Mathematicae, Vol. 159, no. 3, 269–287, 1999.   
+<a name="fn6">6</a>: B. Karpińska, Hausdorff dimension of the hairs without the endpoints for $\lambda \text{exp} z$. Comptes rendus de l'Académie des Sciences Paris, Sér. I Math., Vol. 328, no. 11, 1039–1044, 1999.   
 <a name="fn7">7</a>: D. J. Sixsmith, Dynamics in the Eremenko-Lyubich class. Available on arXiv:1709.09095.   
 
 ------
