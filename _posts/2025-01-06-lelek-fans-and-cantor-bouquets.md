@@ -28,8 +28,8 @@ In the 80's, it was proven independently by Bula-Oversteegen<sup>[2](#fn2)</sup>
 
 A **straight brush** is a closed subset $B$ of $\mathbb{C}$ that is contained in $\\\{x+iy \in \mathbb{C} : x\geq 0, y \not\in \mathbb{Q} \\\}$ and satisfies the following properties:
 1. $B$ is an uncountable union of hairs of the form $\text{hair}_y := \\\{x+ iy : x \geq t_y \\\}$ where $y$ is an irrational number and $t_y \geq 0$;   
-2. The image of $B$ under the projection $\pi : x+iy \mapsto y$ is dense in $\mathbb{R}\backslash \mathbb{Q}$;   
-3. For any $y \in \pi(B)$, there exist an increasing sequence $(p_n)\_{n}$ in $\pi(B)$ and a decreasing sequence $(q_n)\_{n}$ in $\pi(B)$ such that $\lim_{n\to \infty} p_n = \lim_{n\to \infty} q_n = y$ and $\lim_{n\to \infty} t_{p_n} = \lim_{n\to \infty} t_{q_n} = t_y$.   
+2. The image of $B$ under the projection map $\text{Im}(x+iy) = y$ is dense in $\mathbb{R}\backslash \mathbb{Q}$;   
+3. For any $y \in \text{Im}(B)$, there exist an increasing sequence $(p_n)\_{n}$ in $\text{Im}(B)$ and a decreasing sequence $(q_n)\_{n}$ in $\text{Im}(B)$ such that $\lim_{n\to \infty} p_n = \lim_{n\to \infty} q_n = y$ and $\lim_{n\to \infty} t_{p_n} = \lim_{n\to \infty} t_{q_n} = t_y$.   
 
 A **Cantor bouquet** is the image of a straight brush $B$ under a homeomorphism $\phi: \mathbb{C} \to \mathbb{C}$. Clearly, if $C$ is a Cantor bouquet, then $C \cup \\\{ \infty \\\}$ is a Lelek fan with vertex $\infty$ embedded in the Riemann sphere $\hat{\mathbb{C}} = \mathbb{C} \cup \\\{ \infty\\\}$. The key additional property that distinguishes Cantor bouquets from arbitrary Lelek fans is property 3, which states that hairs can be approximated by other hairs from the left and right.
 
