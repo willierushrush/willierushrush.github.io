@@ -42,11 +42,13 @@ There has been quite a number of studies on how Cantor bouquets arises naturally
 The simplest example is $f_\lambda(z) = \lambda e^z$ for $\lambda \in (0, e^{-1})$. It has the following nice features:
 - There is a unique point $w=w(\lambda) \in (0,1)$ such that $f_\lambda(w) = w$. (This follows e.g. from Mean Value Theorem.) Moreover, $w$ is an attracting fixed point because $\lvert f_\lambda'(w) \rvert = w <1$.   
 - The map $f_\lambda$ sends the left half plane $H = \\\{ \text{Re}(z)< \log \lambda^{-1} \\\}$ to the unit disk $\mathbb{D} = \\\{ \lvert z \rvert <1 \\\}$, which is contained in $H$. By Schwarz Lemma, for every point $z$ in $H$, the forward iterates $f^n_{\lambda}(z)$ converge to $w$ as $n \to \infty$.
-- The full preimage $f_{\lambda}^{-1}(H)$ of $H$ is a disjoint union of unbounded simply connected domains $D_n$, $n \in \mathbb{Z}$, where
+- The full preimage $f_{\lambda}^{-1}(H)$ of $H$ is a disjoint union of unbounded simply connected domains $D_n$, $n \in \mathbb{Z}$, where each $D_n$ is obtained by translating $D_0$ by $2 \pi i n$, and $D_0$ is equal to
+
 $$
-D_n = \\\{ x+iy : \lvert y - 2 \pi n \rvert < \frac{\pi}{2}, e^x \cos(y) > \lambda^{-1} \log \lambda^{-1} \\\}.
+D_0 = \{ x+iy : \lvert y \rvert < \frac{\pi}{2}, e^x \cos(y) > \lambda^{-1} \log \lambda^{-1} \}.
 $$
-So each $D_n$ is obtained by translating $D_0$ by $2 \pi i n$.
+
+
 
 Can you guess what happens to $f_{\lambda}^{-k}(H)$ as $k \to \infty$? See the gif below. The limiting set is what we call the Julia set of $f_{\lambda}$:
 $$
@@ -67,6 +69,7 @@ Given any point $z$ in $J(f_\lambda)$, we can keep track the location of the for
 Actually, there's nothing really special about $f_\lambda$. In general, the theorem holds for transcendental entire functions that satisfy the following conditions:
 - finite order: $\log \log \lvert f(z) \rvert = O( \lvert \log z \rvert )$ as $\lvert z \rvert \to \infty$ (for example, this holds when $f$ is a finite composition of polynomials and $e^z$);   
 - disjoint type: there is a bounded open disk $D$ with $\overline{f(D)} \subset D$ such that the smallest closed set $S$ such that $f: \mathbb{C}\backslash f^{-1}(S) \to \mathbb{C} \backslash S$ is a covering map is contained in $D$.   
+
 See this excellent survey by Sixsmith<sup>[7](#fn7)</sup>.
 
 This particular example of Cantor bouquets is also bizarre in the measure-theoretic viewpoint. Here's a theorem by Karpińska<sup>[5](#fn5),[6](#fn6)</sup>.
