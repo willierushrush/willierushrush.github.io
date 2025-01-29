@@ -4,9 +4,9 @@ title: Teaching
 permalink: /teaching/
 ---
 
-**Office hours:** Tuesdays 4-6pm at Kassar House 305
+**Office hours:** Wednesdays 4.30-6.30pm at Kassar House 305
 
-**Currently teaching:** [Math 0200](https://www.brown.edu/academics/math/course-descriptions) Multivariable Calculus.
+**Currently teaching:** [Math 0180](https://www.brown.edu/academics/math/course-descriptions) Multivariable Calculus
 
 Back in Stony Brook, I've also taught the following courses in the past:
 * [MAT 125](https://www.math.stonybrook.edu/MAT125): Calculus A. Fall 2022
