@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-**Office hours:** Wednesdays 4.30-6.30pm at Kassar House 305
+**Office hours:** Mondays 4-6pm at Kassar House 305
 
 **Currently teaching:** [Math 0180](https://www.brown.edu/academics/math/course-descriptions) Multivariable Calculus
 
