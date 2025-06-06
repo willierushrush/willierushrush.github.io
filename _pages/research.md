@@ -21,6 +21,7 @@ My current research is complex dynamics, mostly in one variable. (Watch this [ta
   * Master's Thesis. [pdf](/files/masters-thesis.pdf)    
 
 ## A few recent talks
+  * Area of the Postcritical Set. Topics in Complex Dynamics 2025, U of Barcelona, June 2025. [slides](/files/slides-25-06-TCD.pdf)
   * Critical Quasicircle Maps. Dynamical Systems Seminar, Boston Univesity, Oct 2024. [slides](/files/slides-24-10-cqc.pdf)
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)
   * Critical Quasicircle Maps. Workshop on Dynamical Systems and Related Topics, UMD, April 2024. [slides](/files/slides-24-04-cqc.pdf)
