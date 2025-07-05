@@ -4,7 +4,9 @@ title: "Research"
 permalink: /research/
 ---
 
-My current research is complex dynamics, mostly in one variable. (Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynamics) for an accessible introduction to the field.) I specialise in three renormalization theories (1. quadratic-like, 2. irrationally indifferent fixed points, 3. Herman curves) and the consequences on rigidity, universality, and the geometry and topology of fractal sets.
+My current research is complex dynamics, mostly in one variable. Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynamics) for an accessible introduction to the field.   
+
+I specialise in three renormalization theories (1. quadratic-like, 2. irrationally indifferent fixed points, 3. Herman curves) and their consequences on rigidity, universality, and the geometry and topology of fractal sets.
 
 ## Papers
 <ol reversed>
