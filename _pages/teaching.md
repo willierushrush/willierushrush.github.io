@@ -4,9 +4,13 @@ title: Teaching
 permalink: /teaching/
 ---
 
-**Office hours:** Mondays 4-6pm at Kassar House 305
+**Office hours:** TBA at Kassar House 305
 
-**Currently teaching:** [Math 0180](https://www.brown.edu/academics/math/course-descriptions) Multivariable Calculus
+**Fall 2025:** 
+* [Math 1710](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Topology   
+* [Math 1110](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Ordinary ifferential Equations   
+
+I previously taught [Math 0180](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) and [Math 0200] Multivariable Calculus
 
 Back in Stony Brook, I've also taught the following courses in the past:
 * [MAT 125](https://www.math.stonybrook.edu/MAT125): Calculus A. Fall 2022
