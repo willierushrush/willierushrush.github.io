@@ -20,7 +20,7 @@ I specialise in three renormalization theories (1. quadratic-like, 2. irrational
   * Area of the Postcritical Set. Topics in Complex Dynamics 2025, U of Barcelona, June 2025. [slides](/files/slides-25-06-TCD.pdf)    
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)    
   * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)    
-  * A Priori Bounds and Degeneration of Herman Rings. [On Geometric Complexity of Julia Sets IV](https://www.impan.pl/en/activities/banach-center/conferences/22-juliasets4), Banach Center, IMPAN, Aug 2022. [video](https://www.youtube.com/watch?v=c-gUa7KJucY)    
+  * A Priori Bounds and Degeneration of Herman Rings. On Geometric Complexity of Julia Sets IV, Bedlewo, Aug 2022. [video](https://www.youtube.com/watch?v=c-gUa7KJucY)    
    
 ## Others
   * Lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
