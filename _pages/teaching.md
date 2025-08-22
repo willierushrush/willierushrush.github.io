@@ -10,7 +10,7 @@ permalink: /teaching/
 * [Math 1710](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Topology   
 * [Math 1110](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Ordinary ifferential Equations   
 
-I previously taught [Math 0180](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) and [Math 0200] Multivariable Calculus
+I previously taught [Math 0180](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) and [Math 0200](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Multivariable Calculus
 
 Back in Stony Brook, I've also taught the following courses in the past:
 * [MAT 125](https://www.math.stonybrook.edu/MAT125): Calculus A. Fall 2022   
