@@ -16,7 +16,8 @@ I specialise in three renormalization theories (1. quadratic-like, 2. irrational
 </ol> 
    
 ## Some slides
-  * Renormalization Theory of Herman Curves. Geometric Complexity of Julia Sets VI, Bedlewo, Aug 2025. [slides](/files/slides-25-08-bedlewo.pdf)  
+  * A Priori Bounds via Totally Degenerate Regime. Fields-CNAM Nonlinear Days, Fields Institute, Aug 2025. [slides](/files/slides-25-08-toronto.pdf)   
+  * Renormalization Theory of Herman Curves. Geometric Complexity of Julia Sets VI, Bedlewo, Aug 2025. [slides](/files/slides-25-08-bedlewo.pdf)   
   * Area of the Postcritical Set. Topics in Complex Dynamics 2025, U of Barcelona, June 2025. [slides](/files/slides-25-06-TCD.pdf)    
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)    
   * From Herman Rings to Herman Curves. Quasiworld (Online) Seminar, Nov 2023. [slides](/files/slides-23-11-quasiworld.pdf)    
