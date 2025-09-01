@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-**Office hours:** TBA at Kassar House 305   
+**Office hours:** Fri 2-4pm at Kassar House 305   
 
 **Fall 2025:** 
 * [Math 1710](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Topology   
