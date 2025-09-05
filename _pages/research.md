@@ -10,9 +10,9 @@ I specialise in three renormalization theories (1. quadratic-like, 2. irrational
    
 ## Papers
 <ol reversed>
-  <li> Hyperbolicity of renormalization of critical quasicircle maps, 88pp. <a href="https://arxiv.org/abs/2405.09008">arxiv:2405.09008</a> </li>
-  <li> Rigidity of J-rotational rational maps and critical quasicircle maps, 60pp. <a href="https://arxiv.org/abs/2308.07217">arXiv:2308.07217</a> </li> (to appear in Transactions of the AMS)
-  <li> A priori bounds and degeneration of Herman rings with bounded type rotation number, 58pp. <a href="https://arxiv.org/abs/2302.07794">arXiv:2302.07794</a> </li>
+  <li> Hyperbolicity of renormalization of critical quasicircle maps, 88pp. <a href="https://arxiv.org/abs/2405.09008">arxiv:2405.09008</a> </li>   
+  <li> Rigidity of J-rotational rational maps and critical quasicircle maps, 60pp. <a href="https://arxiv.org/abs/2308.07217">arXiv:2308.07217</a> </li> (to appear in Transactions of the AMS)   
+  <li> A priori bounds and degeneration of Herman rings with bounded type rotation number, 58pp. <a href="https://arxiv.org/abs/2302.07794">arXiv:2302.07794</a> </li>   
 </ol> 
    
 ## Some slides
