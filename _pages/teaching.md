@@ -8,7 +8,7 @@ permalink: /teaching/
 
 **Fall 2025:** 
 * [Math 1710](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Topology   
-* [Math 1110](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Ordinary ifferential Equations   
+* [Math 1110](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Ordinary Differential Equations   
 
 I previously taught [Math 0180](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) and [Math 0200](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Multivariable Calculus
 
