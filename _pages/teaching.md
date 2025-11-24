@@ -4,9 +4,11 @@ title: Teaching
 permalink: /teaching/
 ---
 
-**Office hours:** Fri 2-4pm at Kassar House 305   
+**Office hours:** Fri 4-6pm at Kassar House 305   
 
-**Fall 2025:** 
+In Spring 2026, I will be teaching [Math 1040](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Fundamental Problems in Geometry    
+
+**Fall 2025:**
 * [Math 1710](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Topology   
 * [Math 1110](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Ordinary Differential Equations   
 
