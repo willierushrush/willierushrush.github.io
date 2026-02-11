@@ -9,10 +9,10 @@ My current research is complex dynamics, mostly in one variable. Watch this [tal
 I specialise in three renormalization theories (1. quadratic-like, 2. irrationally indifferent fixed points, 3. Herman curves) and their consequences on rigidity, universality, and the geometry and topology of fractal sets.
    
 ## Papers
-<ol reversed>
-  <li> Hyperbolicity of renormalization of critical quasicircle maps, 88pp. <a href="https://arxiv.org/abs/2405.09008">arxiv:2405.09008</a> (To appear in Comm. Math. Phys.)</li>   
-  <li> Rigidity of J-rotational rational maps and critical quasicircle maps. <a href="https://www.ams.org/journals/tran/0000-000-00/S0002-9947-2026-09607-2/">Trans. Amer. Math. Soc.</a> <a href="https://arxiv.org/abs/2308.07217">arXiv:2308.07217</a> </li>    
-  <li> A priori bounds and degeneration of Herman rings with bounded type rotation number. <a href="https://link.springer.com/article/10.1007/s00222-025-01369-2">Invent. Math.</a> <a href="https://arxiv.org/abs/2302.07794">arXiv:2302.07794</a> </li>   
+<ol reversed> 
+  <li> <a href="https://arxiv.org/abs/2405.09008">Hyperbolicity of renormalization of critical quasicircle maps.</a> 92pp. To appear in Comm. Math. Phys. </li>   
+  <li> <a href="https://www.ams.org/journals/tran/0000-000-00/S0002-9947-2026-09607-2/">Rigidity of J-rotational rational maps and critical quasicircle maps.</a> Trans. Amer. Math. Soc. (2026), 373(4): 2507–-2567. </li>    
+  <li> <a href="https://link.springer.com/article/10.1007/s00222-025-01369-2">A priori bounds and degeneration of Herman rings with bounded type rotation number.</a> Invent. Math. (2025), 42: 827--893. </li>   
 </ol> 
    
 ## Some slides
