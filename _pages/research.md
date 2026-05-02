@@ -15,10 +15,10 @@ I specialise in three renormalization theories (1. quadratic-like, 2. irrational
   <li> <a href="https://link.springer.com/article/10.1007/s00222-025-01369-2">A priori bounds and degeneration of Herman rings with bounded type rotation number.</a> Invent. Math. (2025), 67pp. </li>   
 </ol> 
    
-## Papers in preparation
+## Papers in preparation   
   * Uniform bounds on bubbles of neutral quadratic polynomials (w/ Dzmitry Dudko)        
   * Lebesgue measure of the postcritical set of neutral quadratic polynomials       
-  * Rigidity of the attractor of renormalization of neutral quadratic polynomials (w/ Dzmitry Dudko, Mikhail Lyubich)   
+  * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)   
 
 ## Some slides
   * A Priori Bounds via Totally Degenerate Regime. Fields-CNAM Nonlinear Days, Fields Institute, Aug 2025. [slides](/files/slides-25-08-toronto.pdf)   
