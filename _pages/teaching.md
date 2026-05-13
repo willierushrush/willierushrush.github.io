@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-**Office hours:** Mon 3-4pm, Wed 4-5pm at Kassar House 305   
+In Fall 2026, I will be teaching Topology and ODEs. 
 
 **Spring 2026:**
 * [Math 1040](https://mathematics.brown.edu/undergraduate/concentrator-resources/course-descriptions) Fundamental Problems in Geometry    
