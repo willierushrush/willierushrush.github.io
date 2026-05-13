@@ -22,13 +22,13 @@ Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&sear
   * The combinatorics of sector renormalization. [pdf](/files/The_combinatorics_of_sector_renormalization.pdf)   
   * Uniform bounds on bubbles of neutral quadratic polynomials (w/ Dzmitry Dudko)        
   * Lebesgue measure of the postcritical set of neutral quadratic polynomials       
-  * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)   
+  * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)    
    
 ## Others
   * Notes from the mini-course at Simons Semester 2026. [#1](/files/simons-semester-2026-1.pdf)   
   * Lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
-  * PhD Thesis. (basically a combination of 1,3, and half of 2...) [pdf](/files/PhD_Thesis.pdf)    
-  * Master's Thesis. [pdf](/files/masters-thesis.pdf)   
+  * PhD Thesis. (2024) [pdf](/files/PhD_Thesis.pdf)    
+  * MSci Thesis. (2019) [pdf](/files/masters-thesis.pdf)    
    
 ## Some slides
   * Renormalization Theory of Herman Curves. Geometric Complexity of Julia Sets VI, Bedlewo, Aug 2025. [slides](/files/slides-25-08-bedlewo.pdf)   
