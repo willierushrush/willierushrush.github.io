@@ -25,7 +25,7 @@ Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&sear
   * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)    
    
 ## Others
-  * Notes from the mini-course at Simons Semester 2026. [#1](/files/simons-semester-2026-1.pdf)   
+  * Notes from the mini-course at Simons Semester 2026. [#1](/files/simons-semester-2026-1.pdf) [#2](/files/simons-semester-2026-2.pdf)     
   * Lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
   * PhD Thesis. (2024) [pdf](/files/PhD_Thesis.pdf)    
   * MSci Thesis. (2019) [pdf](/files/masters-thesis.pdf)    
