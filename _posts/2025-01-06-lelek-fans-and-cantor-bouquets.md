@@ -80,7 +80,7 @@ This particular example of Cantor bouquets is also bizarre in the measure-theore
 ### References
 
 <a name="fn1">1</a>: J. M. Aarts and L. G. Oversteegen, The geometry of Julia sets. Transactions of the American Mathematical Society, Vol. 338, No. 2, 897–918, 1993.   
-<a name="fn2">2</a>: W. D. Bula and L. G. Oversteegen, A characterization of smooth Cantor bouquets. Proceedings of the American Mathematical Society, Vol. 108, No. 2, 529–534, 1990.
+<a name="fn2">2</a>: W. D. Bula and L. G. Oversteegen, A characterization of smooth Cantor bouquets. Proceedings of the American Mathematical Society, Vol. 108, No. 2, 529–534, 1990.    
 <a name="fn3">3</a>: W. J. Charatonik, The Lelek fan is unique. Houston Journal of Mathematics, Vol. 1, 27-34, 1989.   
 <a name="fn4">4</a>: A. Lelek, On plane dendroids and their end points in the classical sense. Fundamenta Mathematicae, Vol. 49, 301-319, 1961.   
 <a name="fn5">5</a>: B. Karpińska, Area and Hausdorff dimension of the set of accessible points of the Julia sets of $\lambda e^z$ and $\lambda \sin z$. Fundamenta Mathematicae, Vol. 159, no. 3, 269–287, 1999.   
