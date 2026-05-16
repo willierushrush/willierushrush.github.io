@@ -15,10 +15,10 @@ Here's a precise definition. A Lelek fan $L$ is a compact connected metric space
 1. hereditarily unicoherent: for any two intersecting compact connected subspaces $A$ and $B$ of $L$, $A \cap B$ is connected;   
 2. arcwise connected: for any two distinct points $x$ and $y$ in $L$, there is a unique simple arc $[x,y] \subset L$ joining $x$ and $y$;   
 3. branch point: there is a unique point $b$ in $L$ that is a common endpoint of at least three disjoint open arcs in $L$;   
-4. topologically smooth: given any sequence of points $x_n$ in $L$ converging to $b$, the arcs $[x_n,b]$ converge to $[x,b]$ in the Hausdorff metric;    
+4. topologically smooth: given any sequence of points $x_n$ in $L$ converging to $x$, the arcs $[x_n,b]$ converge to $[x,b]$ in the Hausdorff metric;    
 5. density of endpoints: the set $E(L)$ of endpoints (i.e. points which are an endpoint of every arc containing it) is dense in $L$.
 
-Properties 1,2, and 3 basically say that $L$ is a bouquet of arcs, the center of the bouquet being $b$ itself. Properties 4 and 5 make $L$ even more interesting.
+Properties 1, 2, and 3 basically say that $L$ is a bouquet of arcs, the center of the bouquet being $b$ itself. Properties 4 and 5 make $L$ even more interesting.
 
 In the 80's, it was proven independently by Bula-Oversteegen<sup>[2](#fn2)</sup> and Charatonik<sup>[3](#fn3)</sup> that any two Lelek fans are homeomorphic. However, the first example of a Lelek fan was discovered much earlier in the 60's by Lelek<sup>[4](#fn4)</sup>. Lelek also observed that the endpoints $E(L)$ have the following bizarre property.
 
