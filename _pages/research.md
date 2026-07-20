@@ -18,19 +18,19 @@ I specialise in three renormalization theories (1. quadratic-like, 2. irrational
 
 Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a>  
 
-## Papers in preparation   
-  * The combinatorics of sector renormalization. [pdf](/files/The_combinatorics_of_sector_renormalization.pdf)   
+## Preprints and papers in preparation   
+  * The combinatorics of sector renormalization. [arXiv](https://arxiv.org/abs/2607.11408)   
   * Uniform bounds on bubbles of neutral quadratic polynomials (w/ Dzmitry Dudko)        
   * Lebesgue measure of the postcritical set of neutral quadratic polynomials       
   * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)    
    
-## Others
+## Others   
   * Notes from the mini-course at Simons Semester 2026. [#1](/files/simons-semester-2026-1.pdf) [#2](/files/simons-semester-2026-2.pdf) [#3](/files/simons-semester-2026-3.pdf)    
   * Lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
   * PhD Thesis. (2024) [pdf](/files/PhD_Thesis.pdf)    
   * MSci Thesis. (2019) [pdf](/files/masters-thesis.pdf)    
    
-## Some slides
+## Some slides   
   * Renormalization Theory of Herman Curves. Geometric Complexity of Julia Sets VI, Bedlewo, Aug 2025. [slides](/files/slides-25-08-bedlewo.pdf)   
   * Area of the Postcritical Set. Topics in Complex Dynamics 2025, U of Barcelona, June 2025. [slides](/files/slides-25-06-TCD.pdf)    
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)    
