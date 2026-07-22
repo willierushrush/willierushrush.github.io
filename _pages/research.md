@@ -31,6 +31,7 @@ Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&sear
   * MSci Thesis. (2019) [pdf](/files/masters-thesis.pdf)    
    
 ## Some slides   
+  * The Full Attractor of Neutral Renormalization. Complex dynamics: a century on from Fatou and Julia, Isaac Newton Institute, July 2026. [slides](/files/slides-26-07-INI.pdf)   
   * Renormalization Theory of Herman Curves. Geometric Complexity of Julia Sets VI, Bedlewo, Aug 2025. [slides](/files/slides-25-08-bedlewo.pdf)   
   * Area of the Postcritical Set. Topics in Complex Dynamics 2025, U of Barcelona, June 2025. [slides](/files/slides-25-06-TCD.pdf)    
   * Rigidity of Rotational Dynamics. AMS Sectional Meeting, UW Milwaukee, April 2024. [slides](/files/slides-24-04-rigidity.pdf)    
