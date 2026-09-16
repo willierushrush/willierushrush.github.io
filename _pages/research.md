@@ -20,7 +20,7 @@ Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&sear
 
 ## Preprints and papers in preparation   
   * The combinatorics of sector renormalization. [arXiv:2607.11408](https://arxiv.org/abs/2607.11408)     
-  * Uniform bounds on bubbles of neutral quadratic polynomials. (w/ Dzmitry Dudko) [arxiv:2609.15500](https://arxiv.org/abs/2609.15500)       
+  * Uniform bounds for bubbles of neutral quadratic polynomials. (w/ Dzmitry Dudko) [arxiv:2609.15500](https://arxiv.org/abs/2609.15500)       
   * Lebesgue measure of the postcritical set of neutral quadratic polynomials       
   * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)    
    
