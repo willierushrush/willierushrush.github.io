@@ -4,9 +4,9 @@ title: "Research"
 permalink: /research/
 ---
 
-My current research is complex dynamics, mostly in one variable. Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynamics) for an accessible introduction to the field.   
-   
-I specialise in three renormalization theories (1. quadratic-like, 2. irrationally indifferent fixed points, 3. Herman curves) and their consequences on rigidity, universality, and the geometry and topology of fractal sets.   
+My current research is complex dynamics, mostly in one variable. It sits at the interface of complex analysis and geometry. I specialise in various renormalization theories and their consequences on rigidity, universality, and the geometry and topology of fractal sets.   
+
+Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynamics) for an accessible introduction to the field.    
    
 ## Publications
 
@@ -19,8 +19,8 @@ I specialise in three renormalization theories (1. quadratic-like, 2. irrational
 Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a>  
 
 ## Preprints and papers in preparation   
-  * The combinatorics of sector renormalization. [arXiv](https://arxiv.org/abs/2607.11408)   
-  * Uniform bounds on bubbles of neutral quadratic polynomials (w/ Dzmitry Dudko)        
+  * The combinatorics of sector renormalization. [arXiv:2607.11408](https://arxiv.org/abs/2607.11408)     
+  * Uniform bounds on bubbles of neutral quadratic polynomials. (w/ Dzmitry Dudko) [arxiv:2609.15500](https://arxiv.org/abs/2609.15500)       
   * Lebesgue measure of the postcritical set of neutral quadratic polynomials       
   * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)    
    
