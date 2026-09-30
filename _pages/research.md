@@ -18,12 +18,15 @@ Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynam
 
 Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a>  
 
-## Preprints and papers in preparation   
-  * The combinatorics of sector renormalization. [arXiv:2607.11408](https://arxiv.org/abs/2607.11408)     
-  * Uniform bounds for bubbles of neutral quadratic polynomials. (w/ Dzmitry Dudko) [arxiv:2609.15500](https://arxiv.org/abs/2609.15500)       
-  * Lebesgue measure of the postcritical set of neutral quadratic polynomials       
-  * Rigidity of the attractor of neutral renormalization (w/ Dzmitry Dudko, Mikhail Lyubich)    
-   
+## Preprints   
+
+<ol start="7" reversed>
+  <li> Rigidity of the attractor of neutral renormalization. (w/ Dzmitry Dudko, Mikhail Lyubich) [arXiv:2609.37383](https://arxiv.org/abs/2609.37383), 118pp.  </li>         
+  <li> Lebesgue measure of the postcritical set of neutral quadratic polynomials. [arXiv:2609.35563](https://arxiv.org/abs/2609.35563), 46pp.  </li>        
+  <li> Uniform bounds for bubbles of neutral quadratic polynomials. (w/ Dzmitry Dudko) [arXiv:2609.15500](https://arxiv.org/abs/2609.15500), 33pp.  </li>       
+  <li> The combinatorics of sector renormalization. [arXiv:2607.11408](https://arxiv.org/abs/2607.11408), 39pp.  </li>       
+</ol>   
+
 ## Others   
   * Notes from the mini-course at Simons Semester 2026. [#1](/files/simons-semester-2026-1.pdf) [#2](/files/simons-semester-2026-2.pdf) [#3](/files/simons-semester-2026-3.pdf)    
   * Lectures on [Herman rings](/files/slides-23-12-Herman-rings.pdf) and [Herman curves](/files/slides-23-12-Herman-curves.pdf)   
