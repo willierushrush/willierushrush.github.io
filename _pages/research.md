@@ -20,7 +20,7 @@ Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&sear
 
 ## Preprints   
 
-<ol start="7" reversed>
+<ol start="8" reversed>
   <li> Wandering continua, renormalization, and Lebesgue measure on Julia sets. <a href="https://arxiv.org/abs/2611.05949">arXiv:2611.05949</a>, 10pp.  </li>         
   <li> Rigidity of the attractor of neutral renormalization. (w/ Dzmitry Dudko, Mikhail Lyubich) <a href="https://arxiv.org/abs/2609.37383">arXiv:2609.37383</a>, 118pp.  </li>         
   <li> Lebesgue measure of the postcritical set of neutral quadratic polynomials. <a href="https://arxiv.org/abs/2609.35563">arXiv:2609.35563</a>, 46pp.  </li>        
