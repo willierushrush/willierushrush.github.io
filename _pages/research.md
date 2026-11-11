@@ -11,17 +11,17 @@ Watch this [talk](http://www.fields.utoronto.ca/talks/Story-1D-Holomorphic-Dynam
 ## Publications
 
 <ol reversed> 
-  <li> Hyperbolicity of renormalization of critical quasicircle maps. <a href="https://link.springer.com/article/10.1007/s00220-026-05580-x">Comm. Math. Phys.</a> (2026), 94pp. </li>   
+  <li> Hyperbolicity of renormalization of critical quasicircle maps. <a href="https://link.springer.com/article/10.1007/s00220-026-05580-x">Comm. Math. Phys.</a> (2026), 94pp. </li>    
   <li> Rigidity of J-rotational rational maps and critical quasicircle maps. <a href="https://www.ams.org/journals/tran/2026-379-04/S0002-9947-2026-09607-2/">Trans. Amer. Math. Soc.</a> (2026), 61pp. </li>    
   <li> A priori bounds and degeneration of Herman rings with bounded type rotation number. <a href="https://link.springer.com/article/10.1007/s00222-025-01369-2">Invent. Math.</a> (2025), 67pp. </li>   
 </ol> 
 
-Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a>  
+Also available on: <a href="https://arxiv.org/search/?query=Willie+Rush+Lim&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a>   
 
 ## Preprints   
 
 <ol start="8" reversed>
-  <li> Wandering continua, renormalization, and Lebesgue measure on Julia sets. <a href="https://arxiv.org/abs/2611.05949">arXiv:2611.05949</a>, 10pp.  </li>         
+  <li> Wandering continua, renormalization, and Lebesgue measure on Julia sets. <a href="https://arxiv.org/abs/2611.05949">arXiv:2611.05949</a>, 11pp.  </li>         
   <li> Rigidity of the attractor of neutral renormalization. (w/ Dzmitry Dudko, Mikhail Lyubich) <a href="https://arxiv.org/abs/2609.37383">arXiv:2609.37383</a>, 118pp.  </li>         
   <li> Lebesgue measure of the postcritical set of neutral quadratic polynomials. <a href="https://arxiv.org/abs/2609.35563">arXiv:2609.35563</a>, 46pp.  </li>        
   <li> Uniform bounds for bubbles of neutral quadratic polynomials. (w/ Dzmitry Dudko) <a href="https://arxiv.org/abs/2609.15500">arXiv:2609.15500</a>, 33pp.  </li>       
